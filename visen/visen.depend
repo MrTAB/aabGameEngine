@@ -1,0 +1,1151 @@
+# depslib dependency file v1.0
+1217897280 c:\_project\hylian_knights\gamelibrary\visen\screen.cpp
+	"screen.hpp"
+	"error_trap.hpp"
+	<sdl.H>
+	<gl/gl.H>
+	<gl/glu.H>
+	<stdexcept>
+
+1221402844 c:\_project\hylian_knights\gamelibrary\visen\screen.hpp
+	"color.hpp"
+	"../auden/audio_connector.hpp"
+	"../events/event_connector.hpp"
+	"../input/input_connector.hpp"
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+	<exception>
+	<memory>
+	<string>
+
+1215700389 c:\_project\hylian_knights\gamelibrary\visen\byte.hpp
+
+1216430879 c:\_project\hylian_knights\gamelibrary\utility\byte.hpp
+
+1217772755 c:\_project\hylian_knights\gamelibrary\utility\smart_ptr.hpp
+	<boost/smart_ptr.hpp>
+	<boost/pointer_cast.hpp>
+
+1218155520 c:\_project\hylian_knights\gamelibrary\visen\image.cpp
+	"image.hpp"
+	"../maths/power_of_2.hpp"
+	<sdl.H>
+	<sdl_image.H>
+	<exception>
+	<stdexcept>
+
+1219104310 c:\_project\hylian_knights\gamelibrary\visen\image.hpp
+	"screen.hpp"
+	"color.hpp"
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<string>
+	<memory>
+	<exception>
+
+1216430875 c:\_project\hylian_knights\gamelibrary\utility\power_of_2.cpp
+	"power_of_2.hpp"
+
+1216430859 c:\_project\hylian_knights\gamelibrary\utility\power_of_2.hpp
+
+1217515434 c:\_project\hylian_knights\gamelibrary\visen\texture.cpp
+	"texture.hpp"
+	"error_trap.hpp"
+	"../utility/power_of_2.hpp"
+	"../utility/mutable_closer.hpp"
+	<sdl.H>
+	<gl/gl.H>
+	<gl/glu.H>
+	<gl/glext.H>
+	<exception>
+	<stdexcept>
+
+1221349266 c:\_project\hylian_knights\gamelibrary\visen\texture.hpp
+	"screen.hpp"
+	"image.hpp"
+	"color.hpp"
+	"texture_base.hpp"
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<string>
+	<memory>
+	<exception>
+
+1219102249 c:\_project\hylian_knights\gamelibrary\input\input_connector.hpp
+	"../types/smart_ptr.hpp"
+
+1219102347 c:\_project\hylian_knights\gamelibrary\auden\audio_connector.hpp
+	"../types/smart_ptr.hpp"
+
+1218155035 c:\_project\hylian_knights\gamelibrary\visen\error_trap.hpp
+	"../types/smart_ptr.hpp"
+	<string>
+	<memory>
+	<exception>
+	<map>
+
+1216581986 c:\_project\hylian_knights\gamelibrary\visen\error_trap.cpp
+	"error_trap.hpp"
+	<gl/gl.H>
+	<gl/glu.H>
+	<gl/glext.H>
+	<sdl.H>
+	<exception>
+	<stdexcept>
+
+1216579084 c:\_project\hylian_knights\gamelibrary\utility\mutable_closer.hpp
+
+1217556853 c:\_project\hylian_knights\gamelibrary\visen\color.cpp
+	"color.hpp"
+	<sdl.H>
+	<gl/gl.H>
+	<gl/glu.H>
+	<algorithm>
+
+1221179746 c:\_project\hylian_knights\gamelibrary\visen\color.hpp
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+
+1219102845 c:\_project\hylian_knights\gamelibrary\events\event_connector.hpp
+	"imports.hpp"
+
+1218153802 c:\_project\hylian_knights\gamelibrary\types\smart_ptr.hpp
+	<boost/smart_ptr.hpp>
+	<boost/pointer_cast.hpp>
+
+1218154514 c:\_project\hylian_knights\gamelibrary\events\imports.hpp
+	"../types/byte.hpp"
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+
+1218153762 c:\_project\hylian_knights\gamelibrary\types\byte.hpp
+
+1220808618 c:\_project\hylian_knights\gamelibrary\types\manager.hpp
+	"smart_ptr.hpp"
+
+1218153906 c:\_project\hylian_knights\gamelibrary\maths\power_of_2.hpp
+
+1216581986 source:c:\_project\hylian_knights\gamelibrary\visen\error_trap.cpp
+	"error_trap.hpp"
+	<gl/gl.H>
+	<gl/glu.H>
+	<gl/glext.H>
+	<sdl.H>
+	<exception>
+	<stdexcept>
+
+1219104317 source:c:\_project\hylian_knights\gamelibrary\visen\image.cpp
+	"image.hpp"
+	"../maths/power_of_2.hpp"
+	<sdl.H>
+	<sdl_image.H>
+	<exception>
+	<stdexcept>
+
+1221349346 source:c:\_project\hylian_knights\gamelibrary\visen\texture.cpp
+	"texture.hpp"
+	"error_trap.hpp"
+	"../maths/power_of_2.hpp"
+	"../types/mutable_closer.hpp"
+	<sdl.H>
+	<gl/gl.H>
+	<gl/glu.H>
+	<gl/glext.H>
+	<exception>
+	<stdexcept>
+
+1218153801 c:\_project\hylian_knights\gamelibrary\types\mutable_closer.hpp
+
+1221179758 source:c:\_project\hylian_knights\gamelibrary\visen\color.cpp
+	"color.hpp"
+	<sdl.H>
+	<gl/gl.H>
+	<gl/glu.H>
+	<algorithm>
+
+1219157314 source:c:\_project\hylian_knights\gamelibrary\visen\screen.cpp
+	"screen.hpp"
+	"error_trap.hpp"
+	<sdl.H>
+	<gl/gl.H>
+	<gl/glu.H>
+	<stdexcept>
+
+1219965164 source:c:\_project\hylian_knights\gamelibrary\visen\display_absorber.cpp
+	"display_absorber.hpp"
+
+1219967194 c:\_project\hylian_knights\gamelibrary\visen\display_absorber.hpp
+	"display_list.hpp"
+	<exception>
+
+1219965203 c:\_project\hylian_knights\gamelibrary\visen\display_list.hpp
+	"../types/manager.hpp"
+	<exception>
+
+1219965184 source:c:\_project\hylian_knights\gamelibrary\visen\display_list.cpp
+	"display_list.hpp"
+	"error_trap.hpp"
+	<gl/gl.H>
+	<gl/glu.H>
+	<gl/glext.H>
+
+1221341716 source:c:\_project\hylian_knights\gamelibrary\visen\visual_transformer.cpp
+	"visual_transformer.hpp"
+	<gl/gl.h>
+	<gl/glu.h>
+	<gl/glext.h>
+
+1221353558 c:\_project\hylian_knights\gamelibrary\visen\visual_transformer.hpp
+	"../types/push_pop.hpp"
+
+1221351239 source:c:\_project\hylian_knights\gamelibrary\visen\animated_texture.cpp
+	"animated_texture.hpp"
+	"../time/time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+	<sdl.H>
+	<gl/gl.H>
+	<gl/glu.H>
+	<gl/glext.H>
+	<stdexcept>
+
+1221350302 c:\_project\hylian_knights\gamelibrary\visen\animated_texture.hpp
+	"texture.hpp"
+	"texture_base.hpp"
+	"../time/frame_ticker.hpp"
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+
+1221345898 c:\_project\hylian_knights\gamelibrary\visen\texture_base.hpp
+	"../time/frame_ticker.hpp"
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+
+1218154876 c:\_project\hylian_knights\gamelibrary\time\frame_ticker.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+	<exception>
+	<stdexcept>
+
+1218154963 c:\_project\hylian_knights\gamelibrary\time\time_reporter.hpp
+	"../types/smart_ptr.hpp"
+
+1221353699 c:\_project\hylian_knights\gamelibrary\types\push_pop.hpp
+
+1221353765 source:c:\_project\hylian_knights\gamelibrary\visen\visual_rotater.cpp
+	"visual_rotater.hpp"
+	<gl/gl.h>
+	<gl/glu.h>
+	<gl/glext.h>
+
+1221353560 c:\_project\hylian_knights\gamelibrary\visen\visual_rotater.hpp
+	"../types/push_pop.hpp"
+
+1221353670 source:c:\_project\hylian_knights\gamelibrary\visen\visual_scaler.cpp
+	"visual_scaler.hpp"
+	<gl/gl.h>
+	<gl/glu.h>
+	<gl/glext.h>
+
+1221353559 c:\_project\hylian_knights\gamelibrary\visen\visual_scaler.hpp
+	"../types/push_pop.hpp"
+
+1221353756 source:c:\_project\hylian_knights\gamelibrary\visen\visual_translator.cpp
+	"visual_translator.hpp"
+	<gl/gl.h>
+	<gl/glu.h>
+	<gl/glext.h>
+
+1221353557 c:\_project\hylian_knights\gamelibrary\visen\visual_translator.hpp
+	"../types/push_pop.hpp"
+
+1221351239 source:f:\misc old projects\hylian_knights\gamelibrary\visen\animated_texture.cpp
+	"animated_texture.hpp"
+	"../time/time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+	<sdl.H>
+	<gl/gl.H>
+	<gl/glu.H>
+	<gl/glext.H>
+	<stdexcept>
+
+1221350302 f:\misc old projects\hylian_knights\gamelibrary\visen\animated_texture.hpp
+	"texture.hpp"
+	"texture_base.hpp"
+	"../time/frame_ticker.hpp"
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+
+1221349266 f:\misc old projects\hylian_knights\gamelibrary\visen\texture.hpp
+	"screen.hpp"
+	"image.hpp"
+	"color.hpp"
+	"texture_base.hpp"
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<string>
+	<memory>
+	<exception>
+
+1221402844 f:\misc old projects\hylian_knights\gamelibrary\visen\screen.hpp
+	"color.hpp"
+	"../auden/audio_connector.hpp"
+	"../events/event_connector.hpp"
+	"../input/input_connector.hpp"
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+	<exception>
+	<memory>
+	<string>
+
+1221179746 f:\misc old projects\hylian_knights\gamelibrary\visen\color.hpp
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+
+1218153762 f:\misc old projects\hylian_knights\gamelibrary\types\byte.hpp
+
+1218153802 f:\misc old projects\hylian_knights\gamelibrary\types\smart_ptr.hpp
+	<boost/smart_ptr.hpp>
+	<boost/pointer_cast.hpp>
+
+1219102347 f:\misc old projects\hylian_knights\gamelibrary\auden\audio_connector.hpp
+	"../types/smart_ptr.hpp"
+
+1219102845 f:\misc old projects\hylian_knights\gamelibrary\events\event_connector.hpp
+	"imports.hpp"
+
+1218154514 f:\misc old projects\hylian_knights\gamelibrary\events\imports.hpp
+	"../types/byte.hpp"
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+
+1220808618 f:\misc old projects\hylian_knights\gamelibrary\types\manager.hpp
+	"smart_ptr.hpp"
+
+1219102249 f:\misc old projects\hylian_knights\gamelibrary\input\input_connector.hpp
+	"../types/smart_ptr.hpp"
+
+1219104310 f:\misc old projects\hylian_knights\gamelibrary\visen\image.hpp
+	"screen.hpp"
+	"color.hpp"
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<string>
+	<memory>
+	<exception>
+
+1221345898 f:\misc old projects\hylian_knights\gamelibrary\visen\texture_base.hpp
+	"../time/frame_ticker.hpp"
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+
+1218154876 f:\misc old projects\hylian_knights\gamelibrary\time\frame_ticker.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+	<exception>
+	<stdexcept>
+
+1218154963 f:\misc old projects\hylian_knights\gamelibrary\time\time_reporter.hpp
+	"../types/smart_ptr.hpp"
+
+1221179758 source:f:\misc old projects\hylian_knights\gamelibrary\visen\color.cpp
+	"color.hpp"
+	<sdl.H>
+	<gl/gl.H>
+	<gl/glu.H>
+	<algorithm>
+
+1219965164 source:f:\misc old projects\hylian_knights\gamelibrary\visen\display_absorber.cpp
+	"display_absorber.hpp"
+
+1219967194 f:\misc old projects\hylian_knights\gamelibrary\visen\display_absorber.hpp
+	"display_list.hpp"
+	<exception>
+
+1219965203 f:\misc old projects\hylian_knights\gamelibrary\visen\display_list.hpp
+	"../types/manager.hpp"
+	<exception>
+
+1219965184 source:f:\misc old projects\hylian_knights\gamelibrary\visen\display_list.cpp
+	"display_list.hpp"
+	"error_trap.hpp"
+	<gl/gl.H>
+	<gl/glu.H>
+	<gl/glext.H>
+
+1218155035 f:\misc old projects\hylian_knights\gamelibrary\visen\error_trap.hpp
+	"../types/smart_ptr.hpp"
+	<string>
+	<memory>
+	<exception>
+	<map>
+
+1216581986 source:f:\misc old projects\hylian_knights\gamelibrary\visen\error_trap.cpp
+	"error_trap.hpp"
+	<gl/gl.H>
+	<gl/glu.H>
+	<gl/glext.H>
+	<sdl.H>
+	<exception>
+	<stdexcept>
+
+1219104317 source:f:\misc old projects\hylian_knights\gamelibrary\visen\image.cpp
+	"image.hpp"
+	"../maths/power_of_2.hpp"
+	<sdl.H>
+	<sdl_image.H>
+	<exception>
+	<stdexcept>
+
+1218153906 f:\misc old projects\hylian_knights\gamelibrary\maths\power_of_2.hpp
+
+1221402806 source:f:\misc old projects\hylian_knights\gamelibrary\visen\screen.cpp
+	"screen.hpp"
+	"error_trap.hpp"
+	<sdl.H>
+	<gl/gl.H>
+	<gl/glu.H>
+	<stdexcept>
+
+1221349346 source:f:\misc old projects\hylian_knights\gamelibrary\visen\texture.cpp
+	"texture.hpp"
+	"error_trap.hpp"
+	"../maths/power_of_2.hpp"
+	"../types/mutable_closer.hpp"
+	<sdl.H>
+	<gl/gl.H>
+	<gl/glu.H>
+	<gl/glext.H>
+	<exception>
+	<stdexcept>
+
+1218153801 f:\misc old projects\hylian_knights\gamelibrary\types\mutable_closer.hpp
+
+1221353765 source:f:\misc old projects\hylian_knights\gamelibrary\visen\visual_rotater.cpp
+	"visual_rotater.hpp"
+	<gl/gl.h>
+	<gl/glu.h>
+	<gl/glext.h>
+
+1221353560 f:\misc old projects\hylian_knights\gamelibrary\visen\visual_rotater.hpp
+	"../types/push_pop.hpp"
+
+1221353699 f:\misc old projects\hylian_knights\gamelibrary\types\push_pop.hpp
+
+1221353670 source:f:\misc old projects\hylian_knights\gamelibrary\visen\visual_scaler.cpp
+	"visual_scaler.hpp"
+	<gl/gl.h>
+	<gl/glu.h>
+	<gl/glext.h>
+
+1221353559 f:\misc old projects\hylian_knights\gamelibrary\visen\visual_scaler.hpp
+	"../types/push_pop.hpp"
+
+1221341716 source:f:\misc old projects\hylian_knights\gamelibrary\visen\visual_transformer.cpp
+	"visual_transformer.hpp"
+	<gl/gl.h>
+	<gl/glu.h>
+	<gl/glext.h>
+
+1221353558 f:\misc old projects\hylian_knights\gamelibrary\visen\visual_transformer.hpp
+	"../types/push_pop.hpp"
+
+1221353756 source:f:\misc old projects\hylian_knights\gamelibrary\visen\visual_translator.cpp
+	"visual_translator.hpp"
+	<gl/gl.h>
+	<gl/glu.h>
+	<gl/glext.h>
+
+1221353557 f:\misc old projects\hylian_knights\gamelibrary\visen\visual_translator.hpp
+	"../types/push_pop.hpp"
+
+1337640934 source:f:\programming\libraries\aab\visen\animated_texture.cpp
+	"animated_texture.hpp"
+	"../time/time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+	<sdl.H>
+	<gl/gl.H>
+	<gl/glu.H>
+	<gl/glext.H>
+	<stdexcept>
+
+1337641519 f:\programming\libraries\aab\visen\animated_texture.hpp
+	"texture.hpp"
+	"texture_base.hpp"
+	"../time/frame_ticker.hpp"
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+
+1333402175 f:\programming\libraries\aab\visen\texture.hpp
+	"screen.hpp"
+	"image.hpp"
+	"color.hpp"
+	"texture_base.hpp"
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<string>
+	<memory>
+	<exception>
+
+1333489731 f:\programming\libraries\aab\visen\screen.hpp
+	"color.hpp"
+	"context_definition.hpp"
+	"../auden/audio_connector.hpp"
+	"../events/event_connector.hpp"
+	"../input/input_connector.hpp"
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+	<exception>
+	<memory>
+	<string>
+
+1333153958 f:\programming\libraries\aab\visen\color.hpp
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+
+1218153762 f:\programming\libraries\aab\types\byte.hpp
+
+1333401191 f:\programming\libraries\aab\types\smart_ptr.hpp
+	<boost/smart_ptr.hpp>
+	<boost/pointer_cast.hpp>
+
+1219102347 f:\programming\libraries\aab\auden\audio_connector.hpp
+	"../types/smart_ptr.hpp"
+
+1219102845 f:\programming\libraries\aab\events\event_connector.hpp
+	"imports.hpp"
+
+1218154514 f:\programming\libraries\aab\events\imports.hpp
+	"../types/byte.hpp"
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+
+1220808618 f:\programming\libraries\aab\types\manager.hpp
+	"smart_ptr.hpp"
+
+1219102249 f:\programming\libraries\aab\input\input_connector.hpp
+	"../types/smart_ptr.hpp"
+
+1219104310 f:\programming\libraries\aab\visen\image.hpp
+	"screen.hpp"
+	"color.hpp"
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<string>
+	<memory>
+	<exception>
+
+1331585083 f:\programming\libraries\aab\visen\texture_base.hpp
+	"../time/frame_ticker.hpp"
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+	"blend_method.hpp"
+
+1330980956 f:\programming\libraries\aab\time\frame_ticker.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+	<exception>
+	<stdexcept>
+
+1218154963 f:\programming\libraries\aab\time\time_reporter.hpp
+	"../types/smart_ptr.hpp"
+
+1333411142 source:f:\programming\libraries\aab\visen\color.cpp
+	"color.hpp"
+	<sdl.H>
+	<gl/gl.H>
+	<gl/glu.H>
+	<algorithm>
+
+1219965164 source:f:\programming\libraries\aab\visen\display_absorber.cpp
+	"display_absorber.hpp"
+
+1219967194 f:\programming\libraries\aab\visen\display_absorber.hpp
+	"display_list.hpp"
+	<exception>
+
+1333636617 f:\programming\libraries\aab\visen\display_list.hpp
+	"../types/manager.hpp"
+	<exception>
+
+1219965184 source:f:\programming\libraries\aab\visen\display_list.cpp
+	"display_list.hpp"
+	"error_trap.hpp"
+	<gl/gl.H>
+	<gl/glu.H>
+	<gl/glext.H>
+
+1218155035 f:\programming\libraries\aab\visen\error_trap.hpp
+	"../types/smart_ptr.hpp"
+	<string>
+	<memory>
+	<exception>
+	<map>
+
+1216581986 source:f:\programming\libraries\aab\visen\error_trap.cpp
+	"error_trap.hpp"
+	<gl/gl.H>
+	<gl/glu.H>
+	<gl/glext.H>
+	<sdl.H>
+	<exception>
+	<stdexcept>
+
+1219104317 source:f:\programming\libraries\aab\visen\image.cpp
+	"image.hpp"
+	"../maths/power_of_2.hpp"
+	<sdl.H>
+	<sdl_image.H>
+	<exception>
+	<stdexcept>
+
+1218153906 f:\programming\libraries\aab\maths\power_of_2.hpp
+
+1337643181 source:f:\programming\libraries\aab\visen\screen.cpp
+	"screen.hpp"
+	"error_trap.hpp"
+	<sdl.H>
+	<gl/gl.H>
+	<gl/glu.H>
+	<stdexcept>
+	<cmath>
+	<sstream>
+
+1333579064 source:f:\programming\libraries\aab\visen\texture.cpp
+	"texture.hpp"
+	"render_state.hpp"
+	"error_trap.hpp"
+	"../maths/power_of_2.hpp"
+	"../types/mutable_closer.hpp"
+	<sdl.H>
+	<gl/gl.H>
+	<gl/glu.H>
+	<gl/glext.H>
+	<exception>
+	<stdexcept>
+
+1218153801 f:\programming\libraries\aab\types\mutable_closer.hpp
+
+1330732170 source:f:\programming\libraries\aab\visen\visual_rotater.cpp
+	"visual_rotater.hpp"
+	<gl/gl.h>
+	<gl/glu.h>
+	<gl/glext.h>
+
+1330732146 f:\programming\libraries\aab\visen\visual_rotater.hpp
+	"../types/push_pop.hpp"
+
+1330732095 f:\programming\libraries\aab\types\push_pop.hpp
+
+1330732165 source:f:\programming\libraries\aab\visen\visual_scaler.cpp
+	"visual_scaler.hpp"
+	<gl/gl.h>
+	<gl/glu.h>
+	<gl/glext.h>
+
+1330732140 f:\programming\libraries\aab\visen\visual_scaler.hpp
+	"../types/push_pop.hpp"
+
+1335742829 source:f:\programming\libraries\aab\visen\visual_transformer.cpp
+	"visual_transformer.hpp"
+	<gl/gl.h>
+	<gl/glu.h>
+	<gl/glext.h>
+
+1335742795 f:\programming\libraries\aab\visen\visual_transformer.hpp
+	"../types/push_pop.hpp"
+
+1330732155 source:f:\programming\libraries\aab\visen\visual_translator.cpp
+	"visual_translator.hpp"
+	<gl/gl.h>
+	<gl/glu.h>
+	<gl/glext.h>
+
+1330732135 f:\programming\libraries\aab\visen\visual_translator.hpp
+	"../types/push_pop.hpp"
+
+1331585669 source:f:\programming\libraries\aab\visen\blend_method.cpp
+	"blend_method.hpp"
+	<gl/gl.h>
+	<gl/glu.h>
+	<gl/glext.h>
+
+1331585639 f:\programming\libraries\aab\visen\blend_method.hpp
+	"../types/push_pop.hpp"
+
+1332420904 source:f:\programming\libraries\aab\visen\render_state.cpp
+	"render_state.hpp"
+	<gl/gl.h>
+	<gl/glu.h>
+	<gl/glext.h>
+
+1332420863 f:\programming\libraries\aab\visen\render_state.hpp
+	"blend_method.hpp"
+
+1337643143 f:\programming\libraries\aab\visen\context_definition.hpp
+	<exception>
+	<stdexcept>
+
+1331585669 source:f:\programming\libraries\aab\visen\context_definition.cpp
+	"blend_method.hpp"
+	<gl/gl.h>
+	<gl/glu.h>
+	<gl/glext.h>
+
+1331846673 source:f:\programming\libraries\aab\visen\visual_poser.cpp
+	"visual_poser.hpp"
+	<gl/gl.h>
+	<gl/glu.h>
+	<gl/glext.h>
+
+1331846580 f:\programming\libraries\aab\visen\visual_poser.hpp
+	"../types/push_pop.hpp"
+
+1332186868 source:f:\programming\libraries\aab\visen\matrix_transformer.cpp
+	"matrix_transformer.hpp"
+	<gl/gl.h>
+	<gl/glu.h>
+	<gl/glext.h>
+
+1332277793 f:\programming\libraries\aab\visen\matrix_transformer.hpp
+	"../types/push_pop.hpp"
+	"../types/matrix.hpp"
+
+1334930176 f:\programming\libraries\aab\types\matrix.hpp
+	<cmath>
+	<algorithm>
+
+1428101170 source:h:\programming\libraries\aab\visen\animated_texture.cpp
+	"animated_texture.hpp"
+	"../types/smart_ptr.hpp"
+	<sdl.H>
+	"_include_opengl.hpp"
+	"quad.hpp"
+	<stdexcept>
+	"../test/debug_assertions.hpp"
+	"../types/const.hpp"
+	<cassert>
+
+1428101175 h:\programming\libraries\aab\visen\animated_texture.hpp
+	"framed_texture.hpp"
+
+1456960303 h:\programming\libraries\aab\visen\texture.hpp
+	"screen.hpp"
+	"image.hpp"
+	"color.hpp"
+	"texture_base.hpp"
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<string>
+	<memory>
+
+1428102326 h:\programming\libraries\aab\visen\screen.hpp
+	"color.hpp"
+	"context_definition.hpp"
+	"../auden/audio_connector.hpp"
+	"../events/event_connector.hpp"
+	"../input/input_connector.hpp"
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+	"prototype/screen.hh"
+	<memory>
+	<string>
+
+1428534163 h:\programming\libraries\aab\visen\color.hpp
+	"../types/byte.hpp"
+
+1396366762 h:\programming\libraries\aab\types\byte.hpp
+	<cstdint>
+
+1333397591 h:\programming\libraries\aab\types\smart_ptr.hpp
+	<boost/smart_ptr.hpp>
+	<boost/pointer_cast.hpp>
+
+1428442064 h:\programming\libraries\aab\visen\context_definition.hpp
+	<string>
+
+1393282840 h:\programming\libraries\aab\auden\audio_connector.hpp
+	"../types/smart_ptr.hpp"
+
+1393282869 h:\programming\libraries\aab\events\event_connector.hpp
+	"imports.hpp"
+
+1375400112 h:\programming\libraries\aab\events\imports.hpp
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+
+1391601574 h:\programming\libraries\aab\types\manager.hpp
+	"smart_ptr.hpp"
+
+1393282785 h:\programming\libraries\aab\input\input_connector.hpp
+	"../types/smart_ptr.hpp"
+
+1429039022 h:\programming\libraries\aab\visen\image.hpp
+	"screen.hpp"
+	"color.hpp"
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<string>
+	<memory>
+	<cstdint>
+
+1456960294 h:\programming\libraries\aab\visen\texture_base.hpp
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+	"blend_method.hpp"
+	<algorithm>
+
+1367493848 h:\programming\libraries\aab\time\frame_ticker.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+	<exception>
+	<stdexcept>
+
+1370535885 h:\programming\libraries\aab\time\time_reporter.hpp
+	"../types/smart_ptr.hpp"
+
+1428103062 h:\programming\libraries\aab\visen\blend_method.hpp
+	"../types/push_pop.hpp"
+	"color.hpp"
+
+1330732095 h:\programming\libraries\aab\types\push_pop.hpp
+
+1455719462 source:h:\programming\libraries\aab\visen\blend_method.cpp
+	"blend_method.hpp"
+	"_include_opengl.hpp"
+
+1454334731 source:h:\programming\libraries\aab\visen\color.cpp
+	"color.hpp"
+	<sdl.H>
+	"_include_opengl.hpp"
+	<algorithm>
+	<cmath>
+
+1393278844 source:h:\programming\libraries\aab\visen\display_absorber.cpp
+	"display_absorber.hpp"
+
+1393278908 h:\programming\libraries\aab\visen\display_absorber.hpp
+	"display_list.hpp"
+
+1393278839 h:\programming\libraries\aab\visen\display_list.hpp
+	"../types/manager.hpp"
+
+1393282915 source:h:\programming\libraries\aab\visen\display_list.cpp
+	"display_list.hpp"
+	"error_trap.hpp"
+	"_include_opengl.hpp"
+	<stdexcept>
+
+1393275945 h:\programming\libraries\aab\visen\error_trap.hpp
+	"../types/smart_ptr.hpp"
+	<string>
+
+1400505440 source:h:\programming\libraries\aab\visen\error_trap.cpp
+	"error_trap.hpp"
+	"_include_opengl.hpp"
+	<sdl.H>
+	<exception>
+	<stdexcept>
+	<sstream>
+
+1429039366 source:h:\programming\libraries\aab\visen\image.cpp
+	"image.hpp"
+	"../maths/power_of_2.hpp"
+	"PNG_savesurf/pngfuncs.h"
+	<sdl.H>
+	<sdl_image.H>
+	"../test/exceptions.hpp"
+	<boost/filesystem.hpp>
+	<sstream>
+
+1218150306 h:\programming\libraries\aab\maths\power_of_2.hpp
+
+1393279114 source:h:\programming\libraries\aab\visen\matrix_transformer.cpp
+	"matrix_transformer.hpp"
+	"_include_opengl.hpp"
+
+1393279107 h:\programming\libraries\aab\visen\matrix_transformer.hpp
+	"../types/push_pop.hpp"
+	"../types/matrix.hpp"
+
+1390327895 h:\programming\libraries\aab\types\matrix.hpp
+	<cmath>
+	<algorithm>
+
+1429037247 source:h:\programming\libraries\aab\visen\render_state.cpp
+	"render_state.hpp"
+	"_include_opengl.hpp"
+	<cassert>
+
+1429037250 h:\programming\libraries\aab\visen\render_state.hpp
+	"blend_method.hpp"
+	"color.hpp"
+
+1428441517 source:h:\programming\libraries\aab\visen\screen.cpp
+	"screen.hpp"
+	"error_trap.hpp"
+	<sdl.H>
+	"_include_opengl.hpp"
+	"PNG_savesurf/pngfuncs.h"
+	"../test/exceptions.hpp"
+	"../test/debug_assertions.hpp"
+	<cmath>
+	<sstream>
+
+1456960311 source:h:\programming\libraries\aab\visen\texture.cpp
+	"texture.hpp"
+	"render_state.hpp"
+	"error_trap.hpp"
+	"../maths/power_of_2.hpp"
+	"../types/mutable_closer.hpp"
+	<sdl.H>
+	"_include_opengl.hpp"
+	<exception>
+	<stdexcept>
+	<vector>
+	<cassert>
+
+1377538979 h:\programming\libraries\aab\types\mutable_closer.hpp
+
+1393280090 source:h:\programming\libraries\aab\visen\visual_poser.cpp
+	"visual_poser.hpp"
+	"_include_opengl.hpp"
+
+1393280081 h:\programming\libraries\aab\visen\visual_poser.hpp
+	"../types/push_pop.hpp"
+
+1393280181 source:h:\programming\libraries\aab\visen\visual_rotater.cpp
+	"visual_rotater.hpp"
+	"_include_opengl.hpp"
+
+1393280177 h:\programming\libraries\aab\visen\visual_rotater.hpp
+	"../types/push_pop.hpp"
+
+1393280196 source:h:\programming\libraries\aab\visen\visual_scaler.cpp
+	"visual_scaler.hpp"
+	"_include_opengl.hpp"
+
+1393280188 h:\programming\libraries\aab\visen\visual_scaler.hpp
+	"../types/push_pop.hpp"
+
+1393280218 source:h:\programming\libraries\aab\visen\visual_transformer.cpp
+	"visual_transformer.hpp"
+	"_include_opengl.hpp"
+
+1457048719 h:\programming\libraries\aab\visen\visual_transformer.hpp
+	"../types/push_pop.hpp"
+
+1393280233 source:h:\programming\libraries\aab\visen\visual_translator.cpp
+	"visual_translator.hpp"
+	"_include_opengl.hpp"
+
+1393280229 h:\programming\libraries\aab\visen\visual_translator.hpp
+	"../types/push_pop.hpp"
+
+1428447995 source:h:\programming\libraries\aab\visen\texture_base.cpp
+	"texture_base.hpp"
+	"render_state.hpp"
+
+1399376969 h:\programming\libraries\aab\visen\_include_opengl.hpp
+	<gl/glew.h>
+
+1414077719 source:h:\programming\libraries\aab\visen\vertex_buffer_object.cpp
+	"vertex_buffer_object.hpp"
+	"error_trap.hpp"
+	"_include_opengl.hpp"
+	<cstddef>
+	<stdexcept>
+	<cassert>
+	"../test/debug_assertions.hpp"
+
+1400520115 h:\programming\libraries\aab\visen\vertex_buffer_object.hpp
+	"prototype/vertex_buffer_object.hh"
+	"vertex.hpp"
+	"index_generator.hpp"
+	<cstdint>
+
+1400523791 source:h:\programming\libraries\aab\visen\index_generator.cpp
+	"index_generator.hpp"
+	"_include_opengl.hpp"
+	<cassert>
+
+1400536420 h:\programming\libraries\aab\visen\index_generator.hpp
+	<vector>
+	<cstdint>
+
+1400529918 h:\programming\libraries\aab\visen\vertex.hpp
+	"color.hpp"
+	<geometry/point.hpp>
+
+1422550380 source:h:\programming\libraries\aab\visen\texture_atlas.cpp
+	"texture_atlas.hpp"
+	<sdl.H>
+	"_include_opengl.hpp"
+	"../test/debug_assertions.hpp"
+
+1422552148 h:\programming\libraries\aab\visen\texture_atlas.hpp
+	"texture_base.hpp"
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+	"framed_texture.hpp"
+	"vertex.hpp"
+	<vector>
+
+1376935109 source:h:\programming\libraries\aab\visen\quad.cpp
+	"quad.hpp"
+
+1456364190 h:\programming\libraries\aab\visen\quad.hpp
+	"vertex.hpp"
+	<utility>
+
+1377038489 source:h:\programming\libraries\aab\visen\png_savesurf\pngfuncs.c
+	<stdlib.h>
+	<png.h>
+	<sdl.h>
+
+1244144412 h:\programming\libraries\libpng\libpng-1.2.37-lib\include\png.h
+	"zlib.h"
+	"pngconf.h"
+	<crtdbg.h>
+
+1339671512 h:\programming\libraries\zlib\zlib128-dll\include\zlib.h
+	"zconf.h"
+
+1339671626 h:\programming\libraries\zlib\zlib128-dll\include\zconf.h
+	<windows.h>
+	<limits.h>
+	<sys/types.h>
+	<stdarg.h>
+	<stddef.h>
+	<unistd.h>
+	<unixio.h>
+
+1244144412 h:\programming\libraries\libpng\libpng-1.2.37-lib\include\pngconf.h
+	"pngusr.h"
+	"config.h"
+	<windows.h>
+	<stdio.h>
+	<stdio.h>
+	<sys/types.h>
+	<setjmp.h>
+	<strings.h>
+	<string.h>
+	<stdlib.h>
+	<fp.h>
+	<math.h>
+	<m68881.h>
+	<mem.h>
+	<alloc.h>
+	<malloc.h>
+	<time.h>
+	<dos.h>
+
+1377038475 h:\programming\libraries\aab\visen\png_savesurf\pngfuncs.h
+	<png.h>
+	<sdl.h>
+
+1377868474 h:\programming\libraries\aab\visen\prototype\vertex_buffer_object.hh
+
+1395872895 h:\programming\libraries\aab\test\debug_assertions.hpp
+	<stdexcept>
+
+1393282521 h:\programming\libraries\aab\test\exceptions.hpp
+	<exception>
+	<stdexcept>
+
+1457047354 source:h:\programming\libraries\aab\visen\primitive_methods.cpp
+	"primitive_methods.hpp"
+	"_include_opengl.hpp"
+	"../maths/constants.hpp"
+	<cmath>
+
+1402940226 h:\programming\libraries\aab\visen\primitive_methods.hpp
+	"../geometry/point.hpp"
+	"../types/const.hpp"
+	<vector>
+
+1402936180 h:\programming\libraries\aab\geometry\point.hpp
+	"floats.hpp"
+
+1375458104 h:\programming\libraries\aab\geometry\floats.hpp
+	<cmath>
+	<limits>
+
+1396367565 h:\programming\libraries\aab\types\const.hpp
+	<cstdint>
+
+1378474058 h:\programming\libraries\aab\maths\constants.hpp
+
+1402940299 source:h:\programming\libraries\aab\visen\primitive_types.cpp
+	"primitive_methods.hpp"
+	"primitive_types.hpp"
+	"render_state.hpp"
+
+1402939491 h:\programming\libraries\aab\visen\primitive_types.hpp
+	"color.hpp"
+	"../geometry/panel.hpp"
+
+1396985749 h:\programming\libraries\aab\geometry\panel.hpp
+	"../types/maybe.hpp"
+	"point.hpp"
+	<cmath>
+	<algorithm>
+
+1393272575 h:\programming\libraries\aab\types\maybe.hpp
+	<test/debug_assertions.hpp>
+
+1456960398 h:\programming\libraries\aab\visen\framed_texture.hpp
+	"texture.hpp"
+	"texture_base.hpp"
+	"vertex.hpp"
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+
+1407189779 source:h:\programming\libraries\aab\visen\framed_texture.cpp
+	"framed_texture.hpp"
+	"../types/smart_ptr.hpp"
+	<sdl.H>
+	"_include_opengl.hpp"
+	<stdexcept>
+	"../test/debug_assertions.hpp"
+
+1428102348 h:\programming\libraries\aab\visen\prototype\screen.hh
+
+1457048028 source:h:\programming\libraries\aab\visen\frame_buffer.cpp
+	"frame_buffer.hpp"
+	"_include_opengl.hpp"
+	<cassert>
+
+1457048106 h:\programming\libraries\aab\visen\frame_buffer.hpp
+	"screen.hpp"
+	"texture_base.hpp"
+
+1428518146 source:h:\programming\libraries\aab\visen\program.cpp
+	"program.hpp"
+	"_include_opengl.hpp"
+	<stdexcept>
+	<sstream>
+	<cassert>
+
+1428440281 h:\programming\libraries\aab\visen\program.hpp
+	"shader.hpp"
+	<string>
+
+1428439403 h:\programming\libraries\aab\visen\shader.hpp
+	<string>
+
+1428439420 source:h:\programming\libraries\aab\visen\shader.cpp
+	"shader.hpp"
+	"_include_opengl.hpp"
+	<sstream>
+	<stdexcept>
+	<fstream>
+	<cassert>
+

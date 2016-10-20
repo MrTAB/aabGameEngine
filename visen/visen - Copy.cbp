@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="visen" />
+		<Option pch_mode="0" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="release">
+				<Option output="..\lib\libvisen.a" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option projectResourceIncludeDirsRelation="2" />
+				<Compiler>
+					<Add option="-std=c++0x" />
+				</Compiler>
+			</Target>
+			<Target title="debug">
+				<Option output="..\lib\libvisen.a" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option projectResourceIncludeDirsRelation="2" />
+				<Compiler>
+					<Add option="-std=c++0x" />
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-D_DEBUG" />
+				</Compiler>
+			</Target>
+		</Build>
+		<VirtualTargets>
+			<Add alias="All" targets="release;" />
+		</VirtualTargets>
+		<Compiler>
+			<Add option="-std=c++0x" />
+			<Add directory="H:\programming\libraries\libpng\libpng-1.2.37-lib\include" />
+			<Add directory="H:\programming\libraries\zlib\zlib128-dll\include" />
+		</Compiler>
+		<Unit filename="PNG_savesurf\pngfuncs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="_include_opengl.hpp" />
+		<Unit filename="animated_texture.cpp" />
+		<Unit filename="animated_texture.hpp" />
+		<Unit filename="blend.hpp" />
+		<Unit filename="blend_method.cpp" />
+		<Unit filename="blend_method.hpp" />
+		<Unit filename="color.cpp" />
+		<Unit filename="color.hpp" />
+		<Unit filename="context_definition.hpp" />
+		<Unit filename="display_absorber.cpp" />
+		<Unit filename="display_absorber.hpp" />
+		<Unit filename="display_list.cpp" />
+		<Unit filename="display_list.hpp" />
+		<Unit filename="error_trap.cpp" />
+		<Unit filename="error_trap.hpp" />
+		<Unit filename="framed_texture.cpp" />
+		<Unit filename="framed_texture.hpp" />
+		<Unit filename="image.cpp" />
+		<Unit filename="image.hpp" />
+		<Unit filename="index_generator.cpp" />
+		<Unit filename="index_generator.hpp" />
+		<Unit filename="matrix_transformer.cpp" />
+		<Unit filename="matrix_transformer.hpp" />
+		<Unit filename="primitive_methods.cpp" />
+		<Unit filename="primitive_methods.hpp" />
+		<Unit filename="primitive_types.cpp" />
+		<Unit filename="primitive_types.hpp" />
+		<Unit filename="quad.cpp" />
+		<Unit filename="quad.hpp" />
+		<Unit filename="render_state.cpp" />
+		<Unit filename="render_state.hpp" />
+		<Unit filename="screen.cpp" />
+		<Unit filename="screen.hpp" />
+		<Unit filename="texture.cpp" />
+		<Unit filename="texture.hpp" />
+		<Unit filename="texture_atlas.cpp" />
+		<Unit filename="texture_atlas.hpp" />
+		<Unit filename="texture_base.cpp" />
+		<Unit filename="texture_base.hpp" />
+		<Unit filename="vertex.hpp" />
+		<Unit filename="vertex_buffer_object.cpp" />
+		<Unit filename="vertex_buffer_object.hpp" />
+		<Unit filename="visen.hpp" />
+		<Unit filename="visual_poser.cpp" />
+		<Unit filename="visual_poser.hpp" />
+		<Unit filename="visual_rotater.cpp" />
+		<Unit filename="visual_rotater.hpp" />
+		<Unit filename="visual_scaler.cpp" />
+		<Unit filename="visual_scaler.hpp" />
+		<Unit filename="visual_transformer.cpp" />
+		<Unit filename="visual_transformer.hpp" />
+		<Unit filename="visual_translator.cpp" />
+		<Unit filename="visual_translator.hpp" />
+		<Extensions>
+			<debugger />
+			<code_completion />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

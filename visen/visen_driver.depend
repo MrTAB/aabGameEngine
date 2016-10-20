@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1215715778 c:\_project\hylian_knights\gamelibrary\visen\driver.cpp
+	"screen.hpp"
+	"texture.hpp"
+	<exception>
+
+1215710115 c:\_project\hylian_knights\gamelibrary\visen\screen.hpp
+	"../utility/byte.hpp"
+	"../utility/smart_ptr.hpp"
+
+1215700389 c:\_project\hylian_knights\gamelibrary\visen\byte.hpp
+
+1215707565 c:\_project\hylian_knights\gamelibrary\utility\byte.hpp
+
+1215703994 c:\_project\hylian_knights\gamelibrary\utility\smart_ptr.hpp
+	<boost/smart_ptr.hpp>
+
+1215714033 c:\_project\hylian_knights\gamelibrary\visen\texture.hpp
+	"screen.hpp"
+	"image.hpp"
+	"../utility/byte.hpp"
+	"../utility/smart_ptr.hpp"
+	<string>
+
+1215715248 c:\_project\hylian_knights\gamelibrary\visen\image.hpp
+	"../utility/byte.hpp"
+	"../utility/smart_ptr.hpp"
+	<string>
+

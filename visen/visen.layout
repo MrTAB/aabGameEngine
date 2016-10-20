@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="debug+release" />
+	<File name="PNG_savesurf\pngfuncs.c" open="0" top="0" tabpos="4">
+		<Cursor position="984" topLine="69" />
+	</File>
+	<File name="_include_opengl.hpp" open="0" top="0" tabpos="4">
+		<Cursor position="369" topLine="0" />
+	</File>
+	<File name="animated_texture.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="402" topLine="0" />
+	</File>
+	<File name="animated_texture.hpp" open="0" top="0" tabpos="16">
+		<Cursor position="1921" topLine="44" />
+	</File>
+	<File name="blend.hpp" open="0" top="0" tabpos="1">
+		<Cursor position="125" topLine="0" />
+	</File>
+	<File name="blend_method.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="137" topLine="0" />
+	</File>
+	<File name="blend_method.hpp" open="0" top="0" tabpos="1">
+		<Cursor position="2428" topLine="53" />
+	</File>
+	<File name="color.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="1156" topLine="18" />
+	</File>
+	<File name="color.hpp" open="0" top="0" tabpos="1">
+		<Cursor position="4181" topLine="213" />
+	</File>
+	<File name="context_definition.hpp" open="0" top="0" tabpos="7">
+		<Cursor position="671" topLine="25" />
+	</File>
+	<File name="display_absorber.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="110" topLine="0" />
+	</File>
+	<File name="display_absorber.hpp" open="0" top="0" tabpos="4">
+		<Cursor position="510" topLine="0" />
+	</File>
+	<File name="display_list.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="972" topLine="25" />
+	</File>
+	<File name="display_list.hpp" open="0" top="0" tabpos="3">
+		<Cursor position="850" topLine="0" />
+	</File>
+	<File name="error_trap.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1412" topLine="39" />
+	</File>
+	<File name="error_trap.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="790" topLine="0" />
+	</File>
+	<File name="frame_buffer.cpp" open="0" top="0" tabpos="12">
+		<Cursor position="2373" topLine="44" />
+	</File>
+	<File name="frame_buffer.hpp" open="0" top="0" tabpos="9">
+		<Cursor position="1636" topLine="17" />
+	</File>
+	<File name="framed_texture.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1921" topLine="75" />
+	</File>
+	<File name="framed_texture.hpp" open="0" top="0" tabpos="27">
+		<Cursor position="1421" topLine="39" />
+	</File>
+	<File name="image.cpp" open="0" top="0" tabpos="18">
+		<Cursor position="2859" topLine="56" />
+	</File>
+	<File name="image.hpp" open="0" top="0" tabpos="17">
+		<Cursor position="5227" topLine="150" />
+	</File>
+	<File name="index_generator.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="5938" topLine="150" />
+	</File>
+	<File name="index_generator.hpp" open="0" top="0" tabpos="3">
+		<Cursor position="3529" topLine="3" />
+	</File>
+	<File name="matrix_transformer.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="1927" topLine="84" />
+	</File>
+	<File name="matrix_transformer.hpp" open="0" top="0" tabpos="2">
+		<Cursor position="494" topLine="12" />
+	</File>
+	<File name="primitive_methods.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="2544" topLine="75" />
+	</File>
+	<File name="primitive_methods.hpp" open="0" top="0" tabpos="2">
+		<Cursor position="2055" topLine="11" />
+	</File>
+	<File name="primitive_types.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="117" topLine="0" />
+	</File>
+	<File name="primitive_types.hpp" open="0" top="0" tabpos="3">
+		<Cursor position="777" topLine="27" />
+	</File>
+	<File name="program.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="377" topLine="0" />
+	</File>
+	<File name="program.hpp" open="0" top="0" tabpos="2">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="quad.cpp" open="0" top="0" tabpos="13">
+		<Cursor position="589" topLine="0" />
+	</File>
+	<File name="quad.hpp" open="0" top="0" tabpos="15">
+		<Cursor position="17838" topLine="566" />
+	</File>
+	<File name="render_state.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="374" topLine="9" />
+	</File>
+	<File name="render_state.hpp" open="0" top="0" tabpos="12">
+		<Cursor position="417" topLine="0" />
+	</File>
+	<File name="screen.cpp" open="0" top="0" tabpos="8">
+		<Cursor position="7279" topLine="255" />
+	</File>
+	<File name="screen.hpp" open="0" top="0" tabpos="9">
+		<Cursor position="124" topLine="3" />
+	</File>
+	<File name="shader.cpp" open="0" top="0" tabpos="11">
+		<Cursor position="780" topLine="5" />
+	</File>
+	<File name="shader.hpp" open="0" top="0" tabpos="6">
+		<Cursor position="853" topLine="1" />
+	</File>
+	<File name="texture.cpp" open="0" top="0" tabpos="7">
+		<Cursor position="14238" topLine="486" />
+	</File>
+	<File name="texture.hpp" open="0" top="0" tabpos="25">
+		<Cursor position="4018" topLine="75" />
+	</File>
+	<File name="texture_atlas.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="3510" topLine="97" />
+	</File>
+	<File name="texture_atlas.hpp" open="0" top="0" tabpos="9">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="texture_base.cpp" open="0" top="0" tabpos="10">
+		<Cursor position="2326" topLine="62" />
+	</File>
+	<File name="texture_base.hpp" open="0" top="0" tabpos="26">
+		<Cursor position="3224" topLine="59" />
+	</File>
+	<File name="vertex.hpp" open="0" top="0" tabpos="6">
+		<Cursor position="221" topLine="0" />
+	</File>
+	<File name="vertex_buffer_object.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="618" topLine="0" />
+	</File>
+	<File name="vertex_buffer_object.hpp" open="0" top="0" tabpos="5">
+		<Cursor position="1422" topLine="22" />
+	</File>
+	<File name="visen.hpp" open="0" top="0" tabpos="4">
+		<Cursor position="511" topLine="0" />
+	</File>
+	<File name="visual_poser.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="404" topLine="78" />
+	</File>
+	<File name="visual_poser.hpp" open="0" top="0" tabpos="21">
+		<Cursor position="750" topLine="5" />
+	</File>
+	<File name="visual_rotater.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="354" topLine="8" />
+	</File>
+	<File name="visual_rotater.hpp" open="0" top="0" tabpos="7">
+		<Cursor position="322" topLine="0" />
+	</File>
+	<File name="visual_scaler.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="3" topLine="0" />
+	</File>
+	<File name="visual_scaler.hpp" open="0" top="0" tabpos="1">
+		<Cursor position="259" topLine="0" />
+	</File>
+	<File name="visual_transformer.cpp" open="0" top="0" tabpos="11">
+		<Cursor position="2727" topLine="132" />
+	</File>
+	<File name="visual_transformer.hpp" open="0" top="0" tabpos="8">
+		<Cursor position="211" topLine="15" />
+	</File>
+	<File name="visual_translator.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="759" topLine="27" />
+	</File>
+	<File name="visual_translator.hpp" open="0" top="0" tabpos="15">
+		<Cursor position="721" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>
