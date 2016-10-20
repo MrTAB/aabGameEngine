@@ -12,7 +12,6 @@ This engine has a number of dependancies:
   libpng15.15
   zlib128
   pugixml 1.2
-  PNG_SaveSurf (by Angelo Encelo Theodorou - see http://www.autistici.org/encelo/prog_sdldemos.php)
   Boost 1.49 (using specific components below - libraries system and filesystem)
     boost/filesystem	
     boost/algorithm/string/replace
@@ -21,6 +20,6 @@ This engine has a number of dependancies:
 
 As an exercise at the time, This Game Engine was made as several smaller libraries which work in unison, but can be partly separated for individual tasks.
 
-See the "driver" folder for examples of use.
+See the "driver" folder for examples of use. In particular see main - image_masker.cpp for an example of an application which uses parts of the library to process a folder of images in order to masks for each image argument given.
 
 
