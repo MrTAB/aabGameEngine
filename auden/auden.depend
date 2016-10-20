@@ -1,0 +1,278 @@
+# depslib dependency file v1.0
+1216582718 c:\_project\hylian_knights\gamelibrary\auden\music.cpp
+	"music.hpp"
+	<sdl.H>
+	<sdl_Mixer.H>
+	<exception>
+	<stdexcept>
+
+1219102466 c:\_project\hylian_knights\gamelibrary\auden\music.hpp
+	"audio_connector.hpp"
+	"mixer.hpp"
+	"../types/smart_ptr.hpp"
+	<string>
+	<memory>
+	<exception>
+
+1219102365 c:\_project\hylian_knights\gamelibrary\auden\mixer.hpp
+	"mixer_factory.hpp"
+	"audio_connector.hpp"
+	"../types/smart_ptr.hpp"
+	<exception>
+
+1219102347 c:\_project\hylian_knights\gamelibrary\auden\audio_connector.hpp
+	"../types/smart_ptr.hpp"
+
+1216663498 c:\_project\hylian_knights\gamelibrary\utility\smart_ptr.hpp
+	<boost/smart_ptr.hpp>
+
+1216582656 c:\_project\hylian_knights\gamelibrary\auden\mixer.cpp
+	"mixer.hpp"
+	"../utility/power_of_2.hpp"
+	<sdl.H>
+	<sdl_Mixer.H>
+	<exception>
+	<stdexcept>
+
+1216582849 c:\_project\hylian_knights\gamelibrary\auden\sound.cpp
+	"sound.hpp"
+	<sdl.H>
+	<sdl_Mixer.H>
+	<exception>
+	<stdexcept>
+
+1218154823 c:\_project\hylian_knights\gamelibrary\auden\sound.hpp
+	"mixer.hpp"
+	"audio_connector.hpp"
+	"../types/smart_ptr.hpp"
+	<string>
+	<memory>
+	<exception>
+
+1218154801 c:\_project\hylian_knights\gamelibrary\auden\mixer_factory.hpp
+	"../types/smart_ptr.hpp"
+
+1216582525 c:\_project\hylian_knights\gamelibrary\auden\mixer_factory.cpp
+	"mixer_factory.hpp"
+	<sdl.H>
+	<sdl_Mixer.H>
+	<exception>
+
+1216430859 c:\_project\hylian_knights\gamelibrary\utility\power_of_2.hpp
+
+1218153802 c:\_project\hylian_knights\gamelibrary\types\smart_ptr.hpp
+	<boost/smart_ptr.hpp>
+	<boost/pointer_cast.hpp>
+
+1216582525 source:c:\_project\hylian_knights\gamelibrary\auden\mixer_factory.cpp
+	"mixer_factory.hpp"
+	<sdl.H>
+	<sdl_Mixer.H>
+	<exception>
+
+1216582718 source:c:\_project\hylian_knights\gamelibrary\auden\music.cpp
+	"music.hpp"
+	<sdl.H>
+	<sdl_Mixer.H>
+	<exception>
+	<stdexcept>
+
+1216582849 source:c:\_project\hylian_knights\gamelibrary\auden\sound.cpp
+	"sound.hpp"
+	<sdl.H>
+	<sdl_Mixer.H>
+	<exception>
+	<stdexcept>
+
+1216582525 source:f:\misc old projects\hylian_knights\gamelibrary\auden\mixer_factory.cpp
+	"mixer_factory.hpp"
+	<sdl.H>
+	<sdl_Mixer.H>
+	<exception>
+
+1218154801 f:\misc old projects\hylian_knights\gamelibrary\auden\mixer_factory.hpp
+	"../types/smart_ptr.hpp"
+
+1218153802 f:\misc old projects\hylian_knights\gamelibrary\types\smart_ptr.hpp
+	<boost/smart_ptr.hpp>
+	<boost/pointer_cast.hpp>
+
+1216582718 source:f:\misc old projects\hylian_knights\gamelibrary\auden\music.cpp
+	"music.hpp"
+	<sdl.H>
+	<sdl_Mixer.H>
+	<exception>
+	<stdexcept>
+
+1330131376 f:\misc old projects\hylian_knights\gamelibrary\auden\music.hpp
+	"audio_connector.hpp"
+	"mixer.hpp"
+	"../types/smart_ptr.hpp"
+	<string>
+	<memory>
+	<exception>
+
+1219102347 f:\misc old projects\hylian_knights\gamelibrary\auden\audio_connector.hpp
+	"../types/smart_ptr.hpp"
+
+1219102365 f:\misc old projects\hylian_knights\gamelibrary\auden\mixer.hpp
+	"mixer_factory.hpp"
+	"audio_connector.hpp"
+	"../types/smart_ptr.hpp"
+	<exception>
+
+1216582849 source:f:\misc old projects\hylian_knights\gamelibrary\auden\sound.cpp
+	"sound.hpp"
+	<sdl.H>
+	<sdl_Mixer.H>
+	<exception>
+	<stdexcept>
+
+1218154823 f:\misc old projects\hylian_knights\gamelibrary\auden\sound.hpp
+	"mixer.hpp"
+	"audio_connector.hpp"
+	"../types/smart_ptr.hpp"
+	<string>
+	<memory>
+	<exception>
+
+1219102370 source:f:\misc old projects\hylian_knights\gamelibrary\auden\mixer.cpp
+	"mixer.hpp"
+	"../maths/power_of_2.hpp"
+	<sdl.H>
+	<sdl_Mixer.H>
+	<exception>
+	<stdexcept>
+
+1218153906 f:\misc old projects\hylian_knights\gamelibrary\maths\power_of_2.hpp
+
+1216582525 source:f:\programming\libraries\aab\auden\mixer_factory.cpp
+	"mixer_factory.hpp"
+	<sdl.H>
+	<sdl_Mixer.H>
+	<exception>
+
+1218154801 f:\programming\libraries\aab\auden\mixer_factory.hpp
+	"../types/smart_ptr.hpp"
+
+1333401191 f:\programming\libraries\aab\types\smart_ptr.hpp
+	<boost/smart_ptr.hpp>
+	<boost/pointer_cast.hpp>
+
+1216582718 source:f:\programming\libraries\aab\auden\music.cpp
+	"music.hpp"
+	<sdl.H>
+	<sdl_Mixer.H>
+	<exception>
+	<stdexcept>
+
+1330131376 f:\programming\libraries\aab\auden\music.hpp
+	"audio_connector.hpp"
+	"mixer.hpp"
+	"../types/smart_ptr.hpp"
+	<string>
+	<memory>
+	<exception>
+
+1219102347 f:\programming\libraries\aab\auden\audio_connector.hpp
+	"../types/smart_ptr.hpp"
+
+1219102365 f:\programming\libraries\aab\auden\mixer.hpp
+	"mixer_factory.hpp"
+	"audio_connector.hpp"
+	"../types/smart_ptr.hpp"
+	<exception>
+
+1216582849 source:f:\programming\libraries\aab\auden\sound.cpp
+	"sound.hpp"
+	<sdl.H>
+	<sdl_Mixer.H>
+	<exception>
+	<stdexcept>
+
+1218154823 f:\programming\libraries\aab\auden\sound.hpp
+	"mixer.hpp"
+	"audio_connector.hpp"
+	"../types/smart_ptr.hpp"
+	<string>
+	<memory>
+	<exception>
+
+1219102370 source:f:\programming\libraries\aab\auden\mixer.cpp
+	"mixer.hpp"
+	"../maths/power_of_2.hpp"
+	<sdl.H>
+	<sdl_Mixer.H>
+	<exception>
+	<stdexcept>
+
+1218153906 f:\programming\libraries\aab\maths\power_of_2.hpp
+
+1393273648 source:h:\programming\libraries\aab\auden\mixer_factory.cpp
+	"mixer_factory.hpp"
+	<sdl.H>
+	<sdl_Mixer.H>
+
+1393273653 h:\programming\libraries\aab\auden\mixer_factory.hpp
+
+1333401191 h:\programming\libraries\aab\types\smart_ptr.hpp
+	<boost/smart_ptr.hpp>
+	<boost/pointer_cast.hpp>
+
+1393273839 source:h:\programming\libraries\aab\auden\music.cpp
+	"music.hpp"
+	<sdl.H>
+	<sdl_Mixer.H>
+	<boost/filesystem.hpp>
+	<sstream>
+	"../test/exceptions.hpp"
+	"../test/debug_assertions.hpp"
+
+1393274434 h:\programming\libraries\aab\auden\music.hpp
+	"audio_connector.hpp"
+	"mixer.hpp"
+	<string>
+	<memory>
+	<exception>
+
+1393286440 h:\programming\libraries\aab\auden\audio_connector.hpp
+	"../types/smart_ptr.hpp"
+
+1393274416 h:\programming\libraries\aab\auden\mixer.hpp
+	"mixer_factory.hpp"
+	"audio_connector.hpp"
+	<exception>
+
+1393273841 source:h:\programming\libraries\aab\auden\sound.cpp
+	"sound.hpp"
+	<sdl.H>
+	<sdl_Mixer.H>
+	<boost/filesystem.hpp>
+	<sstream>
+	"../test/exceptions.hpp"
+
+1393273625 h:\programming\libraries\aab\auden\sound.hpp
+	"mixer.hpp"
+	"audio_connector.hpp"
+	<string>
+	<memory>
+	<exception>
+
+1393287184 source:h:\programming\libraries\aab\auden\mixer.cpp
+	"mixer.hpp"
+	"../maths/power_of_2.hpp"
+	<sdl.H>
+	<sdl_Mixer.H>
+	<sstream>
+	"../test/exceptions.hpp"
+	"../test/debug_assertions.hpp"
+
+1218153906 h:\programming\libraries\aab\maths\power_of_2.hpp
+
+1393286121 h:\programming\libraries\aab\test\exceptions.hpp
+	<exception>
+	<stdexcept>
+
+1395876495 h:\programming\libraries\aab\test\debug_assertions.hpp
+	<stdexcept>
+

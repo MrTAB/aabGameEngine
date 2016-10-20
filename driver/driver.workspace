@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="driver">
+		<Project filename="../auden/auden.cbp" />
+		<Project filename="../input/input.cbp" />
+		<Project filename="../time/time.cbp" />
+		<Project filename="../events/events.cbp" />
+		<Project filename="../game/game.cbp" />
+		<Project filename="../types/types.cbp" />
+		<Project filename="../maths/maths.cbp" />
+		<Project filename="../visen/visen.cbp" />
+		<Project filename="../test/test.cbp" />
+		<Project filename="driver.cbp" active="1" />
+		<Project filename="../engine/engine.cbp" />
+		<Project filename="../geometry/geometry.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

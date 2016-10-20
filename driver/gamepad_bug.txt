@@ -1,0 +1,244 @@
+
+works: making gamepad and eventhandler inside sharedconstructor code at standard positions, using class field gamepadsHandler
+
+works: making gamepad and eventhandler inside sharedconstructor code at end position, using class field gamepadsHandler.
+
+doesn't work: making gamepad and eventhandler inside sharedconstructor code at end position, using a local gamepadsHandler.
+
+doesn't crash but produces bogus reads:
+making gamepad and event handlet inside shared constructor code, after adding dispatcher to eventqueue, usin local gamespadhandler
+
+
+Where is the gamepad copied to?
+
+Where is the gamepadshandler2 copied to?
+	Does it go out of scope and lose its reference count?
+	Research general techniques for tracing of smart pointers?
+	
+	Seems that the other objects made from locals do seem to work, but ones that are also MultiEventHandlers may not work - evidence - changing keyboardHandler from a class field to a locally allcoated variable results in a crash on use.
+THIS MAY BE A DIFFERENT BUG - and it is a serious one from a library use perspective.
+Alternatively, this behaviour could be a side effect of the existing bug... Game crashes during AxisHandler::handleEvent()
+in debug run, but not until a key is pressed in non debug run.
+
+----
+SO, how do multievent handlers work?
+
+A handler such as GamepadPortHandler extends MultiEventHandler
+MultiEventHandler extends EventHandler.
+
+Different events such as pad button pressed, released, axis moved etc, are created by the GamepadPortHandler as PressedEventHandler, ReleasedEventHandler, AxisHandler etc.
+
+These are added to the multievent handler content by the GamepadPortHandler, via MultiEventHandler::setHandler()
+
+GamepadPortHandler has virtual callbacks buttonPressed, buttonReleased, axisMove etc, which are blank. They each accept an id and a value. 
+
+GamepadsAutoHandler extends GamepadPortHandler and accepts a Gamepad object. What is weird is that it looks as though it has the underlying faculty to update several gamepad objects, and yet appears on the outside to only operate on one!
+When a callback is called, the GamepadsAutoHandler searches a map of Gamepad smart pointers and finds the one mentioned in the callback. It then forces the value of the gamepad object (e.g. pressButton(button) ) so that it can be read by a games logic update.
+
+A normal GamepadHandler has no extention of GamepadPortHandler or MultiEventHandler. It does not accept any Gamepad object. It has callbacks buttonPressed, buttonReleased, axisMove etc, but they do not accept id's. The GamepadHandler is abstract - It is up to the user to relay information to their game when using this (it does not connect with any gamepad object - this may be useful for making a universal input code thing). In addition, I wonder how the event dispatcher knows to pass on gamepad events for particular gamepads via this handler... Does it just give all gamepad presses into the one handler? If this is the case, then this handler should be changed!
+!!!!!!!!
+
+There is also a GamepadsHandler, which extends GamepadPortHandler and has the id specifying versions of buttonPressed etc. GamepadsHandler accepts a GamepadHandler as its argument. It is the GamepadsHandler which allows different GamepadHandlers to be related to different gamepad ids.
+
+A MultiEventHandler maintains a HandlerMap, which is a std::map of EventType mapping to EventHandler smart pointer
+EventType is a C enumerate.
+MultiEventHandler  has a method recieveEvent(InternalEvent).
+This method is blank, and is a EventHandler virtual method. Every EventHandler has a method isMultiHandler() which returns true for MultiEventHandlers and false by default.
+
+The MultiEventHandler does not dispatch the events it receives. Instead, it has a single recieveEvent (to be implemented by the subclass?), but the type of the InternalEvent given to it may be one of many. This is of course true of any handler which is added to handlers as though it has several event types, but only MultiEventHandler handlers are considered by the dispatcher to have several 
+event types; the dispatcher checks if a handler isMultiHandler(), and if it is it uses a dynamic cast to convert the EventHandler::Ptr to a MultiEventHandler::Ptr (Whough, some room for disaster there - surely it has to start as a MultiEventHandler - Well, maybe not, the working global objects seem to be doing okay as EventHandlers). It then queries the typelist using getTypeList, then iterates it adding each handler as it goes.
+FUTURE NOTE: A simpler method would be to allow any EventHandler to have a list of types as appose to one - the end result would be roughly the same with less messing about. Alternatively, each seperate EventHandler could be kept separate, and users would be expected to pass a gamepad across several handlers to receive different events.
+
+Trying to find how the individual events are dispatched to the correct handler...
+In the GamepadPortHandler, a PressedEventHandler, ReleasedEventHandler etc are allocated, and assigned to Smart Ptrs. MultiEventHandler::setHandler is invoked on each of them; they are thus added into the map as EventHandler::Ptr.
+this is done during construction. Each of these handlers is given *this as an argument, and this is treated as a reference. These objects then call the relevant buttonPressed,  buttonReleased etc commands depending on their type. They filter the dispatch back to the GamepadPortHandler, which has callbacks specialised by its base classes such as GamepadsAutoHandler (which chooses to relay this information to the game by storing it in a "Gamepad" object).
+
+NOW, Is this a SERIOUSLY BAD IDEA!!!? If an instance of the sub class GamepadsAutoHandler is allocated on the stack, then it stands to reason that anyone adding it to a dispatcher would be making their own mess - the dispatcher accepts Smart pointers after all. If it is allcoated on the heap to go into a smart pointer, then it is the address of the object that is referenced and not the local, stack allocated smart pointer. The same heap allocation is what is shared between each object, and so references is be perfectly safe so long as there is no referencing beyond the objects scope.
+HERE is where we may have a problem. Handlers are kept in the dispatcher as Smart pointers, but if not allocated into the dispatch list, then there is no need for them to remain - the object dissapears, and we have some crazy crazy bugs that are really hard to track. My money is on this. The objects cannot be smart references by their sub-event handlers, but they can be kept by the dispatcher in sort of, sustain list. Funny thing is, if memory managing the old way, no one would have forgotten to delete these, and therefore would not have forgotten to keep them around!
+
+
+
+
+
+
+
+
+
+InternalEventClass wraps the SDL event in order to hide SDL inclusion from the user. The InternalEvent passed to recieveEvent is a smart pointer.
+
+
+
+
+WEIRD:
+	GamepadsHandler maintains a private HandlerMap, and also extends GamepadPortHandler, which extends MultiEventHandler, which maintains a private HandlerMap of the same name. I would immediately fix this but it seems that there is some extra functionality in the GamepadsHandler method of dealing with multievents, as well as the ability to get a handler and return it as a GamepadHandler::Ptr rather than an EventHandler::Ptr.
+HOWEVER, this is a BUG as it breaks the Dispatchers treatment of the GamepadsHandler events. getTypeList() will not return the list of types. It will return empty. However, this journey is to find the problem with the GamepadAutoHandler. FOR LATER.
+
+
+
+----
+Are they the cause of the problem?
+
+Yes
+
+----
+What about them has been implemented wrongly?
+
+MultiEventHandlers have sub EventHandlers, which are added to the DispatcherClass's dispatch list inside addHandler. They stay around, but the MultiEventHandler doesn't. They refer to the MultiEventHandler via references rather than a smart pointer, and as the smart pointer goes out of scope, bigger problems ensue.
+
+----
+How can we fix it?
+
+Kept a reference to each MultiEventHandler in DispatcherClass::addHandler, keeping it around. This is a solution for now, but really, the sub event handlers shouldnt be keeping a raw reference. Unfortunately, there is no clear client interface happy way to ensure that they get a valid smart pointer reference, as the assignment of the reference happens during the referred objects construction, before the smart pointer has been allocated.
+Perhaps a generateSubHandlers() method, which accepts the smart pointer. This is problematic though, as it could easily be misused and violates RAII principles. A macro could provide a safe use but it would be scope violating. (I wish we had type and scoped macros)
+
+
+
+
+----------------------------------------
+
+NEW GAMEPAD BUG 
+Crashes if there is no gamepad in and you try to get one.
+Should throw an exception, but that's not happening.
+
+Debugger says:
+
+In __cxa_throw () ()
+At H:\programming\libraries\aab\engine\gameengine.cpp:201
+(that is the line:
+ input::Gamepad gamepad = aab::input::makeGamepad(gamepadPorts);
+However, looking at the call stack, we have (highest/newsest at the bottom):
+	makeGamepad
+	GamepadClass::GamepadClass
+	GamepadDataClass::GamepadDataClass
+	___cxa_throw()
+ 
+What is __cxa_throw?
+__cxa_throw calls the unwinder.
+See many more details here:
+http://theofilos.cs.columbia.edu/blog/2013/10/03/c-exception-handling-stack-frame-destruction/
+
+In GamepadClass::GamepadClass:
+	ports-> enableGamepadEvents ();
+	id = GamepadDataClass::getId ();
+..is not reached, because of GamepadDataClass::GamepadDataClass throwing.
+It accepts "ports", which should be perfectly valid.
+
+GamepadDataClass is the parent of GamepadClass. Is it wise to allow the different types of gamepad to polymorphise just because of a shared data? or is there a finer plan to doing this? 
+GamepadDataClass::GamepadDataClass:
+	throws the same types of exceptions.
+	Has a const std::auto_ptr <Data> data, which is instantiated like so:
+		data (new Data ()),
+	..could this be a problem?
+	Data looks like this:
+		struct GamepadDataClass::Data
+		{
+			SDL_Joystick *joystick;
+			int index;
+		};
+	GamepadPortsClass is using a vector::<bool> to list free ports.
+		Strange stuff, not sure why it's required. Could just have end user requested gamepad data by index and not allow access if it is invalid. No need for a gamepad object even!
+	Note: change use of -1 to INVALID_GAMEPAD_ID or similar.
+	
+	
+NOTE the -mwindows compiler flag hides console output.
+SDL recommended that I put this on. Why?
+Also, didn't seem to be available anyway.
+is it user32, gdi32, winmm, dxguid?
+
+Super pixel boy seems to eb allowed to use main() rather than main with the two arguments. Driver is unable to. How odd. Must have something to do with library linking.
+
+Driver has:
+
+		<Linker>
+			<Add library="engine" />
+			<Add library="game" />
+			<Add library="visen" />
+			<Add library="events" />
+			<Add library="input" />
+			<Add library="auden" />
+			<Add library="time" />
+			<Add library="maths" />
+			<Add library="types" />
+			<Add library="mingw32" />
+			<Add library="SDLmain" />
+			<Add library="SDL" />
+			<Add library="glew_static" />
+			<Add library="glu32" />
+			<Add library="opengl32" />
+			<Add library="SDL_Image" />
+			<Add library="SDL_Mixer" />
+			<Add library="boost_system-mgw44-1_49" />
+			<Add library="boost_filesystem-mgw44-1_49" />
+			<Add library="libpng" />
+			<Add library="user32" />
+			<Add library="gdi32" />
+			<Add library="winmm" />
+			<Add library="dxguid" />
+			<Add directory="..\lib\" />
+			<Add directory="H:\programming\libraries\libpng\libpng-1.2.37-lib\lib" />
+		</Linker>
+		
+SPB has:
+
+		<Linker>
+			<Add library="Box2D" />
+			<Add library="engine" />
+			<Add library="game" />
+			<Add library="visen" />
+			<Add library="events" />
+			<Add library="input" />
+			<Add library="auden" />
+			<Add library="time" />
+			<Add library="maths" />
+			<Add library="types" />
+			<Add library="test" />
+			<Add library="SDL" />
+			<Add library="SDLmain" />
+			<Add library="glew_static" />
+			<Add library="glu32" />
+			<Add library="opengl32" />
+			<Add library="mingw32" />
+			<Add library="SDL_Image" />
+			<Add library="SDL_Mixer" />
+			<Add library="Tmx parser.dll" />
+			<Add library="boost_system-mgw44-1_49" />
+			<Add library="boost_filesystem-mgw44-1_49" />
+			<Add library="libpng" />
+		</Linker>
+
+The secret, it seems, is to NOT include SDL in the file defining main.
+Then, the different library order above (SPB) can be used, and standard output functions as normal.
+
+OKA, now that is done and exceptions are being thrown, it is probably wise to go through aab and remove tight exception constraints like these entirely!
+
+Note: When unplugging a gamepad that has previously been allocated, the values stick around (e.g. pressing left stays valid). Nothing else bad seems to happen.
+This may be because it relies on events! Plugging the pad back in works fine.
+
+This means that a gamepad unplugged event may have to zero the values on the gamepad or cause a pause and allow the user to do this.
+
+
+Gamepads should be extended to be able to tell youn how many axis, if possible?
+
+Change signe integer values to unsigned for axis etc?
+Or are they signed from SDL?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

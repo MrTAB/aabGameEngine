@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="default" />
+	<File name="batch_pixel_processor.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1505" topLine="39" />
+	</File>
+	<File name="driver.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="7779" topLine="237" />
+	</File>
+	<File name="imperative_driver.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="7768" topLine="414" />
+	</File>
+	<File name="main - image_masker.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="3297" topLine="129" />
+	</File>
+	<File name="pugixml.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="83940" topLine="2905" />
+	</File>
+	<File name="texture_atlas_script_writer.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="15721" topLine="309" />
+	</File>
+</CodeBlocks_layout_file>

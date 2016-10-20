@@ -1,0 +1,1599 @@
+# depslib dependency file v1.0
+1218129522 c:\_project\hylian_knights\gamelibrary\events\event.cpp
+	"event.hpp"
+
+1219077823 c:\_project\hylian_knights\gamelibrary\events\event.hpp
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218154580 c:\_project\hylian_knights\gamelibrary\events\internal_event.hpp
+	"event_type.hpp"
+	"imports.hpp"
+	<memory>
+
+1219077780 c:\_project\hylian_knights\gamelibrary\events\event_type.hpp
+
+1216430879 c:\_project\hylian_knights\gamelibrary\utility\byte.hpp
+
+1217772755 c:\_project\hylian_knights\gamelibrary\utility\smart_ptr.hpp
+	<boost/smart_ptr.hpp>
+	<boost/pointer_cast.hpp>
+
+1217777252 c:\_project\hylian_knights\gamelibrary\utility\manager.hpp
+
+1218133145 c:\_project\hylian_knights\gamelibrary\events\event_queue.cpp
+	"event_queue.hpp"
+	<algorithm>
+
+1219154440 c:\_project\hylian_knights\gamelibrary\events\event_queue.hpp
+	"event_type.hpp"
+	"internal_event.hpp"
+	"event.hpp"
+	"event_handler.hpp"
+	"event_connector.hpp"
+	"dispatcher.hpp"
+	"imports.hpp"
+	<list>
+
+1218568865 c:\_project\hylian_knights\gamelibrary\events\event_handler.hpp
+	"event_type.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1219102845 c:\_project\hylian_knights\gamelibrary\events\event_connector.hpp
+	"imports.hpp"
+
+1218732542 c:\_project\hylian_knights\gamelibrary\events\dispatcher.hpp
+	"event.hpp"
+	"event_type.hpp"
+	"internal_event.hpp"
+	"event_handler.hpp"
+	"multi_event_handler.hpp"
+	"imports.hpp"
+	<map>
+	<list>
+
+1218129836 c:\_project\hylian_knights\gamelibrary\events\internal_event.cpp
+	"internal_event.hpp"
+	<sdl.h>
+
+1218147751 c:\_project\hylian_knights\gamelibrary\events\mouse_motion_event.cpp
+	"mouse_motion_event.hpp"
+	<sdl.h>
+
+1218155660 c:\_project\hylian_knights\gamelibrary\events\mouse_motion_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../input/mouse_data.hpp"
+	"../types/smart_ptr.hpp"
+
+1218130119 c:\_project\hylian_knights\gamelibrary\events\dispatcher.cpp
+	"dispatcher.hpp"
+	"event_mapper.hpp"
+	<algorithm>
+
+1220808605 c:\_project\hylian_knights\gamelibrary\input\mouse_data.hpp
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+
+1218129755 c:\_project\hylian_knights\gamelibrary\events\focus_change_event.cpp
+	"focus_change_event.hpp"
+	<sdl.h>
+
+1218154432 c:\_project\hylian_knights\gamelibrary\events\focus_change_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218129855 c:\_project\hylian_knights\gamelibrary\events\quit_event.cpp
+	"quit_event.hpp"
+	<sdl.h>
+
+1218738261 c:\_project\hylian_knights\gamelibrary\events\quit_event.hpp
+	"empty_event.hpp"
+
+1218147734 c:\_project\hylian_knights\gamelibrary\events\event_mapper.cpp
+	"event_mapper.hpp"
+	<sdl.h>
+
+1218732824 c:\_project\hylian_knights\gamelibrary\events\event_mapper.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	<map>
+	<memory>
+	<vector>
+
+1218154514 c:\_project\hylian_knights\gamelibrary\events\imports.hpp
+	"../types/byte.hpp"
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+
+1218153762 c:\_project\hylian_knights\gamelibrary\types\byte.hpp
+
+1220808618 c:\_project\hylian_knights\gamelibrary\types\manager.hpp
+	"smart_ptr.hpp"
+
+1218153802 c:\_project\hylian_knights\gamelibrary\types\smart_ptr.hpp
+	<boost/smart_ptr.hpp>
+	<boost/pointer_cast.hpp>
+
+1218129522 source:c:\_project\hylian_knights\gamelibrary\events\event.cpp
+	"event.hpp"
+
+1219154436 source:c:\_project\hylian_knights\gamelibrary\events\event_queue.cpp
+	"event_queue.hpp"
+	<algorithm>
+
+1218159065 source:c:\_project\hylian_knights\gamelibrary\events\focus_change_event.cpp
+	"focus_change_event.hpp"
+	<sdl.h>
+
+1218129836 source:c:\_project\hylian_knights\gamelibrary\events\internal_event.cpp
+	"internal_event.hpp"
+	<sdl.h>
+
+1218129855 source:c:\_project\hylian_knights\gamelibrary\events\quit_event.cpp
+	"quit_event.hpp"
+	<sdl.h>
+
+1218733001 source:c:\_project\hylian_knights\gamelibrary\events\dispatcher.cpp
+	"dispatcher.hpp"
+	"event_mapper.hpp"
+	<algorithm>
+	<iostream>
+
+1218737566 source:c:\_project\hylian_knights\gamelibrary\events\event_mapper.cpp
+	"event_mapper.hpp"
+	<sdl.h>
+
+1218573170 c:\_project\hylian_knights\gamelibrary\events\multi_event_handler.hpp
+	"event_type.hpp"
+	"event_handler.hpp"
+	"imports.hpp"
+	<list>
+	<map>
+
+1218222584 source:c:\_project\hylian_knights\gamelibrary\events\mouse_move_event.cpp
+	"mouse_move_event.hpp"
+	<sdl.h>
+
+1220807578 c:\_project\hylian_knights\gamelibrary\events\mouse_move_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../input/mouse_data.hpp"
+	"../types/smart_ptr.hpp"
+
+1218567497 source:c:\_project\hylian_knights\gamelibrary\events\mouse_button_down_event.cpp
+	"mouse_button_down_event.hpp"
+	<sdl.h>
+
+1218567479 c:\_project\hylian_knights\gamelibrary\events\mouse_button_down_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../types/smart_ptr.hpp"
+
+1218567506 source:c:\_project\hylian_knights\gamelibrary\events\mouse_button_up_event.cpp
+	"mouse_button_up_event.hpp"
+	<sdl.h>
+
+1218567482 c:\_project\hylian_knights\gamelibrary\events\mouse_button_up_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../types/smart_ptr.hpp"
+
+1218573232 source:c:\_project\hylian_knights\gamelibrary\events\multi_event_handler.cpp
+	"multi_event_handler.hpp"
+	<algorithm>
+
+1220807589 source:c:\_project\hylian_knights\gamelibrary\events\mouse_handler.cpp
+	"mouse_handler.hpp"
+	"event_handlers.hpp"
+
+1218752125 c:\_project\hylian_knights\gamelibrary\events\mouse_handler.hpp
+	"imports.hpp"
+	"multi_event_handler.hpp"
+
+1219076725 c:\_project\hylian_knights\gamelibrary\events\event_handlers.hpp
+	"event_handler_template.hpp"
+	"mouse_move_event.hpp"
+	"mouse_button_down_event.hpp"
+	"mouse_button_up_event.hpp"
+	"quit_event.hpp"
+	"key_up_event.hpp"
+	"key_down_event.hpp"
+	"window_focus_gained_event.hpp"
+	"window_focus_lost_event.hpp"
+	"mouse_focus_gained_event.hpp"
+	"mouse_focus_lost_event.hpp"
+	"keyboard_focus_gained_event.hpp"
+	"keyboard_focus_lost_event.hpp"
+	"gamepad_axis_event.hpp"
+	"gamepad_ball_event.hpp"
+	"gamepad_hat_event.hpp"
+	"gamepad_button_up_event.hpp"
+	"gamepad_button_down_event.hpp"
+	"video_resize_event.hpp"
+
+1218125070 c:\_project\hylian_knights\gamelibrary\events\event_handler_template.hpp
+	"event_handler.hpp"
+
+1220807742 source:c:\_project\hylian_knights\gamelibrary\events\mouse_auto_handler.cpp
+	"mouse_auto_handler.hpp"
+
+1220807467 c:\_project\hylian_knights\gamelibrary\events\mouse_auto_handler.hpp
+	"imports.hpp"
+	"mouse_handler.hpp"
+	"../input/mouse.hpp"
+
+1220807670 c:\_project\hylian_knights\gamelibrary\input\mouse.hpp
+	"input_connector.hpp"
+	"mouse_data.hpp"
+	<vector>
+
+1219102249 c:\_project\hylian_knights\gamelibrary\input\input_connector.hpp
+	"../types/smart_ptr.hpp"
+
+1218642015 c:\_project\hylian_knights\gamelibrary\events\key_up_event.hpp
+	"key_event.hpp"
+
+1218986344 c:\_project\hylian_knights\gamelibrary\events\key_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../input/key_codes.hpp"
+
+1216308888 c:\_project\hylian_knights\gamelibrary\input\key_codes.hpp
+	<SDL_keysym.h>
+	<string>
+
+1218986443 source:c:\_project\hylian_knights\gamelibrary\events\key_event.cpp
+	"key_event.hpp"
+	<sdl.h>
+
+1218642037 source:c:\_project\hylian_knights\gamelibrary\events\key_up_event.cpp
+	"key_up_event.hpp"
+	<sdl.h>
+
+1218642570 source:c:\_project\hylian_knights\gamelibrary\events\key_down_event.cpp
+	"key_down_event.hpp"
+	<sdl.h>
+
+1218642549 c:\_project\hylian_knights\gamelibrary\events\key_down_event.hpp
+	"key_event.hpp"
+
+1218737240 c:\_project\hylian_knights\gamelibrary\events\window_focus_gained_event.hpp
+	"empty_event.hpp"
+
+1218733854 c:\_project\hylian_knights\gamelibrary\events\empty_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218737246 c:\_project\hylian_knights\gamelibrary\events\window_focus_lost_event.hpp
+	"empty_event.hpp"
+
+1218737740 c:\_project\hylian_knights\gamelibrary\events\mouse_focus_gained_event.hpp
+	"empty_event.hpp"
+
+1218737711 c:\_project\hylian_knights\gamelibrary\events\mouse_focus_lost_event.hpp
+	"empty_event.hpp"
+
+1218738115 c:\_project\hylian_knights\gamelibrary\events\keyboard_focus_gained_event.hpp
+	"empty_event.hpp"
+
+1218737902 c:\_project\hylian_knights\gamelibrary\events\keyboard_focus_lost_event.hpp
+	"empty_event.hpp"
+
+1218754226 c:\_project\hylian_knights\gamelibrary\events\gamepad_axis_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218754416 source:c:\_project\hylian_knights\gamelibrary\events\gamepad_axis_event.cpp
+	"gamepad_axis_event.hpp"
+	<sdl.h>
+	<cmath>
+
+1218831516 c:\_project\hylian_knights\gamelibrary\events\gamepad_ball_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218832814 c:\_project\hylian_knights\gamelibrary\events\gamepad_button_up_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218832941 c:\_project\hylian_knights\gamelibrary\events\gamepad_button_down_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218833044 source:c:\_project\hylian_knights\gamelibrary\events\gamepad_ball_event.cpp
+	"gamepad_ball_event.hpp"
+	<sdl.h>
+	<cmath>
+
+1218832940 source:c:\_project\hylian_knights\gamelibrary\events\gamepad_button_down_event.cpp
+	"gamepad_button_down_event.hpp"
+	<sdl.h>
+	<cmath>
+
+1218832864 source:c:\_project\hylian_knights\gamelibrary\events\gamepad_button_up_event.cpp
+	"gamepad_button_up_event.hpp"
+	<sdl.h>
+	<cmath>
+
+1218988425 source:c:\_project\hylian_knights\gamelibrary\events\gamepad_hat_event.cpp
+	"gamepad_hat_event.hpp"
+	<sdl.h>
+	<cmath>
+
+1219025106 c:\_project\hylian_knights\gamelibrary\events\gamepad_hat_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../input/hat_position.hpp"
+
+1218833672 c:\_project\hylian_knights\gamelibrary\events\video_resize_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218833700 source:c:\_project\hylian_knights\gamelibrary\events\video_resize_event.cpp
+	"video_resize_event.hpp"
+	<sdl.h>
+	<cmath>
+
+1219077467 source:c:\_project\hylian_knights\gamelibrary\events\keyboard_handler.cpp
+	"keyboard_handler.hpp"
+	"event_handlers.hpp"
+
+1219077514 c:\_project\hylian_knights\gamelibrary\events\keyboard_handler.hpp
+	"imports.hpp"
+	"multi_event_handler.hpp"
+	"key_event.hpp"
+	<string>
+
+1219025158 c:\_project\hylian_knights\gamelibrary\input\hat_position.hpp
+	"../types/smart_ptr.hpp"
+
+1219092750 source:c:\_project\hylian_knights\gamelibrary\events\gamepad_port_handler.cpp
+	"gamepad_port_handler.hpp"
+	"event_handlers.hpp"
+
+1219025186 c:\_project\hylian_knights\gamelibrary\events\gamepad_port_handler.hpp
+	"imports.hpp"
+	"multi_event_handler.hpp"
+	"../input/hat_position.hpp"
+
+1219091451 source:c:\_project\hylian_knights\gamelibrary\events\gamepads_handler.cpp
+	"gamepads_handler.hpp"
+	"event_handlers.hpp"
+
+1219091432 c:\_project\hylian_knights\gamelibrary\events\gamepads_handler.hpp
+	"gamepad_handler.hpp"
+	"gamepad_port_handler.hpp"
+	"imports.hpp"
+	<map>
+
+1219091512 c:\_project\hylian_knights\gamelibrary\events\gamepad_handler.hpp
+	"../input/hat_position.hpp"
+	"imports.hpp"
+
+1220822899 source:c:\_project\hylian_knights\gamelibrary\events\keyboard_auto_handler.cpp
+	"keyboard_auto_handler.hpp"
+
+1220822893 c:\_project\hylian_knights\gamelibrary\events\keyboard_auto_handler.hpp
+	"imports.hpp"
+	"keyboard_handler.hpp"
+	"../input/keyboard.hpp"
+
+1219083820 c:\_project\hylian_knights\gamelibrary\input\key_state.hpp
+	"key_codes.hpp"
+	"input_connector.hpp"
+	"../types/smart_ptr.hpp"
+	<vector>
+
+1219085529 c:\_project\hylian_knights\gamelibrary\input\key_info.hpp
+	"key_codes.hpp"
+	"../types/smart_ptr.hpp"
+	<map>
+	<list>
+
+1220822317 source:c:\_project\hylian_knights\gamelibrary\events\gamepads_auto_handler.cpp
+	"gamepads_auto_handler.hpp"
+
+1220822294 c:\_project\hylian_knights\gamelibrary\events\gamepads_auto_handler.hpp
+	"../input/gamepad.hpp"
+	"gamepad_port_handler.hpp"
+	"imports.hpp"
+	<map>
+
+1220817761 c:\_project\hylian_knights\gamelibrary\input\gamepad_state.hpp
+	"hat_position.hpp"
+	"gamepad_data.hpp"
+	"../types/smart_ptr.hpp"
+	<map>
+
+1220823055 c:\_project\hylian_knights\gamelibrary\input\gamepad.hpp
+	"hat_position.hpp"
+	"gamepad_data.hpp"
+	"../types/smart_ptr.hpp"
+	<map>
+
+1220819018 c:\_project\hylian_knights\gamelibrary\input\gamepad_ports.hpp
+	"input_connector.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<vector>
+
+1220647517 source:c:\_project\hylian_knights\gamelibrary\events\close_handler.cpp
+	"close_handler.hpp"
+
+1220647458 c:\_project\hylian_knights\gamelibrary\events\close_handler.hpp
+	"imports.hpp"
+	"event_handlers.hpp"
+
+1220819003 c:\_project\hylian_knights\gamelibrary\input\gamepad_data.hpp
+	"gamepad_ports.hpp"
+	"../types/smart_ptr.hpp"
+	<string>
+	<memory>
+	<exception>
+	<stdexcept>
+
+1220822852 c:\_project\hylian_knights\gamelibrary\input\keyboard.hpp
+	"key_codes.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<map>
+	<list>
+
+1220647517 source:f:\misc old projects\hylian_knights\gamelibrary\events\close_handler.cpp
+	"close_handler.hpp"
+
+1220647458 f:\misc old projects\hylian_knights\gamelibrary\events\close_handler.hpp
+	"imports.hpp"
+	"event_handlers.hpp"
+
+1218154514 f:\misc old projects\hylian_knights\gamelibrary\events\imports.hpp
+	"../types/byte.hpp"
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+
+1218153762 f:\misc old projects\hylian_knights\gamelibrary\types\byte.hpp
+
+1220808618 f:\misc old projects\hylian_knights\gamelibrary\types\manager.hpp
+	"smart_ptr.hpp"
+
+1218153802 f:\misc old projects\hylian_knights\gamelibrary\types\smart_ptr.hpp
+	<boost/smart_ptr.hpp>
+	<boost/pointer_cast.hpp>
+
+1330130981 f:\misc old projects\hylian_knights\gamelibrary\events\event_handlers.hpp
+	"event_handler_template.hpp"
+	"mouse_move_event.hpp"
+	"mouse_button_down_event.hpp"
+	"mouse_button_up_event.hpp"
+	"quit_event.hpp"
+	"key_up_event.hpp"
+	"key_down_event.hpp"
+	"window_restored_event.hpp"
+	"window_minimised_event.hpp"
+	"mouse_focus_gained_event.hpp"
+	"mouse_focus_lost_event.hpp"
+	"keyboard_focus_gained_event.hpp"
+	"keyboard_focus_lost_event.hpp"
+	"gamepad_axis_event.hpp"
+	"gamepad_ball_event.hpp"
+	"gamepad_hat_event.hpp"
+	"gamepad_button_up_event.hpp"
+	"gamepad_button_down_event.hpp"
+	"video_resize_event.hpp"
+
+1218125070 f:\misc old projects\hylian_knights\gamelibrary\events\event_handler_template.hpp
+	"event_handler.hpp"
+
+1218568865 f:\misc old projects\hylian_knights\gamelibrary\events\event_handler.hpp
+	"event_type.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1330130787 f:\misc old projects\hylian_knights\gamelibrary\events\event_type.hpp
+
+1218154580 f:\misc old projects\hylian_knights\gamelibrary\events\internal_event.hpp
+	"event_type.hpp"
+	"imports.hpp"
+	<memory>
+
+1230066735 f:\misc old projects\hylian_knights\gamelibrary\events\mouse_move_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../input/mouse_data.hpp"
+	"../types/smart_ptr.hpp"
+
+1219077823 f:\misc old projects\hylian_knights\gamelibrary\events\event.hpp
+	"internal_event.hpp"
+	"imports.hpp"
+
+1220808605 f:\misc old projects\hylian_knights\gamelibrary\input\mouse_data.hpp
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+
+1230066730 f:\misc old projects\hylian_knights\gamelibrary\events\mouse_button_down_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../types/smart_ptr.hpp"
+
+1230066733 f:\misc old projects\hylian_knights\gamelibrary\events\mouse_button_up_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../types/smart_ptr.hpp"
+
+1218738261 f:\misc old projects\hylian_knights\gamelibrary\events\quit_event.hpp
+	"empty_event.hpp"
+
+1218733854 f:\misc old projects\hylian_knights\gamelibrary\events\empty_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218642015 f:\misc old projects\hylian_knights\gamelibrary\events\key_up_event.hpp
+	"key_event.hpp"
+
+1218986344 f:\misc old projects\hylian_knights\gamelibrary\events\key_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../input/key_codes.hpp"
+
+1216308888 f:\misc old projects\hylian_knights\gamelibrary\input\key_codes.hpp
+	<SDL_keysym.h>
+	<string>
+
+1218642549 f:\misc old projects\hylian_knights\gamelibrary\events\key_down_event.hpp
+	"key_event.hpp"
+
+1330130948 f:\misc old projects\hylian_knights\gamelibrary\events\window_restored_event.hpp
+	"empty_event.hpp"
+
+1330130959 f:\misc old projects\hylian_knights\gamelibrary\events\window_minimised_event.hpp
+	"empty_event.hpp"
+
+1218737740 f:\misc old projects\hylian_knights\gamelibrary\events\mouse_focus_gained_event.hpp
+	"empty_event.hpp"
+
+1218737711 f:\misc old projects\hylian_knights\gamelibrary\events\mouse_focus_lost_event.hpp
+	"empty_event.hpp"
+
+1218738115 f:\misc old projects\hylian_knights\gamelibrary\events\keyboard_focus_gained_event.hpp
+	"empty_event.hpp"
+
+1218737902 f:\misc old projects\hylian_knights\gamelibrary\events\keyboard_focus_lost_event.hpp
+	"empty_event.hpp"
+
+1218754226 f:\misc old projects\hylian_knights\gamelibrary\events\gamepad_axis_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218831516 f:\misc old projects\hylian_knights\gamelibrary\events\gamepad_ball_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1219025106 f:\misc old projects\hylian_knights\gamelibrary\events\gamepad_hat_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../input/hat_position.hpp"
+
+1219025158 f:\misc old projects\hylian_knights\gamelibrary\input\hat_position.hpp
+	"../types/smart_ptr.hpp"
+
+1218832814 f:\misc old projects\hylian_knights\gamelibrary\events\gamepad_button_up_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218832941 f:\misc old projects\hylian_knights\gamelibrary\events\gamepad_button_down_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218833672 f:\misc old projects\hylian_knights\gamelibrary\events\video_resize_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218733001 source:f:\misc old projects\hylian_knights\gamelibrary\events\dispatcher.cpp
+	"dispatcher.hpp"
+	"event_mapper.hpp"
+	<algorithm>
+	<iostream>
+
+1218732542 f:\misc old projects\hylian_knights\gamelibrary\events\dispatcher.hpp
+	"event.hpp"
+	"event_type.hpp"
+	"internal_event.hpp"
+	"event_handler.hpp"
+	"multi_event_handler.hpp"
+	"imports.hpp"
+	<map>
+	<list>
+
+1218573170 f:\misc old projects\hylian_knights\gamelibrary\events\multi_event_handler.hpp
+	"event_type.hpp"
+	"event_handler.hpp"
+	"imports.hpp"
+	<list>
+	<map>
+
+1218732824 f:\misc old projects\hylian_knights\gamelibrary\events\event_mapper.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	<map>
+	<memory>
+	<vector>
+
+1218129522 source:f:\misc old projects\hylian_knights\gamelibrary\events\event.cpp
+	"event.hpp"
+
+1219154436 source:f:\misc old projects\hylian_knights\gamelibrary\events\event_queue.cpp
+	"event_queue.hpp"
+	<algorithm>
+
+1219154440 f:\misc old projects\hylian_knights\gamelibrary\events\event_queue.hpp
+	"event_type.hpp"
+	"internal_event.hpp"
+	"event.hpp"
+	"event_handler.hpp"
+	"event_connector.hpp"
+	"dispatcher.hpp"
+	"imports.hpp"
+	<list>
+
+1219102845 f:\misc old projects\hylian_knights\gamelibrary\events\event_connector.hpp
+	"imports.hpp"
+
+1218754416 source:f:\misc old projects\hylian_knights\gamelibrary\events\gamepad_axis_event.cpp
+	"gamepad_axis_event.hpp"
+	<sdl.h>
+	<cmath>
+
+1218833044 source:f:\misc old projects\hylian_knights\gamelibrary\events\gamepad_ball_event.cpp
+	"gamepad_ball_event.hpp"
+	<sdl.h>
+	<cmath>
+
+1218832940 source:f:\misc old projects\hylian_knights\gamelibrary\events\gamepad_button_down_event.cpp
+	"gamepad_button_down_event.hpp"
+	<sdl.h>
+	<cmath>
+
+1218832864 source:f:\misc old projects\hylian_knights\gamelibrary\events\gamepad_button_up_event.cpp
+	"gamepad_button_up_event.hpp"
+	<sdl.h>
+	<cmath>
+
+1218988425 source:f:\misc old projects\hylian_knights\gamelibrary\events\gamepad_hat_event.cpp
+	"gamepad_hat_event.hpp"
+	<sdl.h>
+	<cmath>
+
+1219092750 source:f:\misc old projects\hylian_knights\gamelibrary\events\gamepad_port_handler.cpp
+	"gamepad_port_handler.hpp"
+	"event_handlers.hpp"
+
+1219025186 f:\misc old projects\hylian_knights\gamelibrary\events\gamepad_port_handler.hpp
+	"imports.hpp"
+	"multi_event_handler.hpp"
+	"../input/hat_position.hpp"
+
+1220822317 source:f:\misc old projects\hylian_knights\gamelibrary\events\gamepads_auto_handler.cpp
+	"gamepads_auto_handler.hpp"
+
+1220822294 f:\misc old projects\hylian_knights\gamelibrary\events\gamepads_auto_handler.hpp
+	"../input/gamepad.hpp"
+	"gamepad_port_handler.hpp"
+	"imports.hpp"
+	<map>
+
+1220823055 f:\misc old projects\hylian_knights\gamelibrary\input\gamepad.hpp
+	"hat_position.hpp"
+	"gamepad_data.hpp"
+	"../types/smart_ptr.hpp"
+	<map>
+
+1220819003 f:\misc old projects\hylian_knights\gamelibrary\input\gamepad_data.hpp
+	"gamepad_ports.hpp"
+	"../types/smart_ptr.hpp"
+	<string>
+	<memory>
+	<exception>
+	<stdexcept>
+
+1221402901 f:\misc old projects\hylian_knights\gamelibrary\input\gamepad_ports.hpp
+	"input_connector.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<vector>
+
+1219102249 f:\misc old projects\hylian_knights\gamelibrary\input\input_connector.hpp
+	"../types/smart_ptr.hpp"
+
+1219091451 source:f:\misc old projects\hylian_knights\gamelibrary\events\gamepads_handler.cpp
+	"gamepads_handler.hpp"
+	"event_handlers.hpp"
+
+1219091432 f:\misc old projects\hylian_knights\gamelibrary\events\gamepads_handler.hpp
+	"gamepad_handler.hpp"
+	"gamepad_port_handler.hpp"
+	"imports.hpp"
+	<map>
+
+1219091512 f:\misc old projects\hylian_knights\gamelibrary\events\gamepad_handler.hpp
+	"../input/hat_position.hpp"
+	"imports.hpp"
+
+1218129836 source:f:\misc old projects\hylian_knights\gamelibrary\events\internal_event.cpp
+	"internal_event.hpp"
+	<sdl.h>
+
+1218642570 source:f:\misc old projects\hylian_knights\gamelibrary\events\key_down_event.cpp
+	"key_down_event.hpp"
+	<sdl.h>
+
+1218986443 source:f:\misc old projects\hylian_knights\gamelibrary\events\key_event.cpp
+	"key_event.hpp"
+	<sdl.h>
+
+1218642037 source:f:\misc old projects\hylian_knights\gamelibrary\events\key_up_event.cpp
+	"key_up_event.hpp"
+	<sdl.h>
+
+1220822899 source:f:\misc old projects\hylian_knights\gamelibrary\events\keyboard_auto_handler.cpp
+	"keyboard_auto_handler.hpp"
+
+1220822893 f:\misc old projects\hylian_knights\gamelibrary\events\keyboard_auto_handler.hpp
+	"imports.hpp"
+	"keyboard_handler.hpp"
+	"../input/keyboard.hpp"
+
+1219077514 f:\misc old projects\hylian_knights\gamelibrary\events\keyboard_handler.hpp
+	"imports.hpp"
+	"multi_event_handler.hpp"
+	"key_event.hpp"
+	<string>
+
+1220822852 f:\misc old projects\hylian_knights\gamelibrary\input\keyboard.hpp
+	"key_codes.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<map>
+	<list>
+
+1219077467 source:f:\misc old projects\hylian_knights\gamelibrary\events\keyboard_handler.cpp
+	"keyboard_handler.hpp"
+	"event_handlers.hpp"
+
+1218573232 source:f:\misc old projects\hylian_knights\gamelibrary\events\multi_event_handler.cpp
+	"multi_event_handler.hpp"
+	<algorithm>
+
+1218833700 source:f:\misc old projects\hylian_knights\gamelibrary\events\video_resize_event.cpp
+	"video_resize_event.hpp"
+	<sdl.h>
+	<cmath>
+
+1330130771 source:f:\misc old projects\hylian_knights\gamelibrary\events\event_mapper.cpp
+	"event_mapper.hpp"
+	<sdl.h>
+
+1230066660 source:f:\misc old projects\hylian_knights\gamelibrary\events\mouse_auto_handler.cpp
+	"mouse_auto_handler.hpp"
+
+1230066526 f:\misc old projects\hylian_knights\gamelibrary\events\mouse_auto_handler.hpp
+	"imports.hpp"
+	"mouse_handler.hpp"
+	"../input/mouse.hpp"
+
+1230066537 f:\misc old projects\hylian_knights\gamelibrary\events\mouse_handler.hpp
+	"imports.hpp"
+	"multi_event_handler.hpp"
+
+1220807670 f:\misc old projects\hylian_knights\gamelibrary\input\mouse.hpp
+	"input_connector.hpp"
+	"mouse_data.hpp"
+	<vector>
+
+1230066727 source:f:\misc old projects\hylian_knights\gamelibrary\events\mouse_button_down_event.cpp
+	"mouse_button_down_event.hpp"
+	<sdl.h>
+
+1230066724 source:f:\misc old projects\hylian_knights\gamelibrary\events\mouse_button_up_event.cpp
+	"mouse_button_up_event.hpp"
+	<sdl.h>
+
+1230066646 source:f:\misc old projects\hylian_knights\gamelibrary\events\mouse_handler.cpp
+	"mouse_handler.hpp"
+	"event_handlers.hpp"
+
+1230066721 source:f:\misc old projects\hylian_knights\gamelibrary\events\mouse_move_event.cpp
+	"mouse_move_event.hpp"
+	<sdl.h>
+
+1220647517 source:f:\programming\libraries\aab\events\close_handler.cpp
+	"close_handler.hpp"
+
+1220647458 f:\programming\libraries\aab\events\close_handler.hpp
+	"imports.hpp"
+	"event_handlers.hpp"
+
+1218154514 f:\programming\libraries\aab\events\imports.hpp
+	"../types/byte.hpp"
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+
+1218153762 f:\programming\libraries\aab\types\byte.hpp
+
+1220808618 f:\programming\libraries\aab\types\manager.hpp
+	"smart_ptr.hpp"
+
+1333401191 f:\programming\libraries\aab\types\smart_ptr.hpp
+	<boost/smart_ptr.hpp>
+	<boost/pointer_cast.hpp>
+
+1330130981 f:\programming\libraries\aab\events\event_handlers.hpp
+	"event_handler_template.hpp"
+	"mouse_move_event.hpp"
+	"mouse_button_down_event.hpp"
+	"mouse_button_up_event.hpp"
+	"quit_event.hpp"
+	"key_up_event.hpp"
+	"key_down_event.hpp"
+	"window_restored_event.hpp"
+	"window_minimised_event.hpp"
+	"mouse_focus_gained_event.hpp"
+	"mouse_focus_lost_event.hpp"
+	"keyboard_focus_gained_event.hpp"
+	"keyboard_focus_lost_event.hpp"
+	"gamepad_axis_event.hpp"
+	"gamepad_ball_event.hpp"
+	"gamepad_hat_event.hpp"
+	"gamepad_button_up_event.hpp"
+	"gamepad_button_down_event.hpp"
+	"video_resize_event.hpp"
+
+1218125070 f:\programming\libraries\aab\events\event_handler_template.hpp
+	"event_handler.hpp"
+
+1218568865 f:\programming\libraries\aab\events\event_handler.hpp
+	"event_type.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1330130787 f:\programming\libraries\aab\events\event_type.hpp
+
+1218154580 f:\programming\libraries\aab\events\internal_event.hpp
+	"event_type.hpp"
+	"imports.hpp"
+	<memory>
+
+1230066735 f:\programming\libraries\aab\events\mouse_move_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../input/mouse_data.hpp"
+	"../types/smart_ptr.hpp"
+
+1219077823 f:\programming\libraries\aab\events\event.hpp
+	"internal_event.hpp"
+	"imports.hpp"
+
+1220808605 f:\programming\libraries\aab\input\mouse_data.hpp
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+
+1230066730 f:\programming\libraries\aab\events\mouse_button_down_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../types/smart_ptr.hpp"
+
+1230066733 f:\programming\libraries\aab\events\mouse_button_up_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../types/smart_ptr.hpp"
+
+1218738261 f:\programming\libraries\aab\events\quit_event.hpp
+	"empty_event.hpp"
+
+1218733854 f:\programming\libraries\aab\events\empty_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218642015 f:\programming\libraries\aab\events\key_up_event.hpp
+	"key_event.hpp"
+
+1218986344 f:\programming\libraries\aab\events\key_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../input/key_codes.hpp"
+
+1216308888 f:\programming\libraries\aab\input\key_codes.hpp
+	<SDL_keysym.h>
+	<string>
+
+1218642549 f:\programming\libraries\aab\events\key_down_event.hpp
+	"key_event.hpp"
+
+1330130948 f:\programming\libraries\aab\events\window_restored_event.hpp
+	"empty_event.hpp"
+
+1330130959 f:\programming\libraries\aab\events\window_minimised_event.hpp
+	"empty_event.hpp"
+
+1218737740 f:\programming\libraries\aab\events\mouse_focus_gained_event.hpp
+	"empty_event.hpp"
+
+1218737711 f:\programming\libraries\aab\events\mouse_focus_lost_event.hpp
+	"empty_event.hpp"
+
+1218738115 f:\programming\libraries\aab\events\keyboard_focus_gained_event.hpp
+	"empty_event.hpp"
+
+1218737902 f:\programming\libraries\aab\events\keyboard_focus_lost_event.hpp
+	"empty_event.hpp"
+
+1218754226 f:\programming\libraries\aab\events\gamepad_axis_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218831516 f:\programming\libraries\aab\events\gamepad_ball_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1219025106 f:\programming\libraries\aab\events\gamepad_hat_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../input/hat_position.hpp"
+
+1219025158 f:\programming\libraries\aab\input\hat_position.hpp
+	"../types/smart_ptr.hpp"
+
+1218832814 f:\programming\libraries\aab\events\gamepad_button_up_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218832941 f:\programming\libraries\aab\events\gamepad_button_down_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218833672 f:\programming\libraries\aab\events\video_resize_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218733001 source:f:\programming\libraries\aab\events\dispatcher.cpp
+	"dispatcher.hpp"
+	"event_mapper.hpp"
+	<algorithm>
+	<iostream>
+
+1218732542 f:\programming\libraries\aab\events\dispatcher.hpp
+	"event.hpp"
+	"event_type.hpp"
+	"internal_event.hpp"
+	"event_handler.hpp"
+	"multi_event_handler.hpp"
+	"imports.hpp"
+	<map>
+	<list>
+
+1218573170 f:\programming\libraries\aab\events\multi_event_handler.hpp
+	"event_type.hpp"
+	"event_handler.hpp"
+	"imports.hpp"
+	<list>
+	<map>
+
+1218732824 f:\programming\libraries\aab\events\event_mapper.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	<map>
+	<memory>
+	<vector>
+
+1218129522 source:f:\programming\libraries\aab\events\event.cpp
+	"event.hpp"
+
+1330130771 source:f:\programming\libraries\aab\events\event_mapper.cpp
+	"event_mapper.hpp"
+	<sdl.h>
+
+1219154436 source:f:\programming\libraries\aab\events\event_queue.cpp
+	"event_queue.hpp"
+	<algorithm>
+
+1219154440 f:\programming\libraries\aab\events\event_queue.hpp
+	"event_type.hpp"
+	"internal_event.hpp"
+	"event.hpp"
+	"event_handler.hpp"
+	"event_connector.hpp"
+	"dispatcher.hpp"
+	"imports.hpp"
+	<list>
+
+1219102845 f:\programming\libraries\aab\events\event_connector.hpp
+	"imports.hpp"
+
+1218754416 source:f:\programming\libraries\aab\events\gamepad_axis_event.cpp
+	"gamepad_axis_event.hpp"
+	<sdl.h>
+	<cmath>
+
+1218833044 source:f:\programming\libraries\aab\events\gamepad_ball_event.cpp
+	"gamepad_ball_event.hpp"
+	<sdl.h>
+	<cmath>
+
+1218832940 source:f:\programming\libraries\aab\events\gamepad_button_down_event.cpp
+	"gamepad_button_down_event.hpp"
+	<sdl.h>
+	<cmath>
+
+1218832864 source:f:\programming\libraries\aab\events\gamepad_button_up_event.cpp
+	"gamepad_button_up_event.hpp"
+	<sdl.h>
+	<cmath>
+
+1218988425 source:f:\programming\libraries\aab\events\gamepad_hat_event.cpp
+	"gamepad_hat_event.hpp"
+	<sdl.h>
+	<cmath>
+
+1219092750 source:f:\programming\libraries\aab\events\gamepad_port_handler.cpp
+	"gamepad_port_handler.hpp"
+	"event_handlers.hpp"
+
+1219025186 f:\programming\libraries\aab\events\gamepad_port_handler.hpp
+	"imports.hpp"
+	"multi_event_handler.hpp"
+	"../input/hat_position.hpp"
+
+1220822317 source:f:\programming\libraries\aab\events\gamepads_auto_handler.cpp
+	"gamepads_auto_handler.hpp"
+
+1220822294 f:\programming\libraries\aab\events\gamepads_auto_handler.hpp
+	"../input/gamepad.hpp"
+	"gamepad_port_handler.hpp"
+	"imports.hpp"
+	<map>
+
+1220823055 f:\programming\libraries\aab\input\gamepad.hpp
+	"hat_position.hpp"
+	"gamepad_data.hpp"
+	"../types/smart_ptr.hpp"
+	<map>
+
+1333720616 f:\programming\libraries\aab\input\gamepad_data.hpp
+	"gamepad_ports.hpp"
+	"../types/smart_ptr.hpp"
+	<string>
+	<memory>
+	<exception>
+	<stdexcept>
+
+1221402901 f:\programming\libraries\aab\input\gamepad_ports.hpp
+	"input_connector.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<vector>
+
+1219102249 f:\programming\libraries\aab\input\input_connector.hpp
+	"../types/smart_ptr.hpp"
+
+1219091451 source:f:\programming\libraries\aab\events\gamepads_handler.cpp
+	"gamepads_handler.hpp"
+	"event_handlers.hpp"
+
+1219091432 f:\programming\libraries\aab\events\gamepads_handler.hpp
+	"gamepad_handler.hpp"
+	"gamepad_port_handler.hpp"
+	"imports.hpp"
+	<map>
+
+1219091512 f:\programming\libraries\aab\events\gamepad_handler.hpp
+	"../input/hat_position.hpp"
+	"imports.hpp"
+
+1218129836 source:f:\programming\libraries\aab\events\internal_event.cpp
+	"internal_event.hpp"
+	<sdl.h>
+
+1218642570 source:f:\programming\libraries\aab\events\key_down_event.cpp
+	"key_down_event.hpp"
+	<sdl.h>
+
+1218986443 source:f:\programming\libraries\aab\events\key_event.cpp
+	"key_event.hpp"
+	<sdl.h>
+
+1218642037 source:f:\programming\libraries\aab\events\key_up_event.cpp
+	"key_up_event.hpp"
+	<sdl.h>
+
+1220822899 source:f:\programming\libraries\aab\events\keyboard_auto_handler.cpp
+	"keyboard_auto_handler.hpp"
+
+1220822893 f:\programming\libraries\aab\events\keyboard_auto_handler.hpp
+	"imports.hpp"
+	"keyboard_handler.hpp"
+	"../input/keyboard.hpp"
+
+1219077514 f:\programming\libraries\aab\events\keyboard_handler.hpp
+	"imports.hpp"
+	"multi_event_handler.hpp"
+	"key_event.hpp"
+	<string>
+
+1220822852 f:\programming\libraries\aab\input\keyboard.hpp
+	"key_codes.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<map>
+	<list>
+
+1219077467 source:f:\programming\libraries\aab\events\keyboard_handler.cpp
+	"keyboard_handler.hpp"
+	"event_handlers.hpp"
+
+1230066660 source:f:\programming\libraries\aab\events\mouse_auto_handler.cpp
+	"mouse_auto_handler.hpp"
+
+1230066526 f:\programming\libraries\aab\events\mouse_auto_handler.hpp
+	"imports.hpp"
+	"mouse_handler.hpp"
+	"../input/mouse.hpp"
+
+1230066537 f:\programming\libraries\aab\events\mouse_handler.hpp
+	"imports.hpp"
+	"multi_event_handler.hpp"
+
+1220807670 f:\programming\libraries\aab\input\mouse.hpp
+	"input_connector.hpp"
+	"mouse_data.hpp"
+	<vector>
+
+1230066727 source:f:\programming\libraries\aab\events\mouse_button_down_event.cpp
+	"mouse_button_down_event.hpp"
+	<sdl.h>
+
+1230066724 source:f:\programming\libraries\aab\events\mouse_button_up_event.cpp
+	"mouse_button_up_event.hpp"
+	<sdl.h>
+
+1230066646 source:f:\programming\libraries\aab\events\mouse_handler.cpp
+	"mouse_handler.hpp"
+	"event_handlers.hpp"
+
+1230066721 source:f:\programming\libraries\aab\events\mouse_move_event.cpp
+	"mouse_move_event.hpp"
+	<sdl.h>
+
+1218573232 source:f:\programming\libraries\aab\events\multi_event_handler.cpp
+	"multi_event_handler.hpp"
+	<algorithm>
+
+1218833700 source:f:\programming\libraries\aab\events\video_resize_event.cpp
+	"video_resize_event.hpp"
+	<sdl.h>
+	<cmath>
+
+1220643917 source:h:\programming\libraries\aab\events\close_handler.cpp
+	"close_handler.hpp"
+
+1220643858 h:\programming\libraries\aab\events\close_handler.hpp
+	"imports.hpp"
+	"event_handlers.hpp"
+
+1375400112 h:\programming\libraries\aab\events\imports.hpp
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+
+1375403531 h:\programming\libraries\aab\types\byte.hpp
+	<stdint.h>
+
+1391601574 h:\programming\libraries\aab\types\manager.hpp
+	"smart_ptr.hpp"
+
+1333397591 h:\programming\libraries\aab\types\smart_ptr.hpp
+	<boost/smart_ptr.hpp>
+	<boost/pointer_cast.hpp>
+
+1391630382 h:\programming\libraries\aab\events\event_handlers.hpp
+	"event_handler_template.hpp"
+	"mouse_move_event.hpp"
+	"mouse_button_down_event.hpp"
+	"mouse_button_up_event.hpp"
+	"quit_event.hpp"
+	"key_up_event.hpp"
+	"key_down_event.hpp"
+	"window_restored_event.hpp"
+	"window_minimised_event.hpp"
+	"mouse_focus_gained_event.hpp"
+	"mouse_focus_lost_event.hpp"
+	"keyboard_focus_gained_event.hpp"
+	"keyboard_focus_lost_event.hpp"
+	"gamepad_axis_event.hpp"
+	"gamepad_ball_event.hpp"
+	"gamepad_hat_event.hpp"
+	"gamepad_button_up_event.hpp"
+	"gamepad_button_down_event.hpp"
+	"video_resize_event.hpp"
+
+1218121470 h:\programming\libraries\aab\events\event_handler_template.hpp
+	"event_handler.hpp"
+
+1218565265 h:\programming\libraries\aab\events\event_handler.hpp
+	"event_type.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1330130787 h:\programming\libraries\aab\events\event_type.hpp
+
+1218150980 h:\programming\libraries\aab\events\internal_event.hpp
+	"event_type.hpp"
+	"imports.hpp"
+	<memory>
+
+1391630276 h:\programming\libraries\aab\events\mouse_move_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../input/mouse_data.hpp"
+	"../types/smart_ptr.hpp"
+
+1391546659 h:\programming\libraries\aab\events\event.hpp
+	"internal_event.hpp"
+	"imports.hpp"
+	"../input/gamepad_values.hpp"
+
+1220805005 h:\programming\libraries\aab\input\mouse_data.hpp
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+
+1391630298 h:\programming\libraries\aab\events\mouse_button_down_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../types/smart_ptr.hpp"
+
+1391630370 h:\programming\libraries\aab\events\mouse_button_up_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../types/smart_ptr.hpp"
+
+1218734661 h:\programming\libraries\aab\events\quit_event.hpp
+	"empty_event.hpp"
+
+1218730254 h:\programming\libraries\aab\events\empty_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218638415 h:\programming\libraries\aab\events\key_up_event.hpp
+	"key_event.hpp"
+
+1375400129 h:\programming\libraries\aab\events\key_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../input/key_codes.hpp"
+	"types/byte.hpp"
+
+1390327818 h:\programming\libraries\aab\input\key_codes.hpp
+	<SDL_keysym.h>
+	<string>
+
+1218638949 h:\programming\libraries\aab\events\key_down_event.hpp
+	"key_event.hpp"
+
+1330130948 h:\programming\libraries\aab\events\window_restored_event.hpp
+	"empty_event.hpp"
+
+1330130959 h:\programming\libraries\aab\events\window_minimised_event.hpp
+	"empty_event.hpp"
+
+1218734140 h:\programming\libraries\aab\events\mouse_focus_gained_event.hpp
+	"empty_event.hpp"
+
+1218734111 h:\programming\libraries\aab\events\mouse_focus_lost_event.hpp
+	"empty_event.hpp"
+
+1218734515 h:\programming\libraries\aab\events\keyboard_focus_gained_event.hpp
+	"empty_event.hpp"
+
+1218734302 h:\programming\libraries\aab\events\keyboard_focus_lost_event.hpp
+	"empty_event.hpp"
+
+1391546555 h:\programming\libraries\aab\events\gamepad_axis_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1391546381 h:\programming\libraries\aab\events\gamepad_ball_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1219021506 h:\programming\libraries\aab\events\gamepad_hat_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../input/hat_position.hpp"
+
+1391567271 h:\programming\libraries\aab\input\hat_position.hpp
+	"../types/smart_ptr.hpp"
+
+1218829214 h:\programming\libraries\aab\events\gamepad_button_up_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218829341 h:\programming\libraries\aab\events\gamepad_button_down_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218830072 h:\programming\libraries\aab\events\video_resize_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1391639915 source:h:\programming\libraries\aab\events\dispatcher.cpp
+	"dispatcher.hpp"
+	"event_mapper.hpp"
+	<algorithm>
+	<iostream>
+
+1391125571 h:\programming\libraries\aab\events\dispatcher.hpp
+	"event.hpp"
+	"event_type.hpp"
+	"internal_event.hpp"
+	"event_handler.hpp"
+	"multi_event_handler.hpp"
+	"imports.hpp"
+	<map>
+	<list>
+
+1391639899 h:\programming\libraries\aab\events\multi_event_handler.hpp
+	"event_type.hpp"
+	"event_handler.hpp"
+	"imports.hpp"
+	<list>
+	<map>
+
+1218729224 h:\programming\libraries\aab\events\event_mapper.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	<map>
+	<memory>
+	<vector>
+
+1218125922 source:h:\programming\libraries\aab\events\event.cpp
+	"event.hpp"
+
+1330130771 source:h:\programming\libraries\aab\events\event_mapper.cpp
+	"event_mapper.hpp"
+	<sdl.h>
+
+1219150836 source:h:\programming\libraries\aab\events\event_queue.cpp
+	"event_queue.hpp"
+	<algorithm>
+
+1219150840 h:\programming\libraries\aab\events\event_queue.hpp
+	"event_type.hpp"
+	"internal_event.hpp"
+	"event.hpp"
+	"event_handler.hpp"
+	"event_connector.hpp"
+	"dispatcher.hpp"
+	"imports.hpp"
+	<list>
+
+1393282869 h:\programming\libraries\aab\events\event_connector.hpp
+	"imports.hpp"
+
+1391546506 source:h:\programming\libraries\aab\events\gamepad_axis_event.cpp
+	"gamepad_axis_event.hpp"
+	<sdl.h>
+	<cmath>
+
+1391546448 source:h:\programming\libraries\aab\events\gamepad_ball_event.cpp
+	"gamepad_ball_event.hpp"
+	<sdl.h>
+	<cmath>
+
+1218829340 source:h:\programming\libraries\aab\events\gamepad_button_down_event.cpp
+	"gamepad_button_down_event.hpp"
+	<sdl.h>
+	<cmath>
+
+1218829264 source:h:\programming\libraries\aab\events\gamepad_button_up_event.cpp
+	"gamepad_button_up_event.hpp"
+	<sdl.h>
+	<cmath>
+
+1218984825 source:h:\programming\libraries\aab\events\gamepad_hat_event.cpp
+	"gamepad_hat_event.hpp"
+	<sdl.h>
+	<cmath>
+
+1391639936 source:h:\programming\libraries\aab\events\gamepad_port_handler.cpp
+	"gamepad_port_handler.hpp"
+	"event_handlers.hpp"
+
+1391547043 h:\programming\libraries\aab\events\gamepad_port_handler.hpp
+	"imports.hpp"
+	"multi_event_handler.hpp"
+	"../input/hat_position.hpp"
+	"../input/gamepad_values.hpp"
+
+1391604488 source:h:\programming\libraries\aab\events\gamepads_auto_handler.cpp
+	"gamepads_auto_handler.hpp"
+
+1391604477 h:\programming\libraries\aab\events\gamepads_auto_handler.hpp
+	"../input/gamepad.hpp"
+	"gamepad_port_handler.hpp"
+	"imports.hpp"
+	<map>
+
+1393272386 h:\programming\libraries\aab\input\gamepad.hpp
+	"hat_position.hpp"
+	"gamepad_data.hpp"
+	"../types/smart_ptr.hpp"
+	<map>
+
+1391546976 h:\programming\libraries\aab\input\gamepad_data.hpp
+	"gamepad_values.hpp"
+	"gamepad_ports.hpp"
+	"../types/smart_ptr.hpp"
+	<string>
+	<memory>
+	<exception>
+	<stdexcept>
+
+1393272075 h:\programming\libraries\aab\input\gamepad_ports.hpp
+	"input_connector.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<stdexcept>
+	<string>
+	<sstream>
+	<vector>
+	<list>
+
+1393282785 h:\programming\libraries\aab\input\input_connector.hpp
+	"../types/smart_ptr.hpp"
+
+1391130593 source:h:\programming\libraries\aab\events\gamepads_handler.cpp
+	"gamepads_handler.hpp"
+	"event_handlers.hpp"
+
+1391130600 h:\programming\libraries\aab\events\gamepads_handler.hpp
+	"gamepad_handler.hpp"
+	"gamepad_port_handler.hpp"
+	"imports.hpp"
+	<map>
+
+1391547084 h:\programming\libraries\aab\events\gamepad_handler.hpp
+	"../input/hat_position.hpp"
+	"imports.hpp"
+	"../input/gamepad_values.hpp"
+
+1218126236 source:h:\programming\libraries\aab\events\internal_event.cpp
+	"internal_event.hpp"
+	<sdl.h>
+
+1218638970 source:h:\programming\libraries\aab\events\key_down_event.cpp
+	"key_down_event.hpp"
+	<sdl.h>
+
+1375397566 source:h:\programming\libraries\aab\events\key_event.cpp
+	"key_event.hpp"
+	<sdl.h>
+
+1218638437 source:h:\programming\libraries\aab\events\key_up_event.cpp
+	"key_up_event.hpp"
+	<sdl.h>
+
+1391562322 source:h:\programming\libraries\aab\events\keyboard_auto_handler.cpp
+	"keyboard_auto_handler.hpp"
+
+1391562313 h:\programming\libraries\aab\events\keyboard_auto_handler.hpp
+	"imports.hpp"
+	"keyboard_handler.hpp"
+	"../input/keyboard.hpp"
+
+1375397588 h:\programming\libraries\aab\events\keyboard_handler.hpp
+	"imports.hpp"
+	"multi_event_handler.hpp"
+	"key_event.hpp"
+	<string>
+
+1391563434 h:\programming\libraries\aab\input\keyboard.hpp
+	"key_codes.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<map>
+	<list>
+
+1391639950 source:h:\programming\libraries\aab\events\keyboard_handler.cpp
+	"keyboard_handler.hpp"
+	"event_handlers.hpp"
+
+1230066660 source:h:\programming\libraries\aab\events\mouse_auto_handler.cpp
+	"mouse_auto_handler.hpp"
+
+1230066526 h:\programming\libraries\aab\events\mouse_auto_handler.hpp
+	"imports.hpp"
+	"mouse_handler.hpp"
+	"../input/mouse.hpp"
+
+1391629424 h:\programming\libraries\aab\events\mouse_handler.hpp
+	"imports.hpp"
+	"multi_event_handler.hpp"
+
+1220804070 h:\programming\libraries\aab\input\mouse.hpp
+	"input_connector.hpp"
+	"mouse_data.hpp"
+	<vector>
+
+1391630306 source:h:\programming\libraries\aab\events\mouse_button_down_event.cpp
+	"mouse_button_down_event.hpp"
+	<sdl.h>
+
+1391630362 source:h:\programming\libraries\aab\events\mouse_button_up_event.cpp
+	"mouse_button_up_event.hpp"
+	<sdl.h>
+
+1391639963 source:h:\programming\libraries\aab\events\mouse_handler.cpp
+	"mouse_handler.hpp"
+	"event_handlers.hpp"
+
+1391630286 source:h:\programming\libraries\aab\events\mouse_move_event.cpp
+	"mouse_move_event.hpp"
+	<sdl.h>
+
+1391639587 source:h:\programming\libraries\aab\events\multi_event_handler.cpp
+	"multi_event_handler.hpp"
+	<algorithm>
+
+1218830100 source:h:\programming\libraries\aab\events\video_resize_event.cpp
+	"video_resize_event.hpp"
+	<sdl.h>
+	<cmath>
+
+1391546690 h:\programming\libraries\aab\input\gamepad_values.hpp
+	<cstdint>
+

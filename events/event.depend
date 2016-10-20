@@ -1,0 +1,76 @@
+# depslib dependency file v1.0
+1217795872 c:\_project\hylian_knights\gamelibrary\events\event.cpp
+	"event.hpp"
+
+1217796422 c:\_project\hylian_knights\gamelibrary\events\event.hpp
+	"internal_event.hpp"
+	"../utility/smart_ptr.hpp"
+
+1217791560 c:\_project\hylian_knights\gamelibrary\events\internal_event.hpp
+	"event_type.hpp"
+	"../utility/smart_ptr.hpp"
+	"../utility/manager.hpp"
+	<memory>
+
+1217792941 c:\_project\hylian_knights\gamelibrary\events\event_type.hpp
+	"../utility/byte.hpp"
+
+1216430879 c:\_project\hylian_knights\gamelibrary\utility\byte.hpp
+
+1217772755 c:\_project\hylian_knights\gamelibrary\utility\smart_ptr.hpp
+	<boost/smart_ptr.hpp>
+	<boost/pointer_cast.hpp>
+
+1217777252 c:\_project\hylian_knights\gamelibrary\utility\manager.hpp
+
+1217796126 c:\_project\hylian_knights\gamelibrary\events\event_queue.cpp
+	"event_queue.hpp"
+	<algorithm>
+
+1217796132 c:\_project\hylian_knights\gamelibrary\events\event_queue.hpp
+	"event_type.hpp"
+	"internal_event.hpp"
+	"event.hpp"
+	"event_handler.hpp"
+	"event_connector.hpp"
+	"dispatcher.hpp"
+	"../utility/smart_ptr.hpp"
+	"../utility/manager.hpp"
+	<list>
+
+1217793324 c:\_project\hylian_knights\gamelibrary\events\event_handler.hpp
+	"event_type.hpp"
+	"internal_event.hpp"
+	"../utility/smart_ptr.hpp"
+	"../utility/manager.hpp"
+
+1217776851 c:\_project\hylian_knights\gamelibrary\events\event_connector.hpp
+	"../utility/smart_ptr.hpp"
+
+1217796461 c:\_project\hylian_knights\gamelibrary\events\dispatcher.hpp
+	"event.hpp"
+	"event_type.hpp"
+	"internal_event.hpp"
+	"event_handler.hpp"
+	"../utility/smart_ptr.hpp"
+	"../utility/manager.hpp"
+	<map>
+	<list>
+
+1217796169 c:\_project\hylian_knights\gamelibrary\events\internal_event.cpp
+	"internal_event.hpp"
+	<sdl.h>
+
+1217796184 c:\_project\hylian_knights\gamelibrary\events\mouse_motion_event.cpp
+	"mouse_motion_event.hpp"
+	<sdl.h>
+
+1217795330 c:\_project\hylian_knights\gamelibrary\events\mouse_motion_event.hpp
+	"../utility/smart_ptr.hpp"
+	"event.hpp"
+	"internal_event.hpp"
+
+1217796450 c:\_project\hylian_knights\gamelibrary\events\dispatcher.cpp
+	"dispatcher.hpp"
+	<algorithm>
+

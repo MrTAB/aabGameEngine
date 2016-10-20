@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="driver" />
+		<Option pch_mode="0" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="default">
+				<Option output="..\bin\driver.exe" prefix_auto="0" extension_auto="0" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Option projectResourceIncludeDirsRelation="1" />
+				<Compiler>
+					<Add option="-std=c++0x" />
+				</Compiler>
+				<Linker>
+					<Add library="engine" />
+					<Add library="game" />
+					<Add library="visen" />
+					<Add library="input" />
+					<Add library="events" />
+					<Add library="auden" />
+					<Add library="time" />
+					<Add library="maths" />
+					<Add library="types" />
+					<Add library="test" />
+					<Add library="SDL" />
+					<Add library="SDLmain" />
+					<Add library="glew_static" />
+					<Add library="glu32" />
+					<Add library="opengl32" />
+					<Add library="mingw32" />
+					<Add library="SDL_Image" />
+					<Add library="SDL_Mixer" />
+					<Add library="boost_system-mgw44-1_49" />
+					<Add library="boost_filesystem-mgw44-1_49" />
+					<Add library="libpng" />
+				</Linker>
+			</Target>
+			<Target title="inc_win">
+				<Option output="..\bin\driver.exe" prefix_auto="0" extension_auto="0" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Option projectResourceIncludeDirsRelation="1" />
+				<Compiler>
+					<Add option="-std=c++0x" />
+				</Compiler>
+				<Linker>
+					<Add library="engine" />
+					<Add library="game" />
+					<Add library="visen" />
+					<Add library="events" />
+					<Add library="input" />
+					<Add library="auden" />
+					<Add library="time" />
+					<Add library="maths" />
+					<Add library="types" />
+					<Add library="mingw32" />
+					<Add library="SDLmain" />
+					<Add library="SDL" />
+					<Add library="glew_static" />
+					<Add library="glu32" />
+					<Add library="opengl32" />
+					<Add library="SDL_Image" />
+					<Add library="SDL_Mixer" />
+					<Add library="boost_system-mgw44-1_49" />
+					<Add library="boost_filesystem-mgw44-1_49" />
+					<Add library="libpng" />
+					<Add library="user32" />
+					<Add library="gdi32" />
+					<Add library="winmm" />
+					<Add library="dxguid" />
+				</Linker>
+			</Target>
+		</Build>
+		<VirtualTargets>
+			<Add alias="All" targets="default;" />
+		</VirtualTargets>
+		<Compiler>
+			<Add option="-std=c++0x" />
+			<Add option="-Wextra" />
+			<Add option="-Wall" />
+			<Add option="-g" />
+		</Compiler>
+		<Linker>
+			<Add directory="..\lib\" />
+			<Add directory="H:\programming\libraries\libpng\libpng-1.2.37-lib\lib" />
+		</Linker>
+		<Unit filename="batch_pixel_processor.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="driver.cpp"/>
+		<Unit filename="imperative_driver.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="main - image_masker.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="pugiconfig.hpp" />
+		<Unit filename="pugixml.cpp" />
+		<Unit filename="pugixml.hpp" />
+		<Unit filename="texture_atlas_script_writer.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Extensions>
+			<debugger />
+			<code_completion />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

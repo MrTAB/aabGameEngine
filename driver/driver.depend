@@ -1,0 +1,3751 @@
+# depslib dependency file v1.0
+1217896338 c:\_project\hylian_knights\gamelibrary\driver\driver.cpp
+	"../visen/visen.hpp"
+	"../input/input.hpp"
+	"../time/time.hpp"
+	"../auden/auden.hpp"
+	"../game/game.hpp"
+	"../events/events.hpp"
+	<exception>
+	<iostream>
+	<SDL_Mixer.h>
+
+1221402844 c:\_project\hylian_knights\gamelibrary\visen\screen.hpp
+	"color.hpp"
+	"../auden/audio_connector.hpp"
+	"../events/event_connector.hpp"
+	"../input/input_connector.hpp"
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+	<exception>
+	<memory>
+	<string>
+
+1216430879 c:\_project\hylian_knights\gamelibrary\utility\byte.hpp
+
+1217772755 c:\_project\hylian_knights\gamelibrary\utility\smart_ptr.hpp
+	<boost/smart_ptr.hpp>
+	<boost/pointer_cast.hpp>
+
+1221349266 c:\_project\hylian_knights\gamelibrary\visen\texture.hpp
+	"screen.hpp"
+	"image.hpp"
+	"color.hpp"
+	"texture_base.hpp"
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<string>
+	<memory>
+	<exception>
+
+1219104310 c:\_project\hylian_knights\gamelibrary\visen\image.hpp
+	"screen.hpp"
+	"color.hpp"
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<string>
+	<memory>
+	<exception>
+
+1219102299 c:\_project\hylian_knights\gamelibrary\input\key_state.hpp
+	"key_codes.hpp"
+	"input_connector.hpp"
+	"../types/smart_ptr.hpp"
+	<vector>
+
+1216308888 c:\_project\hylian_knights\gamelibrary\input\key_codes.hpp
+	<SDL_keysym.h>
+	<string>
+
+1219102249 c:\_project\hylian_knights\gamelibrary\input\input_connector.hpp
+	"../types/smart_ptr.hpp"
+
+1218154945 c:\_project\hylian_knights\gamelibrary\time\time.hpp
+	"cap.hpp"
+	"delta_time.hpp"
+	"fps.hpp"
+	"frame_ticker.hpp"
+	"millisecond_reporter.hpp"
+	"time_method.hpp"
+	"time_reporter.hpp"
+
+1218155392 c:\_project\hylian_knights\gamelibrary\time\cap.hpp
+	"../types/smart_ptr.hpp"
+
+1218154867 c:\_project\hylian_knights\gamelibrary\time\fps.hpp
+	"../types/smart_ptr.hpp"
+
+1218154861 c:\_project\hylian_knights\gamelibrary\time\delta_time.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+
+1218154963 c:\_project\hylian_knights\gamelibrary\time\time_reporter.hpp
+	"../types/smart_ptr.hpp"
+
+1220823055 c:\_project\hylian_knights\gamelibrary\input\gamepad.hpp
+	"hat_position.hpp"
+	"gamepad_data.hpp"
+	"../types/smart_ptr.hpp"
+	<map>
+
+1221402901 c:\_project\hylian_knights\gamelibrary\input\gamepad_ports.hpp
+	"input_connector.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<vector>
+
+1219102347 c:\_project\hylian_knights\gamelibrary\auden\audio_connector.hpp
+	"../types/smart_ptr.hpp"
+
+1219102466 c:\_project\hylian_knights\gamelibrary\auden\music.hpp
+	"audio_connector.hpp"
+	"mixer.hpp"
+	"../types/smart_ptr.hpp"
+	<string>
+	<memory>
+	<exception>
+
+1219102365 c:\_project\hylian_knights\gamelibrary\auden\mixer.hpp
+	"mixer_factory.hpp"
+	"audio_connector.hpp"
+	"../types/smart_ptr.hpp"
+	<exception>
+
+1218154823 c:\_project\hylian_knights\gamelibrary\auden\sound.hpp
+	"mixer.hpp"
+	"audio_connector.hpp"
+	"../types/smart_ptr.hpp"
+	<string>
+	<memory>
+	<exception>
+
+1229879021 c:\_project\hylian_knights\gamelibrary\visen\visen.hpp
+	"color.hpp"
+	"error_trap.hpp"
+	"image.hpp"
+	"screen.hpp"
+	"texture.hpp"
+	"display_list.hpp"
+	"display_absorber.hpp"
+	"animated_texture.hpp"
+	"visual_transformer.hpp"
+	"visual_translator.hpp"
+	"visual_rotater.hpp"
+	"visual_scaler.hpp"
+	"texture_base.hpp"
+
+1220824128 c:\_project\hylian_knights\gamelibrary\input\input.hpp
+	"auto_gamepad.hpp"
+	"gamepad_ports.hpp"
+	"input_connector.hpp"
+	"key_codes.hpp"
+	"auto_keyboard.hpp"
+	"keyboard.hpp"
+	"gamepad.hpp"
+	"mouse.hpp"
+
+1220807670 c:\_project\hylian_knights\gamelibrary\input\mouse.hpp
+	"input_connector.hpp"
+	"mouse_data.hpp"
+	<vector>
+
+1216429265 c:\_project\hylian_knights\gamelibrary\time\time_method.hpp
+
+1218154769 c:\_project\hylian_knights\gamelibrary\auden\auden.hpp
+	"audio_connector.hpp"
+	"mixer.hpp"
+	"mixer_factory.hpp"
+	"music.hpp"
+	"sound.hpp"
+
+1218154801 c:\_project\hylian_knights\gamelibrary\auden\mixer_factory.hpp
+	"../types/smart_ptr.hpp"
+
+1221400257 c:\_project\hylian_knights\gamelibrary\game\game.hpp
+	"color_node.hpp"
+	"group_node.hpp"
+	"scene_node.hpp"
+	"sprite.hpp"
+	"transformation_node.hpp"
+	"translation_node.hpp"
+	"display_list_node.hpp"
+	"rotation_node.hpp"
+	"scale_node.hpp"
+	"texture_node.hpp"
+	"moveable_texture_node.hpp"
+
+1221400705 c:\_project\hylian_knights\gamelibrary\game\sprite.hpp
+	"transformation_node.hpp"
+	"../types/smart_ptr.hpp"
+	"../visen/texture_base.hpp"
+	"../visen/texture.hpp"
+	"../visen/animated_texture.hpp"
+	<exception>
+
+1218154876 c:\_project\hylian_knights\gamelibrary\time\frame_ticker.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+	<exception>
+	<stdexcept>
+
+1221351278 c:\_project\hylian_knights\gamelibrary\game\transformation_node.hpp
+	"scene_node.hpp"
+	"../types/smart_ptr.hpp"
+	"../visen/visual_transformer.hpp"
+
+1220825765 c:\_project\hylian_knights\gamelibrary\game\scene_node.hpp
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+	<list>
+	<exception>
+
+1218155634 c:\_project\hylian_knights\gamelibrary\game\color_node.hpp
+	"scene_node.hpp"
+	"../types/smart_ptr.hpp"
+	"../visen/color.hpp"
+
+1219961644 c:\_project\hylian_knights\gamelibrary\game\group_node.hpp
+	"scene_node.hpp"
+	"../types/smart_ptr.hpp"
+
+1221179746 c:\_project\hylian_knights\gamelibrary\visen\color.hpp
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+
+1217776851 c:\_project\hylian_knights\gamelibrary\event\event_connector.hpp
+	"../utility/smart_ptr.hpp"
+
+1217777252 c:\_project\hylian_knights\gamelibrary\utility\manager.hpp
+
+1219102845 c:\_project\hylian_knights\gamelibrary\events\event_connector.hpp
+	"imports.hpp"
+
+1220647368 c:\_project\hylian_knights\gamelibrary\events\events.hpp
+	"dispatcher.hpp"
+	"event.hpp"
+	"event_connector.hpp"
+	"event_handler.hpp"
+	"event_handler_template.hpp"
+	"event_handlers.hpp"
+	"event_queue.hpp"
+	"event_type.hpp"
+	"internal_event.hpp"
+	"mouse_move_event.hpp"
+	"mouse_handler.hpp"
+	"mouse_auto_handler.hpp"
+	"quit_event.hpp"
+	"close_handler.hpp"
+	"keyboard_handler.hpp"
+	"keyboard_auto_handler.hpp"
+	"gamepads_handler.hpp"
+	"gamepad_port_handler.hpp"
+	"gamepads_auto_handler.hpp"
+
+1218732542 c:\_project\hylian_knights\gamelibrary\events\dispatcher.hpp
+	"event.hpp"
+	"event_type.hpp"
+	"internal_event.hpp"
+	"event_handler.hpp"
+	"multi_event_handler.hpp"
+	"imports.hpp"
+	<map>
+	<list>
+
+1219077823 c:\_project\hylian_knights\gamelibrary\events\event.hpp
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218154580 c:\_project\hylian_knights\gamelibrary\events\internal_event.hpp
+	"event_type.hpp"
+	"imports.hpp"
+	<memory>
+
+1219077780 c:\_project\hylian_knights\gamelibrary\events\event_type.hpp
+
+1218568865 c:\_project\hylian_knights\gamelibrary\events\event_handler.hpp
+	"event_type.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218125070 c:\_project\hylian_knights\gamelibrary\events\event_handler_template.hpp
+	"event_handler.hpp"
+
+1219154440 c:\_project\hylian_knights\gamelibrary\events\event_queue.hpp
+	"event_type.hpp"
+	"internal_event.hpp"
+	"event.hpp"
+	"event_handler.hpp"
+	"event_connector.hpp"
+	"dispatcher.hpp"
+	"imports.hpp"
+	<list>
+
+1217895006 c:\_project\hylian_knights\gamelibrary\events\mouse_motion_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"../input/mouse_data.hpp"
+	"../utility/smart_ptr.hpp"
+
+1220808605 c:\_project\hylian_knights\gamelibrary\input\mouse_data.hpp
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+
+1230066633 c:\_project\hylian_knights\gamelibrary\events\event_handlers.hpp
+	"event_handler_template.hpp"
+	"mouse_move_event.hpp"
+	"mouse_button_down_event.hpp"
+	"mouse_button_up_event.hpp"
+	"quit_event.hpp"
+	"key_up_event.hpp"
+	"key_down_event.hpp"
+	"window_focus_gained_event.hpp"
+	"window_focus_lost_event.hpp"
+	"mouse_focus_gained_event.hpp"
+	"mouse_focus_lost_event.hpp"
+	"keyboard_focus_gained_event.hpp"
+	"keyboard_focus_lost_event.hpp"
+	"gamepad_axis_event.hpp"
+	"gamepad_ball_event.hpp"
+	"gamepad_hat_event.hpp"
+	"gamepad_button_up_event.hpp"
+	"gamepad_button_down_event.hpp"
+	"video_resize_event.hpp"
+
+1218154432 c:\_project\hylian_knights\gamelibrary\events\focus_change_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1231539204 source:c:\_project\hylian_knights\gamelibrary\driver\driver.cpp
+	"../auden/auden.hpp"
+	"../events/events.hpp"
+	"../game/game.hpp"
+	"../input/input.hpp"
+	"../maths/maths.hpp"
+	"../time/time.hpp"
+	"../types/types.hpp"
+	"../visen/visen.hpp"
+	"../test/test.hpp"
+	<exception>
+	<iostream>
+
+1218153802 c:\_project\hylian_knights\gamelibrary\types\smart_ptr.hpp
+	<boost/smart_ptr.hpp>
+	<boost/pointer_cast.hpp>
+
+1218154514 c:\_project\hylian_knights\gamelibrary\events\imports.hpp
+	"../types/byte.hpp"
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+
+1218153762 c:\_project\hylian_knights\gamelibrary\types\byte.hpp
+
+1220808618 c:\_project\hylian_knights\gamelibrary\types\manager.hpp
+	"smart_ptr.hpp"
+
+1218573170 c:\_project\hylian_knights\gamelibrary\events\multi_event_handler.hpp
+	"event_type.hpp"
+	"event_handler.hpp"
+	"imports.hpp"
+	<list>
+	<map>
+
+1230066735 c:\_project\hylian_knights\gamelibrary\events\mouse_move_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../input/mouse_data.hpp"
+	"../types/smart_ptr.hpp"
+
+1230066730 c:\_project\hylian_knights\gamelibrary\events\mouse_button_down_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../types/smart_ptr.hpp"
+
+1230066733 c:\_project\hylian_knights\gamelibrary\events\mouse_button_up_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../types/smart_ptr.hpp"
+
+1218738261 c:\_project\hylian_knights\gamelibrary\events\quit_event.hpp
+	"empty_event.hpp"
+
+1220649807 c:\_project\hylian_knights\gamelibrary\maths\maths.hpp
+	"power_of_2.hpp"
+	"random.hpp"
+
+1218153906 c:\_project\hylian_knights\gamelibrary\maths\power_of_2.hpp
+
+1218154883 c:\_project\hylian_knights\gamelibrary\time\millisecond_reporter.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+
+1221353224 c:\_project\hylian_knights\gamelibrary\types\types.hpp
+	"byte.hpp"
+	"manager.hpp"
+	"mutable_closer.hpp"
+	"smart_ptr.hpp"
+	"word_filter.hpp"
+	"push_pop.hpp"
+	"push_popper.hpp"
+
+1218153801 c:\_project\hylian_knights\gamelibrary\types\mutable_closer.hpp
+
+1218155035 c:\_project\hylian_knights\gamelibrary\visen\error_trap.hpp
+	"../types/smart_ptr.hpp"
+	<string>
+	<memory>
+	<exception>
+	<map>
+
+1230066537 c:\_project\hylian_knights\gamelibrary\events\mouse_handler.hpp
+	"imports.hpp"
+	"multi_event_handler.hpp"
+
+1218642015 c:\_project\hylian_knights\gamelibrary\events\key_up_event.hpp
+	"key_event.hpp"
+
+1218986344 c:\_project\hylian_knights\gamelibrary\events\key_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../input/key_codes.hpp"
+
+1218642549 c:\_project\hylian_knights\gamelibrary\events\key_down_event.hpp
+	"key_event.hpp"
+
+1230066526 c:\_project\hylian_knights\gamelibrary\events\mouse_auto_handler.hpp
+	"imports.hpp"
+	"mouse_handler.hpp"
+	"../input/mouse.hpp"
+
+1218737240 c:\_project\hylian_knights\gamelibrary\events\window_focus_gained_event.hpp
+	"empty_event.hpp"
+
+1218733854 c:\_project\hylian_knights\gamelibrary\events\empty_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218737246 c:\_project\hylian_knights\gamelibrary\events\window_focus_lost_event.hpp
+	"empty_event.hpp"
+
+1218737740 c:\_project\hylian_knights\gamelibrary\events\mouse_focus_gained_event.hpp
+	"empty_event.hpp"
+
+1218737711 c:\_project\hylian_knights\gamelibrary\events\mouse_focus_lost_event.hpp
+	"empty_event.hpp"
+
+1218738115 c:\_project\hylian_knights\gamelibrary\events\keyboard_focus_gained_event.hpp
+	"empty_event.hpp"
+
+1218737902 c:\_project\hylian_knights\gamelibrary\events\keyboard_focus_lost_event.hpp
+	"empty_event.hpp"
+
+1218754226 c:\_project\hylian_knights\gamelibrary\events\gamepad_axis_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218831516 c:\_project\hylian_knights\gamelibrary\events\gamepad_ball_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1219025106 c:\_project\hylian_knights\gamelibrary\events\gamepad_hat_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../input/hat_position.hpp"
+
+1218832814 c:\_project\hylian_knights\gamelibrary\events\gamepad_button_up_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218832941 c:\_project\hylian_knights\gamelibrary\events\gamepad_button_down_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218833672 c:\_project\hylian_knights\gamelibrary\events\video_resize_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1219025158 c:\_project\hylian_knights\gamelibrary\input\hat_position.hpp
+	"../types/smart_ptr.hpp"
+
+1219077514 c:\_project\hylian_knights\gamelibrary\events\keyboard_handler.hpp
+	"imports.hpp"
+	"multi_event_handler.hpp"
+	"key_event.hpp"
+	<string>
+
+1220822893 c:\_project\hylian_knights\gamelibrary\events\keyboard_auto_handler.hpp
+	"imports.hpp"
+	"keyboard_handler.hpp"
+	"../input/keyboard.hpp"
+
+1219091432 c:\_project\hylian_knights\gamelibrary\events\gamepads_handler.hpp
+	"gamepad_handler.hpp"
+	"gamepad_port_handler.hpp"
+	"imports.hpp"
+	<map>
+
+1219091512 c:\_project\hylian_knights\gamelibrary\events\gamepad_handler.hpp
+	"../input/hat_position.hpp"
+	"imports.hpp"
+
+1219025186 c:\_project\hylian_knights\gamelibrary\events\gamepad_port_handler.hpp
+	"imports.hpp"
+	"multi_event_handler.hpp"
+	"../input/hat_position.hpp"
+
+1219085529 c:\_project\hylian_knights\gamelibrary\input\key_info.hpp
+	"key_codes.hpp"
+	"../types/smart_ptr.hpp"
+	<map>
+	<list>
+
+1220822294 c:\_project\hylian_knights\gamelibrary\events\gamepads_auto_handler.hpp
+	"../input/gamepad.hpp"
+	"gamepad_port_handler.hpp"
+	"imports.hpp"
+	<map>
+
+1219101929 c:\_project\hylian_knights\gamelibrary\input\gamepad_state.hpp
+	"hat_position.hpp"
+	"gamepad.hpp"
+	"../types/smart_ptr.hpp"
+	<map>
+
+1219967157 c:\_project\hylian_knights\gamelibrary\game\display_list_node.hpp
+	"scene_node.hpp"
+	"../types/smart_ptr.hpp"
+	"../visen/display_list.hpp"
+	<exception>
+
+1219965203 c:\_project\hylian_knights\gamelibrary\visen\display_list.hpp
+	"../types/manager.hpp"
+	<exception>
+
+1219967194 c:\_project\hylian_knights\gamelibrary\visen\display_absorber.hpp
+	"display_list.hpp"
+	<exception>
+
+1219958133 c:\_project\hylian_knights\gamelibrary\test\test.hpp
+	"diagnostic.hpp"
+
+1219957575 c:\_project\hylian_knights\gamelibrary\test\diagnostic.hpp
+	<boost/algorithm/string/replace.hpp>
+	<string>
+	<iostream>
+	<stack>
+
+1220647458 c:\_project\hylian_knights\gamelibrary\events\close_handler.hpp
+	"imports.hpp"
+	"event_handlers.hpp"
+
+1220657797 c:\_project\hylian_knights\gamelibrary\maths\random.hpp
+
+1220822852 c:\_project\hylian_knights\gamelibrary\input\keyboard.hpp
+	"key_codes.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<map>
+	<list>
+
+1220819003 c:\_project\hylian_knights\gamelibrary\input\gamepad_data.hpp
+	"gamepad_ports.hpp"
+	"../types/smart_ptr.hpp"
+	<string>
+	<memory>
+	<exception>
+	<stdexcept>
+
+1221353558 c:\_project\hylian_knights\gamelibrary\visen\visual_transformer.hpp
+	"../types/push_pop.hpp"
+
+1221353699 c:\_project\hylian_knights\gamelibrary\types\push_pop.hpp
+
+1221345898 c:\_project\hylian_knights\gamelibrary\visen\texture_base.hpp
+	"../time/frame_ticker.hpp"
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+
+1221350302 c:\_project\hylian_knights\gamelibrary\visen\animated_texture.hpp
+	"texture.hpp"
+	"texture_base.hpp"
+	"../time/frame_ticker.hpp"
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+
+1221353989 c:\_project\hylian_knights\gamelibrary\game\translation_node.hpp
+	"scene_node.hpp"
+	"../visen/visual_translator.hpp"
+	"../types/smart_ptr.hpp"
+
+1221353557 c:\_project\hylian_knights\gamelibrary\visen\visual_translator.hpp
+	"../types/push_pop.hpp"
+
+1221352484 c:\_project\hylian_knights\gamelibrary\game\rotation_node.hpp
+	"scene_node.hpp"
+	"../visen/visual_rotater.hpp"
+	"../types/smart_ptr.hpp"
+
+1221353560 c:\_project\hylian_knights\gamelibrary\visen\visual_rotater.hpp
+	"../types/push_pop.hpp"
+
+1221352120 c:\_project\hylian_knights\gamelibrary\game\scale_node.hpp
+	"scene_node.hpp"
+	"../visen/visual_scaler.hpp"
+	"../types/smart_ptr.hpp"
+
+1221353559 c:\_project\hylian_knights\gamelibrary\visen\visual_scaler.hpp
+	"../types/push_pop.hpp"
+
+1221400136 c:\_project\hylian_knights\gamelibrary\game\texture_node.hpp
+	"scene_node.hpp"
+	"../types/smart_ptr.hpp"
+	"../visen/texture_base.hpp"
+	"../time/frame_ticker.hpp"
+	"../visen/texture.hpp"
+	<exception>
+
+1221400753 c:\_project\hylian_knights\gamelibrary\game\moveable_texture_node.hpp
+	"translation_node.hpp"
+	"../types/smart_ptr.hpp"
+	"../visen/texture_base.hpp"
+	"../time/frame_ticker.hpp"
+	"../visen/texture.hpp"
+	<exception>
+
+1220822993 c:\_project\hylian_knights\gamelibrary\input\auto_gamepad.hpp
+	"gamepad_ports.hpp"
+	"gamepad_data.hpp"
+	"../types/smart_ptr.hpp"
+	<string>
+	<memory>
+	<exception>
+	<stdexcept>
+
+1220824384 c:\_project\hylian_knights\gamelibrary\input\auto_keyboard.hpp
+	"key_codes.hpp"
+	"input_connector.hpp"
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+	<vector>
+
+1220797324 c:\_project\hylian_knights\gamelibrary\types\word_filter.hpp
+	<string>
+	<map>
+
+1221353730 c:\_project\hylian_knights\gamelibrary\types\push_popper.hpp
+	"push_pop.hpp"
+
+1330392486 source:f:\misc old projects\hylian_knights\gamelibrary\driver\driver.cpp
+	"../engine/gameengine.hpp"
+	<exception>
+	<iostream>
+
+1218154769 f:\misc old projects\hylian_knights\gamelibrary\auden\auden.hpp
+	"audio_connector.hpp"
+	"mixer.hpp"
+	"mixer_factory.hpp"
+	"music.hpp"
+	"sound.hpp"
+
+1219102347 f:\misc old projects\hylian_knights\gamelibrary\auden\audio_connector.hpp
+	"../types/smart_ptr.hpp"
+
+1218153802 f:\misc old projects\hylian_knights\gamelibrary\types\smart_ptr.hpp
+	<boost/smart_ptr.hpp>
+	<boost/pointer_cast.hpp>
+
+1219102365 f:\misc old projects\hylian_knights\gamelibrary\auden\mixer.hpp
+	"mixer_factory.hpp"
+	"audio_connector.hpp"
+	"../types/smart_ptr.hpp"
+	<exception>
+
+1218154801 f:\misc old projects\hylian_knights\gamelibrary\auden\mixer_factory.hpp
+	"../types/smart_ptr.hpp"
+
+1330131376 f:\misc old projects\hylian_knights\gamelibrary\auden\music.hpp
+	"audio_connector.hpp"
+	"mixer.hpp"
+	"../types/smart_ptr.hpp"
+	<string>
+	<memory>
+	<exception>
+
+1218154823 f:\misc old projects\hylian_knights\gamelibrary\auden\sound.hpp
+	"mixer.hpp"
+	"audio_connector.hpp"
+	"../types/smart_ptr.hpp"
+	<string>
+	<memory>
+	<exception>
+
+1220647368 f:\misc old projects\hylian_knights\gamelibrary\events\events.hpp
+	"dispatcher.hpp"
+	"event.hpp"
+	"event_connector.hpp"
+	"event_handler.hpp"
+	"event_handler_template.hpp"
+	"event_handlers.hpp"
+	"event_queue.hpp"
+	"event_type.hpp"
+	"internal_event.hpp"
+	"mouse_move_event.hpp"
+	"mouse_handler.hpp"
+	"mouse_auto_handler.hpp"
+	"quit_event.hpp"
+	"close_handler.hpp"
+	"keyboard_handler.hpp"
+	"keyboard_auto_handler.hpp"
+	"gamepads_handler.hpp"
+	"gamepad_port_handler.hpp"
+	"gamepads_auto_handler.hpp"
+
+1218732542 f:\misc old projects\hylian_knights\gamelibrary\events\dispatcher.hpp
+	"event.hpp"
+	"event_type.hpp"
+	"internal_event.hpp"
+	"event_handler.hpp"
+	"multi_event_handler.hpp"
+	"imports.hpp"
+	<map>
+	<list>
+
+1219077823 f:\misc old projects\hylian_knights\gamelibrary\events\event.hpp
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218154580 f:\misc old projects\hylian_knights\gamelibrary\events\internal_event.hpp
+	"event_type.hpp"
+	"imports.hpp"
+	<memory>
+
+1330130787 f:\misc old projects\hylian_knights\gamelibrary\events\event_type.hpp
+
+1218154514 f:\misc old projects\hylian_knights\gamelibrary\events\imports.hpp
+	"../types/byte.hpp"
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+
+1218153762 f:\misc old projects\hylian_knights\gamelibrary\types\byte.hpp
+
+1220808618 f:\misc old projects\hylian_knights\gamelibrary\types\manager.hpp
+	"smart_ptr.hpp"
+
+1218568865 f:\misc old projects\hylian_knights\gamelibrary\events\event_handler.hpp
+	"event_type.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218573170 f:\misc old projects\hylian_knights\gamelibrary\events\multi_event_handler.hpp
+	"event_type.hpp"
+	"event_handler.hpp"
+	"imports.hpp"
+	<list>
+	<map>
+
+1219102845 f:\misc old projects\hylian_knights\gamelibrary\events\event_connector.hpp
+	"imports.hpp"
+
+1218125070 f:\misc old projects\hylian_knights\gamelibrary\events\event_handler_template.hpp
+	"event_handler.hpp"
+
+1330130981 f:\misc old projects\hylian_knights\gamelibrary\events\event_handlers.hpp
+	"event_handler_template.hpp"
+	"mouse_move_event.hpp"
+	"mouse_button_down_event.hpp"
+	"mouse_button_up_event.hpp"
+	"quit_event.hpp"
+	"key_up_event.hpp"
+	"key_down_event.hpp"
+	"window_restored_event.hpp"
+	"window_minimised_event.hpp"
+	"mouse_focus_gained_event.hpp"
+	"mouse_focus_lost_event.hpp"
+	"keyboard_focus_gained_event.hpp"
+	"keyboard_focus_lost_event.hpp"
+	"gamepad_axis_event.hpp"
+	"gamepad_ball_event.hpp"
+	"gamepad_hat_event.hpp"
+	"gamepad_button_up_event.hpp"
+	"gamepad_button_down_event.hpp"
+	"video_resize_event.hpp"
+
+1230066735 f:\misc old projects\hylian_knights\gamelibrary\events\mouse_move_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../input/mouse_data.hpp"
+	"../types/smart_ptr.hpp"
+
+1220808605 f:\misc old projects\hylian_knights\gamelibrary\input\mouse_data.hpp
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+
+1230066730 f:\misc old projects\hylian_knights\gamelibrary\events\mouse_button_down_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../types/smart_ptr.hpp"
+
+1230066733 f:\misc old projects\hylian_knights\gamelibrary\events\mouse_button_up_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../types/smart_ptr.hpp"
+
+1218738261 f:\misc old projects\hylian_knights\gamelibrary\events\quit_event.hpp
+	"empty_event.hpp"
+
+1218733854 f:\misc old projects\hylian_knights\gamelibrary\events\empty_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218642015 f:\misc old projects\hylian_knights\gamelibrary\events\key_up_event.hpp
+	"key_event.hpp"
+
+1218986344 f:\misc old projects\hylian_knights\gamelibrary\events\key_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../input/key_codes.hpp"
+
+1216308888 f:\misc old projects\hylian_knights\gamelibrary\input\key_codes.hpp
+	<SDL_keysym.h>
+	<string>
+
+1218642549 f:\misc old projects\hylian_knights\gamelibrary\events\key_down_event.hpp
+	"key_event.hpp"
+
+1218737240 f:\misc old projects\hylian_knights\gamelibrary\events\window_focus_gained_event.hpp
+	"empty_event.hpp"
+
+1218737246 f:\misc old projects\hylian_knights\gamelibrary\events\window_focus_lost_event.hpp
+	"empty_event.hpp"
+
+1218737740 f:\misc old projects\hylian_knights\gamelibrary\events\mouse_focus_gained_event.hpp
+	"empty_event.hpp"
+
+1218737711 f:\misc old projects\hylian_knights\gamelibrary\events\mouse_focus_lost_event.hpp
+	"empty_event.hpp"
+
+1218738115 f:\misc old projects\hylian_knights\gamelibrary\events\keyboard_focus_gained_event.hpp
+	"empty_event.hpp"
+
+1218737902 f:\misc old projects\hylian_knights\gamelibrary\events\keyboard_focus_lost_event.hpp
+	"empty_event.hpp"
+
+1218754226 f:\misc old projects\hylian_knights\gamelibrary\events\gamepad_axis_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218831516 f:\misc old projects\hylian_knights\gamelibrary\events\gamepad_ball_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1219025106 f:\misc old projects\hylian_knights\gamelibrary\events\gamepad_hat_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../input/hat_position.hpp"
+
+1219025158 f:\misc old projects\hylian_knights\gamelibrary\input\hat_position.hpp
+	"../types/smart_ptr.hpp"
+
+1218832814 f:\misc old projects\hylian_knights\gamelibrary\events\gamepad_button_up_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218832941 f:\misc old projects\hylian_knights\gamelibrary\events\gamepad_button_down_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218833672 f:\misc old projects\hylian_knights\gamelibrary\events\video_resize_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1219154440 f:\misc old projects\hylian_knights\gamelibrary\events\event_queue.hpp
+	"event_type.hpp"
+	"internal_event.hpp"
+	"event.hpp"
+	"event_handler.hpp"
+	"event_connector.hpp"
+	"dispatcher.hpp"
+	"imports.hpp"
+	<list>
+
+1230066537 f:\misc old projects\hylian_knights\gamelibrary\events\mouse_handler.hpp
+	"imports.hpp"
+	"multi_event_handler.hpp"
+
+1230066526 f:\misc old projects\hylian_knights\gamelibrary\events\mouse_auto_handler.hpp
+	"imports.hpp"
+	"mouse_handler.hpp"
+	"../input/mouse.hpp"
+
+1220807670 f:\misc old projects\hylian_knights\gamelibrary\input\mouse.hpp
+	"input_connector.hpp"
+	"mouse_data.hpp"
+	<vector>
+
+1219102249 f:\misc old projects\hylian_knights\gamelibrary\input\input_connector.hpp
+	"../types/smart_ptr.hpp"
+
+1220647458 f:\misc old projects\hylian_knights\gamelibrary\events\close_handler.hpp
+	"imports.hpp"
+	"event_handlers.hpp"
+
+1219077514 f:\misc old projects\hylian_knights\gamelibrary\events\keyboard_handler.hpp
+	"imports.hpp"
+	"multi_event_handler.hpp"
+	"key_event.hpp"
+	<string>
+
+1220822893 f:\misc old projects\hylian_knights\gamelibrary\events\keyboard_auto_handler.hpp
+	"imports.hpp"
+	"keyboard_handler.hpp"
+	"../input/keyboard.hpp"
+
+1220822852 f:\misc old projects\hylian_knights\gamelibrary\input\keyboard.hpp
+	"key_codes.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<map>
+	<list>
+
+1219091432 f:\misc old projects\hylian_knights\gamelibrary\events\gamepads_handler.hpp
+	"gamepad_handler.hpp"
+	"gamepad_port_handler.hpp"
+	"imports.hpp"
+	<map>
+
+1219091512 f:\misc old projects\hylian_knights\gamelibrary\events\gamepad_handler.hpp
+	"../input/hat_position.hpp"
+	"imports.hpp"
+
+1219025186 f:\misc old projects\hylian_knights\gamelibrary\events\gamepad_port_handler.hpp
+	"imports.hpp"
+	"multi_event_handler.hpp"
+	"../input/hat_position.hpp"
+
+1220822294 f:\misc old projects\hylian_knights\gamelibrary\events\gamepads_auto_handler.hpp
+	"../input/gamepad.hpp"
+	"gamepad_port_handler.hpp"
+	"imports.hpp"
+	<map>
+
+1220823055 f:\misc old projects\hylian_knights\gamelibrary\input\gamepad.hpp
+	"hat_position.hpp"
+	"gamepad_data.hpp"
+	"../types/smart_ptr.hpp"
+	<map>
+
+1220819003 f:\misc old projects\hylian_knights\gamelibrary\input\gamepad_data.hpp
+	"gamepad_ports.hpp"
+	"../types/smart_ptr.hpp"
+	<string>
+	<memory>
+	<exception>
+	<stdexcept>
+
+1221402901 f:\misc old projects\hylian_knights\gamelibrary\input\gamepad_ports.hpp
+	"input_connector.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<vector>
+
+1330377423 f:\misc old projects\hylian_knights\gamelibrary\game\game.hpp
+	"color_node.hpp"
+	"group_node.hpp"
+	"scene_node.hpp"
+	"sprite.hpp"
+	"transformation_node.hpp"
+	"translation_node.hpp"
+	"display_list_node.hpp"
+	"rotation_node.hpp"
+	"scale_node.hpp"
+	"texture_node.hpp"
+	"moveable_texture_node.hpp"
+
+1330127114 f:\misc old projects\hylian_knights\gamelibrary\game\color_node.hpp
+	"scene_node.hpp"
+	"../types/smart_ptr.hpp"
+	"../visen/color.hpp"
+
+1220825765 f:\misc old projects\hylian_knights\gamelibrary\game\scene_node.hpp
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+	<list>
+	<exception>
+
+1221179746 f:\misc old projects\hylian_knights\gamelibrary\visen\color.hpp
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+
+1219961644 f:\misc old projects\hylian_knights\gamelibrary\game\group_node.hpp
+	"scene_node.hpp"
+	"../types/smart_ptr.hpp"
+
+1330392452 f:\misc old projects\hylian_knights\gamelibrary\game\sprite.hpp
+	"transformation_node.hpp"
+	"../types/smart_ptr.hpp"
+	"../visen/texture_base.hpp"
+	"../visen/texture.hpp"
+	"../visen/animated_texture.hpp"
+	<exception>
+
+1221351278 f:\misc old projects\hylian_knights\gamelibrary\game\transformation_node.hpp
+	"scene_node.hpp"
+	"../types/smart_ptr.hpp"
+	"../visen/visual_transformer.hpp"
+
+1221353558 f:\misc old projects\hylian_knights\gamelibrary\visen\visual_transformer.hpp
+	"../types/push_pop.hpp"
+
+1221353699 f:\misc old projects\hylian_knights\gamelibrary\types\push_pop.hpp
+
+1221345898 f:\misc old projects\hylian_knights\gamelibrary\visen\texture_base.hpp
+	"../time/frame_ticker.hpp"
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+
+1218154876 f:\misc old projects\hylian_knights\gamelibrary\time\frame_ticker.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+	<exception>
+	<stdexcept>
+
+1218154963 f:\misc old projects\hylian_knights\gamelibrary\time\time_reporter.hpp
+	"../types/smart_ptr.hpp"
+
+1221349266 f:\misc old projects\hylian_knights\gamelibrary\visen\texture.hpp
+	"screen.hpp"
+	"image.hpp"
+	"color.hpp"
+	"texture_base.hpp"
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<string>
+	<memory>
+	<exception>
+
+1221402844 f:\misc old projects\hylian_knights\gamelibrary\visen\screen.hpp
+	"color.hpp"
+	"../auden/audio_connector.hpp"
+	"../events/event_connector.hpp"
+	"../input/input_connector.hpp"
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+	<exception>
+	<memory>
+	<string>
+
+1219104310 f:\misc old projects\hylian_knights\gamelibrary\visen\image.hpp
+	"screen.hpp"
+	"color.hpp"
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<string>
+	<memory>
+	<exception>
+
+1221350302 f:\misc old projects\hylian_knights\gamelibrary\visen\animated_texture.hpp
+	"texture.hpp"
+	"texture_base.hpp"
+	"../time/frame_ticker.hpp"
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+
+1221353989 f:\misc old projects\hylian_knights\gamelibrary\game\translation_node.hpp
+	"scene_node.hpp"
+	"../visen/visual_translator.hpp"
+	"../types/smart_ptr.hpp"
+
+1221353557 f:\misc old projects\hylian_knights\gamelibrary\visen\visual_translator.hpp
+	"../types/push_pop.hpp"
+
+1219967157 f:\misc old projects\hylian_knights\gamelibrary\game\display_list_node.hpp
+	"scene_node.hpp"
+	"../types/smart_ptr.hpp"
+	"../visen/display_list.hpp"
+	<exception>
+
+1219965203 f:\misc old projects\hylian_knights\gamelibrary\visen\display_list.hpp
+	"../types/manager.hpp"
+	<exception>
+
+1221352484 f:\misc old projects\hylian_knights\gamelibrary\game\rotation_node.hpp
+	"scene_node.hpp"
+	"../visen/visual_rotater.hpp"
+	"../types/smart_ptr.hpp"
+
+1221353560 f:\misc old projects\hylian_knights\gamelibrary\visen\visual_rotater.hpp
+	"../types/push_pop.hpp"
+
+1221352120 f:\misc old projects\hylian_knights\gamelibrary\game\scale_node.hpp
+	"scene_node.hpp"
+	"../visen/visual_scaler.hpp"
+	"../types/smart_ptr.hpp"
+
+1221353559 f:\misc old projects\hylian_knights\gamelibrary\visen\visual_scaler.hpp
+	"../types/push_pop.hpp"
+
+1221400136 f:\misc old projects\hylian_knights\gamelibrary\game\texture_node.hpp
+	"scene_node.hpp"
+	"../types/smart_ptr.hpp"
+	"../visen/texture_base.hpp"
+	"../time/frame_ticker.hpp"
+	"../visen/texture.hpp"
+	<exception>
+
+1221400753 f:\misc old projects\hylian_knights\gamelibrary\game\moveable_texture_node.hpp
+	"translation_node.hpp"
+	"../types/smart_ptr.hpp"
+	"../visen/texture_base.hpp"
+	"../time/frame_ticker.hpp"
+	"../visen/texture.hpp"
+	<exception>
+
+1220824128 f:\misc old projects\hylian_knights\gamelibrary\input\input.hpp
+	"auto_gamepad.hpp"
+	"gamepad_ports.hpp"
+	"input_connector.hpp"
+	"key_codes.hpp"
+	"auto_keyboard.hpp"
+	"keyboard.hpp"
+	"gamepad.hpp"
+	"mouse.hpp"
+
+1220822993 f:\misc old projects\hylian_knights\gamelibrary\input\auto_gamepad.hpp
+	"gamepad_ports.hpp"
+	"gamepad_data.hpp"
+	"../types/smart_ptr.hpp"
+	<string>
+	<memory>
+	<exception>
+	<stdexcept>
+
+1220824384 f:\misc old projects\hylian_knights\gamelibrary\input\auto_keyboard.hpp
+	"key_codes.hpp"
+	"input_connector.hpp"
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+	<vector>
+
+1220649807 f:\misc old projects\hylian_knights\gamelibrary\maths\maths.hpp
+	"power_of_2.hpp"
+	"random.hpp"
+
+1218153906 f:\misc old projects\hylian_knights\gamelibrary\maths\power_of_2.hpp
+
+1220657797 f:\misc old projects\hylian_knights\gamelibrary\maths\random.hpp
+
+1218154945 f:\misc old projects\hylian_knights\gamelibrary\time\time.hpp
+	"cap.hpp"
+	"delta_time.hpp"
+	"fps.hpp"
+	"frame_ticker.hpp"
+	"millisecond_reporter.hpp"
+	"time_method.hpp"
+	"time_reporter.hpp"
+
+1218155392 f:\misc old projects\hylian_knights\gamelibrary\time\cap.hpp
+	"../types/smart_ptr.hpp"
+
+1218154861 f:\misc old projects\hylian_knights\gamelibrary\time\delta_time.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+
+1218154867 f:\misc old projects\hylian_knights\gamelibrary\time\fps.hpp
+	"../types/smart_ptr.hpp"
+
+1218154883 f:\misc old projects\hylian_knights\gamelibrary\time\millisecond_reporter.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+
+1216429265 f:\misc old projects\hylian_knights\gamelibrary\time\time_method.hpp
+
+1221353224 f:\misc old projects\hylian_knights\gamelibrary\types\types.hpp
+	"byte.hpp"
+	"manager.hpp"
+	"mutable_closer.hpp"
+	"smart_ptr.hpp"
+	"word_filter.hpp"
+	"push_pop.hpp"
+	"push_popper.hpp"
+
+1218153801 f:\misc old projects\hylian_knights\gamelibrary\types\mutable_closer.hpp
+
+1220797324 f:\misc old projects\hylian_knights\gamelibrary\types\word_filter.hpp
+	<string>
+	<map>
+
+1221353730 f:\misc old projects\hylian_knights\gamelibrary\types\push_popper.hpp
+	"push_pop.hpp"
+
+1229879021 f:\misc old projects\hylian_knights\gamelibrary\visen\visen.hpp
+	"color.hpp"
+	"error_trap.hpp"
+	"image.hpp"
+	"screen.hpp"
+	"texture.hpp"
+	"display_list.hpp"
+	"display_absorber.hpp"
+	"animated_texture.hpp"
+	"visual_transformer.hpp"
+	"visual_translator.hpp"
+	"visual_rotater.hpp"
+	"visual_scaler.hpp"
+	"texture_base.hpp"
+
+1218155035 f:\misc old projects\hylian_knights\gamelibrary\visen\error_trap.hpp
+	"../types/smart_ptr.hpp"
+	<string>
+	<memory>
+	<exception>
+	<map>
+
+1219967194 f:\misc old projects\hylian_knights\gamelibrary\visen\display_absorber.hpp
+	"display_list.hpp"
+	<exception>
+
+1219958133 f:\misc old projects\hylian_knights\gamelibrary\test\test.hpp
+	"diagnostic.hpp"
+
+1219957575 f:\misc old projects\hylian_knights\gamelibrary\test\diagnostic.hpp
+	<boost/algorithm/string/replace.hpp>
+	<string>
+	<iostream>
+	<stack>
+
+1330130948 f:\misc old projects\hylian_knights\gamelibrary\events\window_restored_event.hpp
+	"empty_event.hpp"
+
+1330130959 f:\misc old projects\hylian_knights\gamelibrary\events\window_minimised_event.hpp
+	"empty_event.hpp"
+
+1330391005 f:\misc old projects\hylian_knights\gamelibrary\engine\gameengine.hpp
+	"../auden/auden.hpp"
+	"../events/events.hpp"
+	"../game/game.hpp"
+	"../input/input.hpp"
+	"../maths/maths.hpp"
+	"../time/time.hpp"
+	"../types/types.hpp"
+	"../visen/visen.hpp"
+	"../test/test.hpp"
+	<string>
+	<exception>
+
+1330134637 source:f:\misc old projects\hylian_knights\gamelibrary\driver\imperative_driver.cpp
+	"../auden/auden.hpp"
+	"../events/events.hpp"
+	"../game/game.hpp"
+	"../input/input.hpp"
+	"../maths/maths.hpp"
+	"../time/time.hpp"
+	"../types/types.hpp"
+	"../visen/visen.hpp"
+	"../test/test.hpp"
+	<exception>
+	<iostream>
+
+1330460798 source:f:\programming\libraries\aab\driver\driver.cpp
+	"../engine/gameengine.hpp"
+	<exception>
+	<iostream>
+
+1333720284 f:\programming\libraries\aab\engine\gameengine.hpp
+	"../auden/auden.hpp"
+	"../events/events.hpp"
+	"../game/game.hpp"
+	"../input/input.hpp"
+	"../maths/maths.hpp"
+	"../time/time.hpp"
+	"../types/types.hpp"
+	"../visen/visen.hpp"
+	"../test/test.hpp"
+	<string>
+	<exception>
+
+1218154769 f:\programming\libraries\aab\auden\auden.hpp
+	"audio_connector.hpp"
+	"mixer.hpp"
+	"mixer_factory.hpp"
+	"music.hpp"
+	"sound.hpp"
+
+1219102347 f:\programming\libraries\aab\auden\audio_connector.hpp
+	"../types/smart_ptr.hpp"
+
+1333401191 f:\programming\libraries\aab\types\smart_ptr.hpp
+	<boost/smart_ptr.hpp>
+	<boost/pointer_cast.hpp>
+
+1219102365 f:\programming\libraries\aab\auden\mixer.hpp
+	"mixer_factory.hpp"
+	"audio_connector.hpp"
+	"../types/smart_ptr.hpp"
+	<exception>
+
+1218154801 f:\programming\libraries\aab\auden\mixer_factory.hpp
+	"../types/smart_ptr.hpp"
+
+1330131376 f:\programming\libraries\aab\auden\music.hpp
+	"audio_connector.hpp"
+	"mixer.hpp"
+	"../types/smart_ptr.hpp"
+	<string>
+	<memory>
+	<exception>
+
+1218154823 f:\programming\libraries\aab\auden\sound.hpp
+	"mixer.hpp"
+	"audio_connector.hpp"
+	"../types/smart_ptr.hpp"
+	<string>
+	<memory>
+	<exception>
+
+1331248273 f:\programming\libraries\aab\events\events.hpp
+	"dispatcher.hpp"
+	"event.hpp"
+	"event_connector.hpp"
+	"event_handler.hpp"
+	"event_handler_template.hpp"
+	"event_handlers.hpp"
+	"event_queue.hpp"
+	"event_type.hpp"
+	"internal_event.hpp"
+	"mouse_move_event.hpp"
+	"mouse_handler.hpp"
+	"mouse_auto_handler.hpp"
+	"quit_event.hpp"
+	"close_handler.hpp"
+	"keyboard_handler.hpp"
+	"keyboard_auto_handler.hpp"
+	"gamepads_handler.hpp"
+	"gamepad_port_handler.hpp"
+	"gamepads_auto_handler.hpp"
+	"keyboard_focus_monitor.hpp"
+	"notified_event_handler.hpp"
+
+1218732542 f:\programming\libraries\aab\events\dispatcher.hpp
+	"event.hpp"
+	"event_type.hpp"
+	"internal_event.hpp"
+	"event_handler.hpp"
+	"multi_event_handler.hpp"
+	"imports.hpp"
+	<map>
+	<list>
+
+1219077823 f:\programming\libraries\aab\events\event.hpp
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218154580 f:\programming\libraries\aab\events\internal_event.hpp
+	"event_type.hpp"
+	"imports.hpp"
+	<memory>
+
+1330130787 f:\programming\libraries\aab\events\event_type.hpp
+
+1218154514 f:\programming\libraries\aab\events\imports.hpp
+	"../types/byte.hpp"
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+
+1218153762 f:\programming\libraries\aab\types\byte.hpp
+
+1220808618 f:\programming\libraries\aab\types\manager.hpp
+	"smart_ptr.hpp"
+
+1218568865 f:\programming\libraries\aab\events\event_handler.hpp
+	"event_type.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218573170 f:\programming\libraries\aab\events\multi_event_handler.hpp
+	"event_type.hpp"
+	"event_handler.hpp"
+	"imports.hpp"
+	<list>
+	<map>
+
+1219102845 f:\programming\libraries\aab\events\event_connector.hpp
+	"imports.hpp"
+
+1218125070 f:\programming\libraries\aab\events\event_handler_template.hpp
+	"event_handler.hpp"
+
+1330130981 f:\programming\libraries\aab\events\event_handlers.hpp
+	"event_handler_template.hpp"
+	"mouse_move_event.hpp"
+	"mouse_button_down_event.hpp"
+	"mouse_button_up_event.hpp"
+	"quit_event.hpp"
+	"key_up_event.hpp"
+	"key_down_event.hpp"
+	"window_restored_event.hpp"
+	"window_minimised_event.hpp"
+	"mouse_focus_gained_event.hpp"
+	"mouse_focus_lost_event.hpp"
+	"keyboard_focus_gained_event.hpp"
+	"keyboard_focus_lost_event.hpp"
+	"gamepad_axis_event.hpp"
+	"gamepad_ball_event.hpp"
+	"gamepad_hat_event.hpp"
+	"gamepad_button_up_event.hpp"
+	"gamepad_button_down_event.hpp"
+	"video_resize_event.hpp"
+
+1230066735 f:\programming\libraries\aab\events\mouse_move_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../input/mouse_data.hpp"
+	"../types/smart_ptr.hpp"
+
+1220808605 f:\programming\libraries\aab\input\mouse_data.hpp
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+
+1230066730 f:\programming\libraries\aab\events\mouse_button_down_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../types/smart_ptr.hpp"
+
+1230066733 f:\programming\libraries\aab\events\mouse_button_up_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../types/smart_ptr.hpp"
+
+1218738261 f:\programming\libraries\aab\events\quit_event.hpp
+	"empty_event.hpp"
+
+1218733854 f:\programming\libraries\aab\events\empty_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218642015 f:\programming\libraries\aab\events\key_up_event.hpp
+	"key_event.hpp"
+
+1218986344 f:\programming\libraries\aab\events\key_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../input/key_codes.hpp"
+
+1216308888 f:\programming\libraries\aab\input\key_codes.hpp
+	<SDL_keysym.h>
+	<string>
+
+1218642549 f:\programming\libraries\aab\events\key_down_event.hpp
+	"key_event.hpp"
+
+1330130948 f:\programming\libraries\aab\events\window_restored_event.hpp
+	"empty_event.hpp"
+
+1330130959 f:\programming\libraries\aab\events\window_minimised_event.hpp
+	"empty_event.hpp"
+
+1218737740 f:\programming\libraries\aab\events\mouse_focus_gained_event.hpp
+	"empty_event.hpp"
+
+1218737711 f:\programming\libraries\aab\events\mouse_focus_lost_event.hpp
+	"empty_event.hpp"
+
+1218738115 f:\programming\libraries\aab\events\keyboard_focus_gained_event.hpp
+	"empty_event.hpp"
+
+1218737902 f:\programming\libraries\aab\events\keyboard_focus_lost_event.hpp
+	"empty_event.hpp"
+
+1218754226 f:\programming\libraries\aab\events\gamepad_axis_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218831516 f:\programming\libraries\aab\events\gamepad_ball_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1219025106 f:\programming\libraries\aab\events\gamepad_hat_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../input/hat_position.hpp"
+
+1219025158 f:\programming\libraries\aab\input\hat_position.hpp
+	"../types/smart_ptr.hpp"
+
+1218832814 f:\programming\libraries\aab\events\gamepad_button_up_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218832941 f:\programming\libraries\aab\events\gamepad_button_down_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218833672 f:\programming\libraries\aab\events\video_resize_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1219154440 f:\programming\libraries\aab\events\event_queue.hpp
+	"event_type.hpp"
+	"internal_event.hpp"
+	"event.hpp"
+	"event_handler.hpp"
+	"event_connector.hpp"
+	"dispatcher.hpp"
+	"imports.hpp"
+	<list>
+
+1230066537 f:\programming\libraries\aab\events\mouse_handler.hpp
+	"imports.hpp"
+	"multi_event_handler.hpp"
+
+1230066526 f:\programming\libraries\aab\events\mouse_auto_handler.hpp
+	"imports.hpp"
+	"mouse_handler.hpp"
+	"../input/mouse.hpp"
+
+1220807670 f:\programming\libraries\aab\input\mouse.hpp
+	"input_connector.hpp"
+	"mouse_data.hpp"
+	<vector>
+
+1219102249 f:\programming\libraries\aab\input\input_connector.hpp
+	"../types/smart_ptr.hpp"
+
+1220647458 f:\programming\libraries\aab\events\close_handler.hpp
+	"imports.hpp"
+	"event_handlers.hpp"
+
+1219077514 f:\programming\libraries\aab\events\keyboard_handler.hpp
+	"imports.hpp"
+	"multi_event_handler.hpp"
+	"key_event.hpp"
+	<string>
+
+1220822893 f:\programming\libraries\aab\events\keyboard_auto_handler.hpp
+	"imports.hpp"
+	"keyboard_handler.hpp"
+	"../input/keyboard.hpp"
+
+1220822852 f:\programming\libraries\aab\input\keyboard.hpp
+	"key_codes.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<map>
+	<list>
+
+1219091432 f:\programming\libraries\aab\events\gamepads_handler.hpp
+	"gamepad_handler.hpp"
+	"gamepad_port_handler.hpp"
+	"imports.hpp"
+	<map>
+
+1219091512 f:\programming\libraries\aab\events\gamepad_handler.hpp
+	"../input/hat_position.hpp"
+	"imports.hpp"
+
+1219025186 f:\programming\libraries\aab\events\gamepad_port_handler.hpp
+	"imports.hpp"
+	"multi_event_handler.hpp"
+	"../input/hat_position.hpp"
+
+1220822294 f:\programming\libraries\aab\events\gamepads_auto_handler.hpp
+	"../input/gamepad.hpp"
+	"gamepad_port_handler.hpp"
+	"imports.hpp"
+	<map>
+
+1220823055 f:\programming\libraries\aab\input\gamepad.hpp
+	"hat_position.hpp"
+	"gamepad_data.hpp"
+	"../types/smart_ptr.hpp"
+	<map>
+
+1333720616 f:\programming\libraries\aab\input\gamepad_data.hpp
+	"gamepad_ports.hpp"
+	"../types/smart_ptr.hpp"
+	<string>
+	<memory>
+	<exception>
+	<stdexcept>
+
+1221402901 f:\programming\libraries\aab\input\gamepad_ports.hpp
+	"input_connector.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<vector>
+
+1332365903 f:\programming\libraries\aab\game\game.hpp
+	"color_node.hpp"
+	"group_node.hpp"
+	"scene_node.hpp"
+	"sprite.hpp"
+	"transformation_node.hpp"
+	"translation_node.hpp"
+	"display_list_node.hpp"
+	"rotation_node.hpp"
+	"scale_node.hpp"
+	"texture_node.hpp"
+	"matrix_node.hpp"
+	"moveable_texture_node.hpp"
+	"pose_node.hpp"
+	"viewport.hpp"
+	"sprite_builders.hpp"
+
+1332361938 f:\programming\libraries\aab\game\color_node.hpp
+	"scene_node.hpp"
+	"../visen/color.hpp"
+
+1332360133 f:\programming\libraries\aab\game\scene_node.hpp
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+	<list>
+	<exception>
+
+1333153958 f:\programming\libraries\aab\visen\color.hpp
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+
+1332363106 f:\programming\libraries\aab\game\group_node.hpp
+	"scene_node.hpp"
+
+1332894456 f:\programming\libraries\aab\game\sprite.hpp
+	"transformation_node.hpp"
+	"../types/smart_ptr.hpp"
+	"../visen/texture_base.hpp"
+	"../visen/texture.hpp"
+	"../visen/animated_texture.hpp"
+	"../time/sub_animator.hpp"
+	<exception>
+	<vector>
+
+1332360452 f:\programming\libraries\aab\game\transformation_node.hpp
+	"scene_node.hpp"
+	"../types/smart_ptr.hpp"
+	"../visen/visual_transformer.hpp"
+
+1330739492 f:\programming\libraries\aab\visen\visual_transformer.hpp
+	"../types/push_pop.hpp"
+
+1330732095 f:\programming\libraries\aab\types\push_pop.hpp
+
+1331585083 f:\programming\libraries\aab\visen\texture_base.hpp
+	"../time/frame_ticker.hpp"
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+	"blend_method.hpp"
+
+1330980956 f:\programming\libraries\aab\time\frame_ticker.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+	<exception>
+	<stdexcept>
+
+1218154963 f:\programming\libraries\aab\time\time_reporter.hpp
+	"../types/smart_ptr.hpp"
+
+1333402175 f:\programming\libraries\aab\visen\texture.hpp
+	"screen.hpp"
+	"image.hpp"
+	"color.hpp"
+	"texture_base.hpp"
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<string>
+	<memory>
+	<exception>
+
+1333489731 f:\programming\libraries\aab\visen\screen.hpp
+	"color.hpp"
+	"context_definition.hpp"
+	"../auden/audio_connector.hpp"
+	"../events/event_connector.hpp"
+	"../input/input_connector.hpp"
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+	<exception>
+	<memory>
+	<string>
+
+1219104310 f:\programming\libraries\aab\visen\image.hpp
+	"screen.hpp"
+	"color.hpp"
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<string>
+	<memory>
+	<exception>
+
+1333156390 f:\programming\libraries\aab\visen\animated_texture.hpp
+	"texture.hpp"
+	"texture_base.hpp"
+	"../time/frame_ticker.hpp"
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+
+1332360429 f:\programming\libraries\aab\game\translation_node.hpp
+	"scene_node.hpp"
+	"../visen/visual_translator.hpp"
+	"../types/smart_ptr.hpp"
+
+1330732135 f:\programming\libraries\aab\visen\visual_translator.hpp
+	"../types/push_pop.hpp"
+
+1332361985 f:\programming\libraries\aab\game\display_list_node.hpp
+	"scene_node.hpp"
+	"../visen/display_list.hpp"
+	<exception>
+
+1333636617 f:\programming\libraries\aab\visen\display_list.hpp
+	"../types/manager.hpp"
+	<exception>
+
+1332360706 f:\programming\libraries\aab\game\rotation_node.hpp
+	"scene_node.hpp"
+	"../visen/visual_rotater.hpp"
+	"../types/smart_ptr.hpp"
+
+1330732146 f:\programming\libraries\aab\visen\visual_rotater.hpp
+	"../types/push_pop.hpp"
+
+1332360731 f:\programming\libraries\aab\game\scale_node.hpp
+	"scene_node.hpp"
+	"../visen/visual_scaler.hpp"
+	"../types/smart_ptr.hpp"
+
+1330732140 f:\programming\libraries\aab\visen\visual_scaler.hpp
+	"../types/push_pop.hpp"
+
+1332363112 f:\programming\libraries\aab\game\texture_node.hpp
+	"scene_node.hpp"
+	"../types/smart_ptr.hpp"
+	"../visen/texture_base.hpp"
+	"../time/frame_ticker.hpp"
+	"../visen/texture.hpp"
+	<exception>
+
+1332361776 f:\programming\libraries\aab\game\moveable_texture_node.hpp
+	"translation_node.hpp"
+	"../visen/texture_base.hpp"
+	"../time/frame_ticker.hpp"
+	"../visen/texture.hpp"
+	<exception>
+
+1220824128 f:\programming\libraries\aab\input\input.hpp
+	"auto_gamepad.hpp"
+	"gamepad_ports.hpp"
+	"input_connector.hpp"
+	"key_codes.hpp"
+	"auto_keyboard.hpp"
+	"keyboard.hpp"
+	"gamepad.hpp"
+	"mouse.hpp"
+
+1220822993 f:\programming\libraries\aab\input\auto_gamepad.hpp
+	"gamepad_ports.hpp"
+	"gamepad_data.hpp"
+	"../types/smart_ptr.hpp"
+	<string>
+	<memory>
+	<exception>
+	<stdexcept>
+
+1330994400 f:\programming\libraries\aab\input\auto_keyboard.hpp
+	"key_codes.hpp"
+	"input_connector.hpp"
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+	<vector>
+
+1220649807 f:\programming\libraries\aab\maths\maths.hpp
+	"power_of_2.hpp"
+	"random.hpp"
+
+1218153906 f:\programming\libraries\aab\maths\power_of_2.hpp
+
+1220657797 f:\programming\libraries\aab\maths\random.hpp
+
+1330987042 f:\programming\libraries\aab\time\time.hpp
+	"cap.hpp"
+	"delta_time.hpp"
+	"fps.hpp"
+	"frame_ticker.hpp"
+	"millisecond_reporter.hpp"
+	"time_method.hpp"
+	"time_reporter.hpp"
+	"sub_animator.hpp"
+
+1218155392 f:\programming\libraries\aab\time\cap.hpp
+	"../types/smart_ptr.hpp"
+
+1218154861 f:\programming\libraries\aab\time\delta_time.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+
+1218154867 f:\programming\libraries\aab\time\fps.hpp
+	"../types/smart_ptr.hpp"
+
+1218154883 f:\programming\libraries\aab\time\millisecond_reporter.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+
+1216429265 f:\programming\libraries\aab\time\time_method.hpp
+
+1333717937 f:\programming\libraries\aab\types\types.hpp
+	"byte.hpp"
+	"manager.hpp"
+	"mutable_closer.hpp"
+	"smart_ptr.hpp"
+	"word_filter.hpp"
+	"push_pop.hpp"
+	"push_popper.hpp"
+	"matrix.hpp"
+	"maybe.hpp"
+
+1218153801 f:\programming\libraries\aab\types\mutable_closer.hpp
+
+1220797324 f:\programming\libraries\aab\types\word_filter.hpp
+	<string>
+	<map>
+
+1330732101 f:\programming\libraries\aab\types\push_popper.hpp
+	"push_pop.hpp"
+
+1331855387 f:\programming\libraries\aab\visen\visen.hpp
+	"color.hpp"
+	"error_trap.hpp"
+	"image.hpp"
+	"screen.hpp"
+	"texture.hpp"
+	"display_list.hpp"
+	"display_absorber.hpp"
+	"animated_texture.hpp"
+	"visual_transformer.hpp"
+	"visual_translator.hpp"
+	"matrix_transformer.hpp"
+	"visual_poser.hpp"
+	"visual_poser.hpp"
+	"visual_rotater.hpp"
+	"visual_scaler.hpp"
+	"texture_base.hpp"
+	"render_state.hpp"
+	"blend_method.hpp"
+	"context_definition.hpp"
+
+1218155035 f:\programming\libraries\aab\visen\error_trap.hpp
+	"../types/smart_ptr.hpp"
+	<string>
+	<memory>
+	<exception>
+	<map>
+
+1219967194 f:\programming\libraries\aab\visen\display_absorber.hpp
+	"display_list.hpp"
+	<exception>
+
+1219958133 f:\programming\libraries\aab\test\test.hpp
+	"diagnostic.hpp"
+
+1219957575 f:\programming\libraries\aab\test\diagnostic.hpp
+	<boost/algorithm/string/replace.hpp>
+	<string>
+	<iostream>
+	<stack>
+
+1331248300 f:\programming\libraries\aab\events\keyboard_focus_monitor.hpp
+	"empty_event.hpp"
+
+1331252712 f:\programming\libraries\aab\events\notified_event_handler.hpp
+	"empty_event.hpp"
+	"keyboard_focus_monitor.hpp"
+
+1331585639 f:\programming\libraries\aab\visen\blend_method.hpp
+	"../types/push_pop.hpp"
+
+1333490881 f:\programming\libraries\aab\visen\context_definition.hpp
+	<exception>
+	<stdexcept>
+
+1330988768 f:\programming\libraries\aab\time\sub_animator.hpp
+	"frame_ticker.hpp"
+
+1332360873 f:\programming\libraries\aab\game\matrix_node.hpp
+	"scene_node.hpp"
+	"../visen/matrix_transformer.hpp"
+
+1332277793 f:\programming\libraries\aab\visen\matrix_transformer.hpp
+	"../types/push_pop.hpp"
+	"../types/matrix.hpp"
+
+1332186581 f:\programming\libraries\aab\types\matrix.hpp
+	<algorithm>
+
+1332360844 f:\programming\libraries\aab\game\pose_node.hpp
+	"scene_node.hpp"
+	"../visen/visual_poser.hpp"
+
+1331846580 f:\programming\libraries\aab\visen\visual_poser.hpp
+	"../types/push_pop.hpp"
+
+1333412977 f:\programming\libraries\aab\game\viewport.hpp
+	"transformation_node.hpp"
+	"../visen/screen.hpp"
+
+1332366731 f:\programming\libraries\aab\game\sprite_builders.hpp
+	"sprite.hpp"
+	<string>
+
+1333720815 f:\programming\libraries\aab\types\maybe.hpp
+	<stdexcept>
+
+1332420863 f:\programming\libraries\aab\visen\render_state.hpp
+	"blend_method.hpp"
+
+1446561166 source:h:\programming\libraries\aab\driver\driver.cpp
+	"../engine/gameengine.hpp"
+	"../geometry/vector.hpp"
+	<exception>
+	<iostream>
+
+1446559149 h:\programming\libraries\aab\engine\gameengine.hpp
+	"prototype/gameengine.hh"
+	"../auden/auden.hpp"
+	"../events/events.hpp"
+	"../game/game.hpp"
+	"../input/input.hpp"
+	"../maths/maths.hpp"
+	"../time/time.hpp"
+	"../types/types.hpp"
+	"../visen/visen.hpp"
+	"../test/test.hpp"
+	<string>
+
+1218151169 h:\programming\libraries\aab\auden\auden.hpp
+	"audio_connector.hpp"
+	"mixer.hpp"
+	"mixer_factory.hpp"
+	"music.hpp"
+	"sound.hpp"
+
+1393282840 h:\programming\libraries\aab\auden\audio_connector.hpp
+	"../types/smart_ptr.hpp"
+
+1333397591 h:\programming\libraries\aab\types\smart_ptr.hpp
+	<boost/smart_ptr.hpp>
+	<boost/pointer_cast.hpp>
+
+1393270816 h:\programming\libraries\aab\auden\mixer.hpp
+	"mixer_factory.hpp"
+	"audio_connector.hpp"
+	<exception>
+
+1393270053 h:\programming\libraries\aab\auden\mixer_factory.hpp
+
+1393270834 h:\programming\libraries\aab\auden\music.hpp
+	"audio_connector.hpp"
+	"mixer.hpp"
+	<string>
+	<memory>
+	<exception>
+
+1393270025 h:\programming\libraries\aab\auden\sound.hpp
+	"mixer.hpp"
+	"audio_connector.hpp"
+	<string>
+	<memory>
+	<exception>
+
+1331248273 h:\programming\libraries\aab\events\events.hpp
+	"dispatcher.hpp"
+	"event.hpp"
+	"event_connector.hpp"
+	"event_handler.hpp"
+	"event_handler_template.hpp"
+	"event_handlers.hpp"
+	"event_queue.hpp"
+	"event_type.hpp"
+	"internal_event.hpp"
+	"mouse_move_event.hpp"
+	"mouse_handler.hpp"
+	"mouse_auto_handler.hpp"
+	"quit_event.hpp"
+	"close_handler.hpp"
+	"keyboard_handler.hpp"
+	"keyboard_auto_handler.hpp"
+	"gamepads_handler.hpp"
+	"gamepad_port_handler.hpp"
+	"gamepads_auto_handler.hpp"
+	"keyboard_focus_monitor.hpp"
+	"notified_event_handler.hpp"
+
+1391125571 h:\programming\libraries\aab\events\dispatcher.hpp
+	"event.hpp"
+	"event_type.hpp"
+	"internal_event.hpp"
+	"event_handler.hpp"
+	"multi_event_handler.hpp"
+	"imports.hpp"
+	<map>
+	<list>
+
+1391546659 h:\programming\libraries\aab\events\event.hpp
+	"internal_event.hpp"
+	"imports.hpp"
+	"../input/gamepad_values.hpp"
+
+1218150980 h:\programming\libraries\aab\events\internal_event.hpp
+	"event_type.hpp"
+	"imports.hpp"
+	<memory>
+
+1330130787 h:\programming\libraries\aab\events\event_type.hpp
+
+1375400112 h:\programming\libraries\aab\events\imports.hpp
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+
+1396366762 h:\programming\libraries\aab\types\byte.hpp
+	<cstdint>
+
+1391601574 h:\programming\libraries\aab\types\manager.hpp
+	"smart_ptr.hpp"
+
+1218565265 h:\programming\libraries\aab\events\event_handler.hpp
+	"event_type.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1391639899 h:\programming\libraries\aab\events\multi_event_handler.hpp
+	"event_type.hpp"
+	"event_handler.hpp"
+	"imports.hpp"
+	<list>
+	<map>
+
+1393282869 h:\programming\libraries\aab\events\event_connector.hpp
+	"imports.hpp"
+
+1218121470 h:\programming\libraries\aab\events\event_handler_template.hpp
+	"event_handler.hpp"
+
+1391630382 h:\programming\libraries\aab\events\event_handlers.hpp
+	"event_handler_template.hpp"
+	"mouse_move_event.hpp"
+	"mouse_button_down_event.hpp"
+	"mouse_button_up_event.hpp"
+	"quit_event.hpp"
+	"key_up_event.hpp"
+	"key_down_event.hpp"
+	"window_restored_event.hpp"
+	"window_minimised_event.hpp"
+	"mouse_focus_gained_event.hpp"
+	"mouse_focus_lost_event.hpp"
+	"keyboard_focus_gained_event.hpp"
+	"keyboard_focus_lost_event.hpp"
+	"gamepad_axis_event.hpp"
+	"gamepad_ball_event.hpp"
+	"gamepad_hat_event.hpp"
+	"gamepad_button_up_event.hpp"
+	"gamepad_button_down_event.hpp"
+	"video_resize_event.hpp"
+
+1391630276 h:\programming\libraries\aab\events\mouse_move_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../input/mouse_data.hpp"
+	"../types/smart_ptr.hpp"
+
+1220805005 h:\programming\libraries\aab\input\mouse_data.hpp
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+
+1391630298 h:\programming\libraries\aab\events\mouse_button_down_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../types/smart_ptr.hpp"
+
+1391630370 h:\programming\libraries\aab\events\mouse_button_up_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../types/smart_ptr.hpp"
+
+1218734661 h:\programming\libraries\aab\events\quit_event.hpp
+	"empty_event.hpp"
+
+1218730254 h:\programming\libraries\aab\events\empty_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218638415 h:\programming\libraries\aab\events\key_up_event.hpp
+	"key_event.hpp"
+
+1375400129 h:\programming\libraries\aab\events\key_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../input/key_codes.hpp"
+	"types/byte.hpp"
+
+1390327818 h:\programming\libraries\aab\input\key_codes.hpp
+	<SDL_keysym.h>
+	<string>
+
+1218638949 h:\programming\libraries\aab\events\key_down_event.hpp
+	"key_event.hpp"
+
+1330130948 h:\programming\libraries\aab\events\window_restored_event.hpp
+	"empty_event.hpp"
+
+1330130959 h:\programming\libraries\aab\events\window_minimised_event.hpp
+	"empty_event.hpp"
+
+1218734140 h:\programming\libraries\aab\events\mouse_focus_gained_event.hpp
+	"empty_event.hpp"
+
+1218734111 h:\programming\libraries\aab\events\mouse_focus_lost_event.hpp
+	"empty_event.hpp"
+
+1218734515 h:\programming\libraries\aab\events\keyboard_focus_gained_event.hpp
+	"empty_event.hpp"
+
+1218734302 h:\programming\libraries\aab\events\keyboard_focus_lost_event.hpp
+	"empty_event.hpp"
+
+1391546555 h:\programming\libraries\aab\events\gamepad_axis_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1391546381 h:\programming\libraries\aab\events\gamepad_ball_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1219021506 h:\programming\libraries\aab\events\gamepad_hat_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../input/hat_position.hpp"
+
+1446587947 h:\programming\libraries\aab\input\hat_position.hpp
+	"../types/smart_ptr.hpp"
+	"hat_value.hpp"
+
+1218829214 h:\programming\libraries\aab\events\gamepad_button_up_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218829341 h:\programming\libraries\aab\events\gamepad_button_down_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218830072 h:\programming\libraries\aab\events\video_resize_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1219150840 h:\programming\libraries\aab\events\event_queue.hpp
+	"event_type.hpp"
+	"internal_event.hpp"
+	"event.hpp"
+	"event_handler.hpp"
+	"event_connector.hpp"
+	"dispatcher.hpp"
+	"imports.hpp"
+	<list>
+
+1391629424 h:\programming\libraries\aab\events\mouse_handler.hpp
+	"imports.hpp"
+	"multi_event_handler.hpp"
+
+1230066526 h:\programming\libraries\aab\events\mouse_auto_handler.hpp
+	"imports.hpp"
+	"mouse_handler.hpp"
+	"../input/mouse.hpp"
+
+1220804070 h:\programming\libraries\aab\input\mouse.hpp
+	"input_connector.hpp"
+	"mouse_data.hpp"
+	<vector>
+
+1393282785 h:\programming\libraries\aab\input\input_connector.hpp
+	"../types/smart_ptr.hpp"
+
+1220643858 h:\programming\libraries\aab\events\close_handler.hpp
+	"imports.hpp"
+	"event_handlers.hpp"
+
+1375397588 h:\programming\libraries\aab\events\keyboard_handler.hpp
+	"imports.hpp"
+	"multi_event_handler.hpp"
+	"key_event.hpp"
+	<string>
+
+1391562313 h:\programming\libraries\aab\events\keyboard_auto_handler.hpp
+	"imports.hpp"
+	"keyboard_handler.hpp"
+	"../input/keyboard.hpp"
+
+1391563434 h:\programming\libraries\aab\input\keyboard.hpp
+	"key_codes.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<map>
+	<list>
+
+1391130600 h:\programming\libraries\aab\events\gamepads_handler.hpp
+	"gamepad_handler.hpp"
+	"gamepad_port_handler.hpp"
+	"imports.hpp"
+	<map>
+
+1391547084 h:\programming\libraries\aab\events\gamepad_handler.hpp
+	"../input/hat_position.hpp"
+	"imports.hpp"
+	"../input/gamepad_values.hpp"
+
+1391547043 h:\programming\libraries\aab\events\gamepad_port_handler.hpp
+	"imports.hpp"
+	"multi_event_handler.hpp"
+	"../input/hat_position.hpp"
+	"../input/gamepad_values.hpp"
+
+1391604477 h:\programming\libraries\aab\events\gamepads_auto_handler.hpp
+	"../input/gamepad.hpp"
+	"gamepad_port_handler.hpp"
+	"imports.hpp"
+	<map>
+
+1393272386 h:\programming\libraries\aab\input\gamepad.hpp
+	"hat_position.hpp"
+	"gamepad_data.hpp"
+	"../types/smart_ptr.hpp"
+	<map>
+
+1391546976 h:\programming\libraries\aab\input\gamepad_data.hpp
+	"gamepad_values.hpp"
+	"gamepad_ports.hpp"
+	"../types/smart_ptr.hpp"
+	<string>
+	<memory>
+	<exception>
+	<stdexcept>
+
+1393272075 h:\programming\libraries\aab\input\gamepad_ports.hpp
+	"input_connector.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<stdexcept>
+	<string>
+	<sstream>
+	<vector>
+	<list>
+
+1331248300 h:\programming\libraries\aab\events\keyboard_focus_monitor.hpp
+	"empty_event.hpp"
+
+1331252712 h:\programming\libraries\aab\events\notified_event_handler.hpp
+	"empty_event.hpp"
+	"keyboard_focus_monitor.hpp"
+
+1376911885 h:\programming\libraries\aab\game\game.hpp
+	"color_node.hpp"
+	"group_node.hpp"
+	"scene_node.hpp"
+	"sprite.hpp"
+	"transformation_node.hpp"
+	"translation_node.hpp"
+	"display_list_node.hpp"
+	"rotation_node.hpp"
+	"scale_node.hpp"
+	"texture_node.hpp"
+	"matrix_node.hpp"
+	"moveable_texture_node.hpp"
+	"pose_node.hpp"
+	"viewport.hpp"
+	"sprite_builders.hpp"
+	"sprite_batch.hpp"
+
+1393280330 h:\programming\libraries\aab\game\color_node.hpp
+	"scene_node.hpp"
+	"../visen/color.hpp"
+
+1393283203 h:\programming\libraries\aab\game\scene_node.hpp
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+	<list>
+
+1428534163 h:\programming\libraries\aab\visen\color.hpp
+	"../types/byte.hpp"
+
+1393280457 h:\programming\libraries\aab\game\group_node.hpp
+	"scene_node.hpp"
+
+1393281198 h:\programming\libraries\aab\game\sprite.hpp
+	"prototype/sprite.hh"
+	"transformation_node.hpp"
+	"../types/smart_ptr.hpp"
+	"../visen/texture_base.hpp"
+	"../visen/texture.hpp"
+	"../visen/animated_texture.hpp"
+	"../visen/Color.hpp"
+
+1393282169 h:\programming\libraries\aab\game\transformation_node.hpp
+	"scene_node.hpp"
+	"../types/smart_ptr.hpp"
+	"../visen/visual_transformer.hpp"
+
+1393280215 h:\programming\libraries\aab\visen\visual_transformer.hpp
+	"../types/push_pop.hpp"
+
+1330732095 h:\programming\libraries\aab\types\push_pop.hpp
+
+1428102254 h:\programming\libraries\aab\visen\texture_base.hpp
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+	"blend_method.hpp"
+	<algorithm>
+
+1399292552 h:\programming\libraries\aab\time\frame_ticker.hpp
+	"ticker.hpp"
+
+1393275158 h:\programming\libraries\aab\time\time_reporter.hpp
+	"../types/smart_ptr.hpp"
+
+1428103062 h:\programming\libraries\aab\visen\blend_method.hpp
+	"../types/push_pop.hpp"
+	"color.hpp"
+
+1428590793 h:\programming\libraries\aab\visen\texture.hpp
+	"screen.hpp"
+	"image.hpp"
+	"color.hpp"
+	"texture_base.hpp"
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<string>
+	<memory>
+
+1428102326 h:\programming\libraries\aab\visen\screen.hpp
+	"color.hpp"
+	"context_definition.hpp"
+	"../auden/audio_connector.hpp"
+	"../events/event_connector.hpp"
+	"../input/input_connector.hpp"
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+	"prototype/screen.hh"
+	<memory>
+	<string>
+
+1428442064 h:\programming\libraries\aab\visen\context_definition.hpp
+	<string>
+
+1429039022 h:\programming\libraries\aab\visen\image.hpp
+	"screen.hpp"
+	"color.hpp"
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<string>
+	<memory>
+	<cstdint>
+
+1428101175 h:\programming\libraries\aab\visen\animated_texture.hpp
+	"framed_texture.hpp"
+
+1393273986 h:\programming\libraries\aab\time\sub_animator.hpp
+	"frame_ticker.hpp"
+
+1393282186 h:\programming\libraries\aab\game\translation_node.hpp
+	"scene_node.hpp"
+	"../visen/visual_translator.hpp"
+
+1393280229 h:\programming\libraries\aab\visen\visual_translator.hpp
+	"../types/push_pop.hpp"
+
+1393280402 h:\programming\libraries\aab\game\display_list_node.hpp
+	"scene_node.hpp"
+	"../visen/display_list.hpp"
+
+1393278839 h:\programming\libraries\aab\visen\display_list.hpp
+	"../types/manager.hpp"
+
+1393281049 h:\programming\libraries\aab\game\rotation_node.hpp
+	"scene_node.hpp"
+	"../visen/visual_rotater.hpp"
+
+1393280177 h:\programming\libraries\aab\visen\visual_rotater.hpp
+	"../types/push_pop.hpp"
+
+1393281060 h:\programming\libraries\aab\game\scale_node.hpp
+	"scene_node.hpp"
+	"../visen/visual_scaler.hpp"
+
+1393280188 h:\programming\libraries\aab\visen\visual_scaler.hpp
+	"../types/push_pop.hpp"
+
+1393282158 h:\programming\libraries\aab\game\texture_node.hpp
+	"scene_node.hpp"
+	"../types/smart_ptr.hpp"
+	"../visen/texture_base.hpp"
+	"../visen/texture.hpp"
+
+1393280474 h:\programming\libraries\aab\game\matrix_node.hpp
+	"scene_node.hpp"
+	"../visen/matrix_transformer.hpp"
+
+1393279107 h:\programming\libraries\aab\visen\matrix_transformer.hpp
+	"../types/push_pop.hpp"
+	"../types/matrix.hpp"
+
+1390327895 h:\programming\libraries\aab\types\matrix.hpp
+	<cmath>
+	<algorithm>
+
+1393281009 h:\programming\libraries\aab\game\moveable_texture_node.hpp
+	"translation_node.hpp"
+	"../visen/texture_base.hpp"
+	"../visen/texture.hpp"
+	<exception>
+
+1393281024 h:\programming\libraries\aab\game\pose_node.hpp
+	"scene_node.hpp"
+	"../visen/visual_poser.hpp"
+
+1393280081 h:\programming\libraries\aab\visen\visual_poser.hpp
+	"../types/push_pop.hpp"
+
+1393282368 h:\programming\libraries\aab\game\viewport.hpp
+	"prototype/viewport.hh"
+	"transformation_node.hpp"
+	"../visen/screen.hpp"
+
+1393281989 h:\programming\libraries\aab\game\sprite_builders.hpp
+	"sprite.hpp"
+	<string>
+
+1391557510 h:\programming\libraries\aab\input\input.hpp
+	"auto_gamepad.hpp"
+	"gamepad_ports.hpp"
+	"input_connector.hpp"
+	"key_codes.hpp"
+	"auto_keyboard.hpp"
+	"keyboard.hpp"
+	"gamepad.hpp"
+	"mouse.hpp"
+	"input_controller.hpp"
+
+1391546924 h:\programming\libraries\aab\input\auto_gamepad.hpp
+	"gamepad_ports.hpp"
+	"gamepad_data.hpp"
+	"gamepad_values.hpp"
+	"../types/smart_ptr.hpp"
+	<string>
+	<memory>
+	<exception>
+	<stdexcept>
+
+1391536969 h:\programming\libraries\aab\input\auto_keyboard.hpp
+	"key_codes.hpp"
+	"input_connector.hpp"
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+	<vector>
+
+1334929763 h:\programming\libraries\aab\maths\maths.hpp
+	"power_of_2.hpp"
+	"random.hpp"
+	"constants.hpp"
+
+1218150306 h:\programming\libraries\aab\maths\power_of_2.hpp
+
+1383055611 h:\programming\libraries\aab\maths\random.hpp
+
+1378474058 h:\programming\libraries\aab\maths\constants.hpp
+
+1399292516 h:\programming\libraries\aab\time\time.hpp
+	"cap.hpp"
+	"delta_time.hpp"
+	"fps.hpp"
+	"frame_ticker.hpp"
+	"object_ticker.hpp"
+	"manual_ticker.hpp"
+	"millisecond_reporter.hpp"
+	"time_method.hpp"
+	"time_reporter.hpp"
+	"sub_animator.hpp"
+	"callback_ticker.hpp"
+	"bounded_counter.hpp"
+	"mapped_counter.hpp"
+	"group_counter_ticker.hpp"
+	"gradient_timer.hpp"
+
+1393272894 h:\programming\libraries\aab\time\cap.hpp
+	"../types/smart_ptr.hpp"
+
+1393273081 h:\programming\libraries\aab\time\delta_time.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+
+1399925439 h:\programming\libraries\aab\time\fps.hpp
+	"../types/smart_ptr.hpp"
+
+1393273256 h:\programming\libraries\aab\time\millisecond_reporter.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+
+1216425665 h:\programming\libraries\aab\time\time_method.hpp
+
+1396367240 h:\programming\libraries\aab\types\types.hpp
+	"byte.hpp"
+	"float.hpp"
+	"manager.hpp"
+	"mutable_closer.hpp"
+	"smart_ptr.hpp"
+	"word_filter.hpp"
+	"push_pop.hpp"
+	"push_popper.hpp"
+	"matrix.hpp"
+	"maybe.hpp"
+	"ios_output.hpp"
+	"builder.hpp"
+	"const.hpp"
+
+1377538979 h:\programming\libraries\aab\types\mutable_closer.hpp
+
+1378137125 h:\programming\libraries\aab\types\word_filter.hpp
+	<string>
+	<map>
+
+1330732101 h:\programming\libraries\aab\types\push_popper.hpp
+	"push_pop.hpp"
+
+1393272575 h:\programming\libraries\aab\types\maybe.hpp
+	<test/debug_assertions.hpp>
+
+1334925654 h:\programming\libraries\aab\types\ios_output.hpp
+	"matrix.hpp"
+	<iostream>
+
+1428434744 h:\programming\libraries\aab\visen\visen.hpp
+	"color.hpp"
+	"error_trap.hpp"
+	"image.hpp"
+	"screen.hpp"
+	"texture.hpp"
+	"display_list.hpp"
+	"display_absorber.hpp"
+	"animated_texture.hpp"
+	"visual_transformer.hpp"
+	"visual_translator.hpp"
+	"matrix_transformer.hpp"
+	"visual_poser.hpp"
+	"visual_poser.hpp"
+	"visual_rotater.hpp"
+	"visual_scaler.hpp"
+	"texture_base.hpp"
+	"render_state.hpp"
+	"blend_method.hpp"
+	"context_definition.hpp"
+	"index_generator.hpp"
+	"vertex_buffer_object.hpp"
+	"texture_atlas.hpp"
+	"primitive_methods.hpp"
+	"primitive_types.hpp"
+	"quad.hpp"
+	"blend.hpp"
+	"frame_buffer.hpp"
+	"shader.hpp"
+	"program.hpp"
+
+1393275945 h:\programming\libraries\aab\visen\error_trap.hpp
+	"../types/smart_ptr.hpp"
+	<string>
+
+1393278908 h:\programming\libraries\aab\visen\display_absorber.hpp
+	"display_list.hpp"
+
+1429037250 h:\programming\libraries\aab\visen\render_state.hpp
+	"blend_method.hpp"
+	"color.hpp"
+
+1393269205 h:\programming\libraries\aab\test\test.hpp
+	"diagnostic.hpp"
+	"debug_assertions.hpp"
+	"exceptions.hpp"
+
+1369835338 h:\programming\libraries\aab\test\diagnostic.hpp
+	<boost/algorithm/string/replace.hpp>
+	<string>
+	<iostream>
+	<stack>
+
+1408030435 h:\programming\libraries\aab\time\ticker.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+
+1399293429 h:\programming\libraries\aab\time\object_ticker.hpp
+	"ticker.hpp"
+	<vector>
+
+1401360153 h:\programming\libraries\aab\time\manual_ticker.hpp
+	"ticker.hpp"
+
+1375397104 h:\programming\libraries\aab\types\float.hpp
+
+1415755721 h:\programming\libraries\aab\game\sprite_batch.hpp
+	"transformation_node.hpp"
+	"../types/smart_ptr.hpp"
+	"../visen/texture_base.hpp"
+	"../visen/texture.hpp"
+	"../visen/animated_texture.hpp"
+	"prototype/sprite_batch.hh"
+	"../visen/texture_atlas.hpp"
+	"../visen/quad.hpp"
+	"../visen/vertex_buffer_object.hpp"
+	"../test/debug_assertions.hpp"
+	<vector>
+	<set>
+	<stdexcept>
+
+1422552148 h:\programming\libraries\aab\visen\texture_atlas.hpp
+	"texture_base.hpp"
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+	"framed_texture.hpp"
+	"vertex.hpp"
+	<vector>
+
+1400529918 h:\programming\libraries\aab\visen\vertex.hpp
+	"color.hpp"
+	<geometry/point.hpp>
+
+1422551117 h:\programming\libraries\aab\visen\quad.hpp
+	"vertex.hpp"
+	<utility>
+
+1400520115 h:\programming\libraries\aab\visen\vertex_buffer_object.hpp
+	"prototype/vertex_buffer_object.hh"
+	"vertex.hpp"
+	"index_generator.hpp"
+	<cstdint>
+
+1400536420 h:\programming\libraries\aab\visen\index_generator.hpp
+	<vector>
+	<cstdint>
+
+1377010338 source:h:\programming\libraries\aab\driver\imperative_driver.cpp
+	"../auden/auden.hpp"
+	"../events/events.hpp"
+	"../game/game.hpp"
+	"../input/input.hpp"
+	"../maths/maths.hpp"
+	"../time/time.hpp"
+	"../types/types.hpp"
+	"../visen/visen.hpp"
+	"../test/test.hpp"
+	<exception>
+	<iostream>
+
+1335939496 source:h:\programming\libraries\aab\driver\pugixml.cpp
+	"pugixml.hpp"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<assert.h>
+	<wchar.h>
+	<math.h>
+	<float.h>
+	<setjmp.h>
+	<istream>
+	<ostream>
+	<string>
+	<new>
+	<stdint.h>
+
+1335939550 h:\programming\libraries\aab\driver\pugixml.hpp
+	"pugiconfig.hpp"
+	<stddef.h>
+	<exception>
+	<iterator>
+	<iosfwd>
+	<string>
+
+1335723748 h:\programming\libraries\aab\driver\pugiconfig.hpp
+
+1377205644 source:h:\programming\libraries\aab\driver\texture_atlas_script_writer.cpp
+	"../auden/auden.hpp"
+	"../events/events.hpp"
+	"../game/game.hpp"
+	"../input/input.hpp"
+	"../maths/maths.hpp"
+	"../time/time.hpp"
+	"../types/types.hpp"
+	"../visen/visen.hpp"
+	"../test/test.hpp"
+	"pugixml.hpp"
+	<fstream>
+	<sstream>
+	<boost/filesystem.hpp>
+	<exception>
+	<iostream>
+	<vector>
+	<set>
+	<utility>
+	<sstream>
+
+1377867420 h:\programming\libraries\aab\game\prototype\sprite.hh
+
+1377867976 h:\programming\libraries\aab\game\prototype\viewport.hh
+
+1377867438 h:\programming\libraries\aab\game\prototype\sprite_batch.hh
+
+1377868474 h:\programming\libraries\aab\visen\prototype\vertex_buffer_object.hh
+
+1431108852 source:h:\programming\libraries\aab\driver\batch_pixel_processor.cpp
+	"../auden/auden.hpp"
+	"../events/events.hpp"
+	"../game/game.hpp"
+	"../input/input.hpp"
+	"../maths/maths.hpp"
+	"../time/time.hpp"
+	"../types/types.hpp"
+	"../visen/visen.hpp"
+	"../test/test.hpp"
+	"pugixml.hpp"
+	<fstream>
+	<sstream>
+	<boost/filesystem.hpp>
+	<exception>
+	<iostream>
+	<list>
+	<forward_list>
+	<unordered_set>
+	<utility>
+	<sstream>
+
+1395872895 h:\programming\libraries\aab\test\debug_assertions.hpp
+	<stdexcept>
+
+1417123727 h:\programming\libraries\aab\types\builder.hpp
+	<exception>
+
+1380022710 h:\programming\libraries\aab\visen\blend.hpp
+
+1382559386 h:\programming\libraries\aab\engine\prototype\gameengine.hh
+
+1391546690 h:\programming\libraries\aab\input\gamepad_values.hpp
+	<cstdint>
+
+1446589620 h:\programming\libraries\aab\input\input_controller.hpp
+	"input_codes.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	"../events/multi_event_handler.hpp"
+	"hat_position.hpp"
+	"key_codes.hpp"
+	"gamepad_values.hpp"
+	"gamepad.hpp"
+	<map>
+	<vector>
+	<unordered_map>
+
+1446589592 h:\programming\libraries\aab\input\input_codes.hpp
+	<SDL_keysym.h>
+	<string>
+	"hat_value.hpp"
+
+1378475439 h:\programming\libraries\aab\geometry\vector.hpp
+	"floats.hpp"
+	"../maths/constants.hpp"
+
+1375458104 h:\programming\libraries\aab\geometry\floats.hpp
+	<cmath>
+	<limits>
+
+1398957177 h:\programming\libraries\aab\time\callback_ticker.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+
+1408030475 h:\programming\libraries\aab\time\bounded_counter.hpp
+
+1399161498 h:\programming\libraries\aab\time\mapped_counter.hpp
+	"bounded_counter.hpp"
+	<vector>
+
+1399121036 h:\programming\libraries\aab\time\group_counter_ticker.hpp
+	"callback_ticker.hpp"
+
+1399293149 h:\programming\libraries\aab\time\gradient_timer.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+
+1396367565 h:\programming\libraries\aab\types\const.hpp
+	<cstdint>
+
+1393282521 h:\programming\libraries\aab\test\exceptions.hpp
+	<exception>
+	<stdexcept>
+
+1428101539 h:\programming\libraries\aab\visen\framed_texture.hpp
+	"texture.hpp"
+	"texture_base.hpp"
+	"vertex.hpp"
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+
+1402940226 h:\programming\libraries\aab\visen\primitive_methods.hpp
+	"../geometry/point.hpp"
+	"../types/const.hpp"
+	<vector>
+
+1402936180 h:\programming\libraries\aab\geometry\point.hpp
+	"floats.hpp"
+
+1402939491 h:\programming\libraries\aab\visen\primitive_types.hpp
+	"color.hpp"
+	"../geometry/panel.hpp"
+
+1396985749 h:\programming\libraries\aab\geometry\panel.hpp
+	"../types/maybe.hpp"
+	"point.hpp"
+	<cmath>
+	<algorithm>
+
+1428102348 h:\programming\libraries\aab\visen\prototype\screen.hh
+
+1429057072 h:\programming\libraries\aab\visen\frame_buffer.hpp
+	"screen.hpp"
+	"texture_base.hpp"
+
+1428439403 h:\programming\libraries\aab\visen\shader.hpp
+	<string>
+
+1428440281 h:\programming\libraries\aab\visen\program.hpp
+	"shader.hpp"
+	<string>
+
+1446588473 h:\programming\libraries\aab\input\hat_value.hpp
+
+1335943096 source:h:\programming\to_github\aab\driver\pugixml.cpp
+	"pugixml.hpp"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<assert.h>
+	<wchar.h>
+	<math.h>
+	<float.h>
+	<setjmp.h>
+	<istream>
+	<ostream>
+	<string>
+	<new>
+	<stdint.h>
+
+1335943150 h:\programming\to_github\aab\driver\pugixml.hpp
+	"pugiconfig.hpp"
+	<stddef.h>
+	<exception>
+	<iterator>
+	<iosfwd>
+	<string>
+
+1335727348 h:\programming\to_github\aab\driver\pugiconfig.hpp
+
+1476989406 source:h:\programming\to_github\aab\driver\driver.cpp
+	"../engine/gameengine.hpp"
+	"../geometry/vector.hpp"
+	<exception>
+	<iostream>
+
+1476989527 h:\programming\to_github\aab\engine\gameengine.hpp
+	"prototype/gameengine.hh"
+	"../auden/auden.hpp"
+	"../events/events.hpp"
+	"../game/game.hpp"
+	"../input/input.hpp"
+	"../maths/maths.hpp"
+	"../time/time.hpp"
+	"../types/types.hpp"
+	"../visen/visen.hpp"
+	"../test/test.hpp"
+	<string>
+
+1382562986 h:\programming\to_github\aab\engine\prototype\gameengine.hh
+
+1218154769 h:\programming\to_github\aab\auden\auden.hpp
+	"audio_connector.hpp"
+	"mixer.hpp"
+	"mixer_factory.hpp"
+	"music.hpp"
+	"sound.hpp"
+
+1393286440 h:\programming\to_github\aab\auden\audio_connector.hpp
+	"../types/smart_ptr.hpp"
+
+1333401191 h:\programming\to_github\aab\types\smart_ptr.hpp
+	<boost/smart_ptr.hpp>
+	<boost/pointer_cast.hpp>
+
+1393274416 h:\programming\to_github\aab\auden\mixer.hpp
+	"mixer_factory.hpp"
+	"audio_connector.hpp"
+	<exception>
+
+1393273653 h:\programming\to_github\aab\auden\mixer_factory.hpp
+
+1393274434 h:\programming\to_github\aab\auden\music.hpp
+	"audio_connector.hpp"
+	"mixer.hpp"
+	<string>
+	<memory>
+	<exception>
+
+1393273625 h:\programming\to_github\aab\auden\sound.hpp
+	"mixer.hpp"
+	"audio_connector.hpp"
+	<string>
+	<memory>
+	<exception>
+
+1331251873 h:\programming\to_github\aab\events\events.hpp
+	"dispatcher.hpp"
+	"event.hpp"
+	"event_connector.hpp"
+	"event_handler.hpp"
+	"event_handler_template.hpp"
+	"event_handlers.hpp"
+	"event_queue.hpp"
+	"event_type.hpp"
+	"internal_event.hpp"
+	"mouse_move_event.hpp"
+	"mouse_handler.hpp"
+	"mouse_auto_handler.hpp"
+	"quit_event.hpp"
+	"close_handler.hpp"
+	"keyboard_handler.hpp"
+	"keyboard_auto_handler.hpp"
+	"gamepads_handler.hpp"
+	"gamepad_port_handler.hpp"
+	"gamepads_auto_handler.hpp"
+	"keyboard_focus_monitor.hpp"
+	"notified_event_handler.hpp"
+
+1391129171 h:\programming\to_github\aab\events\dispatcher.hpp
+	"event.hpp"
+	"event_type.hpp"
+	"internal_event.hpp"
+	"event_handler.hpp"
+	"multi_event_handler.hpp"
+	"imports.hpp"
+	<map>
+	<list>
+
+1391550259 h:\programming\to_github\aab\events\event.hpp
+	"internal_event.hpp"
+	"imports.hpp"
+	"../input/gamepad_values.hpp"
+
+1218154580 h:\programming\to_github\aab\events\internal_event.hpp
+	"event_type.hpp"
+	"imports.hpp"
+	<memory>
+
+1330134387 h:\programming\to_github\aab\events\event_type.hpp
+
+1375403712 h:\programming\to_github\aab\events\imports.hpp
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+
+1391605174 h:\programming\to_github\aab\types\manager.hpp
+	"smart_ptr.hpp"
+
+1391550290 h:\programming\to_github\aab\input\gamepad_values.hpp
+	<cstdint>
+
+1218568865 h:\programming\to_github\aab\events\event_handler.hpp
+	"event_type.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1476989433 h:\programming\to_github\aab\events\multi_event_handler.hpp
+	"event_type.hpp"
+	"event_handler.hpp"
+	"imports.hpp"
+	<list>
+	<map>
+
+1393286469 h:\programming\to_github\aab\events\event_connector.hpp
+	"imports.hpp"
+
+1218125070 h:\programming\to_github\aab\events\event_handler_template.hpp
+	"event_handler.hpp"
+
+1391633982 h:\programming\to_github\aab\events\event_handlers.hpp
+	"event_handler_template.hpp"
+	"mouse_move_event.hpp"
+	"mouse_button_down_event.hpp"
+	"mouse_button_up_event.hpp"
+	"quit_event.hpp"
+	"key_up_event.hpp"
+	"key_down_event.hpp"
+	"window_restored_event.hpp"
+	"window_minimised_event.hpp"
+	"mouse_focus_gained_event.hpp"
+	"mouse_focus_lost_event.hpp"
+	"keyboard_focus_gained_event.hpp"
+	"keyboard_focus_lost_event.hpp"
+	"gamepad_axis_event.hpp"
+	"gamepad_ball_event.hpp"
+	"gamepad_hat_event.hpp"
+	"gamepad_button_up_event.hpp"
+	"gamepad_button_down_event.hpp"
+	"video_resize_event.hpp"
+
+1391633876 h:\programming\to_github\aab\events\mouse_move_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../input/mouse_data.hpp"
+	"../types/smart_ptr.hpp"
+
+1220808605 h:\programming\to_github\aab\input\mouse_data.hpp
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+
+1391633898 h:\programming\to_github\aab\events\mouse_button_down_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../types/smart_ptr.hpp"
+
+1391633970 h:\programming\to_github\aab\events\mouse_button_up_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../types/smart_ptr.hpp"
+
+1218738261 h:\programming\to_github\aab\events\quit_event.hpp
+	"empty_event.hpp"
+
+1218733854 h:\programming\to_github\aab\events\empty_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218642015 h:\programming\to_github\aab\events\key_up_event.hpp
+	"key_event.hpp"
+
+1375403729 h:\programming\to_github\aab\events\key_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../input/key_codes.hpp"
+	"types/byte.hpp"
+
+1452559457 h:\programming\to_github\aab\input\key_codes.hpp
+	<SDL_keysym.h>
+	<string>
+
+1218642549 h:\programming\to_github\aab\events\key_down_event.hpp
+	"key_event.hpp"
+
+1330134548 h:\programming\to_github\aab\events\window_restored_event.hpp
+	"empty_event.hpp"
+
+1330134559 h:\programming\to_github\aab\events\window_minimised_event.hpp
+	"empty_event.hpp"
+
+1218737740 h:\programming\to_github\aab\events\mouse_focus_gained_event.hpp
+	"empty_event.hpp"
+
+1218737711 h:\programming\to_github\aab\events\mouse_focus_lost_event.hpp
+	"empty_event.hpp"
+
+1218738115 h:\programming\to_github\aab\events\keyboard_focus_gained_event.hpp
+	"empty_event.hpp"
+
+1218737902 h:\programming\to_github\aab\events\keyboard_focus_lost_event.hpp
+	"empty_event.hpp"
+
+1391550155 h:\programming\to_github\aab\events\gamepad_axis_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1391549981 h:\programming\to_github\aab\events\gamepad_ball_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1219025106 h:\programming\to_github\aab\events\gamepad_hat_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../input/hat_position.hpp"
+
+1446591547 h:\programming\to_github\aab\input\hat_position.hpp
+	"../types/smart_ptr.hpp"
+	"hat_value.hpp"
+
+1446592073 h:\programming\to_github\aab\input\hat_value.hpp
+
+1218832814 h:\programming\to_github\aab\events\gamepad_button_up_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218832941 h:\programming\to_github\aab\events\gamepad_button_down_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218833672 h:\programming\to_github\aab\events\video_resize_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1219154440 h:\programming\to_github\aab\events\event_queue.hpp
+	"event_type.hpp"
+	"internal_event.hpp"
+	"event.hpp"
+	"event_handler.hpp"
+	"event_connector.hpp"
+	"dispatcher.hpp"
+	"imports.hpp"
+	<list>
+
+1391633024 h:\programming\to_github\aab\events\mouse_handler.hpp
+	"imports.hpp"
+	"multi_event_handler.hpp"
+
+1230070126 h:\programming\to_github\aab\events\mouse_auto_handler.hpp
+	"imports.hpp"
+	"mouse_handler.hpp"
+	"../input/mouse.hpp"
+
+1220807670 h:\programming\to_github\aab\input\mouse.hpp
+	"input_connector.hpp"
+	"mouse_data.hpp"
+	<vector>
+
+1393286385 h:\programming\to_github\aab\input\input_connector.hpp
+	"../types/smart_ptr.hpp"
+
+1220647458 h:\programming\to_github\aab\events\close_handler.hpp
+	"imports.hpp"
+	"event_handlers.hpp"
+
+1375401188 h:\programming\to_github\aab\events\keyboard_handler.hpp
+	"imports.hpp"
+	"multi_event_handler.hpp"
+	"key_event.hpp"
+	<string>
+
+1391565913 h:\programming\to_github\aab\events\keyboard_auto_handler.hpp
+	"imports.hpp"
+	"keyboard_handler.hpp"
+	"../input/keyboard.hpp"
+
+1391567034 h:\programming\to_github\aab\input\keyboard.hpp
+	"key_codes.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<map>
+	<list>
+
+1391134200 h:\programming\to_github\aab\events\gamepads_handler.hpp
+	"gamepad_handler.hpp"
+	"gamepad_port_handler.hpp"
+	"imports.hpp"
+	<map>
+
+1391550684 h:\programming\to_github\aab\events\gamepad_handler.hpp
+	"../input/hat_position.hpp"
+	"imports.hpp"
+	"../input/gamepad_values.hpp"
+
+1391550643 h:\programming\to_github\aab\events\gamepad_port_handler.hpp
+	"imports.hpp"
+	"multi_event_handler.hpp"
+	"../input/hat_position.hpp"
+	"../input/gamepad_values.hpp"
+
+1391608077 h:\programming\to_github\aab\events\gamepads_auto_handler.hpp
+	"../input/gamepad.hpp"
+	"gamepad_port_handler.hpp"
+	"imports.hpp"
+	<map>
+
+1393275986 h:\programming\to_github\aab\input\gamepad.hpp
+	"hat_position.hpp"
+	"gamepad_data.hpp"
+	"../types/smart_ptr.hpp"
+	<map>
+
+1391550576 h:\programming\to_github\aab\input\gamepad_data.hpp
+	"gamepad_values.hpp"
+	"gamepad_ports.hpp"
+	"../types/smart_ptr.hpp"
+	<string>
+	<memory>
+	<exception>
+	<stdexcept>
+
+1393275675 h:\programming\to_github\aab\input\gamepad_ports.hpp
+	"input_connector.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<stdexcept>
+	<string>
+	<sstream>
+	<vector>
+	<list>
+
+1331251900 h:\programming\to_github\aab\events\keyboard_focus_monitor.hpp
+	"empty_event.hpp"
+
+1331256312 h:\programming\to_github\aab\events\notified_event_handler.hpp
+	"empty_event.hpp"
+	"keyboard_focus_monitor.hpp"
+
+1376915485 h:\programming\to_github\aab\game\game.hpp
+	"color_node.hpp"
+	"group_node.hpp"
+	"scene_node.hpp"
+	"sprite.hpp"
+	"transformation_node.hpp"
+	"translation_node.hpp"
+	"display_list_node.hpp"
+	"rotation_node.hpp"
+	"scale_node.hpp"
+	"texture_node.hpp"
+	"matrix_node.hpp"
+	"moveable_texture_node.hpp"
+	"pose_node.hpp"
+	"viewport.hpp"
+	"sprite_builders.hpp"
+	"sprite_batch.hpp"
+
+1393283930 h:\programming\to_github\aab\game\color_node.hpp
+	"scene_node.hpp"
+	"../visen/color.hpp"
+
+1393286803 h:\programming\to_github\aab\game\scene_node.hpp
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+	<list>
+
+1428537763 h:\programming\to_github\aab\visen\color.hpp
+	"../types/byte.hpp"
+
+1396370362 h:\programming\to_github\aab\types\byte.hpp
+	<cstdint>
+
+1393284057 h:\programming\to_github\aab\game\group_node.hpp
+	"scene_node.hpp"
+
+1393284798 h:\programming\to_github\aab\game\sprite.hpp
+	"prototype/sprite.hh"
+	"transformation_node.hpp"
+	"../types/smart_ptr.hpp"
+	"../visen/texture_base.hpp"
+	"../visen/texture.hpp"
+	"../visen/animated_texture.hpp"
+	"../visen/Color.hpp"
+
+1377871020 h:\programming\to_github\aab\game\prototype\sprite.hh
+
+1393285769 h:\programming\to_github\aab\game\transformation_node.hpp
+	"scene_node.hpp"
+	"../types/smart_ptr.hpp"
+	"../visen/visual_transformer.hpp"
+
+1457052319 h:\programming\to_github\aab\visen\visual_transformer.hpp
+	"../types/push_pop.hpp"
+
+1330735695 h:\programming\to_github\aab\types\push_pop.hpp
+
+1456963894 h:\programming\to_github\aab\visen\texture_base.hpp
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+	"blend_method.hpp"
+	<algorithm>
+
+1428106662 h:\programming\to_github\aab\visen\blend_method.hpp
+	"../types/push_pop.hpp"
+	"color.hpp"
+
+1456963903 h:\programming\to_github\aab\visen\texture.hpp
+	"screen.hpp"
+	"image.hpp"
+	"color.hpp"
+	"texture_base.hpp"
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<string>
+	<memory>
+
+1428105926 h:\programming\to_github\aab\visen\screen.hpp
+	"color.hpp"
+	"context_definition.hpp"
+	"../auden/audio_connector.hpp"
+	"../events/event_connector.hpp"
+	"../input/input_connector.hpp"
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+	"prototype/screen.hh"
+	<memory>
+	<string>
+
+1428445664 h:\programming\to_github\aab\visen\context_definition.hpp
+	<string>
+
+1428105948 h:\programming\to_github\aab\visen\prototype\screen.hh
+
+1429042622 h:\programming\to_github\aab\visen\image.hpp
+	"screen.hpp"
+	"color.hpp"
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<string>
+	<memory>
+	<cstdint>
+
+1476989502 h:\programming\to_github\aab\visen\animated_texture.hpp
+	"framed_texture.hpp"
+
+1456963998 h:\programming\to_github\aab\visen\framed_texture.hpp
+	"texture.hpp"
+	"texture_base.hpp"
+	"vertex.hpp"
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+
+1476989492 h:\programming\to_github\aab\visen\vertex.hpp
+	"color.hpp"
+	<geometry/point.hpp>
+
+1393285786 h:\programming\to_github\aab\game\translation_node.hpp
+	"scene_node.hpp"
+	"../visen/visual_translator.hpp"
+
+1393283829 h:\programming\to_github\aab\visen\visual_translator.hpp
+	"../types/push_pop.hpp"
+
+1393284002 h:\programming\to_github\aab\game\display_list_node.hpp
+	"scene_node.hpp"
+	"../visen/display_list.hpp"
+
+1393282439 h:\programming\to_github\aab\visen\display_list.hpp
+	"../types/manager.hpp"
+
+1393284649 h:\programming\to_github\aab\game\rotation_node.hpp
+	"scene_node.hpp"
+	"../visen/visual_rotater.hpp"
+
+1393283777 h:\programming\to_github\aab\visen\visual_rotater.hpp
+	"../types/push_pop.hpp"
+
+1393284660 h:\programming\to_github\aab\game\scale_node.hpp
+	"scene_node.hpp"
+	"../visen/visual_scaler.hpp"
+
+1393283788 h:\programming\to_github\aab\visen\visual_scaler.hpp
+	"../types/push_pop.hpp"
+
+1393285758 h:\programming\to_github\aab\game\texture_node.hpp
+	"scene_node.hpp"
+	"../types/smart_ptr.hpp"
+	"../visen/texture_base.hpp"
+	"../visen/texture.hpp"
+
+1393284074 h:\programming\to_github\aab\game\matrix_node.hpp
+	"scene_node.hpp"
+	"../visen/matrix_transformer.hpp"
+
+1457052441 h:\programming\to_github\aab\visen\matrix_transformer.hpp
+	"../types/push_pop.hpp"
+	"../types/matrix.hpp"
+
+1390331495 h:\programming\to_github\aab\types\matrix.hpp
+	<cmath>
+	<algorithm>
+
+1393284609 h:\programming\to_github\aab\game\moveable_texture_node.hpp
+	"translation_node.hpp"
+	"../visen/texture_base.hpp"
+	"../visen/texture.hpp"
+	<exception>
+
+1393284624 h:\programming\to_github\aab\game\pose_node.hpp
+	"scene_node.hpp"
+	"../visen/visual_poser.hpp"
+
+1393283681 h:\programming\to_github\aab\visen\visual_poser.hpp
+	"../types/push_pop.hpp"
+
+1393285968 h:\programming\to_github\aab\game\viewport.hpp
+	"prototype/viewport.hh"
+	"transformation_node.hpp"
+	"../visen/screen.hpp"
+
+1377871576 h:\programming\to_github\aab\game\prototype\viewport.hh
+
+1393285589 h:\programming\to_github\aab\game\sprite_builders.hpp
+	"sprite.hpp"
+	<string>
+
+1415759321 h:\programming\to_github\aab\game\sprite_batch.hpp
+	"transformation_node.hpp"
+	"../types/smart_ptr.hpp"
+	"../visen/texture_base.hpp"
+	"../visen/texture.hpp"
+	"../visen/animated_texture.hpp"
+	"prototype/sprite_batch.hh"
+	"../visen/texture_atlas.hpp"
+	"../visen/quad.hpp"
+	"../visen/vertex_buffer_object.hpp"
+	"../test/debug_assertions.hpp"
+	<vector>
+	<set>
+	<stdexcept>
+
+1377871038 h:\programming\to_github\aab\game\prototype\sprite_batch.hh
+
+1422555748 h:\programming\to_github\aab\visen\texture_atlas.hpp
+	"texture_base.hpp"
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+	"framed_texture.hpp"
+	"vertex.hpp"
+	<vector>
+
+1456367790 h:\programming\to_github\aab\visen\quad.hpp
+	"vertex.hpp"
+	<utility>
+
+1400523715 h:\programming\to_github\aab\visen\vertex_buffer_object.hpp
+	"prototype/vertex_buffer_object.hh"
+	"vertex.hpp"
+	"index_generator.hpp"
+	<cstdint>
+
+1377872074 h:\programming\to_github\aab\visen\prototype\vertex_buffer_object.hh
+
+1400540020 h:\programming\to_github\aab\visen\index_generator.hpp
+	<vector>
+	<cstdint>
+
+1395876495 h:\programming\to_github\aab\test\debug_assertions.hpp
+	<stdexcept>
+
+1391561110 h:\programming\to_github\aab\input\input.hpp
+	"auto_gamepad.hpp"
+	"gamepad_ports.hpp"
+	"input_connector.hpp"
+	"key_codes.hpp"
+	"auto_keyboard.hpp"
+	"keyboard.hpp"
+	"gamepad.hpp"
+	"mouse.hpp"
+	"input_controller.hpp"
+
+1391550524 h:\programming\to_github\aab\input\auto_gamepad.hpp
+	"gamepad_ports.hpp"
+	"gamepad_data.hpp"
+	"gamepad_values.hpp"
+	"../types/smart_ptr.hpp"
+	<string>
+	<memory>
+	<exception>
+	<stdexcept>
+
+1391540569 h:\programming\to_github\aab\input\auto_keyboard.hpp
+	"key_codes.hpp"
+	"input_connector.hpp"
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+	<vector>
+
+1446593220 h:\programming\to_github\aab\input\input_controller.hpp
+	"input_codes.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	"../events/multi_event_handler.hpp"
+	"hat_position.hpp"
+	"key_codes.hpp"
+	"gamepad_values.hpp"
+	"gamepad.hpp"
+	<map>
+	<vector>
+	<unordered_map>
+
+1446593192 h:\programming\to_github\aab\input\input_codes.hpp
+	<SDL_keysym.h>
+	<string>
+	"hat_value.hpp"
+
+1334933363 h:\programming\to_github\aab\maths\maths.hpp
+	"power_of_2.hpp"
+	"random.hpp"
+	"constants.hpp"
+
+1218153906 h:\programming\to_github\aab\maths\power_of_2.hpp
+
+1383059211 h:\programming\to_github\aab\maths\random.hpp
+
+1378477658 h:\programming\to_github\aab\maths\constants.hpp
+
+1399296116 h:\programming\to_github\aab\time\time.hpp
+	"cap.hpp"
+	"delta_time.hpp"
+	"fps.hpp"
+	"frame_ticker.hpp"
+	"object_ticker.hpp"
+	"manual_ticker.hpp"
+	"millisecond_reporter.hpp"
+	"time_method.hpp"
+	"time_reporter.hpp"
+	"sub_animator.hpp"
+	"callback_ticker.hpp"
+	"bounded_counter.hpp"
+	"mapped_counter.hpp"
+	"group_counter_ticker.hpp"
+	"gradient_timer.hpp"
+
+1459517580 h:\programming\to_github\aab\time\cap.hpp
+	"../types/smart_ptr.hpp"
+
+1393276681 h:\programming\to_github\aab\time\delta_time.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+
+1393278758 h:\programming\to_github\aab\time\time_reporter.hpp
+	"../types/smart_ptr.hpp"
+
+1399929039 h:\programming\to_github\aab\time\fps.hpp
+	"../types/smart_ptr.hpp"
+
+1399296152 h:\programming\to_github\aab\time\frame_ticker.hpp
+	"ticker.hpp"
+
+1408034035 h:\programming\to_github\aab\time\ticker.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+
+1399297029 h:\programming\to_github\aab\time\object_ticker.hpp
+	"ticker.hpp"
+	<vector>
+
+1401363753 h:\programming\to_github\aab\time\manual_ticker.hpp
+	"ticker.hpp"
+
+1393276856 h:\programming\to_github\aab\time\millisecond_reporter.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+
+1216429265 h:\programming\to_github\aab\time\time_method.hpp
+
+1393277586 h:\programming\to_github\aab\time\sub_animator.hpp
+	"frame_ticker.hpp"
+
+1398960777 h:\programming\to_github\aab\time\callback_ticker.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+
+1408034075 h:\programming\to_github\aab\time\bounded_counter.hpp
+
+1399165098 h:\programming\to_github\aab\time\mapped_counter.hpp
+	"bounded_counter.hpp"
+	<vector>
+
+1399124636 h:\programming\to_github\aab\time\group_counter_ticker.hpp
+	"callback_ticker.hpp"
+
+1399296749 h:\programming\to_github\aab\time\gradient_timer.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+
+1396370840 h:\programming\to_github\aab\types\types.hpp
+	"byte.hpp"
+	"float.hpp"
+	"manager.hpp"
+	"mutable_closer.hpp"
+	"smart_ptr.hpp"
+	"word_filter.hpp"
+	"push_pop.hpp"
+	"push_popper.hpp"
+	"matrix.hpp"
+	"maybe.hpp"
+	"ios_output.hpp"
+	"builder.hpp"
+	"const.hpp"
+
+1375400704 h:\programming\to_github\aab\types\float.hpp
+
+1377542579 h:\programming\to_github\aab\types\mutable_closer.hpp
+
+1378140725 h:\programming\to_github\aab\types\word_filter.hpp
+	<string>
+	<map>
+
+1330735701 h:\programming\to_github\aab\types\push_popper.hpp
+	"push_pop.hpp"
+
+1393276175 h:\programming\to_github\aab\types\maybe.hpp
+	<test/debug_assertions.hpp>
+
+1334929254 h:\programming\to_github\aab\types\ios_output.hpp
+	"matrix.hpp"
+	<iostream>
+
+1417127327 h:\programming\to_github\aab\types\builder.hpp
+	<exception>
+
+1396371165 h:\programming\to_github\aab\types\const.hpp
+	<cstdint>
+
+1428438344 h:\programming\to_github\aab\visen\visen.hpp
+	"color.hpp"
+	"error_trap.hpp"
+	"image.hpp"
+	"screen.hpp"
+	"texture.hpp"
+	"display_list.hpp"
+	"display_absorber.hpp"
+	"animated_texture.hpp"
+	"visual_transformer.hpp"
+	"visual_translator.hpp"
+	"matrix_transformer.hpp"
+	"visual_poser.hpp"
+	"visual_poser.hpp"
+	"visual_rotater.hpp"
+	"visual_scaler.hpp"
+	"texture_base.hpp"
+	"render_state.hpp"
+	"blend_method.hpp"
+	"context_definition.hpp"
+	"index_generator.hpp"
+	"vertex_buffer_object.hpp"
+	"texture_atlas.hpp"
+	"primitive_methods.hpp"
+	"primitive_types.hpp"
+	"quad.hpp"
+	"blend.hpp"
+	"frame_buffer.hpp"
+	"shader.hpp"
+	"program.hpp"
+
+1393279545 h:\programming\to_github\aab\visen\error_trap.hpp
+	"../types/smart_ptr.hpp"
+	<string>
+
+1393282508 h:\programming\to_github\aab\visen\display_absorber.hpp
+	"display_list.hpp"
+
+1429040850 h:\programming\to_github\aab\visen\render_state.hpp
+	"blend_method.hpp"
+	"color.hpp"
+
+1402943826 h:\programming\to_github\aab\visen\primitive_methods.hpp
+	"../geometry/point.hpp"
+	"../types/const.hpp"
+	<vector>
+
+1402939780 h:\programming\to_github\aab\geometry\point.hpp
+	"floats.hpp"
+
+1375461704 h:\programming\to_github\aab\geometry\floats.hpp
+	<cmath>
+	<limits>
+
+1402943091 h:\programming\to_github\aab\visen\primitive_types.hpp
+	"color.hpp"
+	"../geometry/panel.hpp"
+
+1396989349 h:\programming\to_github\aab\geometry\panel.hpp
+	"../types/maybe.hpp"
+	"point.hpp"
+	<cmath>
+	<algorithm>
+
+1380026310 h:\programming\to_github\aab\visen\blend.hpp
+
+1476989529 h:\programming\to_github\aab\visen\frame_buffer.hpp
+	"screen.hpp"
+	"texture_base.hpp"
+
+1428443003 h:\programming\to_github\aab\visen\shader.hpp
+	<string>
+
+1428443881 h:\programming\to_github\aab\visen\program.hpp
+	"shader.hpp"
+	<string>
+
+1393272805 h:\programming\to_github\aab\test\test.hpp
+	"diagnostic.hpp"
+	"debug_assertions.hpp"
+	"exceptions.hpp"
+
+1369838938 h:\programming\to_github\aab\test\diagnostic.hpp
+	<boost/algorithm/string/replace.hpp>
+	<string>
+	<iostream>
+	<stack>
+
+1393286121 h:\programming\to_github\aab\test\exceptions.hpp
+	<exception>
+	<stdexcept>
+
+1378479039 h:\programming\to_github\aab\geometry\vector.hpp
+	"floats.hpp"
+	"../maths/constants.hpp"
+

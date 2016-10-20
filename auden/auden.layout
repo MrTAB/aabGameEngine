@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="debug+release" />
+	<File name="auden.hpp" open="0" top="0" tabpos="1">
+		<Cursor position="650" topLine="6" />
+	</File>
+	<File name="audio_connector.hpp" open="0" top="0" tabpos="2">
+		<Cursor position="835" topLine="13" />
+	</File>
+	<File name="mixer.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="3994" topLine="101" />
+	</File>
+	<File name="mixer.hpp" open="0" top="0" tabpos="2">
+		<Cursor position="3798" topLine="60" />
+	</File>
+	<File name="mixer_factory.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="195" topLine="5" />
+	</File>
+	<File name="mixer_factory.hpp" open="0" top="0" tabpos="4">
+		<Cursor position="2725" topLine="42" />
+	</File>
+	<File name="music.cpp" open="0" top="0" tabpos="24">
+		<Cursor position="1758" topLine="67" />
+	</File>
+	<File name="music.hpp" open="0" top="0" tabpos="1">
+		<Cursor position="2983" topLine="75" />
+	</File>
+	<File name="sound.cpp" open="0" top="0" tabpos="23">
+		<Cursor position="543" topLine="0" />
+	</File>
+	<File name="sound.hpp" open="0" top="0" tabpos="6">
+		<Cursor position="2993" topLine="74" />
+	</File>
+</CodeBlocks_layout_file>
