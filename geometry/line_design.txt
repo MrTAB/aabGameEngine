@@ -1,0 +1,66 @@
+
+Lines:
+
+LineEquation (equation, no bound)
+BoundedLine (equation + bounding Panel).
+LineSegment (two points, defining bounding panel)
+
+Two types of line storage:
+
+Line that stores equation (x, y, c)
+Line that stores points (x1,y1, x2, y2)
+
+
+Two types of line:
+
+Line (infinate)
+Line segment
+
+
+transformations on Line:
+create(equation)
+create (points)
+copy(line)
+set(equation)
+set(points)
+
+
+
+queries on line:
+toString
+getDx
+getDy
+getYIntercept
+getGradient
+getXCoefficient
+getYCoefficient
+getCCoefficient
+isHorizontal
+isVertical
+isParallelTo (line)
+findIntersectionPoint
+intersects (line)
+calculateXRaw (y)
+calculateYRaw (x)
+calculateX (y)
+calculate Y (x)
+isAboveLine(point)
+isBelowLine
+isRightOfLine
+isLeftOfLine
+isOnLine
+evaluate
+
+transformations on segment only:
+rotateAroundFirst
+rotateAroundSecond
+
+
+queries on segment only:
+length
+getFirstPoint
+getSecondPoint
+getBoundingPanel
+findIntersectionPanel (line)
+findOpenIntersectionPoint (line)
+findSegmentIntersectionPoint (line)

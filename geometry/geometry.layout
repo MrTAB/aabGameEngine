@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="debug+release" />
+	<File name="driver\blank.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="135" topLine="0" />
+	</File>
+	<File name="floats.hpp" open="0" top="0" tabpos="2">
+		<Cursor position="437" topLine="0" />
+	</File>
+	<File name="geometry.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="394" topLine="0" />
+	</File>
+	<File name="line_design.txt" open="0" top="0" tabpos="0">
+		<Cursor position="412" topLine="14" />
+	</File>
+	<File name="line_equation.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="2844" topLine="243" />
+	</File>
+	<File name="line_methods.hpp" open="0" top="0" tabpos="1">
+		<Cursor position="530" topLine="39" />
+	</File>
+	<File name="line_segment.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="2755" topLine="308" />
+	</File>
+	<File name="panel.hpp" open="0" top="0" tabpos="10">
+		<Cursor position="1762" topLine="14" />
+	</File>
+	<File name="point.hpp" open="0" top="0" tabpos="1">
+		<Cursor position="169" topLine="0" />
+	</File>
+	<File name="to_string.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="277" topLine="0" />
+	</File>
+	<File name="vector.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="2212" topLine="8" />
+	</File>
+</CodeBlocks_layout_file>

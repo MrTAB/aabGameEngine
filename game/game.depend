@@ -1,0 +1,1145 @@
+# depslib dependency file v1.0
+1218155619 c:\_project\hylian_knights\gamelibrary\game\sprite.cpp
+	"sprite.hpp"
+	"../time/time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+	<sdl.H>
+	<gl/gl.H>
+	<gl/glu.H>
+	<gl/glext.H>
+	<stdexcept>
+
+1221355037 c:\_project\hylian_knights\gamelibrary\game\sprite.hpp
+	"transformation_node.hpp"
+	"../types/smart_ptr.hpp"
+	"../visen/texture_base.hpp"
+	"../visen/texture.hpp"
+	"../visen/animated_texture.hpp"
+	<exception>
+
+1221349266 c:\_project\hylian_knights\gamelibrary\visen\texture.hpp
+	"screen.hpp"
+	"image.hpp"
+	"color.hpp"
+	"texture_base.hpp"
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<string>
+	<memory>
+	<exception>
+
+1219153351 c:\_project\hylian_knights\gamelibrary\visen\screen.hpp
+	"color.hpp"
+	"../auden/audio_connector.hpp"
+	"../events/event_connector.hpp"
+	"../input/input_connector.hpp"
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+	<exception>
+	<memory>
+	<string>
+
+1216430879 c:\_project\hylian_knights\gamelibrary\utility\byte.hpp
+
+1217772755 c:\_project\hylian_knights\gamelibrary\utility\smart_ptr.hpp
+	<boost/smart_ptr.hpp>
+	<boost/pointer_cast.hpp>
+
+1219102249 c:\_project\hylian_knights\gamelibrary\input\input_connector.hpp
+	"../types/smart_ptr.hpp"
+
+1219102347 c:\_project\hylian_knights\gamelibrary\auden\audio_connector.hpp
+	"../types/smart_ptr.hpp"
+
+1219104310 c:\_project\hylian_knights\gamelibrary\visen\image.hpp
+	"screen.hpp"
+	"color.hpp"
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<string>
+	<memory>
+	<exception>
+
+1218154876 c:\_project\hylian_knights\gamelibrary\time\frame_ticker.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+	<exception>
+	<stdexcept>
+
+1218154963 c:\_project\hylian_knights\gamelibrary\time\time_reporter.hpp
+	"../types/smart_ptr.hpp"
+
+1217615374 c:\_project\hylian_knights\gamelibrary\game\scene_node.cpp
+	"scene_node.hpp"
+	<stdexcept>
+	<algorithm>
+
+1220825765 c:\_project\hylian_knights\gamelibrary\game\scene_node.hpp
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+	<list>
+	<exception>
+
+1221351278 c:\_project\hylian_knights\gamelibrary\game\transformation_node.hpp
+	"scene_node.hpp"
+	"../types/smart_ptr.hpp"
+	"../visen/visual_transformer.hpp"
+
+1217618850 c:\_project\hylian_knights\gamelibrary\game\transformation_node.cpp
+	"transformation_node.hpp"
+	"gl/gl.h"
+	"gl/glu.h"
+	"gl/glext.h"
+
+1217618622 c:\_project\hylian_knights\gamelibrary\game\group_node.cpp
+	"group_node.hpp"
+	<algorithm>
+
+1219961644 c:\_project\hylian_knights\gamelibrary\game\group_node.hpp
+	"scene_node.hpp"
+	"../types/smart_ptr.hpp"
+
+1217616521 c:\_project\hylian_knights\gamelibrary\game\color_node.cpp
+	"color_node.hpp"
+	"gl/gl.h"
+	"gl/glu.h"
+	"gl/glext.h"
+
+1218155634 c:\_project\hylian_knights\gamelibrary\game\color_node.hpp
+	"scene_node.hpp"
+	"../types/smart_ptr.hpp"
+	"../visen/color.hpp"
+
+1221179746 c:\_project\hylian_knights\gamelibrary\visen\color.hpp
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+
+1217777252 c:\_project\hylian_knights\gamelibrary\utility\manager.hpp
+
+1220808618 c:\_project\hylian_knights\gamelibrary\types\manager.hpp
+	"smart_ptr.hpp"
+
+1218153802 c:\_project\hylian_knights\gamelibrary\types\smart_ptr.hpp
+	<boost/smart_ptr.hpp>
+	<boost/pointer_cast.hpp>
+
+1219102845 c:\_project\hylian_knights\gamelibrary\events\event_connector.hpp
+	"imports.hpp"
+
+1218154514 c:\_project\hylian_knights\gamelibrary\events\imports.hpp
+	"../types/byte.hpp"
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+
+1218153762 c:\_project\hylian_knights\gamelibrary\types\byte.hpp
+
+1220825772 source:c:\_project\hylian_knights\gamelibrary\game\group_node.cpp
+	"group_node.hpp"
+	<algorithm>
+
+1217615374 source:c:\_project\hylian_knights\gamelibrary\game\scene_node.cpp
+	"scene_node.hpp"
+	<stdexcept>
+	<algorithm>
+
+1221355069 source:c:\_project\hylian_knights\gamelibrary\game\sprite.cpp
+	"sprite.hpp"
+	"../time/time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+	"../visen/animated_texture.hpp"
+	<stdexcept>
+
+1221351157 source:c:\_project\hylian_knights\gamelibrary\game\transformation_node.cpp
+	"transformation_node.hpp"
+
+1217616521 source:c:\_project\hylian_knights\gamelibrary\game\color_node.cpp
+	"color_node.hpp"
+	"gl/gl.h"
+	"gl/glu.h"
+	"gl/glext.h"
+
+1219967525 source:c:\_project\hylian_knights\gamelibrary\game\display_list_node.cpp
+	"display_list_node.hpp"
+	"../visen/display_absorber.hpp"
+
+1219967157 c:\_project\hylian_knights\gamelibrary\game\display_list_node.hpp
+	"scene_node.hpp"
+	"../types/smart_ptr.hpp"
+	"../visen/display_list.hpp"
+	<exception>
+
+1219965203 c:\_project\hylian_knights\gamelibrary\visen\display_list.hpp
+	"../types/manager.hpp"
+	<exception>
+
+1219967194 c:\_project\hylian_knights\gamelibrary\visen\display_absorber.hpp
+	"display_list.hpp"
+	<exception>
+
+1221351963 source:c:\_project\hylian_knights\gamelibrary\game\translation_node.cpp
+	"translation_node.hpp"
+	"gl/gl.h"
+	"gl/glu.h"
+	"gl/glext.h"
+
+1221353989 c:\_project\hylian_knights\gamelibrary\game\translation_node.hpp
+	"scene_node.hpp"
+	"../visen/visual_translator.hpp"
+	"../types/smart_ptr.hpp"
+
+1221352622 source:c:\_project\hylian_knights\gamelibrary\game\rotation_node.cpp
+	"rotation_node.hpp"
+	"gl/gl.h"
+	"gl/glu.h"
+	"gl/glext.h"
+
+1221352484 c:\_project\hylian_knights\gamelibrary\game\rotation_node.hpp
+	"scene_node.hpp"
+	"../visen/visual_rotater.hpp"
+	"../types/smart_ptr.hpp"
+
+1221352329 source:c:\_project\hylian_knights\gamelibrary\game\scale_node.cpp
+	"scale_node.hpp"
+
+1221352120 c:\_project\hylian_knights\gamelibrary\game\scale_node.hpp
+	"scene_node.hpp"
+	"../visen/visual_scaler.hpp"
+	"../types/smart_ptr.hpp"
+
+1221353558 c:\_project\hylian_knights\gamelibrary\visen\visual_transformer.hpp
+	"../types/push_pop.hpp"
+
+1221353699 c:\_project\hylian_knights\gamelibrary\types\push_pop.hpp
+
+1221345898 c:\_project\hylian_knights\gamelibrary\visen\texture_base.hpp
+	"../time/frame_ticker.hpp"
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+
+1221350302 c:\_project\hylian_knights\gamelibrary\visen\animated_texture.hpp
+	"texture.hpp"
+	"texture_base.hpp"
+	"../time/frame_ticker.hpp"
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+
+1221353560 c:\_project\hylian_knights\gamelibrary\visen\visual_rotater.hpp
+	"../types/push_pop.hpp"
+
+1221353559 c:\_project\hylian_knights\gamelibrary\visen\visual_scaler.hpp
+	"../types/push_pop.hpp"
+
+1221353557 c:\_project\hylian_knights\gamelibrary\visen\visual_translator.hpp
+	"../types/push_pop.hpp"
+
+1221399647 source:c:\_project\hylian_knights\gamelibrary\game\texture_node.cpp
+	"texture_node.hpp"
+	"../visen/animated_texture.hpp"
+
+1221400136 c:\_project\hylian_knights\gamelibrary\game\texture_node.hpp
+	"scene_node.hpp"
+	"../types/smart_ptr.hpp"
+	"../visen/texture_base.hpp"
+	"../time/frame_ticker.hpp"
+	"../visen/texture.hpp"
+	<exception>
+
+1221400738 source:c:\_project\hylian_knights\gamelibrary\game\moveable_texture_node.cpp
+	"moveable_texture_node.hpp"
+	"../visen/animated_texture.hpp"
+
+1221400753 c:\_project\hylian_knights\gamelibrary\game\moveable_texture_node.hpp
+	"translation_node.hpp"
+	"../types/smart_ptr.hpp"
+	"../visen/texture_base.hpp"
+	"../time/frame_ticker.hpp"
+	"../visen/texture.hpp"
+	<exception>
+
+1217616521 source:f:\misc old projects\hylian_knights\gamelibrary\game\color_node.cpp
+	"color_node.hpp"
+	"gl/gl.h"
+	"gl/glu.h"
+	"gl/glext.h"
+
+1330127114 f:\misc old projects\hylian_knights\gamelibrary\game\color_node.hpp
+	"scene_node.hpp"
+	"../types/smart_ptr.hpp"
+	"../visen/color.hpp"
+
+1220825765 f:\misc old projects\hylian_knights\gamelibrary\game\scene_node.hpp
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+	<list>
+	<exception>
+
+1220808618 f:\misc old projects\hylian_knights\gamelibrary\types\manager.hpp
+	"smart_ptr.hpp"
+
+1218153802 f:\misc old projects\hylian_knights\gamelibrary\types\smart_ptr.hpp
+	<boost/smart_ptr.hpp>
+	<boost/pointer_cast.hpp>
+
+1221179746 f:\misc old projects\hylian_knights\gamelibrary\visen\color.hpp
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+
+1218153762 f:\misc old projects\hylian_knights\gamelibrary\types\byte.hpp
+
+1219967525 source:f:\misc old projects\hylian_knights\gamelibrary\game\display_list_node.cpp
+	"display_list_node.hpp"
+	"../visen/display_absorber.hpp"
+
+1219967157 f:\misc old projects\hylian_knights\gamelibrary\game\display_list_node.hpp
+	"scene_node.hpp"
+	"../types/smart_ptr.hpp"
+	"../visen/display_list.hpp"
+	<exception>
+
+1219965203 f:\misc old projects\hylian_knights\gamelibrary\visen\display_list.hpp
+	"../types/manager.hpp"
+	<exception>
+
+1219967194 f:\misc old projects\hylian_knights\gamelibrary\visen\display_absorber.hpp
+	"display_list.hpp"
+	<exception>
+
+1220825772 source:f:\misc old projects\hylian_knights\gamelibrary\game\group_node.cpp
+	"group_node.hpp"
+	<algorithm>
+
+1219961644 f:\misc old projects\hylian_knights\gamelibrary\game\group_node.hpp
+	"scene_node.hpp"
+	"../types/smart_ptr.hpp"
+
+1221400738 source:f:\misc old projects\hylian_knights\gamelibrary\game\moveable_texture_node.cpp
+	"moveable_texture_node.hpp"
+	"../visen/animated_texture.hpp"
+
+1221400753 f:\misc old projects\hylian_knights\gamelibrary\game\moveable_texture_node.hpp
+	"translation_node.hpp"
+	"../types/smart_ptr.hpp"
+	"../visen/texture_base.hpp"
+	"../time/frame_ticker.hpp"
+	"../visen/texture.hpp"
+	<exception>
+
+1221353989 f:\misc old projects\hylian_knights\gamelibrary\game\translation_node.hpp
+	"scene_node.hpp"
+	"../visen/visual_translator.hpp"
+	"../types/smart_ptr.hpp"
+
+1221353557 f:\misc old projects\hylian_knights\gamelibrary\visen\visual_translator.hpp
+	"../types/push_pop.hpp"
+
+1221353699 f:\misc old projects\hylian_knights\gamelibrary\types\push_pop.hpp
+
+1221345898 f:\misc old projects\hylian_knights\gamelibrary\visen\texture_base.hpp
+	"../time/frame_ticker.hpp"
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+
+1218154876 f:\misc old projects\hylian_knights\gamelibrary\time\frame_ticker.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+	<exception>
+	<stdexcept>
+
+1218154963 f:\misc old projects\hylian_knights\gamelibrary\time\time_reporter.hpp
+	"../types/smart_ptr.hpp"
+
+1221349266 f:\misc old projects\hylian_knights\gamelibrary\visen\texture.hpp
+	"screen.hpp"
+	"image.hpp"
+	"color.hpp"
+	"texture_base.hpp"
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<string>
+	<memory>
+	<exception>
+
+1221402844 f:\misc old projects\hylian_knights\gamelibrary\visen\screen.hpp
+	"color.hpp"
+	"../auden/audio_connector.hpp"
+	"../events/event_connector.hpp"
+	"../input/input_connector.hpp"
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+	<exception>
+	<memory>
+	<string>
+
+1219102347 f:\misc old projects\hylian_knights\gamelibrary\auden\audio_connector.hpp
+	"../types/smart_ptr.hpp"
+
+1219102845 f:\misc old projects\hylian_knights\gamelibrary\events\event_connector.hpp
+	"imports.hpp"
+
+1218154514 f:\misc old projects\hylian_knights\gamelibrary\events\imports.hpp
+	"../types/byte.hpp"
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+
+1219102249 f:\misc old projects\hylian_knights\gamelibrary\input\input_connector.hpp
+	"../types/smart_ptr.hpp"
+
+1219104310 f:\misc old projects\hylian_knights\gamelibrary\visen\image.hpp
+	"screen.hpp"
+	"color.hpp"
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<string>
+	<memory>
+	<exception>
+
+1221350302 f:\misc old projects\hylian_knights\gamelibrary\visen\animated_texture.hpp
+	"texture.hpp"
+	"texture_base.hpp"
+	"../time/frame_ticker.hpp"
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+
+1221352622 source:f:\misc old projects\hylian_knights\gamelibrary\game\rotation_node.cpp
+	"rotation_node.hpp"
+	"gl/gl.h"
+	"gl/glu.h"
+	"gl/glext.h"
+
+1221352484 f:\misc old projects\hylian_knights\gamelibrary\game\rotation_node.hpp
+	"scene_node.hpp"
+	"../visen/visual_rotater.hpp"
+	"../types/smart_ptr.hpp"
+
+1221353560 f:\misc old projects\hylian_knights\gamelibrary\visen\visual_rotater.hpp
+	"../types/push_pop.hpp"
+
+1221352329 source:f:\misc old projects\hylian_knights\gamelibrary\game\scale_node.cpp
+	"scale_node.hpp"
+
+1221352120 f:\misc old projects\hylian_knights\gamelibrary\game\scale_node.hpp
+	"scene_node.hpp"
+	"../visen/visual_scaler.hpp"
+	"../types/smart_ptr.hpp"
+
+1221353559 f:\misc old projects\hylian_knights\gamelibrary\visen\visual_scaler.hpp
+	"../types/push_pop.hpp"
+
+1217615374 source:f:\misc old projects\hylian_knights\gamelibrary\game\scene_node.cpp
+	"scene_node.hpp"
+	<stdexcept>
+	<algorithm>
+
+1330392463 source:f:\misc old projects\hylian_knights\gamelibrary\game\sprite.cpp
+	"sprite.hpp"
+	"../time/time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+	"../visen/animated_texture.hpp"
+	<stdexcept>
+
+1330392452 f:\misc old projects\hylian_knights\gamelibrary\game\sprite.hpp
+	"transformation_node.hpp"
+	"../types/smart_ptr.hpp"
+	"../visen/texture_base.hpp"
+	"../visen/texture.hpp"
+	"../visen/animated_texture.hpp"
+	<exception>
+
+1221351278 f:\misc old projects\hylian_knights\gamelibrary\game\transformation_node.hpp
+	"scene_node.hpp"
+	"../types/smart_ptr.hpp"
+	"../visen/visual_transformer.hpp"
+
+1221353558 f:\misc old projects\hylian_knights\gamelibrary\visen\visual_transformer.hpp
+	"../types/push_pop.hpp"
+
+1221399647 source:f:\misc old projects\hylian_knights\gamelibrary\game\texture_node.cpp
+	"texture_node.hpp"
+	"../visen/animated_texture.hpp"
+
+1221400136 f:\misc old projects\hylian_knights\gamelibrary\game\texture_node.hpp
+	"scene_node.hpp"
+	"../types/smart_ptr.hpp"
+	"../visen/texture_base.hpp"
+	"../time/frame_ticker.hpp"
+	"../visen/texture.hpp"
+	<exception>
+
+1221351157 source:f:\misc old projects\hylian_knights\gamelibrary\game\transformation_node.cpp
+	"transformation_node.hpp"
+
+1221351963 source:f:\misc old projects\hylian_knights\gamelibrary\game\translation_node.cpp
+	"translation_node.hpp"
+	"gl/gl.h"
+	"gl/glu.h"
+	"gl/glext.h"
+
+1330377304 source:f:\misc old projects\hylian_knights\gamelibrary\game\game.cpp
+	"game.hpp"
+	"gl/gl.h"
+	"gl/glu.h"
+	"gl/glext.h"
+
+1330377423 f:\misc old projects\hylian_knights\gamelibrary\game\game.hpp
+	"color_node.hpp"
+	"group_node.hpp"
+	"scene_node.hpp"
+	"sprite.hpp"
+	"transformation_node.hpp"
+	"translation_node.hpp"
+	"display_list_node.hpp"
+	"rotation_node.hpp"
+	"scale_node.hpp"
+	"texture_node.hpp"
+	"moveable_texture_node.hpp"
+
+1332362319 source:f:\programming\libraries\aab\game\color_node.cpp
+	"color_node.hpp"
+	"gl/gl.h"
+	"gl/glu.h"
+	"gl/glext.h"
+
+1332361938 f:\programming\libraries\aab\game\color_node.hpp
+	"scene_node.hpp"
+	"../visen/color.hpp"
+
+1332360133 f:\programming\libraries\aab\game\scene_node.hpp
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+	<list>
+	<exception>
+
+1220808618 f:\programming\libraries\aab\types\manager.hpp
+	"smart_ptr.hpp"
+
+1333401191 f:\programming\libraries\aab\types\smart_ptr.hpp
+	<boost/smart_ptr.hpp>
+	<boost/pointer_cast.hpp>
+
+1333153958 f:\programming\libraries\aab\visen\color.hpp
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+
+1218153762 f:\programming\libraries\aab\types\byte.hpp
+
+1332362391 source:f:\programming\libraries\aab\game\display_list_node.cpp
+	"display_list_node.hpp"
+	"../visen/display_absorber.hpp"
+
+1332361985 f:\programming\libraries\aab\game\display_list_node.hpp
+	"scene_node.hpp"
+	"../visen/display_list.hpp"
+	<exception>
+
+1333636617 f:\programming\libraries\aab\visen\display_list.hpp
+	"../types/manager.hpp"
+	<exception>
+
+1219967194 f:\programming\libraries\aab\visen\display_absorber.hpp
+	"display_list.hpp"
+	<exception>
+
+1332362448 source:f:\programming\libraries\aab\game\game.cpp
+	"game.hpp"
+	"gl/gl.h"
+	"gl/glu.h"
+	"gl/glext.h"
+
+1332365903 f:\programming\libraries\aab\game\game.hpp
+	"color_node.hpp"
+	"group_node.hpp"
+	"scene_node.hpp"
+	"sprite.hpp"
+	"transformation_node.hpp"
+	"translation_node.hpp"
+	"display_list_node.hpp"
+	"rotation_node.hpp"
+	"scale_node.hpp"
+	"texture_node.hpp"
+	"matrix_node.hpp"
+	"moveable_texture_node.hpp"
+	"pose_node.hpp"
+	"viewport.hpp"
+	"sprite_builders.hpp"
+
+1332363106 f:\programming\libraries\aab\game\group_node.hpp
+	"scene_node.hpp"
+
+1332894456 f:\programming\libraries\aab\game\sprite.hpp
+	"transformation_node.hpp"
+	"../types/smart_ptr.hpp"
+	"../visen/texture_base.hpp"
+	"../visen/texture.hpp"
+	"../visen/animated_texture.hpp"
+	"../time/sub_animator.hpp"
+	<exception>
+	<vector>
+
+1332360452 f:\programming\libraries\aab\game\transformation_node.hpp
+	"scene_node.hpp"
+	"../types/smart_ptr.hpp"
+	"../visen/visual_transformer.hpp"
+
+1335742795 f:\programming\libraries\aab\visen\visual_transformer.hpp
+	"../types/push_pop.hpp"
+
+1330732095 f:\programming\libraries\aab\types\push_pop.hpp
+
+1331585083 f:\programming\libraries\aab\visen\texture_base.hpp
+	"../time/frame_ticker.hpp"
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+	"blend_method.hpp"
+
+1330980956 f:\programming\libraries\aab\time\frame_ticker.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+	<exception>
+	<stdexcept>
+
+1218154963 f:\programming\libraries\aab\time\time_reporter.hpp
+	"../types/smart_ptr.hpp"
+
+1333402175 f:\programming\libraries\aab\visen\texture.hpp
+	"screen.hpp"
+	"image.hpp"
+	"color.hpp"
+	"texture_base.hpp"
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<string>
+	<memory>
+	<exception>
+
+1333489731 f:\programming\libraries\aab\visen\screen.hpp
+	"color.hpp"
+	"context_definition.hpp"
+	"../auden/audio_connector.hpp"
+	"../events/event_connector.hpp"
+	"../input/input_connector.hpp"
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+	<exception>
+	<memory>
+	<string>
+
+1219102347 f:\programming\libraries\aab\auden\audio_connector.hpp
+	"../types/smart_ptr.hpp"
+
+1219102845 f:\programming\libraries\aab\events\event_connector.hpp
+	"imports.hpp"
+
+1218154514 f:\programming\libraries\aab\events\imports.hpp
+	"../types/byte.hpp"
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+
+1219102249 f:\programming\libraries\aab\input\input_connector.hpp
+	"../types/smart_ptr.hpp"
+
+1219104310 f:\programming\libraries\aab\visen\image.hpp
+	"screen.hpp"
+	"color.hpp"
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<string>
+	<memory>
+	<exception>
+
+1333156390 f:\programming\libraries\aab\visen\animated_texture.hpp
+	"texture.hpp"
+	"texture_base.hpp"
+	"../time/frame_ticker.hpp"
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+
+1332360429 f:\programming\libraries\aab\game\translation_node.hpp
+	"scene_node.hpp"
+	"../visen/visual_translator.hpp"
+	"../types/smart_ptr.hpp"
+
+1330732135 f:\programming\libraries\aab\visen\visual_translator.hpp
+	"../types/push_pop.hpp"
+
+1332360706 f:\programming\libraries\aab\game\rotation_node.hpp
+	"scene_node.hpp"
+	"../visen/visual_rotater.hpp"
+	"../types/smart_ptr.hpp"
+
+1330732146 f:\programming\libraries\aab\visen\visual_rotater.hpp
+	"../types/push_pop.hpp"
+
+1332360731 f:\programming\libraries\aab\game\scale_node.hpp
+	"scene_node.hpp"
+	"../visen/visual_scaler.hpp"
+	"../types/smart_ptr.hpp"
+
+1330732140 f:\programming\libraries\aab\visen\visual_scaler.hpp
+	"../types/push_pop.hpp"
+
+1332363112 f:\programming\libraries\aab\game\texture_node.hpp
+	"scene_node.hpp"
+	"../types/smart_ptr.hpp"
+	"../visen/texture_base.hpp"
+	"../time/frame_ticker.hpp"
+	"../visen/texture.hpp"
+	<exception>
+
+1332361776 f:\programming\libraries\aab\game\moveable_texture_node.hpp
+	"translation_node.hpp"
+	"../visen/texture_base.hpp"
+	"../time/frame_ticker.hpp"
+	"../visen/texture.hpp"
+	<exception>
+
+1332362626 source:f:\programming\libraries\aab\game\group_node.cpp
+	"group_node.hpp"
+	<algorithm>
+
+1332363662 source:f:\programming\libraries\aab\game\moveable_texture_node.cpp
+	"moveable_texture_node.hpp"
+	"../visen/animated_texture.hpp"
+
+1332362076 source:f:\programming\libraries\aab\game\rotation_node.cpp
+	"rotation_node.hpp"
+	"gl/gl.h"
+	"gl/glu.h"
+	"gl/glext.h"
+
+1332362102 source:f:\programming\libraries\aab\game\scale_node.cpp
+	"scale_node.hpp"
+
+1332362333 source:f:\programming\libraries\aab\game\scene_node.cpp
+	"scene_node.hpp"
+	<stdexcept>
+	<algorithm>
+
+1332888598 source:f:\programming\libraries\aab\game\sprite.cpp
+	"sprite.hpp"
+	"../time/time_reporter.hpp"
+	"../visen/animated_texture.hpp"
+	<stdexcept>
+
+1332362235 source:f:\programming\libraries\aab\game\texture_node.cpp
+	"texture_node.hpp"
+	"../visen/animated_texture.hpp"
+
+1332362278 source:f:\programming\libraries\aab\game\transformation_node.cpp
+	"transformation_node.hpp"
+
+1332362052 source:f:\programming\libraries\aab\game\translation_node.cpp
+	"translation_node.hpp"
+	"gl/gl.h"
+	"gl/glu.h"
+	"gl/glext.h"
+
+1333412977 f:\programming\libraries\aab\game\viewport.hpp
+	"transformation_node.hpp"
+	"../visen/screen.hpp"
+
+1333492680 source:f:\programming\libraries\aab\game\viewport.cpp
+	"viewport.hpp"
+	"gl/gl.h"
+	"gl/glu.h"
+	"gl/glext.h"
+	<exception>
+	<stdexcept>
+
+1330988768 f:\programming\libraries\aab\time\sub_animator.hpp
+	"frame_ticker.hpp"
+
+1331585639 f:\programming\libraries\aab\visen\blend_method.hpp
+	"../types/push_pop.hpp"
+
+1333490881 f:\programming\libraries\aab\visen\context_definition.hpp
+	<exception>
+	<stdexcept>
+
+1332360844 f:\programming\libraries\aab\game\pose_node.hpp
+	"scene_node.hpp"
+	"../visen/visual_poser.hpp"
+
+1331846580 f:\programming\libraries\aab\visen\visual_poser.hpp
+	"../types/push_pop.hpp"
+
+1332362752 source:f:\programming\libraries\aab\game\matrix_node.cpp
+	"matrix_node.hpp"
+
+1332360873 f:\programming\libraries\aab\game\matrix_node.hpp
+	"scene_node.hpp"
+	"../visen/matrix_transformer.hpp"
+
+1332277793 f:\programming\libraries\aab\visen\matrix_transformer.hpp
+	"../types/push_pop.hpp"
+	"../types/matrix.hpp"
+
+1334930176 f:\programming\libraries\aab\types\matrix.hpp
+	<cmath>
+	<algorithm>
+
+1332362472 source:f:\programming\libraries\aab\game\pose_node.cpp
+	"pose_node.hpp"
+
+1332366731 f:\programming\libraries\aab\game\sprite_builders.hpp
+	"sprite.hpp"
+	<string>
+
+1332366796 source:f:\programming\libraries\aab\game\sprite_builders.cpp
+	"sprite_builders.hpp"
+	<stdexcept>
+
+1393283927 source:h:\programming\libraries\aab\game\color_node.cpp
+	"color_node.hpp"
+
+1393283930 h:\programming\libraries\aab\game\color_node.hpp
+	"scene_node.hpp"
+	"../visen/color.hpp"
+
+1393286803 h:\programming\libraries\aab\game\scene_node.hpp
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+	<list>
+
+1391605174 h:\programming\libraries\aab\types\manager.hpp
+	"smart_ptr.hpp"
+
+1333401191 h:\programming\libraries\aab\types\smart_ptr.hpp
+	<boost/smart_ptr.hpp>
+	<boost/pointer_cast.hpp>
+
+1428537763 h:\programming\libraries\aab\visen\color.hpp
+	"../types/byte.hpp"
+
+1396370362 h:\programming\libraries\aab\types\byte.hpp
+	<cstdint>
+
+1393283993 source:h:\programming\libraries\aab\game\display_list_node.cpp
+	"display_list_node.hpp"
+	"../visen/display_absorber.hpp"
+
+1393284002 h:\programming\libraries\aab\game\display_list_node.hpp
+	"scene_node.hpp"
+	"../visen/display_list.hpp"
+
+1393282439 h:\programming\libraries\aab\visen\display_list.hpp
+	"../types/manager.hpp"
+
+1393282508 h:\programming\libraries\aab\visen\display_absorber.hpp
+	"display_list.hpp"
+
+1393284039 source:h:\programming\libraries\aab\game\game.cpp
+	"game.hpp"
+
+1376915485 h:\programming\libraries\aab\game\game.hpp
+	"color_node.hpp"
+	"group_node.hpp"
+	"scene_node.hpp"
+	"sprite.hpp"
+	"transformation_node.hpp"
+	"translation_node.hpp"
+	"display_list_node.hpp"
+	"rotation_node.hpp"
+	"scale_node.hpp"
+	"texture_node.hpp"
+	"matrix_node.hpp"
+	"moveable_texture_node.hpp"
+	"pose_node.hpp"
+	"viewport.hpp"
+	"sprite_builders.hpp"
+	"sprite_batch.hpp"
+
+1393284057 h:\programming\libraries\aab\game\group_node.hpp
+	"scene_node.hpp"
+
+1393284798 h:\programming\libraries\aab\game\sprite.hpp
+	"prototype/sprite.hh"
+	"transformation_node.hpp"
+	"../types/smart_ptr.hpp"
+	"../visen/texture_base.hpp"
+	"../visen/texture.hpp"
+	"../visen/animated_texture.hpp"
+	"../visen/Color.hpp"
+
+1393285769 h:\programming\libraries\aab\game\transformation_node.hpp
+	"scene_node.hpp"
+	"../types/smart_ptr.hpp"
+	"../visen/visual_transformer.hpp"
+
+1457052319 h:\programming\libraries\aab\visen\visual_transformer.hpp
+	"../types/push_pop.hpp"
+
+1330735695 h:\programming\libraries\aab\types\push_pop.hpp
+
+1456963894 h:\programming\libraries\aab\visen\texture_base.hpp
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+	"blend_method.hpp"
+	<algorithm>
+
+1367493848 h:\programming\libraries\aab\time\frame_ticker.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+	<exception>
+	<stdexcept>
+
+1370535885 h:\programming\libraries\aab\time\time_reporter.hpp
+	"../types/smart_ptr.hpp"
+
+1428106662 h:\programming\libraries\aab\visen\blend_method.hpp
+	"../types/push_pop.hpp"
+	"color.hpp"
+
+1456963903 h:\programming\libraries\aab\visen\texture.hpp
+	"screen.hpp"
+	"image.hpp"
+	"color.hpp"
+	"texture_base.hpp"
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<string>
+	<memory>
+
+1428105926 h:\programming\libraries\aab\visen\screen.hpp
+	"color.hpp"
+	"context_definition.hpp"
+	"../auden/audio_connector.hpp"
+	"../events/event_connector.hpp"
+	"../input/input_connector.hpp"
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+	"prototype/screen.hh"
+	<memory>
+	<string>
+
+1428445664 h:\programming\libraries\aab\visen\context_definition.hpp
+	<string>
+
+1393286440 h:\programming\libraries\aab\auden\audio_connector.hpp
+	"../types/smart_ptr.hpp"
+
+1393286469 h:\programming\libraries\aab\events\event_connector.hpp
+	"imports.hpp"
+
+1375403712 h:\programming\libraries\aab\events\imports.hpp
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+
+1393286385 h:\programming\libraries\aab\input\input_connector.hpp
+	"../types/smart_ptr.hpp"
+
+1429042622 h:\programming\libraries\aab\visen\image.hpp
+	"screen.hpp"
+	"color.hpp"
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<string>
+	<memory>
+	<cstdint>
+
+1428104775 h:\programming\libraries\aab\visen\animated_texture.hpp
+	"framed_texture.hpp"
+
+1367493390 h:\programming\libraries\aab\time\sub_animator.hpp
+	"frame_ticker.hpp"
+
+1393285786 h:\programming\libraries\aab\game\translation_node.hpp
+	"scene_node.hpp"
+	"../visen/visual_translator.hpp"
+
+1393283829 h:\programming\libraries\aab\visen\visual_translator.hpp
+	"../types/push_pop.hpp"
+
+1393284649 h:\programming\libraries\aab\game\rotation_node.hpp
+	"scene_node.hpp"
+	"../visen/visual_rotater.hpp"
+
+1393283777 h:\programming\libraries\aab\visen\visual_rotater.hpp
+	"../types/push_pop.hpp"
+
+1393284660 h:\programming\libraries\aab\game\scale_node.hpp
+	"scene_node.hpp"
+	"../visen/visual_scaler.hpp"
+
+1393283788 h:\programming\libraries\aab\visen\visual_scaler.hpp
+	"../types/push_pop.hpp"
+
+1393285758 h:\programming\libraries\aab\game\texture_node.hpp
+	"scene_node.hpp"
+	"../types/smart_ptr.hpp"
+	"../visen/texture_base.hpp"
+	"../visen/texture.hpp"
+
+1393284074 h:\programming\libraries\aab\game\matrix_node.hpp
+	"scene_node.hpp"
+	"../visen/matrix_transformer.hpp"
+
+1457052441 h:\programming\libraries\aab\visen\matrix_transformer.hpp
+	"../types/push_pop.hpp"
+	"../types/matrix.hpp"
+
+1390331495 h:\programming\libraries\aab\types\matrix.hpp
+	<cmath>
+	<algorithm>
+
+1393284609 h:\programming\libraries\aab\game\moveable_texture_node.hpp
+	"translation_node.hpp"
+	"../visen/texture_base.hpp"
+	"../visen/texture.hpp"
+	<exception>
+
+1393284624 h:\programming\libraries\aab\game\pose_node.hpp
+	"scene_node.hpp"
+	"../visen/visual_poser.hpp"
+
+1393283681 h:\programming\libraries\aab\visen\visual_poser.hpp
+	"../types/push_pop.hpp"
+
+1393285968 h:\programming\libraries\aab\game\viewport.hpp
+	"prototype/viewport.hh"
+	"transformation_node.hpp"
+	"../visen/screen.hpp"
+
+1393285589 h:\programming\libraries\aab\game\sprite_builders.hpp
+	"sprite.hpp"
+	<string>
+
+1393284059 source:h:\programming\libraries\aab\game\group_node.cpp
+	"group_node.hpp"
+	<algorithm>
+
+1393284072 source:h:\programming\libraries\aab\game\matrix_node.cpp
+	"matrix_node.hpp"
+
+1393284599 source:h:\programming\libraries\aab\game\moveable_texture_node.cpp
+	"moveable_texture_node.hpp"
+	"../visen/animated_texture.hpp"
+
+1393284620 source:h:\programming\libraries\aab\game\pose_node.cpp
+	"pose_node.hpp"
+
+1393284638 source:h:\programming\libraries\aab\game\rotation_node.cpp
+	"rotation_node.hpp"
+
+1393284656 source:h:\programming\libraries\aab\game\scale_node.cpp
+	"scale_node.hpp"
+
+1393284680 source:h:\programming\libraries\aab\game\scene_node.cpp
+	"scene_node.hpp"
+	<algorithm>
+
+1393284740 source:h:\programming\libraries\aab\game\sprite.cpp
+	"sprite.hpp"
+	"../visen/animated_texture.hpp"
+	<stdexcept>
+
+1375406187 source:h:\programming\libraries\aab\game\sprite_builders.cpp
+	"sprite_builders.hpp"
+	<stdexcept>
+
+1393285760 source:h:\programming\libraries\aab\game\texture_node.cpp
+	"texture_node.hpp"
+	"../visen/animated_texture.hpp"
+
+1393285765 source:h:\programming\libraries\aab\game\transformation_node.cpp
+	"transformation_node.hpp"
+
+1393285781 source:h:\programming\libraries\aab\game\translation_node.cpp
+	"translation_node.hpp"
+
+1393285953 source:h:\programming\libraries\aab\game\viewport.cpp
+	"viewport.hpp"
+	"gl/glu.h"
+	"gl/glext.h"
+	"../visen/_include_opengl.hpp"
+	<exception>
+	<stdexcept>
+
+1415759321 h:\programming\libraries\aab\game\sprite_batch.hpp
+	"transformation_node.hpp"
+	"../types/smart_ptr.hpp"
+	"../visen/texture_base.hpp"
+	"../visen/texture.hpp"
+	"../visen/animated_texture.hpp"
+	"prototype/sprite_batch.hh"
+	"../visen/texture_atlas.hpp"
+	"../visen/quad.hpp"
+	"../visen/vertex_buffer_object.hpp"
+	"../test/debug_assertions.hpp"
+	<vector>
+	<set>
+	<stdexcept>
+
+1422555748 h:\programming\libraries\aab\visen\texture_atlas.hpp
+	"texture_base.hpp"
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+	"framed_texture.hpp"
+	"vertex.hpp"
+	<vector>
+
+1400533518 h:\programming\libraries\aab\visen\vertex.hpp
+	"color.hpp"
+	<geometry/point.hpp>
+
+1400523715 h:\programming\libraries\aab\visen\vertex_buffer_object.hpp
+	"prototype/vertex_buffer_object.hh"
+	"vertex.hpp"
+	"index_generator.hpp"
+	<cstdint>
+
+1400540020 h:\programming\libraries\aab\visen\index_generator.hpp
+	<vector>
+	<cstdint>
+
+1432078473 source:h:\programming\libraries\aab\game\sprite_batch.cpp
+	"sprite_batch.hpp"
+	"../geometry/vector.hpp"
+	<stdexcept>
+	<algorithm>
+	<sstream>
+
+1456367790 h:\programming\libraries\aab\visen\quad.hpp
+	"vertex.hpp"
+	<utility>
+
+1377871038 h:\programming\libraries\aab\game\prototype\sprite_batch.hh
+
+1377871020 h:\programming\libraries\aab\game\prototype\sprite.hh
+
+1377871576 h:\programming\libraries\aab\game\prototype\viewport.hh
+
+1377872074 h:\programming\libraries\aab\visen\prototype\vertex_buffer_object.hh
+
+1395876495 h:\programming\libraries\aab\test\debug_assertions.hpp
+	<stdexcept>
+
+1399380569 h:\programming\libraries\aab\visen\_include_opengl.hpp
+	<gl/glew.h>
+
+1456963998 h:\programming\libraries\aab\visen\framed_texture.hpp
+	"texture.hpp"
+	"texture_base.hpp"
+	"vertex.hpp"
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+
+1378479039 h:\programming\libraries\aab\geometry\vector.hpp
+	"floats.hpp"
+	"../maths/constants.hpp"
+
+1375461704 h:\programming\libraries\aab\geometry\floats.hpp
+	<cmath>
+	<limits>
+
+1378477658 h:\programming\libraries\aab\maths\constants.hpp
+
+1428105948 h:\programming\libraries\aab\visen\prototype\screen.hh
+

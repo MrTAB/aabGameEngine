@@ -1,0 +1,623 @@
+# depslib dependency file v1.0
+1220750224 source:c:\_project\hylian_knights\gamelibrary\geometry\driver\driver.cpp
+	"../../auden/auden.hpp"
+	"../../events/events.hpp"
+	"../../game/game.hpp"
+	"../../geometry/geometry.hpp"
+	"../../input/input.hpp"
+	"../../maths/maths.hpp"
+	"../../test/test.hpp"
+	"../../time/time.hpp"
+	"../../types/types.hpp"
+	"../../visen/visen.hpp"
+	<iostream>
+	<list>
+	<gl/gl.h>
+
+1218154769 c:\_project\hylian_knights\gamelibrary\auden\auden.hpp
+	"audio_connector.hpp"
+	"mixer.hpp"
+	"mixer_factory.hpp"
+	"music.hpp"
+	"sound.hpp"
+
+1219102347 c:\_project\hylian_knights\gamelibrary\auden\audio_connector.hpp
+	"../types/smart_ptr.hpp"
+
+1218153802 c:\_project\hylian_knights\gamelibrary\types\smart_ptr.hpp
+	<boost/smart_ptr.hpp>
+	<boost/pointer_cast.hpp>
+
+1219102365 c:\_project\hylian_knights\gamelibrary\auden\mixer.hpp
+	"mixer_factory.hpp"
+	"audio_connector.hpp"
+	"../types/smart_ptr.hpp"
+	<exception>
+
+1218154801 c:\_project\hylian_knights\gamelibrary\auden\mixer_factory.hpp
+	"../types/smart_ptr.hpp"
+
+1219102466 c:\_project\hylian_knights\gamelibrary\auden\music.hpp
+	"audio_connector.hpp"
+	"mixer.hpp"
+	"../types/smart_ptr.hpp"
+	<string>
+	<memory>
+	<exception>
+
+1218154823 c:\_project\hylian_knights\gamelibrary\auden\sound.hpp
+	"mixer.hpp"
+	"audio_connector.hpp"
+	"../types/smart_ptr.hpp"
+	<string>
+	<memory>
+	<exception>
+
+1220647368 c:\_project\hylian_knights\gamelibrary\events\events.hpp
+	"dispatcher.hpp"
+	"event.hpp"
+	"event_connector.hpp"
+	"event_handler.hpp"
+	"event_handler_template.hpp"
+	"event_handlers.hpp"
+	"event_queue.hpp"
+	"event_type.hpp"
+	"internal_event.hpp"
+	"mouse_move_event.hpp"
+	"mouse_handler.hpp"
+	"mouse_auto_handler.hpp"
+	"quit_event.hpp"
+	"close_handler.hpp"
+	"keyboard_handler.hpp"
+	"keyboard_auto_handler.hpp"
+	"gamepads_handler.hpp"
+	"gamepad_port_handler.hpp"
+	"gamepads_auto_handler.hpp"
+
+1218732542 c:\_project\hylian_knights\gamelibrary\events\dispatcher.hpp
+	"event.hpp"
+	"event_type.hpp"
+	"internal_event.hpp"
+	"event_handler.hpp"
+	"multi_event_handler.hpp"
+	"imports.hpp"
+	<map>
+	<list>
+
+1219077823 c:\_project\hylian_knights\gamelibrary\events\event.hpp
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218154580 c:\_project\hylian_knights\gamelibrary\events\internal_event.hpp
+	"event_type.hpp"
+	"imports.hpp"
+	<memory>
+
+1219077780 c:\_project\hylian_knights\gamelibrary\events\event_type.hpp
+
+1218154514 c:\_project\hylian_knights\gamelibrary\events\imports.hpp
+	"../types/byte.hpp"
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+
+1218153762 c:\_project\hylian_knights\gamelibrary\types\byte.hpp
+
+1220808618 c:\_project\hylian_knights\gamelibrary\types\manager.hpp
+	"smart_ptr.hpp"
+
+1218568865 c:\_project\hylian_knights\gamelibrary\events\event_handler.hpp
+	"event_type.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218573170 c:\_project\hylian_knights\gamelibrary\events\multi_event_handler.hpp
+	"event_type.hpp"
+	"event_handler.hpp"
+	"imports.hpp"
+	<list>
+	<map>
+
+1219102845 c:\_project\hylian_knights\gamelibrary\events\event_connector.hpp
+	"imports.hpp"
+
+1218125070 c:\_project\hylian_knights\gamelibrary\events\event_handler_template.hpp
+	"event_handler.hpp"
+
+1219076725 c:\_project\hylian_knights\gamelibrary\events\event_handlers.hpp
+	"event_handler_template.hpp"
+	"mouse_move_event.hpp"
+	"mouse_button_down_event.hpp"
+	"mouse_button_up_event.hpp"
+	"quit_event.hpp"
+	"key_up_event.hpp"
+	"key_down_event.hpp"
+	"window_focus_gained_event.hpp"
+	"window_focus_lost_event.hpp"
+	"mouse_focus_gained_event.hpp"
+	"mouse_focus_lost_event.hpp"
+	"keyboard_focus_gained_event.hpp"
+	"keyboard_focus_lost_event.hpp"
+	"gamepad_axis_event.hpp"
+	"gamepad_ball_event.hpp"
+	"gamepad_hat_event.hpp"
+	"gamepad_button_up_event.hpp"
+	"gamepad_button_down_event.hpp"
+	"video_resize_event.hpp"
+
+1220807578 c:\_project\hylian_knights\gamelibrary\events\mouse_move_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../input/mouse_data.hpp"
+	"../types/smart_ptr.hpp"
+
+1220808605 c:\_project\hylian_knights\gamelibrary\input\mouse_data.hpp
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+
+1218567479 c:\_project\hylian_knights\gamelibrary\events\mouse_button_down_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../types/smart_ptr.hpp"
+
+1218567482 c:\_project\hylian_knights\gamelibrary\events\mouse_button_up_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../types/smart_ptr.hpp"
+
+1218738261 c:\_project\hylian_knights\gamelibrary\events\quit_event.hpp
+	"empty_event.hpp"
+
+1218733854 c:\_project\hylian_knights\gamelibrary\events\empty_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218642015 c:\_project\hylian_knights\gamelibrary\events\key_up_event.hpp
+	"key_event.hpp"
+
+1218986344 c:\_project\hylian_knights\gamelibrary\events\key_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../input/key_codes.hpp"
+
+1216308888 c:\_project\hylian_knights\gamelibrary\input\key_codes.hpp
+	<SDL_keysym.h>
+	<string>
+
+1218642549 c:\_project\hylian_knights\gamelibrary\events\key_down_event.hpp
+	"key_event.hpp"
+
+1218737240 c:\_project\hylian_knights\gamelibrary\events\window_focus_gained_event.hpp
+	"empty_event.hpp"
+
+1218737246 c:\_project\hylian_knights\gamelibrary\events\window_focus_lost_event.hpp
+	"empty_event.hpp"
+
+1218737740 c:\_project\hylian_knights\gamelibrary\events\mouse_focus_gained_event.hpp
+	"empty_event.hpp"
+
+1218737711 c:\_project\hylian_knights\gamelibrary\events\mouse_focus_lost_event.hpp
+	"empty_event.hpp"
+
+1218738115 c:\_project\hylian_knights\gamelibrary\events\keyboard_focus_gained_event.hpp
+	"empty_event.hpp"
+
+1218737902 c:\_project\hylian_knights\gamelibrary\events\keyboard_focus_lost_event.hpp
+	"empty_event.hpp"
+
+1218754226 c:\_project\hylian_knights\gamelibrary\events\gamepad_axis_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218831516 c:\_project\hylian_knights\gamelibrary\events\gamepad_ball_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1219025106 c:\_project\hylian_knights\gamelibrary\events\gamepad_hat_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../input/hat_position.hpp"
+
+1219025158 c:\_project\hylian_knights\gamelibrary\input\hat_position.hpp
+	"../types/smart_ptr.hpp"
+
+1218832814 c:\_project\hylian_knights\gamelibrary\events\gamepad_button_up_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218832941 c:\_project\hylian_knights\gamelibrary\events\gamepad_button_down_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218833672 c:\_project\hylian_knights\gamelibrary\events\video_resize_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1219154440 c:\_project\hylian_knights\gamelibrary\events\event_queue.hpp
+	"event_type.hpp"
+	"internal_event.hpp"
+	"event.hpp"
+	"event_handler.hpp"
+	"event_connector.hpp"
+	"dispatcher.hpp"
+	"imports.hpp"
+	<list>
+
+1218752125 c:\_project\hylian_knights\gamelibrary\events\mouse_handler.hpp
+	"imports.hpp"
+	"multi_event_handler.hpp"
+
+1220807467 c:\_project\hylian_knights\gamelibrary\events\mouse_auto_handler.hpp
+	"imports.hpp"
+	"mouse_handler.hpp"
+	"../input/mouse.hpp"
+
+1220807670 c:\_project\hylian_knights\gamelibrary\input\mouse.hpp
+	"input_connector.hpp"
+	"mouse_data.hpp"
+	<vector>
+
+1219102249 c:\_project\hylian_knights\gamelibrary\input\input_connector.hpp
+	"../types/smart_ptr.hpp"
+
+1219077514 c:\_project\hylian_knights\gamelibrary\events\keyboard_handler.hpp
+	"imports.hpp"
+	"multi_event_handler.hpp"
+	"key_event.hpp"
+	<string>
+
+1220822893 c:\_project\hylian_knights\gamelibrary\events\keyboard_auto_handler.hpp
+	"imports.hpp"
+	"keyboard_handler.hpp"
+	"../input/keyboard.hpp"
+
+1219085529 c:\_project\hylian_knights\gamelibrary\input\key_info.hpp
+	"key_codes.hpp"
+	"../types/smart_ptr.hpp"
+	<map>
+	<list>
+
+1219091432 c:\_project\hylian_knights\gamelibrary\events\gamepads_handler.hpp
+	"gamepad_handler.hpp"
+	"gamepad_port_handler.hpp"
+	"imports.hpp"
+	<map>
+
+1219091512 c:\_project\hylian_knights\gamelibrary\events\gamepad_handler.hpp
+	"../input/hat_position.hpp"
+	"imports.hpp"
+
+1219025186 c:\_project\hylian_knights\gamelibrary\events\gamepad_port_handler.hpp
+	"imports.hpp"
+	"multi_event_handler.hpp"
+	"../input/hat_position.hpp"
+
+1220822294 c:\_project\hylian_knights\gamelibrary\events\gamepads_auto_handler.hpp
+	"../input/gamepad.hpp"
+	"gamepad_port_handler.hpp"
+	"imports.hpp"
+	<map>
+
+1219101929 c:\_project\hylian_knights\gamelibrary\input\gamepad_state.hpp
+	"hat_position.hpp"
+	"gamepad.hpp"
+	"../types/smart_ptr.hpp"
+	<map>
+
+1220823055 c:\_project\hylian_knights\gamelibrary\input\gamepad.hpp
+	"hat_position.hpp"
+	"gamepad_data.hpp"
+	"../types/smart_ptr.hpp"
+	<map>
+
+1220819018 c:\_project\hylian_knights\gamelibrary\input\gamepad_ports.hpp
+	"input_connector.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<vector>
+
+1220826124 c:\_project\hylian_knights\gamelibrary\game\game.hpp
+	"color_node.hpp"
+	"group_node.hpp"
+	"scene_node.hpp"
+	"sprite.hpp"
+	"transformation_node.hpp"
+	"translation_node.hpp"
+	"display_list_node.hpp"
+	"rotation_node.hpp"
+	"scale_node.hpp"
+
+1218155634 c:\_project\hylian_knights\gamelibrary\game\color_node.hpp
+	"scene_node.hpp"
+	"../types/smart_ptr.hpp"
+	"../visen/color.hpp"
+
+1220825765 c:\_project\hylian_knights\gamelibrary\game\scene_node.hpp
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+	<list>
+	<exception>
+
+1221174957 c:\_project\hylian_knights\gamelibrary\visen\color.hpp
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+
+1219961644 c:\_project\hylian_knights\gamelibrary\game\group_node.hpp
+	"scene_node.hpp"
+	"../types/smart_ptr.hpp"
+
+1220827026 c:\_project\hylian_knights\gamelibrary\game\sprite.hpp
+	"transformation_node.hpp"
+	"../time/frame_ticker.hpp"
+	"../types/smart_ptr.hpp"
+	"../visen/texture.hpp"
+	<exception>
+
+1218155358 c:\_project\hylian_knights\gamelibrary\game\transformation_node.hpp
+	"scene_node.hpp"
+	"../types/smart_ptr.hpp"
+
+1218154876 c:\_project\hylian_knights\gamelibrary\time\frame_ticker.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+	<exception>
+	<stdexcept>
+
+1218154963 c:\_project\hylian_knights\gamelibrary\time\time_reporter.hpp
+	"../types/smart_ptr.hpp"
+
+1219104371 c:\_project\hylian_knights\gamelibrary\visen\texture.hpp
+	"screen.hpp"
+	"image.hpp"
+	"color.hpp"
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<string>
+	<memory>
+	<exception>
+
+1219153351 c:\_project\hylian_knights\gamelibrary\visen\screen.hpp
+	"color.hpp"
+	"../auden/audio_connector.hpp"
+	"../events/event_connector.hpp"
+	"../input/input_connector.hpp"
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+	<exception>
+	<memory>
+	<string>
+
+1219104310 c:\_project\hylian_knights\gamelibrary\visen\image.hpp
+	"screen.hpp"
+	"color.hpp"
+	"../types/byte.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<string>
+	<memory>
+	<exception>
+
+1219967157 c:\_project\hylian_knights\gamelibrary\game\display_list_node.hpp
+	"scene_node.hpp"
+	"../types/smart_ptr.hpp"
+	"../visen/display_list.hpp"
+	<exception>
+
+1219965203 c:\_project\hylian_knights\gamelibrary\visen\display_list.hpp
+	"../types/manager.hpp"
+	<exception>
+
+1220792757 c:\_project\hylian_knights\gamelibrary\geometry\geometry.hpp
+	"floats.hpp"
+	"line.hpp"
+	"panel.hpp"
+	"point.hpp"
+	"vector.hpp"
+
+1221178647 c:\_project\hylian_knights\gamelibrary\geometry\floats.hpp
+	<cmath>
+
+1221178444 c:\_project\hylian_knights\gamelibrary\geometry\line.hpp
+	"../types/maybe.hpp"
+	"panel.hpp"
+	"vector.hpp"
+	"floats.hpp"
+	<string>
+	<sstream>
+
+1220045931 c:\_project\hylian_knights\gamelibrary\types\maybe.hpp
+
+1220646103 c:\_project\hylian_knights\gamelibrary\geometry\panel.hpp
+	"../types/maybe.hpp"
+	"point.hpp"
+	<cmath>
+	<exception>
+	<string>
+	<sstream>
+
+1220051849 c:\_project\hylian_knights\gamelibrary\geometry\point.hpp
+	<string>
+	<sstream>
+	"floats.hpp"
+
+1220051061 c:\_project\hylian_knights\gamelibrary\geometry\vector.hpp
+	"floats.hpp"
+	"point.hpp"
+	<string>
+	<sstream>
+	<cmath>
+
+1220824128 c:\_project\hylian_knights\gamelibrary\input\input.hpp
+	"auto_gamepad.hpp"
+	"gamepad_ports.hpp"
+	"input_connector.hpp"
+	"key_codes.hpp"
+	"auto_keyboard.hpp"
+	"keyboard.hpp"
+	"gamepad.hpp"
+	"mouse.hpp"
+
+1219102299 c:\_project\hylian_knights\gamelibrary\input\key_state.hpp
+	"key_codes.hpp"
+	"input_connector.hpp"
+	"../types/smart_ptr.hpp"
+	<vector>
+
+1220649807 c:\_project\hylian_knights\gamelibrary\maths\maths.hpp
+	"power_of_2.hpp"
+	"random.hpp"
+
+1218153906 c:\_project\hylian_knights\gamelibrary\maths\power_of_2.hpp
+
+1219958133 c:\_project\hylian_knights\gamelibrary\test\test.hpp
+	"diagnostic.hpp"
+
+1219957575 c:\_project\hylian_knights\gamelibrary\test\diagnostic.hpp
+	<boost/algorithm/string/replace.hpp>
+	<string>
+	<iostream>
+	<stack>
+
+1218154945 c:\_project\hylian_knights\gamelibrary\time\time.hpp
+	"cap.hpp"
+	"delta_time.hpp"
+	"fps.hpp"
+	"frame_ticker.hpp"
+	"millisecond_reporter.hpp"
+	"time_method.hpp"
+	"time_reporter.hpp"
+
+1218155392 c:\_project\hylian_knights\gamelibrary\time\cap.hpp
+	"../types/smart_ptr.hpp"
+
+1218154861 c:\_project\hylian_knights\gamelibrary\time\delta_time.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+
+1218154867 c:\_project\hylian_knights\gamelibrary\time\fps.hpp
+	"../types/smart_ptr.hpp"
+
+1218154883 c:\_project\hylian_knights\gamelibrary\time\millisecond_reporter.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+
+1216429265 c:\_project\hylian_knights\gamelibrary\time\time_method.hpp
+
+1220794670 c:\_project\hylian_knights\gamelibrary\types\types.hpp
+	"byte.hpp"
+	"manager.hpp"
+	"mutable_closer.hpp"
+	"smart_ptr.hpp"
+	"word_filter.hpp"
+
+1218153801 c:\_project\hylian_knights\gamelibrary\types\mutable_closer.hpp
+
+1219965242 c:\_project\hylian_knights\gamelibrary\visen\visen.hpp
+	"color.hpp"
+	"error_trap.hpp"
+	"image.hpp"
+	"screen.hpp"
+	"texture.hpp"
+	"display_list.hpp"
+	"display_absorber.hpp"
+
+1218155035 c:\_project\hylian_knights\gamelibrary\visen\error_trap.hpp
+	"../types/smart_ptr.hpp"
+	<string>
+	<memory>
+	<exception>
+	<map>
+
+1219967194 c:\_project\hylian_knights\gamelibrary\visen\display_absorber.hpp
+	"display_list.hpp"
+	<exception>
+
+1220647458 c:\_project\hylian_knights\gamelibrary\events\close_handler.hpp
+	"imports.hpp"
+	"event_handlers.hpp"
+
+1220657797 c:\_project\hylian_knights\gamelibrary\maths\random.hpp
+
+1220753403 c:\_project\hylian_knights\gamelibrary\geometry\polygon.hpp
+	"../types/maybe.hpp"
+	"floats.hpp"
+	"point.hpp"
+	"panel.hpp"
+	"line.hpp"
+	<vector>
+	<string>
+	<sstream>
+
+1221178593 source:c:\_project\hylian_knights\gamelibrary\geometry\driver\test_line.cpp
+	"../../auden/auden.hpp"
+	"../../events/events.hpp"
+	"../../game/game.hpp"
+	"../../geometry/geometry.hpp"
+	"../../input/input.hpp"
+	"../../maths/maths.hpp"
+	"../../test/test.hpp"
+	"../../time/time.hpp"
+	"../../types/types.hpp"
+	"../../visen/visen.hpp"
+	<iostream>
+	<list>
+	<gl/gl.h>
+
+1220822852 c:\_project\hylian_knights\gamelibrary\input\keyboard.hpp
+	"key_codes.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<map>
+	<list>
+
+1220819003 c:\_project\hylian_knights\gamelibrary\input\gamepad_data.hpp
+	"gamepad_ports.hpp"
+	"../types/smart_ptr.hpp"
+	<string>
+	<memory>
+	<exception>
+	<stdexcept>
+
+1220825827 c:\_project\hylian_knights\gamelibrary\game\translation_node.hpp
+	"scene_node.hpp"
+	"../types/smart_ptr.hpp"
+
+1220826083 c:\_project\hylian_knights\gamelibrary\game\rotation_node.hpp
+	"scene_node.hpp"
+	"../types/smart_ptr.hpp"
+
+1220826001 c:\_project\hylian_knights\gamelibrary\game\scale_node.hpp
+	"scene_node.hpp"
+	"../types/smart_ptr.hpp"
+
+1220822993 c:\_project\hylian_knights\gamelibrary\input\auto_gamepad.hpp
+	"gamepad_ports.hpp"
+	"gamepad_data.hpp"
+	"../types/smart_ptr.hpp"
+	<string>
+	<memory>
+	<exception>
+	<stdexcept>
+
+1220824384 c:\_project\hylian_knights\gamelibrary\input\auto_keyboard.hpp
+	"key_codes.hpp"
+	"input_connector.hpp"
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+	<vector>
+
+1220797324 c:\_project\hylian_knights\gamelibrary\types\word_filter.hpp
+	<string>
+	<map>
+

@@ -1,0 +1,99 @@
+# depslib dependency file v1.0
+1221224617 source:c:\_project\hylian_knights\gamelibrary\geometry\driver\blank.cpp
+	"../line_equation.hpp"
+
+1221231063 c:\_project\hylian_knights\gamelibrary\geometry\line_equation.hpp
+	"../types/maybe.hpp"
+	"panel.hpp"
+	"vector.hpp"
+	"floats.hpp"
+	"line_methods.hpp"
+	<string>
+	<sstream>
+
+1220045931 c:\_project\hylian_knights\gamelibrary\types\maybe.hpp
+
+1221227419 c:\_project\hylian_knights\gamelibrary\geometry\panel.hpp
+	"../types/maybe.hpp"
+	"point.hpp"
+	<cmath>
+	<exception>
+	<string>
+	<sstream>
+
+1221226752 c:\_project\hylian_knights\gamelibrary\geometry\point.hpp
+	<string>
+	<sstream>
+	"floats.hpp"
+
+1221178677 c:\_project\hylian_knights\gamelibrary\geometry\floats.hpp
+	<cmath>
+
+1221226767 c:\_project\hylian_knights\gamelibrary\geometry\vector.hpp
+	"floats.hpp"
+	"point.hpp"
+	<string>
+	<sstream>
+	<cmath>
+
+1221231342 c:\_project\hylian_knights\gamelibrary\geometry\line_methods.hpp
+	"../types/maybe.hpp"
+	"panel.hpp"
+	"vector.hpp"
+	"floats.hpp"
+	<string>
+	<sstream>
+
+1221231761 source:h:\programming\libraries\aab\geometry\driver\blank.cpp
+	"../geometry.hpp"
+
+1375462220 h:\programming\libraries\aab\geometry\geometry.hpp
+	"floats.hpp"
+	"line_equation.hpp"
+	"line_segment.hpp"
+	"panel.hpp"
+	"point.hpp"
+	"vector.hpp"
+
+1375461704 h:\programming\libraries\aab\geometry\floats.hpp
+	<cmath>
+	<limits>
+
+1375463325 h:\programming\libraries\aab\geometry\line_equation.hpp
+	"../types/maybe.hpp"
+	"panel.hpp"
+	"vector.hpp"
+	"floats.hpp"
+	"line_methods.hpp"
+
+1393276175 h:\programming\libraries\aab\types\maybe.hpp
+	<test/debug_assertions.hpp>
+
+1396989349 h:\programming\libraries\aab\geometry\panel.hpp
+	"../types/maybe.hpp"
+	"point.hpp"
+	<cmath>
+	<algorithm>
+
+1402939780 h:\programming\libraries\aab\geometry\point.hpp
+	"floats.hpp"
+
+1378479039 h:\programming\libraries\aab\geometry\vector.hpp
+	"floats.hpp"
+	"../maths/constants.hpp"
+
+1375463835 h:\programming\libraries\aab\geometry\line_methods.hpp
+	"../types/maybe.hpp"
+	"panel.hpp"
+	"vector.hpp"
+	"floats.hpp"
+
+1375463855 h:\programming\libraries\aab\geometry\line_segment.hpp
+	"../types/maybe.hpp"
+	"panel.hpp"
+	"vector.hpp"
+	"floats.hpp"
+	"line_methods.hpp"
+
+1378477658 h:\programming\libraries\aab\maths\constants.hpp
+

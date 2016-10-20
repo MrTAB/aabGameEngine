@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="debug+release" />
+	<File name="color_node.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="67" topLine="0" />
+	</File>
+	<File name="color_node.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="266" topLine="0" />
+	</File>
+	<File name="display_list_node.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="625" topLine="0" />
+	</File>
+	<File name="display_list_node.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="764" topLine="0" />
+	</File>
+	<File name="game.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="50" topLine="0" />
+	</File>
+	<File name="game.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="550" topLine="0" />
+	</File>
+	<File name="group_node.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="316" topLine="0" />
+	</File>
+	<File name="group_node.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="374" topLine="0" />
+	</File>
+	<File name="matrix_node.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="299" topLine="0" />
+	</File>
+	<File name="matrix_node.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="374" topLine="0" />
+	</File>
+	<File name="moveable_texture_node.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="768" topLine="0" />
+	</File>
+	<File name="moveable_texture_node.hpp" open="0" top="0" tabpos="2">
+		<Cursor position="497" topLine="0" />
+	</File>
+	<File name="pose_node.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="270" topLine="0" />
+	</File>
+	<File name="pose_node.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="350" topLine="0" />
+	</File>
+	<File name="rotation_node.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="69" topLine="0" />
+	</File>
+	<File name="rotation_node.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="193" topLine="0" />
+	</File>
+	<File name="scale_node.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="181" topLine="0" />
+	</File>
+	<File name="scale_node.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="404" topLine="0" />
+	</File>
+	<File name="scene_node.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="449" topLine="7" />
+	</File>
+	<File name="scene_node.hpp" open="0" top="0" tabpos="14">
+		<Cursor position="494" topLine="16" />
+	</File>
+	<File name="sprite.cpp" open="0" top="0" tabpos="7">
+		<Cursor position="984" topLine="26" />
+	</File>
+	<File name="sprite.hpp" open="0" top="0" tabpos="1">
+		<Cursor position="2887" topLine="78" />
+	</File>
+	<File name="sprite_batch.cpp" open="0" top="0" tabpos="19">
+		<Cursor position="3220" topLine="81" />
+	</File>
+	<File name="sprite_batch.hpp" open="0" top="0" tabpos="2">
+		<Cursor position="2010" topLine="87" />
+	</File>
+	<File name="sprite_builders.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="457" topLine="0" />
+	</File>
+	<File name="sprite_builders.hpp" open="0" top="0" tabpos="1">
+		<Cursor position="438" topLine="0" />
+	</File>
+	<File name="texture_node.cpp" open="0" top="0" tabpos="8">
+		<Cursor position="274" topLine="0" />
+	</File>
+	<File name="texture_node.hpp" open="0" top="0" tabpos="4">
+		<Cursor position="292" topLine="0" />
+	</File>
+	<File name="transformation_node.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="327" topLine="0" />
+	</File>
+	<File name="transformation_node.hpp" open="0" top="0" tabpos="2">
+		<Cursor position="357" topLine="0" />
+	</File>
+	<File name="translation_node.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="229" topLine="0" />
+	</File>
+	<File name="translation_node.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="205" topLine="0" />
+	</File>
+	<File name="viewport.cpp" open="0" top="0" tabpos="18">
+		<Cursor position="1729" topLine="168" />
+	</File>
+	<File name="viewport.hpp" open="0" top="0" tabpos="1">
+		<Cursor position="747" topLine="16" />
+	</File>
+</CodeBlocks_layout_file>

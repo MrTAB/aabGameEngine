@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="game" />
+		<Option pch_mode="0" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="release O3">
+				<Option output="..\lib\libgame.a" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="" />
+				<Option object_output=".objs\release" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option projectResourceIncludeDirsRelation="2" />
+				<Compiler>
+					<Add option="-fomit-frame-pointer" />
+					<Add option="-fexpensive-optimizations" />
+					<Add option="-O3" />
+					<Add option="-std=c++0x" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="debug">
+				<Option output="..\lib_debug\libgame.a" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="" />
+				<Option object_output=".objs\debug" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option projectResourceIncludeDirsRelation="2" />
+				<Compiler>
+					<Add option="-std=c++0x" />
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-D_DEBUG" />
+				</Compiler>
+			</Target>
+			<Target title="release">
+				<Option output="..\lib\libgame.a" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="" />
+				<Option object_output=".objs\release" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option projectResourceIncludeDirsRelation="2" />
+				<Compiler>
+					<Add option="-std=c++0x" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="release O2">
+				<Option output="..\lib\libgame.a" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="" />
+				<Option object_output=".objs\release" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option projectResourceIncludeDirsRelation="2" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++0x" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="debug Wall">
+				<Option output="..\lib_debug\libgame.a" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="" />
+				<Option object_output=".objs\debug" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option projectResourceIncludeDirsRelation="2" />
+				<Compiler>
+					<Add option="-Wshadow" />
+					<Add option="-Winit-self" />
+					<Add option="-Wredundant-decls" />
+					<Add option="-Wcast-align" />
+					<Add option="-Wundef" />
+					<Add option="-Wfloat-equal" />
+					<Add option="-Winline" />
+					<Add option="-Wunreachable-code" />
+					<Add option="-Wmissing-declarations" />
+					<Add option="-Wmissing-include-dirs" />
+					<Add option="-Wswitch-enum" />
+					<Add option="-Wswitch-default" />
+					<Add option="-Weffc++" />
+					<Add option="-Wmain" />
+					<Add option="-pedantic" />
+					<Add option="-std=c++0x" />
+					<Add option="-Wextra" />
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-D_DEBUG" />
+				</Compiler>
+			</Target>
+		</Build>
+		<VirtualTargets>
+			<Add alias="debug+release" targets="debug;release" />
+		</VirtualTargets>
+		<Compiler>
+			<Add option="-std=c++0x" />
+		</Compiler>
+		<Unit filename="color_node.cpp" />
+		<Unit filename="color_node.hpp" />
+		<Unit filename="display_list_node.cpp" />
+		<Unit filename="display_list_node.hpp" />
+		<Unit filename="game.cpp" />
+		<Unit filename="game.hpp" />
+		<Unit filename="group_node.cpp" />
+		<Unit filename="group_node.hpp" />
+		<Unit filename="matrix_node.cpp" />
+		<Unit filename="matrix_node.hpp" />
+		<Unit filename="moveable_texture_node.cpp" />
+		<Unit filename="moveable_texture_node.hpp" />
+		<Unit filename="pose_node.cpp" />
+		<Unit filename="pose_node.hpp" />
+		<Unit filename="rotation_node.cpp" />
+		<Unit filename="rotation_node.hpp" />
+		<Unit filename="scale_node.cpp" />
+		<Unit filename="scale_node.hpp" />
+		<Unit filename="scene_node.cpp" />
+		<Unit filename="scene_node.hpp" />
+		<Unit filename="sprite.cpp" />
+		<Unit filename="sprite.hpp" />
+		<Unit filename="sprite_batch.cpp" />
+		<Unit filename="sprite_batch.hpp" />
+		<Unit filename="sprite_builders.cpp" />
+		<Unit filename="sprite_builders.hpp" />
+		<Unit filename="texture_node.cpp" />
+		<Unit filename="texture_node.hpp" />
+		<Unit filename="transformation_node.cpp" />
+		<Unit filename="transformation_node.hpp" />
+		<Unit filename="translation_node.cpp" />
+		<Unit filename="translation_node.hpp" />
+		<Unit filename="viewport.cpp" />
+		<Unit filename="viewport.hpp" />
+		<Extensions>
+			<debugger />
+			<code_completion />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
