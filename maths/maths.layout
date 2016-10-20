@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="debug+release" />
+	<File name="constants.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="99" topLine="0" />
+	</File>
+	<File name="constants.hpp" open="0" top="0" tabpos="15">
+		<Cursor position="99" topLine="0" />
+	</File>
+	<File name="maths.hpp" open="0" top="0" tabpos="1">
+		<Cursor position="362" topLine="0" />
+	</File>
+	<File name="power_of_2.hpp" open="0" top="0" tabpos="3">
+		<Cursor position="192" topLine="0" />
+	</File>
+	<File name="random.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="794" topLine="34" />
+	</File>
+	<File name="random.hpp" open="0" top="0" tabpos="1">
+		<Cursor position="351" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

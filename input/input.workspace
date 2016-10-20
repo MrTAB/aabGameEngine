@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE CodeBlocks_workspace_file>
+<CodeBlocks_workspace_file>
+	<Workspace title="input">
+		<Project filename="input.cbp"/>
+		<Project filename="..\driver\driver.cbp" active="1"/>
+		<Project filename="..\visen\visen.cbp"/>
+		<Project filename="..\time\time.cbp"/>
+	</Workspace>
+</CodeBlocks_workspace_file>

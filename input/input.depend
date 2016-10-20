@@ -1,0 +1,1000 @@
+# depslib dependency file v1.0
+1216146440 c:\_project\hylian_knights\gamelibrary\input\key_codes.cpp
+	"key_codes.hpp"
+	<sdl.H>
+
+1216308888 c:\_project\hylian_knights\gamelibrary\input\key_codes.hpp
+	<SDL_keysym.h>
+	<string>
+
+1216581511 c:\_project\hylian_knights\gamelibrary\input\key_state.cpp
+	"key_state.hpp"
+	"../time/time.hpp"
+	<sdl.H>
+	<cstdio>
+	<algorithm>
+
+1219102299 c:\_project\hylian_knights\gamelibrary\input\key_state.hpp
+	"key_codes.hpp"
+	"input_connector.hpp"
+	"../types/smart_ptr.hpp"
+	<vector>
+
+1219102249 c:\_project\hylian_knights\gamelibrary\input\input_connector.hpp
+	"../types/smart_ptr.hpp"
+
+1217772755 c:\_project\hylian_knights\gamelibrary\utility\smart_ptr.hpp
+	<boost/smart_ptr.hpp>
+	<boost/pointer_cast.hpp>
+
+1218154945 c:\_project\hylian_knights\gamelibrary\time\time.hpp
+	"cap.hpp"
+	"delta_time.hpp"
+	"fps.hpp"
+	"frame_ticker.hpp"
+	"millisecond_reporter.hpp"
+	"time_method.hpp"
+	"time_reporter.hpp"
+
+1217516550 c:\_project\hylian_knights\gamelibrary\input\gamepad.cpp
+	"gamepad.hpp"
+	<sdl.H>
+	<exception>
+	<cmath>
+
+1220823055 c:\_project\hylian_knights\gamelibrary\input\gamepad.hpp
+	"hat_position.hpp"
+	"gamepad_data.hpp"
+	"../types/smart_ptr.hpp"
+	<map>
+
+1221402901 c:\_project\hylian_knights\gamelibrary\input\gamepad_ports.hpp
+	"input_connector.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<vector>
+
+1216581258 c:\_project\hylian_knights\gamelibrary\input\gamepad_ports.cpp
+	"gamepad_ports.hpp"
+	<sdl.H>
+	<iterator>
+	<algorithm>
+
+1218155392 c:\_project\hylian_knights\gamelibrary\time\cap.hpp
+	"../types/smart_ptr.hpp"
+
+1218154861 c:\_project\hylian_knights\gamelibrary\time\delta_time.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+
+1218154963 c:\_project\hylian_knights\gamelibrary\time\time_reporter.hpp
+	"../types/smart_ptr.hpp"
+
+1218154867 c:\_project\hylian_knights\gamelibrary\time\fps.hpp
+	"../types/smart_ptr.hpp"
+
+1216429265 c:\_project\hylian_knights\gamelibrary\time\time_method.hpp
+
+1217894778 c:\_project\hylian_knights\gamelibrary\input\mouse.cpp
+	"mouse.hpp"
+	"../time/time.hpp"
+	<sdl.H>
+
+1220807670 c:\_project\hylian_knights\gamelibrary\input\mouse.hpp
+	"input_connector.hpp"
+	"mouse_data.hpp"
+	<vector>
+
+1218154876 c:\_project\hylian_knights\gamelibrary\time\frame_ticker.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+	<exception>
+	<stdexcept>
+
+1220808605 c:\_project\hylian_knights\gamelibrary\input\mouse_data.hpp
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+
+1218153802 c:\_project\hylian_knights\gamelibrary\types\smart_ptr.hpp
+	<boost/smart_ptr.hpp>
+	<boost/pointer_cast.hpp>
+
+1218154883 c:\_project\hylian_knights\gamelibrary\time\millisecond_reporter.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+
+1217894957 c:\_project\hylian_knights\gamelibrary\input\mouse_data.cpp
+	"mouse_data.hpp"
+	"../time/time.hpp"
+	<sdl.H>
+
+1220808630 source:c:\_project\hylian_knights\gamelibrary\input\gamepad_ports.cpp
+	"gamepad_ports.hpp"
+	<sdl.H>
+	<iterator>
+	<algorithm>
+
+1216146440 source:c:\_project\hylian_knights\gamelibrary\input\key_codes.cpp
+	"key_codes.hpp"
+	<sdl.H>
+
+1219102305 source:c:\_project\hylian_knights\gamelibrary\input\key_state.cpp
+	"key_state.hpp"
+	"../time/time.hpp"
+	<sdl.H>
+	<cstdio>
+	<algorithm>
+	<iostream>
+
+1220807695 source:c:\_project\hylian_knights\gamelibrary\input\mouse.cpp
+	"mouse.hpp"
+	"../time/time.hpp"
+	<sdl.H>
+
+1220822260 source:c:\_project\hylian_knights\gamelibrary\input\gamepad.cpp
+	"gamepad.hpp"
+
+1220807400 source:c:\_project\hylian_knights\gamelibrary\input\mouse_data.cpp
+	"mouse_data.hpp"
+	<sdl.H>
+
+1218988347 source:c:\_project\hylian_knights\gamelibrary\input\hat_position.cpp
+	"hat_position.hpp"
+	<sdl.H>
+
+1219025158 c:\_project\hylian_knights\gamelibrary\input\hat_position.hpp
+	"../types/smart_ptr.hpp"
+
+1219085537 source:c:\_project\hylian_knights\gamelibrary\input\key_info.cpp
+	"key_info.hpp"
+	"../time/time.hpp"
+	<sdl.H>
+	<cstdio>
+	<algorithm>
+	<iostream>
+
+1219085529 c:\_project\hylian_knights\gamelibrary\input\key_info.hpp
+	"key_codes.hpp"
+	"../types/smart_ptr.hpp"
+	<map>
+	<list>
+
+1220819032 source:c:\_project\hylian_knights\gamelibrary\input\gamepad_state.cpp
+	"gamepad_state.hpp"
+
+1220817761 c:\_project\hylian_knights\gamelibrary\input\gamepad_state.hpp
+	"hat_position.hpp"
+	"gamepad_data.hpp"
+	"../types/smart_ptr.hpp"
+	<map>
+
+1220808618 c:\_project\hylian_knights\gamelibrary\types\manager.hpp
+	"smart_ptr.hpp"
+
+1220819003 c:\_project\hylian_knights\gamelibrary\input\gamepad_data.hpp
+	"gamepad_ports.hpp"
+	"../types/smart_ptr.hpp"
+	<string>
+	<memory>
+	<exception>
+	<stdexcept>
+
+1220818957 c:\_project\hylian_knights\gamelibrary\input\gamepad_data_class_data.hpp
+	"gamepad_data.hpp"
+	<sdl.H>
+
+1220818989 source:c:\_project\hylian_knights\gamelibrary\input\gamepad_data.cpp
+	"gamepad_data.hpp"
+	"gamepad_data_class_data.hpp"
+	<sdl.H>
+	<exception>
+	<cmath>
+
+1220822162 source:c:\_project\hylian_knights\gamelibrary\input\auto_gamepad.cpp
+	"auto_gamepad.hpp"
+	"gamepad_data_class_data.hpp"
+	<sdl.H>
+	<exception>
+	<cmath>
+
+1220822993 c:\_project\hylian_knights\gamelibrary\input\auto_gamepad.hpp
+	"gamepad_ports.hpp"
+	"gamepad_data.hpp"
+	"../types/smart_ptr.hpp"
+	<string>
+	<memory>
+	<exception>
+	<stdexcept>
+
+1220822842 source:c:\_project\hylian_knights\gamelibrary\input\keyboard.cpp
+	"keyboard.hpp"
+	"../time/time.hpp"
+	<sdl.H>
+	<cstdio>
+	<algorithm>
+	<iostream>
+
+1220822852 c:\_project\hylian_knights\gamelibrary\input\keyboard.hpp
+	"key_codes.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<map>
+	<list>
+
+1220824621 source:c:\_project\hylian_knights\gamelibrary\input\auto_keyboard.cpp
+	"auto_keyboard.hpp"
+	"../time/time.hpp"
+	<sdl.H>
+	<cstdio>
+	<algorithm>
+	<iostream>
+
+1220824384 c:\_project\hylian_knights\gamelibrary\input\auto_keyboard.hpp
+	"key_codes.hpp"
+	"input_connector.hpp"
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+	<vector>
+
+1220822162 source:f:\misc old projects\hylian_knights\gamelibrary\input\auto_gamepad.cpp
+	"auto_gamepad.hpp"
+	"gamepad_data_class_data.hpp"
+	<sdl.H>
+	<exception>
+	<cmath>
+
+1220822993 f:\misc old projects\hylian_knights\gamelibrary\input\auto_gamepad.hpp
+	"gamepad_ports.hpp"
+	"gamepad_data.hpp"
+	"../types/smart_ptr.hpp"
+	<string>
+	<memory>
+	<exception>
+	<stdexcept>
+
+1221402901 f:\misc old projects\hylian_knights\gamelibrary\input\gamepad_ports.hpp
+	"input_connector.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<vector>
+
+1219102249 f:\misc old projects\hylian_knights\gamelibrary\input\input_connector.hpp
+	"../types/smart_ptr.hpp"
+
+1218153802 f:\misc old projects\hylian_knights\gamelibrary\types\smart_ptr.hpp
+	<boost/smart_ptr.hpp>
+	<boost/pointer_cast.hpp>
+
+1220808618 f:\misc old projects\hylian_knights\gamelibrary\types\manager.hpp
+	"smart_ptr.hpp"
+
+1220819003 f:\misc old projects\hylian_knights\gamelibrary\input\gamepad_data.hpp
+	"gamepad_ports.hpp"
+	"../types/smart_ptr.hpp"
+	<string>
+	<memory>
+	<exception>
+	<stdexcept>
+
+1220818957 f:\misc old projects\hylian_knights\gamelibrary\input\gamepad_data_class_data.hpp
+	"gamepad_data.hpp"
+	<sdl.H>
+
+1220824621 source:f:\misc old projects\hylian_knights\gamelibrary\input\auto_keyboard.cpp
+	"auto_keyboard.hpp"
+	"../time/time.hpp"
+	<sdl.H>
+	<cstdio>
+	<algorithm>
+	<iostream>
+
+1220824384 f:\misc old projects\hylian_knights\gamelibrary\input\auto_keyboard.hpp
+	"key_codes.hpp"
+	"input_connector.hpp"
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+	<vector>
+
+1216308888 f:\misc old projects\hylian_knights\gamelibrary\input\key_codes.hpp
+	<SDL_keysym.h>
+	<string>
+
+1218154945 f:\misc old projects\hylian_knights\gamelibrary\time\time.hpp
+	"cap.hpp"
+	"delta_time.hpp"
+	"fps.hpp"
+	"frame_ticker.hpp"
+	"millisecond_reporter.hpp"
+	"time_method.hpp"
+	"time_reporter.hpp"
+
+1218155392 f:\misc old projects\hylian_knights\gamelibrary\time\cap.hpp
+	"../types/smart_ptr.hpp"
+
+1218154861 f:\misc old projects\hylian_knights\gamelibrary\time\delta_time.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+
+1218154963 f:\misc old projects\hylian_knights\gamelibrary\time\time_reporter.hpp
+	"../types/smart_ptr.hpp"
+
+1218154867 f:\misc old projects\hylian_knights\gamelibrary\time\fps.hpp
+	"../types/smart_ptr.hpp"
+
+1218154876 f:\misc old projects\hylian_knights\gamelibrary\time\frame_ticker.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+	<exception>
+	<stdexcept>
+
+1218154883 f:\misc old projects\hylian_knights\gamelibrary\time\millisecond_reporter.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+
+1216429265 f:\misc old projects\hylian_knights\gamelibrary\time\time_method.hpp
+
+1220822260 source:f:\misc old projects\hylian_knights\gamelibrary\input\gamepad.cpp
+	"gamepad.hpp"
+
+1220823055 f:\misc old projects\hylian_knights\gamelibrary\input\gamepad.hpp
+	"hat_position.hpp"
+	"gamepad_data.hpp"
+	"../types/smart_ptr.hpp"
+	<map>
+
+1219025158 f:\misc old projects\hylian_knights\gamelibrary\input\hat_position.hpp
+	"../types/smart_ptr.hpp"
+
+1220818989 source:f:\misc old projects\hylian_knights\gamelibrary\input\gamepad_data.cpp
+	"gamepad_data.hpp"
+	"gamepad_data_class_data.hpp"
+	<sdl.H>
+	<exception>
+	<cmath>
+
+1229879165 source:f:\misc old projects\hylian_knights\gamelibrary\input\gamepad_ports.cpp
+	"gamepad_ports.hpp"
+	<sdl.H>
+	<iterator>
+	<algorithm>
+
+1218988347 source:f:\misc old projects\hylian_knights\gamelibrary\input\hat_position.cpp
+	"hat_position.hpp"
+	<sdl.H>
+
+1216146440 source:f:\misc old projects\hylian_knights\gamelibrary\input\key_codes.cpp
+	"key_codes.hpp"
+	<sdl.H>
+
+1220822842 source:f:\misc old projects\hylian_knights\gamelibrary\input\keyboard.cpp
+	"keyboard.hpp"
+	"../time/time.hpp"
+	<sdl.H>
+	<cstdio>
+	<algorithm>
+	<iostream>
+
+1220822852 f:\misc old projects\hylian_knights\gamelibrary\input\keyboard.hpp
+	"key_codes.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<map>
+	<list>
+
+1220807695 source:f:\misc old projects\hylian_knights\gamelibrary\input\mouse.cpp
+	"mouse.hpp"
+	"../time/time.hpp"
+	<sdl.H>
+
+1220807670 f:\misc old projects\hylian_knights\gamelibrary\input\mouse.hpp
+	"input_connector.hpp"
+	"mouse_data.hpp"
+	<vector>
+
+1220808605 f:\misc old projects\hylian_knights\gamelibrary\input\mouse_data.hpp
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+
+1220807400 source:f:\misc old projects\hylian_knights\gamelibrary\input\mouse_data.cpp
+	"mouse_data.hpp"
+	<sdl.H>
+
+1220822162 source:f:\programming\libraries\aab\input\auto_gamepad.cpp
+	"auto_gamepad.hpp"
+	"gamepad_data_class_data.hpp"
+	<sdl.H>
+	<exception>
+	<cmath>
+
+1220822993 f:\programming\libraries\aab\input\auto_gamepad.hpp
+	"gamepad_ports.hpp"
+	"gamepad_data.hpp"
+	"../types/smart_ptr.hpp"
+	<string>
+	<memory>
+	<exception>
+	<stdexcept>
+
+1221402901 f:\programming\libraries\aab\input\gamepad_ports.hpp
+	"input_connector.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<vector>
+
+1219102249 f:\programming\libraries\aab\input\input_connector.hpp
+	"../types/smart_ptr.hpp"
+
+1333401191 f:\programming\libraries\aab\types\smart_ptr.hpp
+	<boost/smart_ptr.hpp>
+	<boost/pointer_cast.hpp>
+
+1220808618 f:\programming\libraries\aab\types\manager.hpp
+	"smart_ptr.hpp"
+
+1333720616 f:\programming\libraries\aab\input\gamepad_data.hpp
+	"gamepad_ports.hpp"
+	"../types/smart_ptr.hpp"
+	<string>
+	<memory>
+	<exception>
+	<stdexcept>
+
+1220818957 f:\programming\libraries\aab\input\gamepad_data_class_data.hpp
+	"gamepad_data.hpp"
+	<sdl.H>
+
+1333413752 source:f:\programming\libraries\aab\input\auto_keyboard.cpp
+	"auto_keyboard.hpp"
+	"../time/time.hpp"
+	<sdl.H>
+	<cstdio>
+	<algorithm>
+	<iostream>
+
+1330994400 f:\programming\libraries\aab\input\auto_keyboard.hpp
+	"key_codes.hpp"
+	"input_connector.hpp"
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+	<vector>
+
+1216308888 f:\programming\libraries\aab\input\key_codes.hpp
+	<SDL_keysym.h>
+	<string>
+
+1330987042 f:\programming\libraries\aab\time\time.hpp
+	"cap.hpp"
+	"delta_time.hpp"
+	"fps.hpp"
+	"frame_ticker.hpp"
+	"millisecond_reporter.hpp"
+	"time_method.hpp"
+	"time_reporter.hpp"
+	"sub_animator.hpp"
+
+1218155392 f:\programming\libraries\aab\time\cap.hpp
+	"../types/smart_ptr.hpp"
+
+1218154861 f:\programming\libraries\aab\time\delta_time.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+
+1218154963 f:\programming\libraries\aab\time\time_reporter.hpp
+	"../types/smart_ptr.hpp"
+
+1218154867 f:\programming\libraries\aab\time\fps.hpp
+	"../types/smart_ptr.hpp"
+
+1330980956 f:\programming\libraries\aab\time\frame_ticker.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+	<exception>
+	<stdexcept>
+
+1218154883 f:\programming\libraries\aab\time\millisecond_reporter.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+
+1216429265 f:\programming\libraries\aab\time\time_method.hpp
+
+1220822260 source:f:\programming\libraries\aab\input\gamepad.cpp
+	"gamepad.hpp"
+
+1220823055 f:\programming\libraries\aab\input\gamepad.hpp
+	"hat_position.hpp"
+	"gamepad_data.hpp"
+	"../types/smart_ptr.hpp"
+	<map>
+
+1219025158 f:\programming\libraries\aab\input\hat_position.hpp
+	"../types/smart_ptr.hpp"
+
+1333719138 source:f:\programming\libraries\aab\input\gamepad_data.cpp
+	"gamepad_data.hpp"
+	"gamepad_data_class_data.hpp"
+	<sdl.H>
+	<exception>
+	<cmath>
+
+1229879165 source:f:\programming\libraries\aab\input\gamepad_ports.cpp
+	"gamepad_ports.hpp"
+	<sdl.H>
+	<iterator>
+	<algorithm>
+
+1218988347 source:f:\programming\libraries\aab\input\hat_position.cpp
+	"hat_position.hpp"
+	<sdl.H>
+
+1216146440 source:f:\programming\libraries\aab\input\key_codes.cpp
+	"key_codes.hpp"
+	<sdl.H>
+
+1220822842 source:f:\programming\libraries\aab\input\keyboard.cpp
+	"keyboard.hpp"
+	"../time/time.hpp"
+	<sdl.H>
+	<cstdio>
+	<algorithm>
+	<iostream>
+
+1220822852 f:\programming\libraries\aab\input\keyboard.hpp
+	"key_codes.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<map>
+	<list>
+
+1220807695 source:f:\programming\libraries\aab\input\mouse.cpp
+	"mouse.hpp"
+	"../time/time.hpp"
+	<sdl.H>
+
+1220807670 f:\programming\libraries\aab\input\mouse.hpp
+	"input_connector.hpp"
+	"mouse_data.hpp"
+	<vector>
+
+1220808605 f:\programming\libraries\aab\input\mouse_data.hpp
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+
+1220807400 source:f:\programming\libraries\aab\input\mouse_data.cpp
+	"mouse_data.hpp"
+	<sdl.H>
+
+1330988768 f:\programming\libraries\aab\time\sub_animator.hpp
+	"frame_ticker.hpp"
+
+1391549483 source:h:\programming\libraries\aab\input\auto_gamepad.cpp
+	"auto_gamepad.hpp"
+	"gamepad_data_class_data.hpp"
+	<sdl.H>
+	<exception>
+	<cmath>
+
+1391546924 h:\programming\libraries\aab\input\auto_gamepad.hpp
+	"gamepad_ports.hpp"
+	"gamepad_data.hpp"
+	"gamepad_values.hpp"
+	"../types/smart_ptr.hpp"
+	<string>
+	<memory>
+	<exception>
+	<stdexcept>
+
+1393272075 h:\programming\libraries\aab\input\gamepad_ports.hpp
+	"input_connector.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<stdexcept>
+	<string>
+	<sstream>
+	<vector>
+	<list>
+
+1393282785 h:\programming\libraries\aab\input\input_connector.hpp
+	"../types/smart_ptr.hpp"
+
+1333397591 h:\programming\libraries\aab\types\smart_ptr.hpp
+	<boost/smart_ptr.hpp>
+	<boost/pointer_cast.hpp>
+
+1391601574 h:\programming\libraries\aab\types\manager.hpp
+	"smart_ptr.hpp"
+
+1391546976 h:\programming\libraries\aab\input\gamepad_data.hpp
+	"gamepad_values.hpp"
+	"gamepad_ports.hpp"
+	"../types/smart_ptr.hpp"
+	<string>
+	<memory>
+	<exception>
+	<stdexcept>
+
+1220815357 h:\programming\libraries\aab\input\gamepad_data_class_data.hpp
+	"gamepad_data.hpp"
+	<sdl.H>
+
+1391536969 source:h:\programming\libraries\aab\input\auto_keyboard.cpp
+	"auto_keyboard.hpp"
+	"../time/time.hpp"
+	<sdl.H>
+	<cstdio>
+	<algorithm>
+	<iostream>
+
+1391536969 h:\programming\libraries\aab\input\auto_keyboard.hpp
+	"key_codes.hpp"
+	"input_connector.hpp"
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+	<vector>
+
+1390327818 h:\programming\libraries\aab\input\key_codes.hpp
+	<SDL_keysym.h>
+	<string>
+
+1399292516 h:\programming\libraries\aab\time\time.hpp
+	"cap.hpp"
+	"delta_time.hpp"
+	"fps.hpp"
+	"frame_ticker.hpp"
+	"object_ticker.hpp"
+	"manual_ticker.hpp"
+	"millisecond_reporter.hpp"
+	"time_method.hpp"
+	"time_reporter.hpp"
+	"sub_animator.hpp"
+	"callback_ticker.hpp"
+	"bounded_counter.hpp"
+	"mapped_counter.hpp"
+	"group_counter_ticker.hpp"
+	"gradient_timer.hpp"
+
+1393272894 h:\programming\libraries\aab\time\cap.hpp
+	"../types/smart_ptr.hpp"
+
+1393273081 h:\programming\libraries\aab\time\delta_time.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+
+1393275158 h:\programming\libraries\aab\time\time_reporter.hpp
+	"../types/smart_ptr.hpp"
+
+1399925439 h:\programming\libraries\aab\time\fps.hpp
+	"../types/smart_ptr.hpp"
+
+1399292552 h:\programming\libraries\aab\time\frame_ticker.hpp
+	"ticker.hpp"
+
+1393273256 h:\programming\libraries\aab\time\millisecond_reporter.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+
+1216425665 h:\programming\libraries\aab\time\time_method.hpp
+
+1393273986 h:\programming\libraries\aab\time\sub_animator.hpp
+	"frame_ticker.hpp"
+
+1393272379 source:h:\programming\libraries\aab\input\gamepad.cpp
+	"gamepad.hpp"
+	"gamepad_data_class_data.hpp"
+	"../test/debug_assertions.hpp"
+
+1393272386 h:\programming\libraries\aab\input\gamepad.hpp
+	"hat_position.hpp"
+	"gamepad_data.hpp"
+	"../types/smart_ptr.hpp"
+	<map>
+
+1446587947 h:\programming\libraries\aab\input\hat_position.hpp
+	"../types/smart_ptr.hpp"
+	"hat_value.hpp"
+
+1391536970 source:h:\programming\libraries\aab\input\gamepad_data.cpp
+	"gamepad_data.hpp"
+	"gamepad_data_class_data.hpp"
+	<sdl.H>
+	<exception>
+	<cmath>
+
+1393272077 source:h:\programming\libraries\aab\input\gamepad_ports.cpp
+	"gamepad_ports.hpp"
+	<sdl.H>
+	<iterator>
+	<algorithm>
+	"../test/exceptions.hpp"
+
+1446587853 source:h:\programming\libraries\aab\input\hat_position.cpp
+	"hat_position.hpp"
+	<sdl.H>
+
+1216142840 source:h:\programming\libraries\aab\input\key_codes.cpp
+	"key_codes.hpp"
+	<sdl.H>
+
+1220819242 source:h:\programming\libraries\aab\input\keyboard.cpp
+	"keyboard.hpp"
+	"../time/time.hpp"
+	<sdl.H>
+	<cstdio>
+	<algorithm>
+	<iostream>
+
+1391563434 h:\programming\libraries\aab\input\keyboard.hpp
+	"key_codes.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	<map>
+	<list>
+
+1220804095 source:h:\programming\libraries\aab\input\mouse.cpp
+	"mouse.hpp"
+	"../time/time.hpp"
+	<sdl.H>
+
+1220804070 h:\programming\libraries\aab\input\mouse.hpp
+	"input_connector.hpp"
+	"mouse_data.hpp"
+	<vector>
+
+1220805005 h:\programming\libraries\aab\input\mouse_data.hpp
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+
+1220803800 source:h:\programming\libraries\aab\input\mouse_data.cpp
+	"mouse_data.hpp"
+	<sdl.H>
+
+1408030435 h:\programming\libraries\aab\time\ticker.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+
+1399293429 h:\programming\libraries\aab\time\object_ticker.hpp
+	"ticker.hpp"
+	<vector>
+
+1401360153 h:\programming\libraries\aab\time\manual_ticker.hpp
+	"ticker.hpp"
+
+1391546690 h:\programming\libraries\aab\input\gamepad_values.hpp
+	<cstdint>
+
+1395872895 h:\programming\libraries\aab\test\debug_assertions.hpp
+	<stdexcept>
+
+1446589734 source:h:\programming\libraries\aab\input\input_controller.cpp
+	"input_controller.hpp"
+	"../time/time.hpp"
+	"gamepad_values.hpp"
+	"hat_position.hpp"
+	"../events/event_handlers.hpp"
+	"../events/gamepad_port_handler.hpp"
+	"../events/mouse_handler.hpp"
+	"../geometry/vector.hpp"
+	"../test/debug_assertions.hpp"
+	<sdl.H>
+	<cstdio>
+	<algorithm>
+	<iostream>
+
+1446589620 h:\programming\libraries\aab\input\input_controller.hpp
+	"input_codes.hpp"
+	"../types/smart_ptr.hpp"
+	"../types/manager.hpp"
+	"../events/multi_event_handler.hpp"
+	"hat_position.hpp"
+	"key_codes.hpp"
+	"gamepad_values.hpp"
+	"gamepad.hpp"
+	<map>
+	<vector>
+	<unordered_map>
+
+1446589592 h:\programming\libraries\aab\input\input_codes.hpp
+	<SDL_keysym.h>
+	<string>
+	"hat_value.hpp"
+
+1375397588 h:\programming\libraries\aab\events\keyboard_handler.hpp
+	"imports.hpp"
+	"multi_event_handler.hpp"
+	"key_event.hpp"
+	<string>
+
+1375400112 h:\programming\libraries\aab\events\imports.hpp
+	"../types/manager.hpp"
+	"../types/smart_ptr.hpp"
+
+1391639899 h:\programming\libraries\aab\events\multi_event_handler.hpp
+	"event_type.hpp"
+	"event_handler.hpp"
+	"imports.hpp"
+	<list>
+	<map>
+
+1330130787 h:\programming\libraries\aab\events\event_type.hpp
+
+1218565265 h:\programming\libraries\aab\events\event_handler.hpp
+	"event_type.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218150980 h:\programming\libraries\aab\events\internal_event.hpp
+	"event_type.hpp"
+	"imports.hpp"
+	<memory>
+
+1375400129 h:\programming\libraries\aab\events\key_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../input/key_codes.hpp"
+	"types/byte.hpp"
+
+1391546659 h:\programming\libraries\aab\events\event.hpp
+	"internal_event.hpp"
+	"imports.hpp"
+	"../input/gamepad_values.hpp"
+
+1393443252 source:h:\programming\libraries\aab\input\input_codes.cpp
+	"input_codes.hpp"
+	"gamepad_values.hpp"
+	"hat_position.hpp"
+	<test/debug_assertions.hpp>
+	<sstream>
+	<sdl.H>
+	<stdexcept>
+	<fstream>
+	<iostream>
+
+1391630382 h:\programming\libraries\aab\events\event_handlers.hpp
+	"event_handler_template.hpp"
+	"mouse_move_event.hpp"
+	"mouse_button_down_event.hpp"
+	"mouse_button_up_event.hpp"
+	"quit_event.hpp"
+	"key_up_event.hpp"
+	"key_down_event.hpp"
+	"window_restored_event.hpp"
+	"window_minimised_event.hpp"
+	"mouse_focus_gained_event.hpp"
+	"mouse_focus_lost_event.hpp"
+	"keyboard_focus_gained_event.hpp"
+	"keyboard_focus_lost_event.hpp"
+	"gamepad_axis_event.hpp"
+	"gamepad_ball_event.hpp"
+	"gamepad_hat_event.hpp"
+	"gamepad_button_up_event.hpp"
+	"gamepad_button_down_event.hpp"
+	"video_resize_event.hpp"
+
+1218121470 h:\programming\libraries\aab\events\event_handler_template.hpp
+	"event_handler.hpp"
+
+1391630276 h:\programming\libraries\aab\events\mouse_move_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../input/mouse_data.hpp"
+	"../types/smart_ptr.hpp"
+
+1391630298 h:\programming\libraries\aab\events\mouse_button_down_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../types/smart_ptr.hpp"
+
+1391630370 h:\programming\libraries\aab\events\mouse_button_up_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../types/smart_ptr.hpp"
+
+1218734661 h:\programming\libraries\aab\events\quit_event.hpp
+	"empty_event.hpp"
+
+1218730254 h:\programming\libraries\aab\events\empty_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218638415 h:\programming\libraries\aab\events\key_up_event.hpp
+	"key_event.hpp"
+
+1218638949 h:\programming\libraries\aab\events\key_down_event.hpp
+	"key_event.hpp"
+
+1330130948 h:\programming\libraries\aab\events\window_restored_event.hpp
+	"empty_event.hpp"
+
+1330130959 h:\programming\libraries\aab\events\window_minimised_event.hpp
+	"empty_event.hpp"
+
+1218734140 h:\programming\libraries\aab\events\mouse_focus_gained_event.hpp
+	"empty_event.hpp"
+
+1218734111 h:\programming\libraries\aab\events\mouse_focus_lost_event.hpp
+	"empty_event.hpp"
+
+1218734515 h:\programming\libraries\aab\events\keyboard_focus_gained_event.hpp
+	"empty_event.hpp"
+
+1218734302 h:\programming\libraries\aab\events\keyboard_focus_lost_event.hpp
+	"empty_event.hpp"
+
+1391546555 h:\programming\libraries\aab\events\gamepad_axis_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1391546381 h:\programming\libraries\aab\events\gamepad_ball_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1219021506 h:\programming\libraries\aab\events\gamepad_hat_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+	"../input/hat_position.hpp"
+
+1218829214 h:\programming\libraries\aab\events\gamepad_button_up_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218829341 h:\programming\libraries\aab\events\gamepad_button_down_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1218830072 h:\programming\libraries\aab\events\video_resize_event.hpp
+	"event.hpp"
+	"internal_event.hpp"
+	"imports.hpp"
+
+1391547043 h:\programming\libraries\aab\events\gamepad_port_handler.hpp
+	"imports.hpp"
+	"multi_event_handler.hpp"
+	"../input/hat_position.hpp"
+	"../input/gamepad_values.hpp"
+
+1391629424 h:\programming\libraries\aab\events\mouse_handler.hpp
+	"imports.hpp"
+	"multi_event_handler.hpp"
+
+1378475439 h:\programming\libraries\aab\geometry\vector.hpp
+	"floats.hpp"
+	"../maths/constants.hpp"
+
+1375458104 h:\programming\libraries\aab\geometry\floats.hpp
+	<cmath>
+	<limits>
+
+1378474058 h:\programming\libraries\aab\maths\constants.hpp
+
+1393282521 h:\programming\libraries\aab\test\exceptions.hpp
+	<exception>
+	<stdexcept>
+
+1398957177 h:\programming\libraries\aab\time\callback_ticker.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+
+1408030475 h:\programming\libraries\aab\time\bounded_counter.hpp
+
+1399161498 h:\programming\libraries\aab\time\mapped_counter.hpp
+	"bounded_counter.hpp"
+	<vector>
+
+1399121036 h:\programming\libraries\aab\time\group_counter_ticker.hpp
+	"callback_ticker.hpp"
+
+1399293149 h:\programming\libraries\aab\time\gradient_timer.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+
+1446588473 h:\programming\libraries\aab\input\hat_value.hpp
+
