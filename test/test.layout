@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="debug+release" />
+	<File name="debug_assertions.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1455" topLine="34" />
+	</File>
+	<File name="diagnostic.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="498" topLine="18" />
+	</File>
+	<File name="diagnostic.hpp" open="0" top="0" tabpos="1">
+		<Cursor position="494" topLine="20" />
+	</File>
+	<File name="exceptions.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="2543" topLine="46" />
+	</File>
+	<File name="test.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="279" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

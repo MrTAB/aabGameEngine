@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="debug+release" />
+	<File name="bounded_counter.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="2104" topLine="101" />
+	</File>
+	<File name="bounded_counter.hpp" open="0" top="0" tabpos="2">
+		<Cursor position="624" topLine="23" />
+	</File>
+	<File name="callback_ticker.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="588" topLine="17" />
+	</File>
+	<File name="callback_ticker.hpp" open="0" top="0" tabpos="2">
+		<Cursor position="5199" topLine="80" />
+	</File>
+	<File name="cap.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="1352" topLine="60" />
+	</File>
+	<File name="cap.hpp" open="0" top="0" tabpos="6">
+		<Cursor position="1050" topLine="20" />
+	</File>
+	<File name="delta_time.cpp" open="0" top="0" tabpos="15">
+		<Cursor position="410" topLine="95" />
+	</File>
+	<File name="delta_time.hpp" open="0" top="0" tabpos="1">
+		<Cursor position="1616" topLine="49" />
+	</File>
+	<File name="fps.cpp" open="0" top="0" tabpos="14">
+		<Cursor position="876" topLine="21" />
+	</File>
+	<File name="fps.hpp" open="0" top="0" tabpos="8">
+		<Cursor position="632" topLine="12" />
+	</File>
+	<File name="frame_ticker.cpp" open="0" top="0" tabpos="13">
+		<Cursor position="972" topLine="3" />
+	</File>
+	<File name="frame_ticker.hpp" open="0" top="0" tabpos="12">
+		<Cursor position="1532" topLine="7" />
+	</File>
+	<File name="gradient_timer.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="911" topLine="30" />
+	</File>
+	<File name="group_counter_ticker.hpp" open="0" top="0" tabpos="1">
+		<Cursor position="1889" topLine="9" />
+	</File>
+	<File name="manual_ticker.hpp" open="0" top="0" tabpos="3">
+		<Cursor position="1145" topLine="31" />
+	</File>
+	<File name="mapped_counter.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="1247" topLine="46" />
+	</File>
+	<File name="mapped_counter.hpp" open="0" top="0" tabpos="2">
+		<Cursor position="1525" topLine="40" />
+	</File>
+	<File name="millisecond_reporter.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="336" topLine="0" />
+	</File>
+	<File name="millisecond_reporter.hpp" open="0" top="0" tabpos="12">
+		<Cursor position="536" topLine="0" />
+	</File>
+	<File name="object_ticker.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="1038" topLine="29" />
+	</File>
+	<File name="object_ticker.hpp" open="0" top="0" tabpos="3">
+		<Cursor position="1516" topLine="37" />
+	</File>
+	<File name="sub_animator.cpp" open="0" top="0" tabpos="12">
+		<Cursor position="965" topLine="22" />
+	</File>
+	<File name="sub_animator.hpp" open="0" top="0" tabpos="5">
+		<Cursor position="628" topLine="0" />
+	</File>
+	<File name="ticker.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="2214" topLine="86" />
+	</File>
+	<File name="ticker.hpp" open="0" top="0" tabpos="2">
+		<Cursor position="1912" topLine="51" />
+	</File>
+	<File name="time.hpp" open="0" top="0" tabpos="4">
+		<Cursor position="628" topLine="0" />
+	</File>
+	<File name="time_method.cpp" open="0" top="0" tabpos="11">
+		<Cursor position="246" topLine="0" />
+	</File>
+	<File name="time_method.hpp" open="0" top="0" tabpos="3">
+		<Cursor position="198" topLine="0" />
+	</File>
+	<File name="time_reporter.hpp" open="0" top="0" tabpos="2">
+		<Cursor position="0" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

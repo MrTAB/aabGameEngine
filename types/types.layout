@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="debug+release" />
+	<File name="builder.hpp" open="0" top="0" tabpos="1">
+		<Cursor position="713" topLine="11" />
+	</File>
+	<File name="byte.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="160" topLine="0" />
+	</File>
+	<File name="const.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="59" topLine="0" />
+	</File>
+	<File name="float.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="24" topLine="0" />
+	</File>
+	<File name="ios_output.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="97" topLine="0" />
+	</File>
+	<File name="manager.hpp" open="0" top="0" tabpos="1">
+		<Cursor position="363" topLine="0" />
+	</File>
+	<File name="matrix.hpp" open="0" top="0" tabpos="2">
+		<Cursor position="478" topLine="8" />
+	</File>
+	<File name="maybe.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="885" topLine="60" />
+	</File>
+	<File name="mutable_closer.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1728" topLine="33" />
+	</File>
+	<File name="push_pop.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="298" topLine="0" />
+	</File>
+	<File name="push_popper.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="148" topLine="0" />
+	</File>
+	<File name="push_popper.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="286" topLine="0" />
+	</File>
+	<File name="smart_ptr.hpp" open="0" top="0" tabpos="4">
+		<Cursor position="366" topLine="0" />
+	</File>
+	<File name="types.hpp" open="0" top="0" tabpos="3">
+		<Cursor position="477" topLine="0" />
+	</File>
+	<File name="word_filter.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="54" />
+	</File>
+	<File name="word_filter.hpp" open="0" top="0" tabpos="2">
+		<Cursor position="1402" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

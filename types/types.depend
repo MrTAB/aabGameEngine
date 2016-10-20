@@ -1,0 +1,85 @@
+# depslib dependency file v1.0
+1221353454 source:c:\_project\hylian_knights\gamelibrary\types\word_filter.cpp
+	"word_filter.hpp"
+	<boost/algorithm/string/replace.hpp>
+	<algorithm>
+
+1220797324 c:\_project\hylian_knights\gamelibrary\types\word_filter.hpp
+	<string>
+	<map>
+
+1221353411 source:c:\_project\hylian_knights\gamelibrary\types\push_popper.cpp
+	"push_popper.hpp"
+
+1221353311 c:\_project\hylian_knights\gamelibrary\types\push_popper.hpp
+	"push_pop.hpp"
+
+1221353089 c:\_project\hylian_knights\gamelibrary\types\push_pop.hpp
+
+1221353454 source:f:\misc old projects\hylian_knights\gamelibrary\types\word_filter.cpp
+	"word_filter.hpp"
+	<boost/algorithm/string/replace.hpp>
+	<algorithm>
+
+1220797324 f:\misc old projects\hylian_knights\gamelibrary\types\word_filter.hpp
+	<string>
+	<map>
+
+1221353735 source:f:\misc old projects\hylian_knights\gamelibrary\types\push_popper.cpp
+	"push_popper.hpp"
+
+1221353730 f:\misc old projects\hylian_knights\gamelibrary\types\push_popper.hpp
+	"push_pop.hpp"
+
+1221353699 f:\misc old projects\hylian_knights\gamelibrary\types\push_pop.hpp
+
+1221353454 source:f:\programming\libraries\aab\types\word_filter.cpp
+	"word_filter.hpp"
+	<boost/algorithm/string/replace.hpp>
+	<algorithm>
+
+1220797324 f:\programming\libraries\aab\types\word_filter.hpp
+	<string>
+	<map>
+
+1330732092 source:f:\programming\libraries\aab\types\push_popper.cpp
+	"push_popper.hpp"
+
+1330732101 f:\programming\libraries\aab\types\push_popper.hpp
+	"push_pop.hpp"
+
+1330732095 f:\programming\libraries\aab\types\push_pop.hpp
+
+1333401390 source:f:\programming\libraries\aab\types\smart_ptr.cpp
+	"smart_ptr.hpp"
+	<iostream>
+
+1333401191 f:\programming\libraries\aab\types\smart_ptr.hpp
+	<boost/smart_ptr.hpp>
+	<boost/pointer_cast.hpp>
+
+1333401390 source:h:\programming\libraries\aab\types\smart_ptr.cpp
+	"smart_ptr.hpp"
+	<iostream>
+
+1333401191 h:\programming\libraries\aab\types\smart_ptr.hpp
+	<boost/smart_ptr.hpp>
+	<boost/pointer_cast.hpp>
+
+1221353454 source:h:\programming\libraries\aab\types\word_filter.cpp
+	"word_filter.hpp"
+	<boost/algorithm/string/replace.hpp>
+	<algorithm>
+
+1378140725 h:\programming\libraries\aab\types\word_filter.hpp
+	<string>
+	<map>
+
+1330735692 source:h:\programming\libraries\aab\types\push_popper.cpp
+	"push_popper.hpp"
+
+1330735701 h:\programming\libraries\aab\types\push_popper.hpp
+	"push_pop.hpp"
+
+1330735695 h:\programming\libraries\aab\types\push_pop.hpp
+

@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1215734992 c:\_project\hylian_knights\gamelibrary\time\driver.cpp
+	"time.hpp"
+	"cap.hpp"
+	"fps.hpp"
+	"delta_time.hpp"
+	<cmath>
+	<iostream>
+
+1215726204 c:\_project\hylian_knights\gamelibrary\time\time.hpp
+
+1215728651 c:\_project\hylian_knights\gamelibrary\time\cap.hpp
+	"../utility/smart_ptr.hpp"
+
+1215703994 c:\_project\hylian_knights\gamelibrary\utility\smart_ptr.hpp
+	<boost/smart_ptr.hpp>
+
+1215728647 c:\_project\hylian_knights\gamelibrary\time\fps.hpp
+	"../utility/smart_ptr.hpp"
+
+1215734883 c:\_project\hylian_knights\gamelibrary\time\delta_time.hpp
+	"../utility/smart_ptr.hpp"
+

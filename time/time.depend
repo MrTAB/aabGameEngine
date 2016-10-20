@@ -1,0 +1,339 @@
+# depslib dependency file v1.0
+1215723727 c:\_project\hylian_knights\gamelibrary\time\time.cpp
+	<sdl.H>
+
+1216579541 c:\_project\hylian_knights\gamelibrary\time\fps.cpp
+	"fps.hpp"
+	"time_method.hpp"
+
+1218154867 c:\_project\hylian_knights\gamelibrary\time\fps.hpp
+	"../types/smart_ptr.hpp"
+
+1216663498 c:\_project\hylian_knights\gamelibrary\utility\smart_ptr.hpp
+	<boost/smart_ptr.hpp>
+
+1216140545 c:\_project\hylian_knights\gamelibrary\time\time.hpp
+
+1217515965 c:\_project\hylian_knights\gamelibrary\time\cap.cpp
+	"cap.hpp"
+	"time_method.hpp"
+	<cmath>
+
+1218155392 c:\_project\hylian_knights\gamelibrary\time\cap.hpp
+	"../types/smart_ptr.hpp"
+
+1216686505 c:\_project\hylian_knights\gamelibrary\time\delta_time.cpp
+	"delta_time.hpp"
+	"time_method.hpp"
+
+1218154861 c:\_project\hylian_knights\gamelibrary\time\delta_time.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+
+1218154963 c:\_project\hylian_knights\gamelibrary\time\time_reporter.hpp
+	"../types/smart_ptr.hpp"
+
+1216429265 c:\_project\hylian_knights\gamelibrary\time\time_method.hpp
+
+1216429291 c:\_project\hylian_knights\gamelibrary\time\time_method.cpp
+	"time_method.hpp"
+	<sdl.H>
+
+1216584965 c:\_project\hylian_knights\gamelibrary\time\millisecond_reporter.cpp
+	"millisecond_reporter.hpp"
+	"time_method.hpp"
+
+1218154883 c:\_project\hylian_knights\gamelibrary\time\millisecond_reporter.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+
+1217516439 c:\_project\hylian_knights\gamelibrary\time\frame_ticker.cpp
+	"frame_ticker.hpp"
+	<exception>
+	<stdexcept>
+	<algorithm>
+
+1218154876 c:\_project\hylian_knights\gamelibrary\time\frame_ticker.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+	<exception>
+	<stdexcept>
+
+1218153802 c:\_project\hylian_knights\gamelibrary\types\smart_ptr.hpp
+	<boost/smart_ptr.hpp>
+	<boost/pointer_cast.hpp>
+
+1216686505 source:c:\_project\hylian_knights\gamelibrary\time\delta_time.cpp
+	"delta_time.hpp"
+	"time_method.hpp"
+
+1216579541 source:c:\_project\hylian_knights\gamelibrary\time\fps.cpp
+	"fps.hpp"
+	"time_method.hpp"
+
+1217516439 source:c:\_project\hylian_knights\gamelibrary\time\frame_ticker.cpp
+	"frame_ticker.hpp"
+	<exception>
+	<stdexcept>
+	<algorithm>
+
+1216584965 source:c:\_project\hylian_knights\gamelibrary\time\millisecond_reporter.cpp
+	"millisecond_reporter.hpp"
+	"time_method.hpp"
+
+1216429291 source:c:\_project\hylian_knights\gamelibrary\time\time_method.cpp
+	"time_method.hpp"
+	<sdl.H>
+
+1217515965 source:c:\_project\hylian_knights\gamelibrary\time\cap.cpp
+	"cap.hpp"
+	"time_method.hpp"
+	<cmath>
+
+1216686505 source:f:\misc old projects\hylian_knights\gamelibrary\time\delta_time.cpp
+	"delta_time.hpp"
+	"time_method.hpp"
+
+1218154861 f:\misc old projects\hylian_knights\gamelibrary\time\delta_time.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+
+1218154963 f:\misc old projects\hylian_knights\gamelibrary\time\time_reporter.hpp
+	"../types/smart_ptr.hpp"
+
+1218153802 f:\misc old projects\hylian_knights\gamelibrary\types\smart_ptr.hpp
+	<boost/smart_ptr.hpp>
+	<boost/pointer_cast.hpp>
+
+1216429265 f:\misc old projects\hylian_knights\gamelibrary\time\time_method.hpp
+
+1216579541 source:f:\misc old projects\hylian_knights\gamelibrary\time\fps.cpp
+	"fps.hpp"
+	"time_method.hpp"
+
+1218154867 f:\misc old projects\hylian_knights\gamelibrary\time\fps.hpp
+	"../types/smart_ptr.hpp"
+
+1217516439 source:f:\misc old projects\hylian_knights\gamelibrary\time\frame_ticker.cpp
+	"frame_ticker.hpp"
+	<exception>
+	<stdexcept>
+	<algorithm>
+
+1218154876 f:\misc old projects\hylian_knights\gamelibrary\time\frame_ticker.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+	<exception>
+	<stdexcept>
+
+1216584965 source:f:\misc old projects\hylian_knights\gamelibrary\time\millisecond_reporter.cpp
+	"millisecond_reporter.hpp"
+	"time_method.hpp"
+
+1218154883 f:\misc old projects\hylian_knights\gamelibrary\time\millisecond_reporter.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+
+1216429291 source:f:\misc old projects\hylian_knights\gamelibrary\time\time_method.cpp
+	"time_method.hpp"
+	<sdl.H>
+
+1217515965 source:f:\misc old projects\hylian_knights\gamelibrary\time\cap.cpp
+	"cap.hpp"
+	"time_method.hpp"
+	<cmath>
+
+1218155392 f:\misc old projects\hylian_knights\gamelibrary\time\cap.hpp
+	"../types/smart_ptr.hpp"
+
+1216686505 source:f:\programming\libraries\aab\time\delta_time.cpp
+	"delta_time.hpp"
+	"time_method.hpp"
+
+1218154861 f:\programming\libraries\aab\time\delta_time.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+
+1218154963 f:\programming\libraries\aab\time\time_reporter.hpp
+	"../types/smart_ptr.hpp"
+
+1333401191 f:\programming\libraries\aab\types\smart_ptr.hpp
+	<boost/smart_ptr.hpp>
+	<boost/pointer_cast.hpp>
+
+1216429265 f:\programming\libraries\aab\time\time_method.hpp
+
+1216579541 source:f:\programming\libraries\aab\time\fps.cpp
+	"fps.hpp"
+	"time_method.hpp"
+
+1218154867 f:\programming\libraries\aab\time\fps.hpp
+	"../types/smart_ptr.hpp"
+
+1330981153 source:f:\programming\libraries\aab\time\frame_ticker.cpp
+	"frame_ticker.hpp"
+	<exception>
+	<stdexcept>
+	<algorithm>
+
+1330980956 f:\programming\libraries\aab\time\frame_ticker.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+	<exception>
+	<stdexcept>
+
+1216584965 source:f:\programming\libraries\aab\time\millisecond_reporter.cpp
+	"millisecond_reporter.hpp"
+	"time_method.hpp"
+
+1218154883 f:\programming\libraries\aab\time\millisecond_reporter.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+
+1216429291 source:f:\programming\libraries\aab\time\time_method.cpp
+	"time_method.hpp"
+	<sdl.H>
+
+1330737111 source:f:\programming\libraries\aab\time\cap.cpp
+	"cap.hpp"
+	"time_method.hpp"
+	<cmath>
+
+1218155392 f:\programming\libraries\aab\time\cap.hpp
+	"../types/smart_ptr.hpp"
+
+1332888436 source:f:\programming\libraries\aab\time\sub_animator.cpp
+	"sub_animator.hpp"
+
+1330988768 f:\programming\libraries\aab\time\sub_animator.hpp
+	"frame_ticker.hpp"
+
+1399929127 source:h:\programming\libraries\aab\time\fps.cpp
+	"fps.hpp"
+	"time_method.hpp"
+	<limits>
+
+1399929039 h:\programming\libraries\aab\time\fps.hpp
+	"../types/smart_ptr.hpp"
+
+1333401191 h:\programming\libraries\aab\types\smart_ptr.hpp
+	<boost/smart_ptr.hpp>
+	<boost/pointer_cast.hpp>
+
+1216429265 h:\programming\libraries\aab\time\time_method.hpp
+
+1393286109 source:h:\programming\libraries\aab\time\frame_ticker.cpp
+	"frame_ticker.hpp"
+	"../test/exceptions.hpp"
+	"../test/debug_assertions.hpp"
+	<algorithm>
+
+1399296152 h:\programming\libraries\aab\time\frame_ticker.hpp
+	"ticker.hpp"
+
+1393278758 h:\programming\libraries\aab\time\time_reporter.hpp
+	"../types/smart_ptr.hpp"
+
+1393286280 source:h:\programming\libraries\aab\time\sub_animator.cpp
+	"sub_animator.hpp"
+	"../test/debug_assertions.hpp"
+
+1393277586 h:\programming\libraries\aab\time\sub_animator.hpp
+	"frame_ticker.hpp"
+
+1216429291 source:h:\programming\libraries\aab\time\time_method.cpp
+	"time_method.hpp"
+	<sdl.H>
+
+1459518922 source:h:\programming\libraries\aab\time\cap.cpp
+	"cap.hpp"
+	"time_method.hpp"
+	<cmath>
+
+1459517580 h:\programming\libraries\aab\time\cap.hpp
+	"../types/smart_ptr.hpp"
+
+1369767589 source:h:\programming\libraries\aab\time\delta_time.cpp
+	"delta_time.hpp"
+	"time_method.hpp"
+
+1393276681 h:\programming\libraries\aab\time\delta_time.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+
+1367493675 source:h:\programming\libraries\aab\time\millisecond_reporter.cpp
+	"millisecond_reporter.hpp"
+	"time_method.hpp"
+
+1393276856 h:\programming\libraries\aab\time\millisecond_reporter.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+
+1408034035 h:\programming\libraries\aab\time\ticker.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+
+1398876815 source:h:\programming\libraries\aab\time\object_ticker.cpp
+	"object_ticker.hpp"
+	"../test/exceptions.hpp"
+	"../test/debug_assertions.hpp"
+	<algorithm>
+
+1399297029 h:\programming\libraries\aab\time\object_ticker.hpp
+	"ticker.hpp"
+	<vector>
+
+1408034046 source:h:\programming\libraries\aab\time\ticker.cpp
+	"ticker.hpp"
+	"../test/debug_assertions.hpp"
+	"../test/exceptions.hpp"
+	<algorithm>
+
+1393286121 h:\programming\libraries\aab\test\exceptions.hpp
+	<exception>
+	<stdexcept>
+
+1395876495 h:\programming\libraries\aab\test\debug_assertions.hpp
+	<stdexcept>
+
+1398944265 source:h:\programming\libraries\aab\time\callback_ticker.cpp
+	"callback_ticker.hpp"
+	"../test/exceptions.hpp"
+	"../test/debug_assertions.hpp"
+	<algorithm>
+	<cassert>
+
+1398960777 h:\programming\libraries\aab\time\callback_ticker.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+
+1408034077 source:h:\programming\libraries\aab\time\bounded_counter.cpp
+	"bounded_counter.hpp"
+	"../test/debug_assertions.hpp"
+	"../test/exceptions.hpp"
+	<algorithm>
+	<cassert>
+
+1408034075 h:\programming\libraries\aab\time\bounded_counter.hpp
+
+1398949033 source:h:\programming\libraries\aab\time\mapped_counter.cpp
+	"mapped_counter.hpp"
+	"../test/exceptions.hpp"
+	"../test/debug_assertions.hpp"
+	<algorithm>
+	<cassert>
+
+1399165098 h:\programming\libraries\aab\time\mapped_counter.hpp
+	"bounded_counter.hpp"
+	<vector>
+
+1399296977 source:h:\programming\libraries\aab\time\gradient_timer.cpp
+	"gradient_timer.hpp"
+	"../test/exceptions.hpp"
+	"../test/debug_assertions.hpp"
+	<algorithm>
+
+1399296749 h:\programming\libraries\aab\time\gradient_timer.hpp
+	"time_reporter.hpp"
+	"../types/smart_ptr.hpp"
+

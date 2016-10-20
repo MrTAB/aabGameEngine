@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1219957917 source:c:\_project\hylian_knights\gamelibrary\test\diagnostic.cpp
+	"diagnostic.hpp"
+
+1219957575 c:\_project\hylian_knights\gamelibrary\test\diagnostic.hpp
+	<boost/algorithm/string/replace.hpp>
+	<string>
+	<iostream>
+	<stack>
+
+1219957917 source:f:\misc old projects\hylian_knights\gamelibrary\test\diagnostic.cpp
+	"diagnostic.hpp"
+
+1219957575 f:\misc old projects\hylian_knights\gamelibrary\test\diagnostic.hpp
+	<boost/algorithm/string/replace.hpp>
+	<string>
+	<iostream>
+	<stack>
+
+1219957917 source:f:\programming\libraries\aab\test\diagnostic.cpp
+	"diagnostic.hpp"
+
+1219957575 f:\programming\libraries\aab\test\diagnostic.hpp
+	<boost/algorithm/string/replace.hpp>
+	<string>
+	<iostream>
+	<stack>
+
+1369838880 source:h:\programming\libraries\aab\test\diagnostic.cpp
+	"diagnostic.hpp"
+
+1369838938 h:\programming\libraries\aab\test\diagnostic.hpp
+	<boost/algorithm/string/replace.hpp>
+	<string>
+	<iostream>
+	<stack>
+

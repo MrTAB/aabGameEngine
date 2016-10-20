@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1218652010 source:c:\_project\hylian_knights\gamelibrary\test\events\main.cpp
+	<sdl.h>
+	<iostream>
+	<string>
+
+1219960218 source:c:\_project\hylian_knights\gamelibrary\test\mouse_events\main.cpp
+	<sdl.h>
+	<iostream>
+	<string>
+
