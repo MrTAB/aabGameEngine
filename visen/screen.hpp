@@ -80,7 +80,7 @@ class ScreenClass :	public aab::types::Manager <ScreenClass>,
 	
 	bool hasDoubleBuffering()const;
 	
-	bool saveScreenShotPNG(const std::string filename)const;
+	//bool saveScreenShotPNG(const std::string filename)const;
 	
 	void resetProjection();
 

@@ -516,12 +516,12 @@ bool ImageClass::saveBmp(const std::string&filename)const
     return ! SDL_SaveBMP(data-> surface,filename.c_str());
 }
 	
-	
+/*
 bool ImageClass::savePng(const std::string&filename)const
 {
 	return ! png_save_surface(filename.c_str(), data->surface);
     
-}
+}*/
 
 void setSDLRect(SDL_Rect&rect, const int left, const int top, const int right, const int bottom)
 {

@@ -341,62 +341,6 @@ bool ScreenClass::hasDoubleBuffering()const
     return value;
 }
 
-bool ScreenClass::saveScreenShotPNG(const std::string filename)const
-{
-    /* SaveSurf: an example on how to save a SDLSurface in PNG
-       Copyright (C) 2006 Angelo "Encelo" Theodorou
-     
-       This program is free software; you can redistribute it and/or modify
-       it under the terms of the GNU General Public License as published by
-       the Free Software Foundation; either version 2 of the License, or
-       (at your option) any later version.
-     
-       This program is distributed in the hope that it will be useful,
-       but WITHOUT ANY WARRANTY; without even the implied warranty of
-       MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-       GNU General Public License for more details.
-      
-       You should have received a copy of the GNU General Public License
-       along with this program; if not, write to the Free Software
-       Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
-     
-       NOTE: 
-     
-       This program is part of "Mars, Land of No Mercy" SDL examples, 
-       you can find other examples on http://marsnomercy.org
-    */
-
-	/* Creating the output surface to save:
-	 * 1) allocating memory for pixels data
-	 * 2) reading from the front buffer
-	 * 3) swapping data with memcpy
-	 * 4) creating surface from flipped pixels data
-	 * */
-	 
-
-    SDL_Surface *output_surf;
-    Uint32 rmask, gmask, bmask, amask;
-	#if SDL_BYTEORDER == SDL_BIG_ENDIAN
-	rmask = 0xff000000; gmask = 0x00ff0000; bmask = 0x0000ff00; amask = 0x000000ff;
-	#else
-	rmask = 0x000000ff; gmask = 0x0000ff00; bmask = 0x00ff0000; amask = 0xff000000;
-	#endif
-	
-	int stride = data->surface->w * 4; // length of a line in bytes
-	GLubyte *pixels = (GLubyte *) malloc(stride * data->surface->h);
-	GLubyte *swapline = (GLubyte *) malloc(stride);
-	glReadBuffer(GL_FRONT);
-	glReadPixels(0, 0, data->surface->w, data->surface->h, GL_RGBA, GL_UNSIGNED_BYTE, pixels);
-	// vertical flip
-	for(int row = 0; row < data->surface->h/2; row++) {
-		memcpy(swapline, pixels + row * stride, stride);
-		memcpy(pixels + row * stride, pixels + (data->surface->h - row - 1) * stride, stride);
-		memcpy(pixels + (data->surface->h - row -1) * stride, swapline, stride);
-	}
-	output_surf = SDL_CreateRGBSurfaceFrom(pixels, data->surface->w, data->surface->h, 32, data->surface->pitch, rmask, gmask, bmask, amask);
-
-	return ! png_save_surface(filename.c_str(), output_surf);
-}
 
 
 }	//	visen

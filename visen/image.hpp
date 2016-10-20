@@ -170,7 +170,7 @@ class ImageClass : public aab::types::Manager <ImageClass>
 	void unlockPixels();
 	
 	bool saveBmp(const std::string &filename)const;
-	bool savePng(const std::string &filename)const;
+	//bool savePng(const std::string &filename)const;
 	
     bool copyInto(ImageClass&other, const int x, const int y);
     bool copyCroppedInto(const int left, const int top, const int right, const int bottom, ImageClass&other, const int x, const int y);
