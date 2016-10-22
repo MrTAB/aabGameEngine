@@ -9,6 +9,9 @@
 *   builders, while constructing, amending and validating an instance of the
 *   correct subclass on the heap. See example below for an example of use.
 *
+*   This allows separation of building and construction code from a tree of
+*   classes individual class implementations.
+*
 **/
 
 #pragma once

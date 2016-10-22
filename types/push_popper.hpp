@@ -4,6 +4,10 @@
 *
 *	push_popper.hpp
 *
+*   A push popper accepts and pushes an abstract pushpop on construction, and
+*   pops that pushpop on deconstruction, ensuring that the pushpop will be both
+*   pushed and popped.
+*
 **/
 
 #if !defined(AAB_TYPES_PUSH_POPPER_CLASS)

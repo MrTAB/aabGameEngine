@@ -3,6 +3,8 @@
 *
 *	smart_ptr.hpp
 *
+*   Now simply a typedef for the boost shared pointer
+*
 **/
 
 #if !defined(AAB_TYPES_SMART_POINTER_CLASS)

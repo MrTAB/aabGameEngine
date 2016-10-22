@@ -3,6 +3,8 @@
 *
 *	push_pop.hpp
 *
+*   An abstract class for actions which represent a temporary change in state.
+*
 **/
 
 #if !defined(AAB_TYPES_PUSH_POP_CLASS)

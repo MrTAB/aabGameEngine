@@ -16,7 +16,6 @@
 #include"manager.hpp"
 #include"mutable_closer.hpp"
 #include"smart_ptr.hpp"
-#include"word_filter.hpp"
 #include"push_pop.hpp"
 #include"push_popper.hpp"
 #include"matrix.hpp"

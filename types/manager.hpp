@@ -3,6 +3,9 @@
 *
 *	manager.hpp
 *
+*   Manager is a base class for classes wishing to be constructed as safe
+*   pointers in a way such that they cannot be deleted by client code.
+*
 **/
 
 #if !defined(AAB_TYPES_MANAGER_CLASS)

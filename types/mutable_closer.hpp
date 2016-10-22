@@ -3,29 +3,15 @@
 *
 *	mutable_closer.hpp
 *
-*	Basically: this will invoke close () on deconstruction, unless you call keep().
+*	This will invoke close () on deconstruction, unless you call keep().
+*   close is a supplied object with the function operator () implemented.
 *
-*	example of why this might be usefull; Your writing an Object
-*	Orientated wrapping of some C library, and inside a method
-*	you are creating something to stay in that class, unless some
-*	other later part of the method fails, in which case you delete
-*	everything, including this thing you want to create. A solution
-*	is to use std::auto_ptrs for the member, and transfer control
-*	to and from at the beginning and end of the method, so if an
-*	exception is thrown inbetween, the temporary auto_ptr that
-*	took control gets destroyed while in control and takes the
-*	created thing with it.
-*	For certain simple cases, this MutableCloser seems a little
-*	easier to set up and use. Make an object O with operator(), and
-*	create a MutableCloser<O>. Your operator() destroys the thing
-*	you created. At the end of the method, you call keep () to say
-*	that everything went fine, and you can keep it. Before that,
-*	any throws out of the function call ~MutableCloser, which
-*	chooses to call O::operator() because you haven't called
-*	keep() yet. Simple.
-*	Seems easier than having some auto_ptr members and transfering
-*	control to and from, however it's less general.
-*
+*   This is useful when you are allocating a series of objects in a method and
+*   any one of them may throw an exception - an object supplied as the template
+*   argument to mutable closer can be set up to deallocate the generated objects
+*   on operator(). If an exception is thrown, they will all be deallocated, but
+*   if not keep() can be called after all the objects have been allocated, and
+*   thus the MutableCloser will do nothing.
 **/
 
 #if !defined(AAB_TYPES_MUTABLE_CLOSER_CLASS)

@@ -2,6 +2,12 @@
 *
 *	maybe.hpp
 *
+*   This is a quick implementation of a Maybe type - something which may or
+*   may not be a valuable instance of the given type. Used to return an object
+*   from a method conditionally. A default blank instance of the type will be
+*   supplied, and in debug mode, an exception will be thrown for access of this
+*   blank instance.
+*
 **/
 
 #if !defined(AAB_TYPES_MAYBE_CLASS)
