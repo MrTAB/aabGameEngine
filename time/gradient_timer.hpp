@@ -3,6 +3,10 @@
 *
 *	gradient_timer.hpp
 *
+*   A gradient timer "fills" a ratio from 0.0 to 1.0 within the given frame
+*   length linearly. This can be used for fading operations with particular
+*   time requirements.
+*
 **/
 
 #if !defined(AAB_TIME_GRADIENT_TIMER_CLASS)

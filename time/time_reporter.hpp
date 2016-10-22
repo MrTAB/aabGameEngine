@@ -3,7 +3,7 @@
 *
 *	time_reporter.hpp
 *
-*	TimeReporter	-	abstract class for classes which report some change in time.
+*	TimeReporter- abstract class for classes which report some change in time.
 *
 *	use	-	extend, specifying getChange() method.
 *

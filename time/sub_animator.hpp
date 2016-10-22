@@ -3,7 +3,8 @@
 *
 *	sub_animator.hpp
 *
-*	A SubAnimator is a state recorder which stores animation details so that they can be switched in and out easily.
+*	A SubAnimator is a state recorder which stores animation details so that
+    they can be switched in and out easily.
 *
 **/
 

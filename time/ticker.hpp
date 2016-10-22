@@ -9,7 +9,7 @@
 *
 *   The Tick value moves onto the next tick value once a predetermined amount of
 *   time has passed. After moving on from the final value, the ticker may loop
-*   (reset) or stick.
+*   (reset) or stick at the final frame.
 *
 *   Tick values are integers: their ordering in terms of the starting value to
 *   the final value are dependant on the subclass implementation.

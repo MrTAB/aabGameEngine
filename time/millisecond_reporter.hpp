@@ -3,7 +3,10 @@
 *
 *	millisecond_reporter.hpp
 *
+*   Calculates and stores milliseconds that have passed between consecutive
+*   calls to update(); call getChange() to retrieve this.
 *
+*   Construction is treated as the primary update point.
 **/
 
 #if !defined(AAB_TIME_MILLISECOND_REPORTER_CLASS)

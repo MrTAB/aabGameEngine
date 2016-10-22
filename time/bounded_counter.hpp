@@ -3,6 +3,9 @@
 *
 *	bounded_counter.hpp
 *
+*   A bounded counter calculates the current frame of an n-framed animation
+*   between the given bounds.
+*
 *   For use with a CallbackTicker.
 *
 *   A BoundedCounter can be updated with the message of how many frams have
@@ -102,6 +105,7 @@ class BoundedCounter
     */
     bool hasRolledBack()const { return rolledBack; }
     void forceRolledBack(const bool rolledBackIn = true){ rolledBack = rolledBackIn; }
+    // todo - add this facility to the Callback.
     
     
 

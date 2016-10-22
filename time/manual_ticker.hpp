@@ -4,7 +4,12 @@
 *	manual_ticker.hpp
 *
 *   Use when a ticker implementation is required but the animation frame used is
-*   controlled manually, ignoring the underlying reporter. Can also just use a StuckTimeReporter (less efficient)
+*   controlled manually, ignoring the underlying reporter. Can also just use a
+*   StuckTimeReporter (less efficient).
+*
+*   Manual Tickers are often used for non animating objects in situations where
+*   the ticker is the source of the animations frame, but the object (e.g. a
+*   sprite) does not wish to animate.
 *   
 *
 **/

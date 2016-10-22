@@ -1,5 +1,5 @@
 
-/** JAVADOC_AUTOBRIEF
+/**
 *
 *   @file callback_ticker.hpp
 *
@@ -18,7 +18,7 @@
 *	all checks for say things that happen 5 times per second, together, by allowing
 *	the game programmer to use the same timer reporter and different tickers.
 *
-*	update should be called in harmony with that of the TimeReporters.
+*	Update should be called in harmony with that of the TimeReporters.
 *	Not calling update effectively pauses the ticker.
 *
 *   Note that because a CallbackTicker does not have a notion of frames, it

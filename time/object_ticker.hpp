@@ -3,6 +3,13 @@
 *
 *	object_ticker.hpp
 *
+*   An ObjectTicker provides animation information for a mapping of frames,
+    similar to a MappedCounter, only with an ObjectTicker the length of each
+    frame can be unique, meaning that it ticks uniquely for each frame
+    rather than simply counting through the frames at a regular interval.
+    Useful in a wider range of animation contexts than the other
+    tickers/counters
+*    
 **/
 
 #if !defined(AAB_TIME_OBJECT_TICKER_CLASS)
