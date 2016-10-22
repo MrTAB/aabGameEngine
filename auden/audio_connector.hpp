@@ -3,17 +3,14 @@
 *
 *	audio_connector.hpp
 *
-*	AudioConnector class.
-*		Like InputConnector, only for Audio instead of Input.
+*   An AudioConnector represents an object which initialises audio subsystems.
+*   An audio Mixer request a valid AudioConnector be supplied to them in their
+*   constructor.
 *
-*	This is more a comment for someone choosing to implement
-*	their own version of this entire library: The constructor
-*	must set up audio devices with respect to the implementation.
-*	In other words, do the things that must be done before a
-*	Mixer can be created. The deconstructor must undo these
-*	things, assuming that the Mixer has undone its own setup
-*	from within its deconstructor first.
-*
+*   Extend AudioConnector to create an object which initialises the audio 
+*   systems, or more preferably use an existing implementation such as
+*   visen::ScreenClass
+*		
 **/
 
 #if !defined(AAB_AUDEN_AUDIO_CONNECTOR_CLASS)

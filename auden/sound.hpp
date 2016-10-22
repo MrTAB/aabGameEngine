@@ -21,30 +21,28 @@
 *	nothing if this Sound is not playing, and note that if you play
 *	a sound while it is still playing, it becomes assigned to a new
 *	channel, and so pause() etc only work on the most recent playing
-*	version of it.
+*	version of it; the one that is tied to the channel it is playing on
 *
 *	Basically, when you play, the sound gets stuck into a channel,
 *	in which it plays. If you play it again during this time
 *	(withought checking if it isPlaying() still), then a new channel
-*	is given the sound samples and starts playing it. Pause() etc,
-*	work on the one in this new channel, but the one in the old
-*	channel keeps playing regardless.. Its been sent to play and
-*	then disconnected by playing into a new channel.
-*		Other ways this could have been resolved? Well, we could
-*	have made it that play checks if the thing is already playing,
-*	and then keep a record of all the channels that are being used
-*	with this. The problem with that is all all the extra
-*	computation involved in doing basic operations like play and
-*	pause=> not deemed worth it when such features are not going
-*   to be needed for the common operations, which are to simply play
-*   something once, or forever. The other option would be to manually
-*   handle and reserve channels, so that a client could request a channel
-*   to operate on, and release that channel when it's sound is no longer
-*   playing.
-*
-*	final note: Sound is a non copyable class. Pass by reference
+*	is given the sound samples and starts playing it, allowing you to play
+*   the song over itself if you wish. Methods such as Pause() etc,
+*	work on the one in this new channel, and the old channel is no longer
+*   associated with this Sound object. An alternative implementation may
+*   have chosen to open channels up for you, but this implementation is
+*   designed as a simple sound.play() system to let the library worry
+*   about channels for the majority of cases. For specific cases where
+*   channel control is desired, Sound has a group of static methods for
+*   channel query. Developer note: Another alternative implementation could have
+*   Sound maintain and manage all the channels, or have a Sound object and a 
+*   PlayingSound object, where playing a Sound generates a PlayingSound bound to
+*   a channel. However, such approaches were deemed over the top for the 
+*   simple user requirements of this library; the most common use cases have been
+*   prioritised.
+*   
+*   Sound is a non copyable class. Pass by reference
 *	or pointer because you can't copy construct (private)
-*
 **/
 
 #if !defined(AAB_AUDEN_SOUND_CLASS)
@@ -76,8 +74,6 @@ class Sound
 		bool isChannelValid () const;
 
 	public:
-
-	//typedef aab::types::Smart <Sound>::Ptr Ptr;
 
 	enum PlayCount
 	{

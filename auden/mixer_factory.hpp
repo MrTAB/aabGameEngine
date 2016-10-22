@@ -7,8 +7,8 @@
 *		instance of Mixer.
 *
 *	By default, Mixer uses an instance of this MixerFactory, and calls
-*	its methods to figure out what values it should set up its audio
-*	system with.
+*	its methods to figure out what values it should set up the audio
+*	subsystem with.
 *		To specify your own audio attributes, create a subclass of
 *	MixerFactory, and redefine the virtual methods that you wish to.
 *	For example, say you want a different Frequency:
@@ -27,13 +27,12 @@
 *	Frequency: Common frequencies are:
 *		11025, 22050, 44100, 96000...
 *		44100 is an acceptably high quality frequency, however 22050 requires
-*		less processing, and so is considered more efficient for games.
-*		Hence the default is 22050.
+*		less processing and is the default.
 *
-*
-*	Format: format may be one of those const static int thingies down there.
-*		It specifies the size and type of the sample elements. default_format
-*		uses the default format of system_signed_short.
+*	Format: 
+*		Format specifies the size and type of the sample elements. 
+*       Return one of the const static int's specified in the MixerFactory class
+*		Default format is system_signed_short.
 *
 *	*	lsb_ as a prefix means least significant priority, i.e. little endian.
 *	*	msb_ as a prefix means most significant priority, i.e. big endian.
@@ -41,8 +40,8 @@
 *			and use msb_ if the system is big endian.
 *
 *	MusicChannelCount: This is the nuber of output channels:1 or 2
-*		(mono and stereo) are good and safest. 8 is if your user has an
-*		unbelievable super sound system. More than 8.. just no!
+*		(mono and stereo) are good and likely to be supported. 8 is if your user
+*       has an incredibly super sound system.
 *
 *	SampleSize: This one is [ V E R Y   I M P O R T A N T ] when it comes to
 *		sound quality. It must be a power of 2, e.g. 512, 1024, 2048, 4096, 8192 etc.
@@ -54,15 +53,14 @@
 *
 *	SoundChannelCount: This is the number of channels set up for processing
 *		sounds, i.e the number of Sounds that can be played at once. However,
-*		Sound automatically allocates more channels if you play a sound and there
-*		isnt enough channels. This defaults to 16. I don't know why, seems ok.
+*		Sound automatically allocates more channels if you play a sound and
+*		there isnt enough channels. This defaults to 16.
 *
 *
 **/
 
 #if !defined(AAB_AUDEN_MIXER_FACTORY_CLASS)
 #define AAB_AUDEN_MIXER_FACTORY_CLASS
-//#include"../types/smart_ptr.hpp"
 namespace aab	{
 namespace auden	{
 
@@ -71,13 +69,13 @@ class MixerFactory
 {
 	public:
 
-	//typedef aab::types::Smart <MixerFactory>::Ptr Ptr;
 
 	explicit MixerFactory ();
-	virtual ~MixerFactory ();// throw ();
+	virtual ~MixerFactory ();
 
 	typedef int Format;
-
+	
+    // The following are acceptable values for format
 	const static int unsigned_char;
 	const static int signed_char;
 	const static int lsb_unsigned_short;

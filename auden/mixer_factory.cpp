@@ -8,7 +8,6 @@
 #include"mixer_factory.hpp"
 #include<sdl.H>
 #include<sdl_Mixer.H>
-//#include<exception>
 namespace aab	{
 namespace auden	{
 

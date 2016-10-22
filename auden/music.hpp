@@ -1,15 +1,11 @@
 
 /**
-*   BUG - Currently fails to play MP3 on Windows on x64platforms :(
-*        libgcc_s_dw2-1.dll & libstdc++-6.dll are needed for MP3s to play, but
-*       they no longer come with windows.
 *
 *	music.hpp
 *
 *	Music class- Represents a loaded/streamed song that can be played.
 *
 *	To create an instance of Music, you need a Mixer, and the filename.
-*
 *
 *		:Loading Music:
 *
@@ -22,7 +18,6 @@
 *   NOTE: to load mp3's you need libgcc_s_dw2-1.dll & libstdc++-6.dll.
 *
 *	The music files
-*
 *
 *		:Playing Music:
 *
@@ -45,13 +40,10 @@
 *		cause it to fade in, however if you call play with another it
 *		will fade itself in.
 *
-*
-*		:Extra Note:
-*
 *	The methods with 'Music' in them apply to the output of music, i.e.
 *	the currently playing music. Thus, you can, setMusicVolume, pauseMusic etc.
 *
-*	Final final note: Music is a non copyable class. Pass by reference
+*	Music is a non copyable class. Pass by reference
 *	or pointer because you can't copy construct (private)
 **/
 
