@@ -3,7 +3,9 @@
 *
 *	event_connector.hpp
 *
-*	EventConnector class.
+*	An EventConnector represents an object which prepares the events subsystem.
+*   Thus event queues demand an eventconnector subclass be established in order to be
+*   instantiated. visen::Screen is an example of such a subclass.
 *
 *	EventConnector is noncopy-constuctable.
 **/

@@ -3,6 +3,7 @@
 *
 *	gamepad_handler.hpp
 *
+*   Recieves callbacks for gamepad events associated with a single gamepad.
 **/
 
 

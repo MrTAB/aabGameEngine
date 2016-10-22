@@ -3,6 +3,7 @@
 *
 *	event_handlers.hpp
 *
+*   This header collects together all the event handlers in the API
 *
 **/
 

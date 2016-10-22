@@ -3,6 +3,11 @@
 *
 *	event_handler.hpp
 *
+*   Basic Event Handler, which will recieve callbacks via recieveEvent when
+*   its event pops up and is handed to a Dispatcher in which the handler is
+*   registered. These EventHandlers are a base used by EventHandlerTemplate,
+*   which provides EventType information and can be instantiated or implemented
+*   by the client - see EventHandlerTemplate
 *
 **/
 

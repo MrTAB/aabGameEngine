@@ -3,7 +3,9 @@
 *
 *	event_type.hpp
 *
-*
+*   Events that may occur in an event queue and be notified to dispatchers.
+*   Implement a handler for any of these events if you wish to recieve
+*   information about them or know when they occur
 **/
 
 #if !defined(AAB_EVENTS_EVENT_TYPE_CLASS)

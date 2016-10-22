@@ -3,6 +3,7 @@
 *
 *	keyboard_auto_handler.hpp
 *
+*   Updates a keyInfo when the keyPressed/Released methods are invoked.
 **/
 
 

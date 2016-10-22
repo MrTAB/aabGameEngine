@@ -1,7 +1,7 @@
 
 /**
 *
-*	close_handler.hpp
+*	close_handler.hpp - Handles window close events
 *
 **/
 

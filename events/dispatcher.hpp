@@ -3,7 +3,12 @@
 *
 *	dispatcher.hpp
 *
-*
+*   Dispatcher is noncopyable and must be created as a smart pointer via
+*   makeDispatcher().
+    The dispatcher maintains the eventhandlers which are to be notified when
+    their associated events occur. The dispatcher is notified of the event by
+    notify, and then notifies the associated handlers.
+    
 **/
 
 #if !defined(AAB_EVENTS_DISPATCHER_CLASS)

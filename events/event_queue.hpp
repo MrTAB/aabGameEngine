@@ -3,7 +3,21 @@
 *
 *	event_queue.hpp
 *
-*
+*   The EventQueue processes events with either wait() or poll() depending on
+    wether you want to wait on an event to occur (desktop application) or poll
+    for events while ploughing through your main loop (computer game).
+    
+    Supply a dispatcher to the eventqueue and the dispatcher will be notified of
+    any events in the queue.
+    
+    Thus to set up event handling:
+    
+    1) Implement event handlers that you wish to use, or crate instances of event
+    handling objects that you wish to use.
+    2) Plug these into an instance of Dispatcher
+    3) Plug this Dispatcher into an EventQueue
+    4) poll the EventQueue each loop. Now your handlers will be notified of any
+    events relevant to them.
 **/
 
 #if !defined(AAB_EVENTS_EVENT_QUEUE_CLASS)

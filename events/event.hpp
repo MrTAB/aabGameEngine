@@ -3,7 +3,9 @@
 *
 *	event.hpp
 *
-*	Event class.
+*	Represents a basic event of a particular type. This is a non implementable
+*    base class, though rather than being abstract it is with protected
+*    constructor.
 *
 **/
 

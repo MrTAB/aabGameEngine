@@ -3,6 +3,11 @@
 *
 *	mouse_auto_handler.hpp
 *
+*   Updates a Mouse object with data from the events invoked (moved, buttonPressed).
+*
+*   While intended for translating events into updates to client mouse object
+*   states, mouse handlers (and other handles) can have these methods invoked
+*   intentionally by the client to pretend that an event has occurred.
 **/
 
 /* REMOVED */

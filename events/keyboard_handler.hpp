@@ -3,6 +3,8 @@
 *
 *	keyboard_handler.hpp
 *
+*   Combines separate keyboard related events into a single handler that can be
+*   used to update objects buffering complete keyboard state.
 **/
 
 

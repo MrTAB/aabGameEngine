@@ -3,6 +3,7 @@
 *
 *	gamepads_handler.hpp
 *
+*   Phased out in favour of port handler and auto handler implementations
 **/
 
 

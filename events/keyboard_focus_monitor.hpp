@@ -3,6 +3,7 @@
 *
 *	keyboard_focus_checker.hpp
 *
+*   Simple class for recording changes in keyboard focus
 **/
 
 #if !defined(AAB_EVENTS_KEYBOARD_FOCUS_MONITOR_CLASS)

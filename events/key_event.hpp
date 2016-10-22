@@ -3,6 +3,7 @@
 *
 *	key_event.hpp
 *
+*   Records infomration about an individual Key event
 **/
 
 #if !defined(AAB_EVENTS_KEY_EVENT_CLASS)

@@ -3,7 +3,7 @@
 *
 *	event_mapper.hpp
 *
-*	Maps InternalEvents to their EventTypes.
+*	Maps InternalEvents to their EventTypes in the API.
 *	This class is used by dispatcher, and is not part of the API.
 *	An extension may be to make the dispatchers have Ptr to a
 *	global instance, and allow it to be swapped with a different

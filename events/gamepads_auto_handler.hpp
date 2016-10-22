@@ -3,7 +3,12 @@
 *
 *	gamepads_auto_handler.hpp
 *
-*
+*   Provide a GamepadsAutoHandler with Gamepads, and plug it into a Dispatcher.
+*   
+*   The GamepadsAutoHandler will then update these gamepads with event
+*   information in order to update their state in a synchronised manner, while
+*   allowing the client to use the gamepad objects as though they were
+*   asynchronous gamepad state classes.
 **/
 
 

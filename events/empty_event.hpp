@@ -1,7 +1,9 @@
 
 /**
 *
-*	empty_event.hpp
+*	empty_event.hpp - EmptyEvent is used in some scenarios to define non
+*   abstract events of particular types without any default behaviour associated
+*   with the event.
 *
 **/
 

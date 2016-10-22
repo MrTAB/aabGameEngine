@@ -3,6 +3,10 @@
 *
 *	event_handler_template.hpp
 *
+*   This is an abstract Event Handler which maps InternalEvent data given to
+*   recieveEvent (see EventHandler) onto handleEvent, which provides the more
+*   useful EventData. This is used for elementary Event types which notify that
+*   something has occurred. See event_handlers.hpp
 **/
 
 #if !defined(AAB_EVENTS_EVENT_HANDLER_TEMPLATE_CLASS)

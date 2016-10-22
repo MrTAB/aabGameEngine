@@ -3,6 +3,11 @@
 *
 *	gamepad_port_handler.hpp
 *
+*   Plug into a dispatcher to recieve events for gamepads.
+*   This can have its virtual methods overloaded, to recieve gamepad callbacks,
+*   However a preferred interface is to use Gamepad Auto Handlers and gamepad 
+*   objects Or alternatively an InputController for generalised input queries.
+*
 **/
 
 
