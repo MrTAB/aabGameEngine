@@ -3,7 +3,8 @@
 *
 *	transformation_node.hpp
 *
-*
+*   A transformation node will provide the given transformation to the modelview
+*   matrix, which will then apply to its children in the scene graph.
 **/
 
 #if !defined(AAB_GAME_TRANSFORMATION_NODE_CLASS)

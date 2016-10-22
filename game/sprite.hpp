@@ -12,6 +12,9 @@
 * objects such as players and enemies.
 * Currently, Sprites load images with frame sizes that are a power of two - smallest 64x64.
 *
+*   See SpriteBatch for an implementation that allows more efficient sprite rendering
+*   by using a texture atlas and vertex buffer object for large numbers of collected
+*   sprites.
 **/
 
 
@@ -79,17 +82,6 @@ class Sprite : public TransformationNode
 		TextureBasePtr getTextureBase ();
 		//time::FrameTicker::Ptr getFrameTickerPtr ();
 
-
-		/**
-		* returns the FrameTicker which animates the Sprite.
-		*
-		* The FrameTicker is used by the Sprite to choose which frame of animation
-		* to render on calls to draw() and before(). This must be updated, either
-		* through invoking FrameTicker::update() or by calling
-		* Sprite::updateAnimation().
-		*
-		* @return Handle to frame ticker used by this Sprite.
-		*/
 
 		//inline time::FrameTicker::Ptr getAnimator () { return getFrameTickerPtr(); }
 

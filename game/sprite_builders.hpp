@@ -2,6 +2,8 @@
 /**
 *	sprite_builders.hpp
 *
+*   Utility methods for constructing sprites.
+*
 **/
 
 

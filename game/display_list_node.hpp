@@ -3,6 +3,8 @@
 *
 *	display_list_node.hpp
 *
+*   A DisplayList node will render a display list at its position during
+*   traversal of the Scene Graph
 *
 **/
 

@@ -3,6 +3,8 @@
 *
 *	translation_node.hpp
 *
+*   A translation node will provide a movement via the modelview matrix for its
+*   children in the scene graph.
 *
 **/
 

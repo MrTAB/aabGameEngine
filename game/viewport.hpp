@@ -7,8 +7,8 @@
 *	will move everything in the world to the right.
 *
 *	The game world has a viewport defining the relative motion of everything else.
-*	For a HUD, define a new blank viewport and switch between it and the world
-*	viewport with push and pop on the hud viewport.
+*	For a HUD, define a new blank viewport, and switch between it and the world
+*	viewport by pushing the hud viewport to use it and popping it to return to the world.
 *
 *	todo - choosing to have some edges defined and others not
 *	todo - clipping the viewport edges in for rotated views

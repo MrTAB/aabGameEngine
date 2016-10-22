@@ -3,6 +3,9 @@
 *
 *	pose_node.hpp
 *
+*   A PoseNode provides pose transformations to its children in the scene graph
+*   The Pose transformations are accessed via the superclass VisualPoser. Pose
+*   transformations allow movement and rotation but no scaling.
 *
 **/
 

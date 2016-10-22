@@ -3,6 +3,10 @@
 *
 *	group_node.hpp
 *
+*   A group node can collect several SceneNodes together at the one position in
+*   the scene graph. This prevents lots of empty children pointers from being
+*   made.
+*
 *	SceneNodes are updated in First In order.
 *
 **/

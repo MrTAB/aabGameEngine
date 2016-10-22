@@ -3,7 +3,8 @@
 *
 *	rotation_node.hpp
 *
-*
+*   A rotation node rotates the modelview matrix for its children in the scene
+*   graph.
 **/
 
 #if !defined(AAB_GAME_ROTATION_NODE_CLASS)

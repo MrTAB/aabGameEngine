@@ -3,6 +3,8 @@
 *
 *	moveable_texture_node.hpp
 *
+*   A moveable texture node defines a texture of abstract type, at a specific
+*   position.
 *
 **/
 

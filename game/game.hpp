@@ -3,7 +3,7 @@
 *
 *	game.hpp
 *
-*
+*   Include this to import the entire aab::game library
 *
 **/
 

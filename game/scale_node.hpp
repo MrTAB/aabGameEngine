@@ -3,7 +3,8 @@
 *
 *	scale_node.hpp
 *
-*
+*   A scale node scales everything that comes after it on the scene graph, on
+*   the modelview matrix
 **/
 
 #if !defined(AAB_GAME_SCALE_NODE_CLASS)

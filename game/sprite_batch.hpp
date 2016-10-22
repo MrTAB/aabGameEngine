@@ -9,23 +9,27 @@
 *
 * Sprite Batch
 *
+*   A Sprite Batch is a collection of sprites which are rendered efficiently by
+*   all having the same texture and image source file (into which the individual
+*   sprites are packed), and are thus rendered as one giant collection of vertices.
+*
+*   SpriteBatch is created with its source TextureAtlas, and a capacity (max
+*   number of sprites). Exceeding the capacity will cause a resize is expensive,
+*   so it is best to have sufficient capacity for most contexts on creation. To
+*   assist in achieving this, if _DEBUG is defined, an exception will be thrown
+*   if capacity is exceeded, instead of resizing.
 *
 *   Uses a Vertex Buffer Object (VBO) set up with triangle strips:
 *       Every four vertices represents a quad (degenerate strips seperate these "quads")
 *       Each quad represents one sprite.
 *       The one texture can be bound, and then the entire VBO rendered, to efficiently render each sprite.
 *       A Texture Atlas is used, which means frames can be of different image size and can include non power of two shapes.
-*   The VBO is of a fixed size on startup, with blank vertices at first.*
 *   Entities that wish to use this texture and VBO pairing, can request a quad, and
 *       be given access to four of the client local vertices which will be sent
 *       to the Buffer Object in GPU memory via the VBO.
 *       The Sprite Batch class maintains that quad.
 *   
 *
-*       * Expanding the Buffer Object can be done under the hood, but it impacts performance to do so.
-*       Initial implementation will exclude it.
-*
-*   todo - add method to draw a portion using VBO's extension of DrawElementsBaseVertex (when available)
 *
 *
 *   If _DEBUG is defined, will throw exceptions on errors, otherwise will try best to behave without throwing exceptions. 
@@ -99,7 +103,7 @@ class SpriteBatch
         
         
         void render();
-        void renderNoBind();
+        void renderNoBind(); // render without binding texture
         void renderRegionNoBind(unsigned int start, size_t size);
         
         inline TextureAtlasPtr getTextureAtlas() { return textureAtlas; }

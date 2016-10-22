@@ -3,6 +3,9 @@
 *
 *	texture_node.hpp
 *
+*   A TextureNode will render a texture as an image during traversal of the
+*   scene graph. This will be rendered at local 0,0 and at the sources pixel
+*   size, and will be modified by any ancestors in the graph
 *
 **/
 

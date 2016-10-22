@@ -3,7 +3,10 @@
 *
 *	color_node.hpp
 *
-*
+*   Color Nodes change the rendering color for their children node in the scene
+*   graph hierarchy. Like other nodes they extend SceneNode and implement
+*   before() and after(). Use setColor to define the render color that they
+*   activate.
 **/
 
 #if !defined(AAB_GAME_COLOR_NODE_CLASS)
