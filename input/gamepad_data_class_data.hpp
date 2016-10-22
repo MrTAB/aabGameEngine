@@ -3,9 +3,9 @@
 *
 *	gamepad_data_class_data.hpp
 *
-*	INTERNAL HEADER
+*	GamepadDataClass is an internal header which defines GamepadDataClass::Data
+*   (A P-data pattern)
 *
-*	specifies GamepadDataClass subclass Data
 **/
 
 #if !defined(AAB_INPUT_GAMEPAD_DATA_CLASS_DATA)

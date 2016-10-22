@@ -3,8 +3,12 @@
 *
 *	gamepad_data.hpp
 *
-*	Base class for the two types of gamepads.
-*	i.e. Event Dependant Gamepad (Gamepad) and Asynchronous Gamepad (AutoGamepad)
+*   The GamepadDataClass is an abstract class defining objects which store and
+*   query individual gamepads. Implementations of this abstract class may choose
+*   to update the stored data in different manners
+*
+*	Using this are the Event Dependant Gamepad (Gamepad) and the Asynchronous
+*   Gamepad (AutoGamepad)
 *
 **/
 

@@ -1,19 +1,19 @@
 
-/*
+/**
 *
 *	mouse.hpp
 *
-*	Mouse - describes the state of the mouse
+*	Mouse - updates and describes the state of the mouse
 *
-*	make one of these, calling update () every round. You can then check
+*	Make an instance of Mouse, calling update () every round, to check
 *	the x and y positions of the mouse, and the values of its buttons.
 *
-*	in general, the buttons are:
+*	In general, the buttons are:
 *	1-	left
 *	2-	middle
 *	3-	right
 *
-*	use methods like enableEventPumping() to enable and disable eventpumping.
+*	Use methods like enableEventPumping() to enable and disable eventpumping.
 *	If you are using an event handling system alongside this, it will handle
 *	the event pumping, and so update() needs to know not to use event pumping.
 *	Disable it with disableEventPumping (). Alternatively, you may have multiple

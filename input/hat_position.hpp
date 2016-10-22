@@ -1,8 +1,10 @@
 
-/*
+/**
 *
 *	hat_position.hpp
 *
+*   HatPosition is used to store and query a joysticks hat based on a singular
+*   value
 */
 
 #if !defined(AAB_INPUT_HAT_POSITION_CLASS)

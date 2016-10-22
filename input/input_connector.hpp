@@ -4,18 +4,23 @@
 *	input_connector.hpp
 *
 *	InputConnector class	-
-*		certain input classes depend on there being a connection to input devices.
-*		certain classes can create this connection automatically, such as Screen.
-*		Thus, it is sensible to enforce creation of a connecting class before
-*		those that need it by making an argument in their constructors one or
-*		all or some of those classes.. Or more conveniently, a superclass;
-*		This is that superclass, and it is known as an InputConnector.
-*			Proper use requires that the constructor of the subclass makes the
-*		required connection, and keeps it as available as possible until its
-*		deconstruction. Failure to make the connection should result in some
-*		exception being thrown to the client module.
-*
-*	InputConnector is noncopy-constuctable.
+        Various input classes require a connection to input devices be prepared
+        before they are instantiated. An InputConnector creates this connection,
+        and is thus required to create objects of said type.
+        
+        InputConnector is a semi-abstract, non-copyable interface which can be
+        implemented by classes which establish or verify the input connection
+        themselves, and can thus be supplied to the input classes demanding
+        a connection to verify that a connection has been established. The
+        InputConnector should then maintain the connection for its lifetime,
+        which is naturally longer than the dependent input classes on the stack.
+        This is a Resource Acquisition Is Initialisation  library format, rather
+        than approach of having a "Device" object from which all resources are
+        demanded. The idea is to use RAII to avoid a God-class anti-pattern
+        emerging form the ever growing would be "Device".
+        
+        An example of this kind of class is the visen::Screen, which sets up
+        the required input subsystem.
 **/
 
 #if !defined(AAB_INPUT_INPUT_CONNECTOR_CLASS)

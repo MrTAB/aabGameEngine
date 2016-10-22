@@ -1,8 +1,11 @@
 
-/*
+/**
 *
 *	mouse_data.hpp
 *
+*   Used to buffer and query Mouse input information. Several Mouse 
+*   implementations may use this depending on the manner in which they wish to
+*   extract/update mouse data.
 */
 
 #if !defined(AAB_INPUT_MOUSE_DATA_CLASS)

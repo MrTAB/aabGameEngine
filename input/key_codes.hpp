@@ -3,8 +3,11 @@
 *
 *	key_codes.hpp
 *
-*	the purpose of using wrapping codes is to allow other key systems to be used,
-*	such that the library acts more as an api to using keysystems.
+*   Use these key codes and utility methods with Keyboard objects.
+*    The SDL keycodes are wrapped in order to maintain a layer
+*   of independence and separation between the engine and the underlying
+*   library, allowing theat library to be abstract.
+*
 *
 **/
 

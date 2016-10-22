@@ -1,7 +1,21 @@
 
-/*
+/**
 *
 *	keyboard.hpp
+*
+*   KeyEventReceiverClass is an interface for event recievers that wish to
+*   forward key specific events.
+*
+*   KeyboardClass is an implementation of this interface which maintains storage
+*   of key event data for continuous retrieval and query. The comparisons that
+*   can be made between keys are particularly useful in game development.
+*
+*    The data in KeyboardClass is updated via an event handler through the
+*   KeyEventReceiverClass interface.
+*
+*   A KeyboardClass instance is noncopyable and must be created as a Keyboard
+*   handle, which is a smart pointer to a KeyboardClass. Use the method
+*   aab::input::makeKeyboard() to do this.
 *
 **/
 

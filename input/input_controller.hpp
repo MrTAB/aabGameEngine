@@ -1,7 +1,35 @@
 
-/*
+/**
 *
-*	input_controller.hpp
+	input_controller.hpp
+
+   Input Controller combines various sources of input (keyboard, gamepad,
+    mouse) into a single databank for generic and continuous query.
+
+   It does this by implementing MultiEventHandler, and recieving updates from
+   each relevant input source. These input sources can then be queried either
+    directly with tailored methods (e.g. isKeyDown(), isMouseButtonDown(),
+    isGamepadButtonDown(), or generically with code methods (e.g. isCodeDown(),
+    or use getCodeValue() for e.g. gamepad axes or mouse positions).
+                                                             
+    This is particularly useful for a game which allows the user to choose
+    different sources of input - ideally the game just uses the InputController
+    with the relevant InputCode rather than worrying about which source of input
+    they are querying.
+    
+    User Codes:
+    InputCodes represent specific input values from specific input devices. By
+    defining a user code, the client can map inputCodes chosen by their users to
+    some enumerate values or flags that they use, so that instead of having an
+    InputCode variable to pass to the getCodeValue method, the client instead
+    calls getValue(SOME_CONSTANT), where SOME_CONSTANT doesn't have to change.
+                                    
+    To set up a user code, call setControl(int userCode, InputCode). An
+    advantage of user codes is that two input codes be mapped to the one user
+    code by also calling setSecondControl. This then means that say a joypad and
+    keyboard can both be set up and active to control a game, but the queries
+    for the client developing their game are just individual queries on the 
+    user codes.
 *
 **/
 

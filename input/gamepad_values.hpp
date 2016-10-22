@@ -1,6 +1,9 @@
 
 /**
 *   gamepad_values.hpp
+*
+*   These two values define the range of a gamepad axis
+*
 **/
 
 #if !defined(AAB_INPUT_GAMEPAD_VALUES)

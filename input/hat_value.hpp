@@ -1,8 +1,9 @@
 
-/*
+/**
 *
 *	hat_value.hpp
 *
+*   Defines values for comparison against a joystick hat
 */
 
 #if !defined(AAB_INPUT_HAT_VALUE_CLASS)

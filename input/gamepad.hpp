@@ -3,8 +3,10 @@
 *
 *	gamepad.hpp
 *
-*	A gamepad class which requires update via an GamepadAutoHandler
+*   Gamepad stores and queries the state of an individual gamepad.
+*	Requires update via an GamepadAutoHandler
 *	and a Dispatcher plugged into an EventQueue.
+*
 **/
 
 #if !defined(AAB_INPUT_GAMEPAD_CLASS)

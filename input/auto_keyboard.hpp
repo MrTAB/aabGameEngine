@@ -1,18 +1,15 @@
 
-/*
+/**
 *
 *	auto_keyboard.hpp
 *
-*	KeyState - describes the state of the keyboard.
+*   An Auto_Keyboard can be used for Asynchronous keyboard query and storage
+*   rather than event driven keyboard state monitoring.
 *
-*	Make one of these, and update it every round with update (); An InputConnector
-*	subclass is required to create this; Its something that has connected to the
-*	keyboard in its constructor, thus making a new instance of KeyState usefull
-*	and valid. Infact, the constructor of this won't even throw an exception.
-*	Smooth sailing.
+*	Update it with update () to pull in current keyboard information; An
+*   InputConnector is required to create an AutoKeyboard.
 *
-*	You can check all sorts of things with this class, however it does overdo
-*	computation for just checking the KeyBoard state:
+*	A variety of queries are available for checking key states:
 *
 *	isDown
 *		true if that key is currently being held down
@@ -51,7 +48,7 @@
 *		true if the time is being stored for this key.
 *
 *
-*	use methods like enableEventPumping() to enable and disable eventpumping.
+*	Use methods like enableEventPumping() to enable and disable eventpumping.
 *	If you are using an event handling system alongside this, it will handle
 *	the event pumping, and so update() needs to know not to use event pumping.
 *	Disable it with disableEventPumping (). Alternatively, you may have multiple
@@ -59,7 +56,7 @@
 *	enabled, and so it is also wise to invoke its update first, as it will
 *	handle the event pumping.
 *
-*	Keystate is a noncopyable class.
+*	Auto_Keyboard is a noncopyable class.
 *
 **/
 
@@ -78,7 +75,7 @@ namespace aab	{
 namespace input	{
 
 /*
-	to allow user specification of the TimeFunction.
+	todo: allow user specification of the TimeFunction.
 */
 
 class AutoKeyboardClass : public aab::types::Manager <AutoKeyboardClass>

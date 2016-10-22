@@ -3,6 +3,14 @@
 *
 *	input_codes.hpp
 *
+*   Use InputCodes with the input controller class to query a variety of
+*   input devices from the one managing class. See the methods at the bottom
+*   for generating codes based on variables.
+*
+*   Ideally, user codes will be defined on the instance of input controller so
+*   that input codes are not used during gameplay runtime, but rather used to
+*   choose user codes during load time. See input_controller.hpp for more
+*   details.
 *
 **/
 

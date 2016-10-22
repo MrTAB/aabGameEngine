@@ -6,11 +6,15 @@
 *	GamePadPorts	-	ports of the gamepads plugged in.
 *
 *	Create an instance of GamePadPorts, and then check the available GamePads.
-*	Use GamePadPorts to obtain GamePad objects, and continually call
-*	updateGamePads() to synchronize the state of all the GamePads; unless
-*	your using the event handlers or a gamepad_state, in which case there
-*	is no need to call update.
-*	Its a singleton too.
+*	Use GamePadPorts to obtain GamePad objects.
+*
+*   You can choose to continually call updateGamePads() to synchronize the state
+*   of all the GamePads, or you can use event handlers, in which case changes
+*   will be processed as they occur. An instance of InputController will manage
+*   these things internally.
+*
+*   There can only be one instance of GamePadPorts.
+*
 *   Call updateGamepadPorts to continually check that game pads are still
 *   plugged in. Register a GamePadUnpluggedCallback to receive a notification
 *   when gamepads have been unplugged. Alternatively, use isPortActive with
@@ -18,8 +22,8 @@
 *   gamepads are still plugged in.
 *
 *	Use hintNextId to hint on what the next created GamePads Id will be.
-*	.. and use referencing or pointers when passing as Copy construction
-*	is dissallowed.
+*	Use referencing or pointers when passing as GamePadPorts is noncopyable.
+*
 **/
 
 #if !defined(AAB_INPUT_GAMEPAD_PORTS_CLASS)
