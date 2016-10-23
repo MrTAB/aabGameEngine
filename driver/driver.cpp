@@ -2,6 +2,18 @@
 *
 *	driver.cpp
 *
+*  Rough testing ground and example of the engine. A MyGame instance extends
+*  the game engine.
+*
+*   This non typical example overloads run directly rather than using the
+*   existing definition and implementing start(), loop() and end().
+
+    Currently:
+    
+    Various movement and animation features are being experimented with,
+    resulting in an unusual demonstration of flashing images. A small game
+    project would make a better demonstration, however, at this point this
+    engine has only been used on commercial projects.
 **/
 
 
@@ -12,12 +24,7 @@
 #include<iostream>
 //#include<sdl.H>
 
-//Next step : code gamepad subprogram to not crash simply because there is no gamepad:
-//It should throw an exception to be caught.
-//Then, add in controls for good behaviour around the object.
 
-// Note that ina  final game, each input will have a backup command, but either command may be a key or gamepad or both etc. mixed.
-//
 
 namespace icode = aab::input::universal;
 
@@ -44,16 +51,7 @@ class MyGame : public aab::engine::GameEngine
 		window->setCaption("My Game");
 
 
-		//Music music (mixer, "../auden/media/Lttp_Sanctuary.ogg");
-		//music.play (Music::forever);
-		//music.setMusicVolume (128);
-
-		//Sound bushSound (mixer, "../auden/media/Lttp_Boing_Bush.wav");
-		//Sound hitSound (mixer, "../auden/media/Lttp_GhutHit.wav");
-		//Sound badTones (mixer, "../auden/media/Dash.wav");
-
-
-        
+        // load resources:
         
         TexturePtr ironGiantTexture = makeTexture (window, "../visen/media/iron_giant.PNG");
 		TexturePtr puppetTexture = makeTexture (window, "../visen/media/puppet.PNG", "../visen/media/puppet_mask.PNG");
@@ -66,16 +64,11 @@ class MyGame : public aab::engine::GameEngine
 		FrameTicker::Ptr darknutTickerA (new FrameTicker (deltaTime, deltaTime-> getExpectedFps()/10, 0, 10));
 		FrameTicker::Ptr darknutTickerB (new FrameTicker (deltaTime, deltaTime-> getExpectedFps()/8, 0, darknutChildA->getMaximumFrame()));
 		
-		//darknutTickerA->update();
-		//darknutA->setFrame(darknutTickerA->getFrame());
 		
 		Sprite * ironGiant     = new Sprite (ironGiantTexture);
 
 		DisplayListNode * displayList = new  DisplayListNode();
 
-        //Gamepad gamepad_test = makeGamepad();
-        //Gamepad gamepad_test2 = makeGamepad();
-        
 		SceneNode * sceneGraph = makeSceneNode ();
 		ColorNode * colorNode = new ColorNode ();
 
@@ -87,7 +80,6 @@ class MyGame : public aab::engine::GameEngine
 
 		colorNode-> accessColor().set(0, 128, 255, 255);
 
-		//darknutA-> move (100, 100);
 		darknutChildA-> move (100, 200);
 		ironGiant-> move (-100, 200);
 		ironGiant-> scale (0.5, 0.5);
@@ -105,38 +97,6 @@ class MyGame : public aab::engine::GameEngine
 		window->setClearColor (255, 0, 0);
 		
 		
-		//
-		
-		/*
-		struct gamepad_t
-		{
-		    SDL_Joystick *joystick;
-		    bool opened;
-		};
-		
-		gamepad_t gamepad;
-		
-		
-		
-        SDL_JoystickEventState(SDL_ENABLE);
-        
-        if (SDL_NumJoysticks() >0)
-        {
-            gamepad.joystick = SDL_JoystickOpen(0);
-            gamepad.opened = true;
-        }
-        else
-        {
-            gamepad.joystick = 0;
-            gamepad.opened = false;
-        }
-        
-        if (gamepad->opened)
-        {
-            SDL_JoystickClose(SDL_JoystickIndex(gamepad->joystick));
-        }
-        */
-        
 		// gamepad details:
 		
 		std::cout << "Gamepads connected:\t" << input->countGamepads() << std::endl;
@@ -151,17 +111,6 @@ class MyGame : public aab::engine::GameEngine
             <<"\nhats:\t"<< input->getGamepadHatCount(t) 
             <<"\nbuttons:\t"<< input->getGamepadButtonCount(t) << std::endl;
 		}
-		
-		/*
-		std::cout << "Gamepad details:\n"
-		<<"id:\t"<< gamepad_test->getId()
-		<<"\nname:\t"<< gamepad_test->getName()
-		<<"\naxes:\t"<< gamepad_test->getAxesCount()
-		<<"\nballs:\t"<< gamepad_test->getBallCount()
-		<<"\nhats:\t"<< gamepad_test->getHatCount() 
-		<<"\nbuttons:\t"<< gamepad_test->getButtonCount() << std::endl;
-		*/
-		
 		
         enum
         {
@@ -226,11 +175,6 @@ class MyGame : public aab::engine::GameEngine
 		double dt = 0;
 		while (running())
 		{		    
-			//window-> clear ();
-			//gamepad_test-> update ();
-			//mouse-> update ();
-			//keyboard-> update ();
-			//eventQueue-> poll ();
 			updateEngine();
 			checkForLostFocus();
 			
@@ -249,13 +193,7 @@ class MyGame : public aab::engine::GameEngine
 
         
             
-            //if (keyboard-> isHit (key_escape) || input->getCodeValue (icode::gamepad_button_1))
-            if(//input->getCodeValue (icode::key_escape) ||
-               //input->getCodeValue (icode::gamepad_button_1) ||
-               //input->getCodeValue (universal::gamepadButtonCode(0,0)) ||
-               input->getValue (CLOSE_KEY)
-               //||input->getCodeValue (icode::mouse_button_6)
-               )
+            if(input->getValue (CLOSE_KEY))
             {
                 closeGame();
                 cout << "close"; 
@@ -302,10 +240,6 @@ class MyGame : public aab::engine::GameEngine
 				window-> hideCursor ();
 			}
 
-			//if (input-> isKeyHit (icode::key_m))
-			{
-				//window-> minimise ();
-			}
 
 			//puppetTexture-> draw		((int)x2 + 200, (int)y2 + 100);
 
@@ -376,22 +310,6 @@ class MyGame : public aab::engine::GameEngine
                 cout << "is held longer than (input)" << endl;
             }
             
-            /*
-            {
-                cout << "rest " << input-> getRest(TEST_GETREST) << endl;
-            }
-            //if()
-            {
-                cout << "modified " << input-> getLastModified(TEST_GETLASTMODIFIED) << endl;
-            }
-            //if()
-            {
-                cout << "hasRead " << input-> hasRead(TEST_HASREAD) << endl;
-            }
-            //if()
-            {
-                cout << "hasJustModified " << input-> hasJustModified(TEST_HASJUSTMODIFIED) << endl;
-            }*/
             
             
 
@@ -404,22 +322,11 @@ class MyGame : public aab::engine::GameEngine
 			y2 += dt * speed * static_cast<float>(gamepad_test2-> getYAxis ())/(gamepad_axis_max);
 			*/
 						
-			//utility methods
-			//IsCodeHit etc
-			//test various things
-			//shopv
-			//segs
 			
-			//x2 += dt * speed * static_cast<float>(input-> getCodeValue (universal::gamepad_0_axis_0))/(gamepad_axis_max);// universal::gamepadAxisCode(0,0)))/(gamepad_axis_max);
-			//y2 += dt * speed * static_cast<float>(input-> getCodeValue (universal::gamepadAxisCode(0,1)))/(gamepad_axis_max);
 			
 			x2 += dt * speed * static_cast<float>(input-> getHatX(0));
 			y2 += dt * speed * static_cast<float>(input-> getHatY(0));
-			
-			//std::cout << "\naxis 0:" << input-> getCodeValue (universal::gamepad_0_axis_0)
-			//<< " axis 1:"<< input-> getCodeValue (universal::gamepad_0_axis_1);
-			
-			
+
 			for (int t = 0; t < input->getGamepadButtonCount(0);++t)
 			{
                 if (input->isGamepadButtonDown(0,t))
@@ -434,10 +341,8 @@ class MyGame : public aab::engine::GameEngine
 
 			sceneGraph-> update ();
 
-			//window-> update ();
-			//fps.update();
+
 			cap.wait ();
-			//deltaTime-> update ();
 
 			darknutTickerA-> update ();
 			darknutTickerB-> update ();

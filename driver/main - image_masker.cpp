@@ -1,7 +1,8 @@
 /**
 *
-*	batch pixel processor.cpp
+*	main - image_masker.cpp
 *
+*   Process a folder of images in order to masks for each image argument given.
 **/
 
 
@@ -26,26 +27,6 @@
 #include<utility>
 #include<sstream>
 
-/*
-
-Interesting Bug: All images are considered invalid when passed to the shortcut
-as an argumebnt, but not the the final program.
-
-Turns out: When you pass a list of files to a program directly using Windows
-Windows explorer (dragging and dropping into the parents directory), the input
-files directory is used as the initial directory. When you do the same with a 
-shortcut, by default, the programs directory is used instead, meaning relative
-file paths described within any input files mentioning relative paths, are not
-resolvable unless compared against their input file. In this case, each .xml
-file would have to have the xml path added onto the front of the string.
-
-However, another solution is to delete the "startup" value in the shortcut.
-This is problematic if several files are included as input from various sources,
-and so the prior solution is better, albiet slower.
-
-
-*/
-
 
 namespace bfile = boost::filesystem;
 
@@ -60,7 +41,7 @@ the mask color into black pixels, and outputting all other pixels as white.\
 See the file 'imagemasker.config' to change the mask colour. Popular choices\
 are black (0,0,0) and magenta (255,0,255).\
 \n\n\
-Masks are output as .png images in a subfolder made in the source files \
+Masks are output as .bmp images in a subfolder made in the source files \
 directories. Pre-existing masks will be overwritten. See 'imagemasker.config' \
 to change the name of the sub folder into which masks will be put.\
 \n\n\
@@ -186,12 +167,7 @@ int main (int argc, char ** argv)
 	    }
 	    cout << "\n\nCurrent Working directory:\t" << bfile::initial_path().string() << endl;	    
 	}
-	
-	
-	
 
-	//string image_filename (argv[1]);
-	//string numberimage_filename;
 
 	try
 	{
@@ -381,27 +357,13 @@ int main (int argc, char ** argv)
                 {                    
                       
                     bfile::path image_path(*image_filename);
-                
-                            // need to create a temporary screen just to load images etc
+
                     
                     Image image;   
-                    /*                 
-                    {
-                        Screen screen = startScreen (screen_width, screen_height, windowed_mode);
-                        screen-> setCaption ("Batch Image Masker");
-                
-                        image = makeImage(screen, image_filename);
-                        screen_width = image->getWidth();
-                        screen_height = image->getHeight();
-                    
-                    }
-                    */
+
                     image = makeImage(screen, *image_filename);
                     
                     {
-                        //Screen screen =    startScreen (screen_width, screen_height, windowed_mode);
-                        //screen-> setCaption ("Batch Image Masker");
-                        
                         bfile::path parent_path (image_path.parent_path());
                         parent_path /= mask_subfolder;                        
                         
@@ -414,7 +376,8 @@ int main (int argc, char ** argv)
                         
                         maskfilename += '\\';
                         
-                        maskfilename.append(image_path.stem().string()).append(image_path.extension().string());
+                        //maskfilename.append(image_path.stem().string()).append(image_path.extension().string());
+                        maskfilename.append(image_path.stem().string()).append(".bmp");
                         
                         // modify image
                         
@@ -426,52 +389,26 @@ int main (int argc, char ** argv)
                         if(diagp)  
                             cout << "pixels transformed" << endl;
                         
-                        // create and render texture to screen (todo - change to skip this step and save image directly to file (as PNG)
-                        
-                        /*TexturePtr texture = makeTexture(screen, image);
-                        
-                        if(diagp)  
-                            cout << "texture made" << endl;
-                        
-                        screen-> clear ();
-                           
-                        aab::visen::VisualTranslator translater;             
-                        translater.setPosition(texture->getOutputWidth()/2,texture->getOutputHeight()/2);
-                        translater.push();
-                        texture->render();
-                        translater.pop();
-
-                        screen-> update ();
-                        
-                        if(diagp)  
-                            cout << "texture rendered" << endl;
-                            */
                             
                         if(diagp)  
                             cout << "attempting to save image to file\t" <<maskfilename<< endl;
                 
-                        //if (!screen->saveScreenShotPNG(maskfilename))
-                        if (!image->savePng(maskfilename))
+                       // if (!image->savePng(maskfilename)) // png support to be added
+                        if (!image->saveBmp(maskfilename))
                         {
                             if (diagp)
                             {
-                                cout << "FAILED to save png\t" << maskfilename << endl;
+                                cout << "FAILED to save bmp\t" << maskfilename << endl;
                             }
                         }
                         else if (diagp)
                         {
-                            cout << "Saved png\t" << maskfilename << endl;
+                            cout << "Saved bmp\t" << maskfilename << endl;
                         }
                     }
                     
                     
                 }
-                
-                
-                // load image
-                //make new image copying width and height
-                
-                //access each pixel and set outputs version accordingly
             }
             
             if(diagp) 
@@ -501,5 +438,27 @@ int main (int argc, char ** argv)
 	return 0;
 }
 
+
+
+
+/*
+
+Interesting Bug: All images are considered invalid when passed to the shortcut
+as an argumebnt, but not the the final program.
+
+Turns out: When you pass a list of files to a program directly using Windows
+Windows explorer (dragging and dropping into the parents directory), the input
+files directory is used as the initial directory. When you do the same with a 
+shortcut, by default, the programs directory is used instead, meaning relative
+file paths described within any input files mentioning relative paths, are not
+resolvable unless compared against their input file. In this case, each .xml
+file would have to have the xml path added onto the front of the string.
+
+However, another solution is to delete the "startup" value in the shortcut.
+This is problematic if several files are included as input from various sources,
+and so the prior solution is better, albiet slower.
+
+
+*/
 
 
