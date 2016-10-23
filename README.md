@@ -20,6 +20,6 @@ This engine has a number of dependancies:
 
 As an exercise at the time, This Game Engine was made as several smaller libraries which work in unison, but can be partly separated for individual tasks.
 
-See the "driver" folder for examples of use. In particular see main - image_masker.cpp for an example of an application which uses parts of the library to process a folder of images in order to masks for each image argument given.
+See "main - image_masker.cpp" in the driver folder for an example of an application which uses parts of the library to process a folder of images in order to masks for each image argument given.
 
 
