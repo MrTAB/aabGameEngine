@@ -3,13 +3,23 @@
 *
 *	gameengine.hpp
 *
-*	remains a singleton due to the starting of Screen - exception for it will propogate.
-*	Extend this class and implement the methods start, loop, end
-*	Make one instance in main, and call its run method => easiest/quickest/safest way of setting up a game.
+*   While the library can be used imperatively by creating and managing an
+*   instance of screen, you can instead extend GameEngine and implement the
+*   virtual methods defined as { } below. Invoke run on an instance of your
+*   subclass and it will run through the game loop, returning control to your
+*   code base by calling those overriden methods. Alternatively, you can choose
+*   not to invoke run and use the gameengine imperatively, by calling
+*   updateEngine() to update the screen and input devices etc.
 *
-*	Alternatively, make an instance, and access its values as you see fit.
-*	Alternatively, ignore start, loop, and end and implement run for another quick and dirty start
-(
+*   start is called after window initialisation, and is for load time operations.
+*   loop is then called once every loop.
+*   end is called after the main game loop has exited.
+*   
+*   loop has a default implemntation of  { processInput(); updateLogic(); render();};
+*   You can choose to implement them and leave loop as it is, or to override loop
+*   and deal with the deal as it is. 
+*
+*   Override the focusLost methods to respond to focus being lost.
 **/
 
 #if !defined(AAB_ENGINE_GAME_ENGINE_CLASS)
@@ -50,9 +60,9 @@ class GameEngine //: public virtual aab::input::GamePadUnpluggedCallback
 	virtual void start () {};
 	virtual void loop () { processInput(); updateLogic(); render();};
 	virtual void end () {};
-	virtual void processInput() {};  // must be called inside any redefinition of loop
-	virtual void updateLogic () {}; // must be called inside any redefinition of loop
-	virtual void render () {}; // must be called inside any redefinition of loop/
+	virtual void processInput() {}; 
+	virtual void updateLogic () {}; 
+	virtual void render () {}; 
 
     virtual void focusLostStart() { };
 	virtual void focusLostLoop ();
