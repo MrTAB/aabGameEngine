@@ -2,6 +2,9 @@
 *
 *	line_equation.hpp
 *
+*   LineEquation represents a line which is infinite in length, and provides
+*   methods for comparing that line to other geometric objects for collision etc
+*
 **/
 
 #if !defined(AAB_GEOMETRY_LINE_EQUATION_CLASS)
@@ -14,89 +17,6 @@
 namespace aab	{
 namespace geometry{
 
-
-/*
-class LineEquation
-{
-	private:
-
-		float x, y, c;
-
-	public:
-
-	typedef aab::types::Maybe<float> MaybeFloat;
-
-	explicit LineEquation ()
-
-	explicit LineEquation (const float xc, const float yc, const float cc)
-
-	explicit LineEquation (const Point p1, const Point p2)
-
-	//implicit LineEquation::LineEquation (const LineEquation&);
-	//implicit LineEquation::LineEquation& operator = (const LineEquation&);
-
-	bool operator == (const LineEquation&) const
-
-	bool operator != (const LineEquation&) const
-
-	void set (const float xc, const float yc, const float cc)
-
-	void set (const Point p1, const Point p2)
-
-	std::string toString () const;
-
-	float getDx () const
-
-	float getDy () const
-
-	MaybeFloat getYIntercept () const
-
-	float getGradient () const
-
-	float getXCoefficient () const
-
-	float getYCoefficient () const
-
-	float getCCoefficient () const
-
-	bool isHorizontal () const
-
-	bool isVertical () const
-
-	bool isParallelTo (const LineEquation & other) const
-
-	float calculateXRaw (float y) const
-
-	float calculateYRaw (float x) const
-
-	MaybeFloat calculateX (float y) const
-
-	MaybeFloat calculate Y (float x) const
-
-	bool isAboveLine (const Point & p) const
-
-	bool isBelowLine (const Point & p) const
-
-	bool isRightOfLine (const Point & p) const
-
-	bool isLeftOfLine (const Point & p) const
-
-	bool isOnLine (const Point & p) const
-
-	float evaluate (const Point & p) const
-
-	MaybePoint findLineIntersectionPoint (const T_Line & other) const
-
-	bool intersectsLine (const T_Line & other) const
-
-	MaybePoint findLineSegmentIntersectionPoint (const T_LineSegment & other) const
-
-	MaybePoint intersectsLineSegment (const T_LineSegment & other) const
-};
-
-
-
-*/
 
 class LineEquation
 {
@@ -283,6 +203,89 @@ class LineEquation
 
 };
 
+
+/*
+class LineEquation
+{
+	private:
+
+		float x, y, c;
+
+	public:
+
+	typedef aab::types::Maybe<float> MaybeFloat;
+
+	explicit LineEquation ()
+
+	explicit LineEquation (const float xc, const float yc, const float cc)
+
+	explicit LineEquation (const Point p1, const Point p2)
+
+	//implicit LineEquation::LineEquation (const LineEquation&);
+	//implicit LineEquation::LineEquation& operator = (const LineEquation&);
+
+	bool operator == (const LineEquation&) const
+
+	bool operator != (const LineEquation&) const
+
+	void set (const float xc, const float yc, const float cc)
+
+	void set (const Point p1, const Point p2)
+
+	std::string toString () const;
+
+	float getDx () const
+
+	float getDy () const
+
+	MaybeFloat getYIntercept () const
+
+	float getGradient () const
+
+	float getXCoefficient () const
+
+	float getYCoefficient () const
+
+	float getCCoefficient () const
+
+	bool isHorizontal () const
+
+	bool isVertical () const
+
+	bool isParallelTo (const LineEquation & other) const
+
+	float calculateXRaw (float y) const
+
+	float calculateYRaw (float x) const
+
+	MaybeFloat calculateX (float y) const
+
+	MaybeFloat calculate Y (float x) const
+
+	bool isAboveLine (const Point & p) const
+
+	bool isBelowLine (const Point & p) const
+
+	bool isRightOfLine (const Point & p) const
+
+	bool isLeftOfLine (const Point & p) const
+
+	bool isOnLine (const Point & p) const
+
+	float evaluate (const Point & p) const
+
+	MaybePoint findLineIntersectionPoint (const T_Line & other) const
+
+	bool intersectsLine (const T_Line & other) const
+
+	MaybePoint findLineSegmentIntersectionPoint (const T_LineSegment & other) const
+
+	MaybePoint intersectsLineSegment (const T_LineSegment & other) const
+};
+
+
+
+*/
 
 
 }	// geometry

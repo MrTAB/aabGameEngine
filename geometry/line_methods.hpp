@@ -1,6 +1,6 @@
 /**
 *
-*	line_methods.hpp
+*	line_methods.hpp - for working on lines and line segments
 *
 **/
 

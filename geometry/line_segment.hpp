@@ -2,6 +2,8 @@
 *
 *	line_segment.hpp
 *
+*   Represents a segment of a line as a pair of points, and provides operations
+*   for comparing/colliding/interacting with other geometric objects
 **/
 
 #if !defined(AAB_GEOMETRY_LINE_SEGMENT_CLASS)
@@ -14,108 +16,6 @@
 namespace aab	{
 namespace geometry{
 
-
-/*
-class LineSegment
-{
-	private:
-
-		float x, y, c;
-
-	public:
-
-	typedef aab::types::Maybe<float> MaybeFloat;
-	typedef aab::types::Maybe<Point> MaybePoint;
-
-	explicit LineSegment ()
-
-	explicit LineSegment (const float xc, const float yc, const float cc)
-
-	explicit LineSegment (const Point p1, const Point p2)
-
-	//implicit LineSegment::LineSegment (const LineSegment&);
-	//implicit LineSegment::LineSegment& operator = (const LineSegment&);
-
-	bool operator == (const LineSegment&) const
-
-	bool operator != (const LineSegment&) const
-
-	void set (const float xc, const float yc, const float cc)
-
-	void set (const Point p1, const Point p2)
-
-	std::string toString () const;
-
-	float getDx () const
-
-	float getDy () const
-
-	MaybeFloat getYIntercept () const
-
-	float getGradient () const
-
-	float getXCoefficient () const
-
-	float getYCoefficient () const
-
-	float getCCoefficient () const
-
-	bool isHorizontal () const
-
-	bool isVertical () const
-
-	bool isParallelTo (const LineSegment & other) const
-
-	float calculateXRaw (float y) const
-
-	float calculateYRaw (float x) const
-
-	MaybeFloat calculateX (float y) const
-
-	MaybeFloat calculate Y (float x) const
-
-	bool isAboveLine (const Point & p) const
-
-	bool isBelowLine (const Point & p) const
-
-	bool isRightOfLine (const Point & p) const
-
-	bool isLeftOfLine (const Point & p) const
-
-	bool isOnLine (const Point & p) const
-
-	float evaluate (const Point & p) const
-
-
-	// transformations (segment dependant):
-
-	void rotateAroundFirst (const float radians)
-
-	void rotateAroundSecond (const float radians)
-
-
-	//	queries (segment dependant):
-
-	float getLength () const
-
-	Point getFirstPoint () const
-
-	Point getSecondPoint () const
-
-	Panel getBoundingPanel () const
-
-	MaybePanel findIntersectionPanel (const T_LineSegment & other) const
-
-	MaybePoint findLineIntersectionPoint (const T_Line & other) const
-
-	bool intersectsLine (const T_Line & other) const
-
-	MaybePoint findLineSegmentIntersectionPoint (const T_LineSegment & other) const
-
-	MaybePoint intersectsLineSegment (const T_LineSegment & other) const
-};
-
-*/
 
 
 class LineSegment
@@ -348,6 +248,108 @@ class LineSegment
 };
 
 
+
+/*
+class LineSegment
+{
+	private:
+
+		float x, y, c;
+
+	public:
+
+	typedef aab::types::Maybe<float> MaybeFloat;
+	typedef aab::types::Maybe<Point> MaybePoint;
+
+	explicit LineSegment ()
+
+	explicit LineSegment (const float xc, const float yc, const float cc)
+
+	explicit LineSegment (const Point p1, const Point p2)
+
+	//implicit LineSegment::LineSegment (const LineSegment&);
+	//implicit LineSegment::LineSegment& operator = (const LineSegment&);
+
+	bool operator == (const LineSegment&) const
+
+	bool operator != (const LineSegment&) const
+
+	void set (const float xc, const float yc, const float cc)
+
+	void set (const Point p1, const Point p2)
+
+	std::string toString () const;
+
+	float getDx () const
+
+	float getDy () const
+
+	MaybeFloat getYIntercept () const
+
+	float getGradient () const
+
+	float getXCoefficient () const
+
+	float getYCoefficient () const
+
+	float getCCoefficient () const
+
+	bool isHorizontal () const
+
+	bool isVertical () const
+
+	bool isParallelTo (const LineSegment & other) const
+
+	float calculateXRaw (float y) const
+
+	float calculateYRaw (float x) const
+
+	MaybeFloat calculateX (float y) const
+
+	MaybeFloat calculate Y (float x) const
+
+	bool isAboveLine (const Point & p) const
+
+	bool isBelowLine (const Point & p) const
+
+	bool isRightOfLine (const Point & p) const
+
+	bool isLeftOfLine (const Point & p) const
+
+	bool isOnLine (const Point & p) const
+
+	float evaluate (const Point & p) const
+
+
+	// transformations (segment dependant):
+
+	void rotateAroundFirst (const float radians)
+
+	void rotateAroundSecond (const float radians)
+
+
+	//	queries (segment dependant):
+
+	float getLength () const
+
+	Point getFirstPoint () const
+
+	Point getSecondPoint () const
+
+	Panel getBoundingPanel () const
+
+	MaybePanel findIntersectionPanel (const T_LineSegment & other) const
+
+	MaybePoint findLineIntersectionPoint (const T_Line & other) const
+
+	bool intersectsLine (const T_Line & other) const
+
+	MaybePoint findLineSegmentIntersectionPoint (const T_LineSegment & other) const
+
+	MaybePoint intersectsLineSegment (const T_LineSegment & other) const
+};
+
+*/
 
 
 }	// geometry

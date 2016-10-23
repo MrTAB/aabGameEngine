@@ -2,6 +2,7 @@
 *
 *	vector.hpp
 *
+*   Simple two dimensional float vector
 **/
 
 #if !defined(AAB_GEOMETRY_VECTOR_CLASS)

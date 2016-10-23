@@ -2,6 +2,7 @@
 *
 *	to_string.hpp
 *
+*   Methods to convert various geometry types to string
 **/
 
 #if !defined(AAB_GEOMETRY_TO_STRING_METHODS)

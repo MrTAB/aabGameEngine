@@ -2,6 +2,8 @@
 *
 *	floats.hpp
 *
+*   Some comparison utilities for floats
+*
 **/
 
 #if !defined(AAB_GEOMETRY_FLOAT_METHODS)
