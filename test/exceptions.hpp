@@ -3,7 +3,7 @@
 *
 *	exceptions.hpp
 *
-*
+*   Some small utility exceptions, as well as inclusion of standard exceptions.
 **/
 
 /*

@@ -3,7 +3,8 @@
 *
 *	diagnostic.hpp
 *
-*
+*   Used for diagnostic printouts that can be omitted entirely from release via
+*   Changing the template to the empty version.
 **/
 
 #if !defined(AAB_TEST_DIAGNOSTIC_CLASS)
