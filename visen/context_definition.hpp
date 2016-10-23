@@ -2,7 +2,9 @@
 *
 *	context_definition.hpp
 *
-*   todo - add window title text to context definition?
+*   A ContextDefinition provides values for building a window using the Screen
+*   class.
+*
 **/
 
 #if !defined(AAB_VISEN_CONTEXT_DEFINITION_CLASS)

@@ -2,6 +2,8 @@
 *
 *	primitive_types.hpp
 *
+*   Basic rendering primitives; currently just the base class Primitive and Panel
+*
 **/
 
 

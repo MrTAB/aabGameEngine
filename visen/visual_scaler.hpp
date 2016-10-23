@@ -2,6 +2,12 @@
 *
 *	visual_scaler.hpp
 *
+*   commit:
+*   Sets the transformation defined by the current modelviewmatrix to scale
+*   by the scalers fields.
+*
+*   Use push and pop, or a PushPopper to apply that scaling (push) and then
+*   remove it (after the pop).
 **/
 
 #if !defined(AAB_VISEN_VISUAL_SCALER_CLASS)

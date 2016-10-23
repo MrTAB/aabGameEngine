@@ -3,6 +3,9 @@
 *
 *	color.hpp
 *
+*   Below are two implementations of a single Color; one as unsigned byte, Colorub,
+    and the other as floating point, Colourf
+*
 **/
 
 #if !defined(AAB_VISEN_COLOR_CLASS)

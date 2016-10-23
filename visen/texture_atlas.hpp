@@ -2,7 +2,9 @@
 *
 *	texture atlas.hpp
 *
-*
+*   A texture atlas allows a collection of 'sub textures'to be mapped from one
+   large source texture. These sub textures can have any size and position within
+   the original texture atlas, and can even overlap if desired.
 *
 **/
 

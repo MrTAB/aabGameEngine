@@ -1,6 +1,15 @@
 /**
 *
 *	framed_texture.hpp
+*
+*   Framed texture is a base class for textures which are subdivided into
+*   "sub textures" such as animated textures (frames all the same size) and
+*   texture atlases (frames different sizes).
+*
+*   They maintain a normal unframed Texture internally to use for framing
+*   purposes.
+*
+*
 **/
 
 #if !defined(AAB_VISEN_FRAMED_TEXTURE_CLASS)

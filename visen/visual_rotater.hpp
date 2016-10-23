@@ -2,6 +2,12 @@
 *
 *	visual_rotater.hpp
 *
+*   commit:
+*   Sets the transformation defined by the current modelviewmatrix to rotate
+*   by the stored angle.
+*
+*   Use push and pop, or a PushPopper to apply that rotation (push) and then
+*   remove it (after the pop).
 **/
 
 #if !defined(AAB_VISEN_VISUAL_ROTATER_CLASS)
@@ -15,7 +21,7 @@ class VisualRotater : public aab::types::PushPop
 {
 	private:
 
-		float angle;
+		float angle; // angle in degrees
 
 	public:
 

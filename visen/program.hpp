@@ -2,7 +2,17 @@
 *
 *	program.hpp
 *
-*	Use for rendering to a texture
+*	Use a Program object to collect a group of shaders that work together
+*   to complete the render pipeline. Use attachShader() to attach a shader,
+*   or use the constructor which accepts filenames for a vertex shader and
+*   a fragment shader to auto intiialise the program with two loaded, compiled
+*   shaders. A runtime error is thrown if loading the shaders or creating the
+*   program fails.
+*
+*   Use getAttributeLocation and getUnifromLocation to get the location of 
+*   uniform and attribute variables from the shaders. Then use the associated
+*   set methods to set them.
+*
 **/
 
 #if !defined(AAB_VISEN_PROGRAM_CLASS)

@@ -3,6 +3,12 @@
 *
 *	display_absorber.hpp
 *
+*   On construction, a displayAbsorber will "absorb" everything that is rendered
+*   and can be put into a display list, and compact it into that display list.
+    This will occur until stop() is called. That DisplayList can then be used to
+    render a graphics-processor optimised version of what was rendered during
+    the display absorbing time.
+*
 **/
 
 #if !defined(AAB_VISEN_DISPLAY_ABSORBER_CLASS)

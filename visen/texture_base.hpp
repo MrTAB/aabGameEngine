@@ -2,12 +2,14 @@
 *
 *	texture_base.hpp
 *
-*	defines a base for textures of different properties, e.g. animated, non-animated.
+*	Defines a base class for textures of different properties, e.g. animated, non-animated.
+*   This can be used in various contexts where different kinds of textures are
+*   allowed.
 *
-*	todo add a facility to get w/h
-*
-*   todo: consider option of using this for textures:
-	http://www.gamedev.net/page/resources/_/technical/opengl/rendering-efficient-2d-sprites-in-opengl-using-r2429
+    Developer notes:
+
+    todo: consider option of using this for textures:
+ 	http://www.gamedev.net/page/resources/_/technical/opengl/rendering-efficient-2d-sprites-in-opengl-using-r2429
 	Use GL_NV_texture_rectangle or GL_EXT_texture_rectangle if they are available.
 		(there is also ARB_non_power_of_two, however this is not commonly available - the above are a step towards it with limitations)
 		This extension means you do not have to convert the file or have it power of two in size.

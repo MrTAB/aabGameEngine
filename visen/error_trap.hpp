@@ -14,6 +14,8 @@
 *	either caught and handled by the method using the ErrorTrap,
 *	or is propagated up to user code as an exception.
 *
+*   Client code can also make use of error traps when choosing to work directly
+*   with OpenGL.
 **/
 
 #if !defined(AAB_VISEN_ERROR_TRAP_CLASS)

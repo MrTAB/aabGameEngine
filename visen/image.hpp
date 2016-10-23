@@ -1,6 +1,11 @@
 
 /**
 *
+*   image.hpp
+*
+*   Represents an image either loaded from file or constructed in memory.
+*   Textures can be created from images, which can be modified using Pixel
+*   Operations before being used for Texture generation.
 *
 *
 **/

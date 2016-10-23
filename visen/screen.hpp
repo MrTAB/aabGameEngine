@@ -1,11 +1,14 @@
 
 /**
 *
-*	catch exceptions by reference.
+*	Screen class represents the interface to the screen, and initialises
+*   audio, input, event subsystems. It would be better named WindowClass.
+*   Create using startScreen, supplying width and height or use a
+*   ContextDefinition to provide more specific startup information.
 *
-*	Screen is a singleton. Use startScreen (i.e. there is  no makeScreen()).
+*   Call update() to update the screen, e.g. every frame/loop of a game.
 *
-*	todo - allow different "views", allow changing of size etc? multiple states etc
+*	Screen is a singleton.
 **/
 
 #if !defined(AAB_VISEN_SCREEN_CLASS)

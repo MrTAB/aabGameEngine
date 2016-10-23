@@ -2,6 +2,10 @@
 *
 *	quad.hpp
 *
+*   These quads represent quads composed of vertices for rendering and
+*   transformtion.
+*
+*   They are particularly useful for sprites and sprite batches.
 **/
 
 #if !defined(AAB_VISEN_QUAD_CLASS)

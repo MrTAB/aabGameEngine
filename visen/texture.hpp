@@ -3,7 +3,11 @@
 *
 *	texture.hpp
 *
-*	todo - bind has to enable gltexture2d, so that lines etc can be drawn!
+*   A Texture represents a single texture loaded from an image, which can then
+*   be bound or rendered directly onto a quad.
+*
+*	todo - either bind has to enable gltexture2d, so that lines etc can be drawn
+*   or objects which draw lines have to enable gltexture2d when done.
 **/
 
 #if !defined(AAB_VISEN_TEXTURE_CLASS)

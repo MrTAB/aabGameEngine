@@ -2,7 +2,11 @@
 *
 *	shader.hpp
 *
-*	Use for rendering to a texture
+*	An instance of this class will be a shader object of the appropriate type.
+*   The shader will be loaded and compiled with a call to loadFromFile or
+*   loadFromString.
+*
+*   To use Shaders, attach them to Program objects
 **/
 
 #if !defined(AAB_VISEN_SHADER_CLASS)

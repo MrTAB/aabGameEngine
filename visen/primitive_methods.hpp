@@ -2,6 +2,8 @@
 *
 *	primitive_methods.hpp
 *
+*   Draw primitive shapes such as circles, points, segments, polygons
+*
 *   texturing is enabled by default by visen, so to use without a texture applied, call the appropriate methods from RenderState.
 **/
 

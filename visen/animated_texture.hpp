@@ -1,6 +1,12 @@
 /**
 *
 *	animated_texture.hpp
+*
+*
+*   An animated texture is a type of framed texture where each frame is of
+*   equal width and height, as though the texture is split into a regular grid.
+*
+*
 **/
 
 #if !defined(AAB_VISEN_ANIMATED_TEXTURE_CLASS)

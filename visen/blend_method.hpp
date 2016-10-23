@@ -2,6 +2,8 @@
 *
 *	blend_method.hpp
 *
+*   Defines and stores the method used to blend pixels during default fragment 
+*   processing. Used by textures.
 *
 **/
 

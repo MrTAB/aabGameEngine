@@ -2,6 +2,12 @@
 *
 *	visual_transformer.hpp
 *
+*   commit:
+*   Sets the transformation defined by the current modelviewmatrix to transform
+*   by the VisualTransformers defined values
+*
+*   Use push and pop, or a PushPopper to apply that transformation (push) and then
+*   remove it (after the pop).
 **/
 
 #if !defined(AAB_VISEN_VISUAL_TRANSFORMER_CLASS)

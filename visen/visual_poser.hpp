@@ -2,7 +2,13 @@
 *
 *	visual_poser.hpp
 *
-*	For movements and rotation transformatins - No scaling (useful for adapting physics simulations)
+*   commit:
+*   Sets the transformation defined by the current modelviewmatrix to translate
+*   (move) by x,y,z and also to rotate. No scaling is performed.
+*
+*   Use push and pop, or a PushPopper to apply that posing (push) and then
+*   remove it (after the pop).
+*
 *	Defaults to a 2D rotational axis (0, 0, 1)
 **/
 

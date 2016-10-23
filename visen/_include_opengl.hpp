@@ -4,7 +4,7 @@
 *
 *   This includes opengl and glew for the purposes of visens .cpp files
 *
-*   Not to be included in projects using visen.
+*   Not required to be included in projects using visen.
 **/
 
 #if !defined(AAB_VISEN__INCLUDE_OPENGL)

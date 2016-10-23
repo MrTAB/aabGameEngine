@@ -3,7 +3,11 @@
 *
 *	display_list.hpp
 *
-*   DEPRICATED in new opengl specs
+*   A DisplayList can be used to "remember" what is rendered inbetween calls to
+*   open() and close(). It can then be rendered after that point and will render
+*   that which it remembered, but in an optimised fashion.
+*
+*   Note that Display Lists are depricated in current OpenGL
 **/
 
 #if !defined(AAB_VISEN_DISPLAY_LIST_CLASS)

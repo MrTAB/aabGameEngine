@@ -2,6 +2,8 @@
 *
 *	render_state.hpp
 *
+*   Allows explicit changing of certain program wide graphical state values
+*
 *	note that textures, and thus sprites require texturing to be enabled before their use.
 *	Screen automatically enables texturing
 *	Blending is handled on a per-texture basis.

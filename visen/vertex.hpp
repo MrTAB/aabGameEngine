@@ -2,6 +2,9 @@
 *
 *	vertex.hpp
 *
+*   Provides formats for vertices and a definition for the default vertex format
+*   used by the library
+*
 **/
 
 #if !defined(AAB_VISEN_VERTEX_CLASS)

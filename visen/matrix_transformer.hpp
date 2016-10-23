@@ -2,9 +2,11 @@
 *
 *	matrix_transformer.hpp
 *
+*   Transforms the modelview matrix based on the internally stored matrix.
+*
 *	In the future, functionality in visual_transformer will be implemented with
 *	matrices, and this and it will be combined into one class. The name will then
-*	be referring to the same class.
+*	be referring to the same class. This is due to changes in support within OpenGL
 *
 **/
 

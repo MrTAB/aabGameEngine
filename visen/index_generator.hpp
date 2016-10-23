@@ -3,6 +3,7 @@
 *
 *	index_generator.hpp
 *
+*   Used to generate indices for a vertex buffer object for example.
 *
 **/
 

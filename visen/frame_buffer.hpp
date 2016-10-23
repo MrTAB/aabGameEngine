@@ -2,7 +2,12 @@
 *
 *	frame_buffer.hpp
 *
-*	Use for rendering to a texture
+*	Use for rendering to a texture; supply the texture when creating the frame
+*   buffer, then call switchToThisBuffer() to set render operations to occur
+*   on this buffer. Call switchBacktoScreen(Screen) when done.
+*
+*   todo - some sort of push/pop mechanism for guaranteed temporary rendering to
+*   buffer.
 **/
 
 #if !defined(AAB_VISEN_FRAME_BUFFER_CLASS)

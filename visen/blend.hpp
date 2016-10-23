@@ -1,7 +1,7 @@
 
 /**
 *
-*	blend.hpp
+*	blend.hpp - a simple blending method
 *
 **/
 

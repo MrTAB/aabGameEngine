@@ -2,7 +2,13 @@
 *
 *	visual_translater.hpp
 *
-*	should provide methods to commit to current state.
+*   commit:
+*   Sets the transformation defined by the current modelviewmatrix to translate
+*   (move) by x and y.
+*
+*   Use push and pop, or a PushPopper to apply that translation (push) and then
+*   remove it (after the pop).
+*
 **/
 
 #if !defined(AAB_VISEN_VISUAL_TRANSLATER_CLASS)
