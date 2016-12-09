@@ -18,7 +18,7 @@ This engine has a number of dependancies:
     smart_ptr.hpp,
     pointer_cast.hpp)
 
-As an exercise at the time, This Game Engine was made as several smaller libraries which work in unison, but can be partly separated for individual tasks.
+As an exercise at the time, this Game Engine was made as several smaller libraries which work in unison, but can be partly separated for individual tasks.
 
 See "main - image_masker.cpp" in the driver folder for an example of an application which uses parts of the library to process a folder of images in order to masks for each image argument given.
 
